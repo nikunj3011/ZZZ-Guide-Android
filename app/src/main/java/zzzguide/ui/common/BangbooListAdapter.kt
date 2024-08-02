@@ -13,10 +13,10 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import zzzguide.R
-import zzzguide.models.api.echo.BangBoosResponseItem
+import zzzguide.models.api.bangboo.BangBoosResponseItem
 
 
-class EchoListAdapter(
+class BangbooListAdapter(
     private val contextEcho: Context,
     private var fruitsList:List<BangBoosResponseItem>,
     private val clickListener:(BangBoosResponseItem)->Unit
@@ -45,35 +45,35 @@ class EchoListAdapter(
 }
 
 class MyViewHolder(val view: View):RecyclerView.ViewHolder(view){
-    fun bind(contextEcho: Context, echo: BangBoosResponseItem, clickListener:(BangBoosResponseItem)->Unit) {
+    fun bind(contextEcho: Context, bangboo: BangBoosResponseItem, clickListener:(BangBoosResponseItem)->Unit) {
         val echoTextView = view.findViewById<TextView>(R.id.echoName)
-        echoTextView.text = echo.name
+        echoTextView.text = bangboo.name
 
-        val costTextView = view.findViewById<TextView>(R.id.textCost)
-        costTextView.text = "Cost: " + echo.cost
-
-        val cooldownTextView = view.findViewById<TextView>(R.id.textCooldown)
-        cooldownTextView.text = "CD: " + echo.cooldown
-
-        val calamityTextView = view.findViewById<TextView>(R.id.textCalamity)
-        calamityTextView.text = "CD: " + echo.classEcho
-
-        val descriptionTextView = view.findViewById<TextView>(R.id.textDescription)
-        descriptionTextView.movementMethod = ScrollingMovementMethod()
-        descriptionTextView.text = echo.description
-
-        descriptionTextView.setOnClickListener {
-            if(true)
-                descriptionTextView.expand(300)
-            else
-                descriptionTextView.collapse(300)
-        }
-        val setsTextView = view.findViewById<TextView>(R.id.textSets)
-        var sets = "Best Sets: "
-        for (values in echo.echoSets){
-            sets = "\n" + sets + values.name
-        }
-        setsTextView.text = sets
+//        val costTextView = view.findViewById<TextView>(R.id.textCost)
+//        costTextView.text = "Cost: " + bangboo.cost
+//
+//        val cooldownTextView = view.findViewById<TextView>(R.id.textCooldown)
+//        cooldownTextView.text = "CD: " + bangboo.cooldown
+//
+//        val calamityTextView = view.findViewById<TextView>(R.id.textCalamity)
+//        calamityTextView.text = "CD: " + bangboo.classEcho
+//
+//        val descriptionTextView = view.findViewById<TextView>(R.id.textDescription)
+//        descriptionTextView.movementMethod = ScrollingMovementMethod()
+//        descriptionTextView.text = bangboo.description
+//
+//        descriptionTextView.setOnClickListener {
+//            if(true)
+//                descriptionTextView.expand(300)
+//            else
+//                descriptionTextView.collapse(300)
+//        }
+//        val setsTextView = view.findViewById<TextView>(R.id.textSets)
+//        var sets = "Best Sets: "
+//        for (values in bangboo.bangbooSets){
+//            sets = "\n" + sets + values.name
+//        }
+//        setsTextView.text = sets
 
         var count = 1
 //        val echoImageView1 = view.findViewById<ImageView>(R.id.imageViewEchoSet1)
@@ -81,7 +81,7 @@ class MyViewHolder(val view: View):RecyclerView.ViewHolder(view){
 //        val echoImageView3 = view.findViewById<ImageView>(R.id.imageViewEchoSet1)
 //        val echoImageView4 = view.findViewById<ImageView>(R.id.imageViewEchoSet1)
 
-//        while(count != echo.echoSets.count()){
+//        while(count != echo.bangbooSets.count()){
 //            when (count) {
 //                1 -> {
 ////                    echoImageView1.background = ContextCompat.getDrawable(contextEcho, R.drawable.find)
@@ -110,34 +110,34 @@ class MyViewHolder(val view: View):RecyclerView.ViewHolder(view){
 //            count++
 //        }
 
-        for (names in echo.echoSets){
-
-        }
-        val echoImageView = view.findViewById<ImageView>(R.id.imageView)
-        if(echo.img != null)
-        {
-            Glide.with(view)
-                .load(echo.img)
-                .into(echoImageView)
-
-            when (echo.classEcho) {
-                "Calamity" -> {
-                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.five_star_gradient)
-                }
-                "Overlord" -> {
-                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.four_star_gradient)
-                }
-                "Elite" -> {
-                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.three_star_gradient)
-                }
-                "Common" -> {
-                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.one_star_gradient)
-                }
-                else -> {
-                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.one_star_gradient)
-                }
-            }
-        }
+//        for (names in echo.bangbooSets){
+//
+//        }
+//        val echoImageView = view.findViewById<ImageView>(R.id.imageView)
+//        if(echo.img != null)
+//        {
+//            Glide.with(view)
+//                .load(echo.img)
+//                .into(echoImageView)
+//
+//            when (echo.classEcho) {
+//                "Calamity" -> {
+//                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.five_star_gradient)
+//                }
+//                "Overlord" -> {
+//                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.four_star_gradient)
+//                }
+//                "Elite" -> {
+//                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.three_star_gradient)
+//                }
+//                "Common" -> {
+//                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.one_star_gradient)
+//                }
+//                else -> {
+//                    echoImageView.background = ContextCompat.getDrawable(contextEcho, R.drawable.one_star_gradient)
+//                }
+//            }
+//        }
 
 //        view.setOnClickListener {
 //            clickListener(echo)

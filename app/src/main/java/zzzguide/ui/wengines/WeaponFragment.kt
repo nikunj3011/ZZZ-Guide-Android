@@ -1,4 +1,4 @@
-package zzzguide.ui.echos
+package zzzguide.ui.wengines
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,41 +12,41 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import zzzguide.databinding.FragmentEchoBinding
-import zzzguide.models.api.echo.BangBoosResponseItem
-import zzzguide.ui.common.EchoListAdapter
+import zzzguide.databinding.FragmentWeaponBinding
+import zzzguide.models.api.wengines.WEngineResponseItem
+import zzzguide.ui.common.WEngineListAdapter
 import zzzguide.util.autoCleared
 import java.util.Locale
 
 
-class EchoFragment : Fragment() {
+class WeaponFragment : Fragment() {
 
-    var binding by autoCleared<FragmentEchoBinding>()
-    private val viewModel by viewModel<EchoViewModel>()
-    private var echosAdapter by autoCleared<EchoListAdapter>()
+    private lateinit var binding: FragmentWeaponBinding
+    private val viewModel by viewModel<WeaponViewModel>()
+    private var weaponsAdapter by autoCleared<WEngineListAdapter>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val dataBinding = FragmentEchoBinding.inflate(
+        val dataBinding = FragmentWeaponBinding.inflate(
             inflater,
             container,
             false
         )
         binding = dataBinding
 
-        binding.shimmerFrameLayoutEcho.startShimmer()
-        binding.echoRecyclerView.setVisibility(View.GONE)
+        binding.shimmerFrameLayoutWeapon.startShimmer()
+        binding.weaponRecyclerView.setVisibility(View.GONE)
+
         return binding.root
     }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        var response = viewModel.echoesLiveData
-        binding.echoRecyclerView.layoutManager = LinearLayoutManager(requireActivity())
-
-        binding.searchEchoView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+        var response = viewModel.weaponsLiveData
+        binding.weaponRecyclerView.layoutManager = LinearLayoutManager(requireActivity())
+        binding.searchWeaponView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 return false
             }
@@ -60,16 +60,16 @@ class EchoFragment : Fragment() {
         viewModel.viewModelScope.launch {
             initRecyclerView()
             delay(500)
-            binding.shimmerFrameLayoutEcho.setVisibility(View.GONE)
-            binding.echoRecyclerView.setVisibility(View.VISIBLE)
+            binding.shimmerFrameLayoutWeapon.setVisibility(View.GONE)
+            binding.weaponRecyclerView.setVisibility(View.VISIBLE)
         }
     }
 
     private fun filterList(query: String?) {
         if (query != null) {
-            viewModel.echoesLiveData.observe(viewLifecycleOwner) { result ->
+            viewModel.weaponsLiveData.observe(viewLifecycleOwner) { result ->
 
-                val filteredList = ArrayList<BangBoosResponseItem>()
+                val filteredList = ArrayList<WEngineResponseItem>()
                 for (i in result) {
                     if (i.name.lowercase(Locale.ROOT).contains(query)) {
                         filteredList.add(i)
@@ -79,29 +79,28 @@ class EchoFragment : Fragment() {
                 if (filteredList.isEmpty()) {
                     Toast.makeText(requireContext(), "No Data found", Toast.LENGTH_SHORT).show()
                 } else {
-                    echosAdapter.setFilteredList(filteredList)
+                    weaponsAdapter.setFilteredList(filteredList)
                 }
             }
         }
     }
 
     private fun initRecyclerView() {
-        viewModel.echoesLiveData.observe(viewLifecycleOwner) { result ->
-            this.echosAdapter = EchoListAdapter(
+        viewModel.weaponsLiveData.observe(viewLifecycleOwner) { result ->
+            this.weaponsAdapter = WEngineListAdapter(
                 requireContext(),
                 result
-            ) { selectedItem: BangBoosResponseItem ->
+            ) { selectedItem: WEngineResponseItem ->
                 listItemClicked(selectedItem)
             }
-            binding.echoRecyclerView.apply {
-                adapter = echosAdapter
+            binding.weaponRecyclerView.apply {
+                adapter = weaponsAdapter
                 itemAnimator?.changeDuration = 0
             }
         }
-
     }
 
-    private fun listItemClicked(fruit: BangBoosResponseItem){
+    private fun listItemClicked(fruit: WEngineResponseItem){
         Toast.makeText(
             requireActivity(),
             "Supplier is : ${fruit.name}",

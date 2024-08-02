@@ -2,10 +2,10 @@ package zzzguide.models.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import zzzguide.models.api.echo.EchoSet
+import zzzguide.models.api.bangboo.BangbooSet
 
-@Entity(tableName = "echos")
-data class Echo(
+@Entity(tableName = "bangboo")
+data class Bangboo(
     @PrimaryKey
     val No: String,
     val PossibleSonataEffects: String,
@@ -13,7 +13,7 @@ data class Echo(
     val cooldown: String,
     val cost: String,
     val description: String,
-    val echoSets: List<EchoSet>,
+    val bangbooSets: List<BangbooSet>,
     val img: String,
     val name: String
 )

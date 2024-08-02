@@ -9,7 +9,7 @@
 
         <import type="java.util.List" />
 
-        <import type="zzzguide.models.api.echo.BangBoosResponseItem" />
+        <import type="zzzguide.models.api.bangboo.BangBoosResponseItem" />
 
         <variable
             name="echoes"

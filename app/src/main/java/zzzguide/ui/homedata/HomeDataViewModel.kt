@@ -8,7 +8,7 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import zzzguide.models.api.echo.BangBoosResponseItem
+import zzzguide.models.api.bangboo.BangBoosResponseItem
 import zzzguide.repository.HomeRepository
 
 class HomeDataViewModel(

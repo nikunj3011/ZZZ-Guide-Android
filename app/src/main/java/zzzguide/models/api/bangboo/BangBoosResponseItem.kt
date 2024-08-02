@@ -1,4 +1,4 @@
-package zzzguide.models.api.echo
+package zzzguide.models.api.bangboo
 
 import com.google.gson.annotations.SerializedName
 
@@ -10,7 +10,7 @@ data class BangBoosResponseItem(
     val cooldown: String,
     val cost: String,
     val description: String,
-    val echoSets: List<EchoSet>,
+    val bangbooSets: List<BangbooSet>,
     val img: String,
     val name: String,
     val rarity: String

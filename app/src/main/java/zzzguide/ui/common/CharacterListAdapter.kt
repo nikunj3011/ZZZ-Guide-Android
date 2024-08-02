@@ -51,7 +51,7 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view){
         val characterView = view.findViewById<RecyclerView>(R.id.characterRecyclerView)
 //        characterView?.background = ContextCompat.getDrawable(contextCharacter, R.drawable.four_star_gradient)
 //        val rarityTextView = view.findViewById<TextView>(R.id.textCharacterWeapon)
-//        rarityTextView.text = "Weapon: BroadBlade"
+//        rarityTextView.text = "WEngine: BroadBlade"
 //
 //        val descriptionTextView = view.findViewById<TextView>(R.id.textTypeCharacter)
 //        descriptionTextView.text = "Type: " + character.tag

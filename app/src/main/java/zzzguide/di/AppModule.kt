@@ -18,9 +18,9 @@ import zzzguide.api.ZZZGuidesService
 import zzzguide.repository.HomeRepository
 import zzzguide.ui.character.CharacterViewModel
 import zzzguide.ui.characterdetail.CharacterDetailsViewModel
-import zzzguide.ui.echos.EchoViewModel
+import zzzguide.ui.bangboos.BangbooViewModel
 import zzzguide.ui.homedata.HomeDataViewModel
-import zzzguide.ui.weapons.WeaponViewModel
+import zzzguide.ui.wengines.WeaponViewModel
 import zzzguide.util.ZZZGuide_URL
 import java.util.concurrent.TimeUnit
 
@@ -64,7 +64,7 @@ val appModule = module {
     }
 
     viewModel {
-        EchoViewModel(get())
+        BangbooViewModel(get())
     }
 
     viewModel {

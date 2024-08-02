@@ -1,4 +1,4 @@
-package zzzguide.ui.weapons
+package zzzguide.ui.bangboos
 
 import android.util.Log
 import androidx.lifecycle.LiveData
@@ -8,28 +8,28 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import zzzguide.models.api.weapon.WEngineResponseItem
+import zzzguide.models.api.bangboo.BangBoosResponseItem
 import zzzguide.repository.HomeRepository
 
-class WeaponViewModel(
+class BangbooViewModel(
     private val repository: HomeRepository
 ) : ViewModel() {
 
-    private val _weaponsLiveData = MutableLiveData<List<WEngineResponseItem>>()
-    val weaponsLiveData: LiveData<List<WEngineResponseItem>> get() = _weaponsLiveData
-    var _weapons = listOf<WEngineResponseItem>()
+    private val _bangboosLiveData = MutableLiveData<List<BangBoosResponseItem>>()
+    var _bangboos = listOf<BangBoosResponseItem>()
+    val BangboosLiveData: LiveData<List<BangBoosResponseItem>> get() = _bangboosLiveData
 
     init {
-        fetchWepons()
+        fetchBangboos()
     }
-    private fun fetchWepons() {
+    private fun fetchBangboos() {
         viewModelScope.launch {
             try {
                 val newItem = withContext(Dispatchers.IO) {
-                    repository.fetchWEngines()
+                    repository.fetchBangboos()
                 }
-                _weaponsLiveData.postValue(newItem.body()?.toList())
-                _weapons = newItem.body()!!.toList()
+                _bangboosLiveData.postValue(newItem.body()?.toList())
+                _bangboos = newItem.body()!!.toList()
                 Log.e("element", newItem.toString())
             } catch (e: Exception) {
                 // Handle exceptions, if any

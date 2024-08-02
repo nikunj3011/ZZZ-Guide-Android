@@ -1,3 +1,3 @@
-package zzzguide.models.api.weapon
+package zzzguide.models.api.wengines
 
 class WEngineResponse : ArrayList<WEngineResponseItem>()

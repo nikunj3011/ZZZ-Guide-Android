@@ -3,8 +3,8 @@ package zzzguide.models.db
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "categories")
-data class Weapon(
+@Entity(tableName = "wengine")
+data class WEngine(
     @PrimaryKey
     val id: String,
     val name: String,

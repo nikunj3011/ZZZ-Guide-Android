@@ -4,9 +4,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import zzzguide.ui.character.CharacterFragment
-import zzzguide.ui.echos.EchoFragment
+import zzzguide.ui.bangboos.EchoFragment
 import zzzguide.ui.homedata.HomeDataFragment
-import zzzguide.ui.weapons.WeaponFragment
+import zzzguide.ui.wengines.WeaponFragment
 
 class HomeViewPagerAdapter(fa: FragmentActivity): FragmentStateAdapter(fa){
     override fun getItemCount(): Int {

@@ -9,7 +9,7 @@
 
         <import type="java.util.List" />
 
-        <import type="zzzguide.models.api.weapon.WEngineResponseItem" />
+        <import type="zzzguide.models.api.wengines.WEngineResponseItem" />
 
         <variable
             name="echoes"

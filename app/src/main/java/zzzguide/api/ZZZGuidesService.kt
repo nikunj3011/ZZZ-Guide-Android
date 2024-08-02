@@ -7,8 +7,8 @@ import retrofit2.http.Query
 import zzzguide.models.api.character.CharacterResponse
 import zzzguide.models.api.characterdetail.CharacterDetailResponse
 import zzzguide.models.api.characterdetails.CharactersDetailsResponse
-import zzzguide.models.api.echo.BangBoosResponse
-import zzzguide.models.api.weapon.WEngineResponse
+import zzzguide.models.api.bangboo.BangBoosResponse
+import zzzguide.models.api.wengines.WEngineResponse
 
 interface ZZZGuidesService {
 
