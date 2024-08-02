@@ -1,0 +1,202 @@
+[
+	{
+		"id": "407f052f-fe8a-548d-a898-dda49f9dd9a5",
+		"unitId": "1",
+		"slug": "anby-demara",
+		"name": "Anby",
+		"element": "Electric",
+		"rarity": "A",
+		"faction": "Cunning Hares",
+		"style": "Stun"
+	},
+	{
+		"id": "13237092-cc9c-55f7-944f-d9d39cfeeaf1",
+		"unitId": "15",
+		"slug": "anton",
+		"name": "Anton",
+		"element": "Electric",
+		"rarity": "A",
+		"faction": "Belobog Heavy Industries",
+		"style": "Attack"
+	},
+	{
+		"id": "3ee6a88a-19e4-57dc-8f95-4170594552fc",
+		"unitId": "8",
+		"slug": "ben",
+		"name": "Ben",
+		"element": "Fire",
+		"rarity": "A",
+		"faction": "Belobog Heavy Industries",
+		"style": "Defence"
+	},
+	{
+		"id": "860fde4e-3e46-5028-b62b-8c0fce26b19d",
+		"unitId": "3",
+		"slug": "billy-kid",
+		"name": "Billy",
+		"element": "Physical",
+		"rarity": "A",
+		"faction": "Cunning Hares",
+		"style": "Attack"
+	},
+	{
+		"id": "6524d6fb-4d1d-5b50-aea7-9c19c6830be6",
+		"unitId": "11",
+		"slug": "corin",
+		"name": "Corin",
+		"element": "Physical",
+		"rarity": "A",
+		"faction": "Victoria Housekeeping Co.",
+		"style": "Attack"
+	},
+	{
+		"id": "76498920-c4e7-5b17-9306-9d3aa82dcc75",
+		"unitId": "13",
+		"slug": "ellen",
+		"name": "Ellen",
+		"element": "Ice",
+		"rarity": "S",
+		"faction": "Victoria Housekeeping Co.",
+		"style": "Attack"
+	},
+	{
+		"id": "17c77baa-0c01-55fc-b442-6da15d67e7a6",
+		"unitId": "4",
+		"slug": "grace-howard",
+		"name": "Grace",
+		"element": "Electric",
+		"rarity": "S",
+		"faction": "Belobog Heavy Industries",
+		"style": "Anomaly"
+	},
+	{
+		"id": "a474f168-033b-5fe1-a40a-468e6cf3d720",
+		"unitId": "21",
+		"slug": "jane-doe",
+		"name": "Jane Doe",
+		"element": "Unknown",
+		"rarity": "Unknown",
+		"faction": "N.E.P.S.",
+		"style": "Unknown"
+	},
+	{
+		"id": "93aa5e24-0e31-5b12-b127-791ec3b24923",
+		"unitId": "12",
+		"slug": "koleda",
+		"name": "Koleda",
+		"element": "Fire",
+		"rarity": "S",
+		"faction": "Belobog Heavy Industries",
+		"style": "Stun"
+	},
+	{
+		"id": "c3c1ee19-f665-5108-8992-dd69a1a2daf5",
+		"unitId": "17",
+		"slug": "lucy",
+		"name": "Lucy",
+		"element": "Fire",
+		"rarity": "A",
+		"faction": "Sons of Calydon",
+		"style": "Support"
+	},
+	{
+		"id": "f5ebdcf3-8d6a-5cc3-9f26-2e9e1c867302",
+		"unitId": "14",
+		"slug": "lycaon",
+		"name": "Lycaon",
+		"element": "Ice",
+		"rarity": "S",
+		"faction": "Victoria Housekeeping Co.",
+		"style": "Stun"
+	},
+	{
+		"id": "5c430295-ceb5-5c9a-b7a9-9c538433f507",
+		"unitId": "9",
+		"slug": "nekomata",
+		"name": "Nekomata",
+		"element": "Physical",
+		"rarity": "S",
+		"faction": "Cunning Hares",
+		"style": "Attack"
+	},
+	{
+		"id": "3215582b-f2d8-5b99-995a-d1715725a7fd",
+		"unitId": "2",
+		"slug": "nicole-demara",
+		"name": "Nicole",
+		"element": "Ether",
+		"rarity": "A",
+		"faction": "Cunning Hares",
+		"style": "Support"
+	},
+	{
+		"id": "bab0f053-10b6-5664-813c-e61d5528602a",
+		"unitId": "18",
+		"slug": "piper",
+		"name": "Piper",
+		"element": "Physical",
+		"rarity": "A",
+		"faction": "Sons of Calydon",
+		"style": "Anomaly"
+	},
+	{
+		"id": "c49be0a1-f6d3-59ca-b465-b9a30f6bac5e",
+		"unitId": "19",
+		"slug": "qingyi",
+		"name": "Qingyi",
+		"element": "Electric",
+		"rarity": "Unknown",
+		"faction": "N.E.P.S.",
+		"style": "Unknown"
+	},
+	{
+		"id": "82ea9f2a-2ab8-5983-826a-4b61c4870e10",
+		"unitId": "7",
+		"slug": "rina",
+		"name": "Rina",
+		"element": "Electric",
+		"rarity": "S",
+		"faction": "Victoria Housekeeping Co.",
+		"style": "Support"
+	},
+	{
+		"id": "eb6dc5b6-7140-5c78-9d3e-983cb4c69152",
+		"unitId": "20",
+		"slug": "seth",
+		"name": "Seth",
+		"element": "Unknown",
+		"rarity": "Unknown",
+		"faction": "N.E.P.S.",
+		"style": "Unknown"
+	},
+	{
+		"id": "e3fa1012-b97f-54af-90f0-3f0ff1e80975",
+		"unitId": "5",
+		"slug": "soldier-11",
+		"name": "Soldier 11",
+		"element": "Fire",
+		"rarity": "S",
+		"faction": "OBOLS Squad",
+		"style": "Attack"
+	},
+	{
+		"id": "6f67c842-3d1a-59b2-8e21-715ca62436e9",
+		"unitId": "6",
+		"slug": "soukaku",
+		"name": "Soukaku",
+		"element": "Ice",
+		"rarity": "A",
+		"faction": "Section 6",
+		"style": "Support"
+	},
+	{
+		"id": "2246b11c-4314-5c88-9600-b4e0a26e3bcd",
+		"unitId": "16",
+		"slug": "zhu-yuan",
+		"name": "Zhu Yuan",
+		"element": "Ether",
+		"rarity": "S",
+		"faction": "N.E.P.S.",
+		"style": "Attack"
+	}
+]

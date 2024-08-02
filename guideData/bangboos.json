@@ -1,0 +1,149 @@
+[
+	{
+	  "id": "1ea4b298-826d-51f1-8f12-5e8876542d57",
+	  "unitId": "7",
+	  "slug": "amillion",
+	  "name": "Amillion",
+	  "rarity": "S"
+	},
+	{
+	  "id": "fdd82980-6b77-5da0-8b46-333b26c2bf05",
+	  "unitId": "16",
+	  "slug": "avocaboo",
+	  "name": "Avocaboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "48a23dad-accd-5c87-a3e5-7dba6f64201f",
+	  "unitId": "1",
+	  "slug": "bagboo",
+	  "name": "Bagboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "6aed26d1-79dc-54ea-b358-2cba7353f3c9",
+	  "unitId": "21",
+	  "slug": "bangvolver",
+	  "name": "Bangvolver",
+	  "rarity": "S"
+	},
+	{
+	  "id": "d6ce5ddb-c814-5bb1-8bc2-585624d38334",
+	  "unitId": "18",
+	  "slug": "boollseye",
+	  "name": "Boollseye",
+	  "rarity": "A"
+	},
+	{
+	  "id": "0d657bad-486a-53d5-93f1-3ee7225d7c6a",
+	  "unitId": "17",
+	  "slug": "booressure",
+	  "name": "Booressure",
+	  "rarity": "A"
+	},
+	{
+	  "id": "59fc3785-4cea-5cc1-ac9c-1d0a7a3297f1",
+	  "unitId": "8",
+	  "slug": "butler",
+	  "name": "Butler",
+	  "rarity": "S"
+	},
+	{
+	  "id": "514560e9-4cca-58c2-8ff9-90b53f5fac0f",
+	  "unitId": "15",
+	  "slug": "cryboo",
+	  "name": "Cryboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "a4138e79-fbf3-5250-b1eb-9b2162076127",
+	  "unitId": "5",
+	  "slug": "devilboo",
+	  "name": "Devilboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "4eaf5036-a530-5262-80eb-7bd328e8c82e",
+	  "unitId": "14",
+	  "slug": "electroboo",
+	  "name": "Electroboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "69a5e89f-4c8c-5e26-a9c5-b8704199dd49",
+	  "unitId": "3",
+	  "slug": "exploreboo",
+	  "name": "Exploreboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "f6778390-21a7-540e-94b4-27b79868e260",
+	  "unitId": "4",
+	  "slug": "luckyboo",
+	  "name": "Luckyboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "fcc9bb26-546f-50d7-bf15-1998f14a02f8",
+	  "unitId": "22",
+	  "slug": "magnetiboo",
+	  "name": "Magnetiboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "d36a5245-0912-53fb-b2d2-a31be8cfe5e5",
+	  "unitId": "6",
+	  "slug": "paperboo",
+	  "name": "Paperboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "bfa64468-668a-5850-a2d0-fc18f9d5fda4",
+	  "unitId": "13",
+	  "slug": "penguinboo",
+	  "name": "Penguinboo",
+	  "rarity": "A"
+	},
+	{
+	  "id": "5dc64002-c783-5c59-8992-b13ff62fd676",
+	  "unitId": "19",
+	  "slug": "plugboo",
+	  "name": "Plugboo",
+	  "rarity": "S"
+	},
+	{
+	  "id": "735b324b-8550-5e29-aaba-a771877989a2",
+	  "unitId": "20",
+	  "slug": "resonaboo",
+	  "name": "Resonaboo",
+	  "rarity": "S"
+	},
+	{
+	  "id": "256ed643-1f59-57c5-8d14-3b3c5648ba7a",
+	  "unitId": "12",
+	  "slug": "rocketboo",
+	  "name": "Rocketboo",
+	  "rarity": "S"
+	},
+	{
+	  "id": "2952c892-8009-5e49-9ac3-a30af6133940",
+	  "unitId": "9",
+	  "slug": "safety",
+	  "name": "Safety",
+	  "rarity": "S"
+	},
+	{
+	  "id": "c452d558-3c49-542d-988b-169c3b4ec379",
+	  "unitId": "10",
+	  "slug": "sharkboo",
+	  "name": "Sharkboo",
+	  "rarity": "S"
+	},
+	{
+	  "id": "9b70a81e-74cf-5692-a0bf-e53832f815fb",
+	  "unitId": "2",
+	  "slug": "sumoboo",
+	  "name": "Sumoboo ",
+	  "rarity": "A"
+	}
+  ]
