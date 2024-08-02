@@ -26,7 +26,7 @@ class WeaponViewModel(
         viewModelScope.launch {
             try {
                 val newItem = withContext(Dispatchers.IO) {
-                    repository.fetchWeapons()
+                    repository.fetchWEngines()
                 }
                 _weaponsLiveData.postValue(newItem.body()?.toList())
                 _weapons = newItem.body()!!.toList()

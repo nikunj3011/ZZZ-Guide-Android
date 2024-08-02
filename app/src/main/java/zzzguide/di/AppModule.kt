@@ -4,17 +4,7 @@ import android.content.Context
 import com.google.android.gms.ads.AdLoader
 import com.google.android.gms.ads.AdRequest
 import zzzguide.MainViewModel
-import zzzguide.api.NewsService
-import zzzguide.repository.CategoryRepository
-import zzzguide.repository.NewsRepository
-import zzzguide.repository.UserRepository
-import zzzguide.ui.bookmarks.BookmarksViewModel
-import zzzguide.ui.news.NewsViewModel
-import zzzguide.ui.newsdetail.NewsDetailViewModel
-import zzzguide.ui.search.SearchViewModel
-import zzzguide.ui.settings.SettingsViewModel
 import zzzguide.util.AD_ID
-import zzzguide.util.NEWS_URL
 import zzzguide.util.PREFERENCE_NAME
 import zzzguide.util.REFRESH_TIMEOUT
 import zzzguide.util.RateLimiter
@@ -46,14 +36,6 @@ val appModule = module {
 
     single {
         Retrofit.Builder()
-            .baseUrl(NEWS_URL)
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-            .create(NewsService::class.java)
-    }
-
-    single {
-        Retrofit.Builder()
             .baseUrl(ZZZGuide_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
@@ -71,18 +53,6 @@ val appModule = module {
 
     single {
         RateLimiter<String>(REFRESH_TIMEOUT, TimeUnit.MINUTES)
-    }
-
-    single {
-        NewsRepository(get(), get(), get(), get())
-    }
-
-    single {
-        CategoryRepository(get(), get())
-    }
-
-    single {
-        UserRepository(get())
     }
 
     single {
@@ -114,27 +84,7 @@ val appModule = module {
     }
 
     viewModel {
-        NewsViewModel(get(), get())
-    }
-
-    viewModel {
-        SearchViewModel(get())
-    }
-
-    viewModel {
-        BookmarksViewModel(get())
-    }
-
-    viewModel {
-        NewsDetailViewModel(get())
-    }
-
-    viewModel {
-        SettingsViewModel(get())
-    }
-
-    viewModel {
-        MainViewModel(get())
+        MainViewModel()
     }
 
 }

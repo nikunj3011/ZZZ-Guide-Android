@@ -5,12 +5,12 @@ import zzzguide.di.appModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
-class WutheringWavesGuide : Application() {
+class ZZZWavesGuide : Application() {
 
     override fun onCreate() {
         super.onCreate()
         startKoin {
-            androidContext(this@WutheringWavesGuide)
+            androidContext(this@ZZZWavesGuide)
             modules(appModule)
         }
     }

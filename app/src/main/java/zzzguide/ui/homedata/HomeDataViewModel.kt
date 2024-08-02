@@ -26,7 +26,7 @@ class HomeDataViewModel(
         viewModelScope.launch {
             try {
                 val newItem = withContext(Dispatchers.IO) {
-                    repository.fetchEchoes()
+                    repository.fetchBangboos()
                 }
                 _echoesLiveData.postValue(newItem.body()?.toList())
                 _echoes = newItem.body()!!.toList()

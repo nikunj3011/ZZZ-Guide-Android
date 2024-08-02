@@ -38,7 +38,7 @@ class HomeDataFragment : Fragment() {
 //        binding.webViewIntroVideoHome.loadData("<iframe width=\"380\" height=\"190\" src=\"https://www.youtube.com/embed/SJLCoNsFYfY&amp;start=2\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
 //            "text/html", "utf-8")
 
-        binding.webViewIntroVideoHome.loadData("<div style=\"position:relative;padding-bottom:56.25%;height:0;overflow:hidden;\"> <iframe style=\"width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden\" frameborder=\"0\" type=\"text/html\" src=\"https://www.dailymotion.com/embed/video/x8vzw44\" width=\"100%\" height=\"100%\" allowfullscreen title=\"Dailymotion Video Player\" > </iframe> </div>",
+        binding.webViewIntroVideoHome.loadData("<div style=\"position:relative;padding-bottom:56.25%;height:0;overflow:hidden;\"> <iframe style=\"width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden\" frameborder=\"0\" type=\"text/html\" src=\"https://www.dailymotion.com/embed/video/x92e8ou?autoplay=1\" width=\"100%\" height=\"100%\" allowfullscreen title=\"Dailymotion Video Player\" allow=\"autoplay; web-share\"> </iframe> </div>\n",
             "text/html", "utf-8")
         binding.webViewIntroVideoHome.setBackgroundColor(Color.BLACK)
 

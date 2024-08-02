@@ -13,7 +13,6 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.gms.ads.MobileAds
-import zzzguide.repository.DarkMode
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import zzzguide.databinding.ActivityMainBinding
 
@@ -35,7 +34,6 @@ class MainActivity : AppCompatActivity() {
         initWindow()
         initNavController()
         initToolbar()
-        toggleDarkMode()
     }
 
     private fun initWindow() {
@@ -78,20 +76,4 @@ class MainActivity : AppCompatActivity() {
             true
         }
     }
-
-    private fun toggleDarkMode() {
-        viewModel.darkModeLiveData.observe(this) {
-            when (it!!) {
-                DarkMode.DEFAULT ->
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
-
-                DarkMode.LIGHT ->
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-
-                DarkMode.DARK ->
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-            }
-        }
-    }
-
 }
