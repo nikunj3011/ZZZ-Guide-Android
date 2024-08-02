@@ -1,149 +1,476 @@
 [
 	{
-	  "id": "1ea4b298-826d-51f1-8f12-5e8876542d57",
-	  "unitId": "7",
-	  "slug": "amillion",
-	  "name": "Amillion",
-	  "rarity": "S"
+		"title": "Amillion Bangboo",
+		"name": "amillion",
+		"nick_name": "Amillion",
+		"bio": "A million Dennies in one Bangboo.",
+		"stats": {
+			"HP": 5172,
+			"ATK": 3911,
+			"DEF": 421,
+			"Impact": 46
+		},
+		"skills": [
+			{
+				"name": "Portable Machine Gun - Debt-Clearer",
+				"desc": "Active Skill Builds a machine gun and continuously shoots enemies, dealing massive Physical DMG."
+			},
+			{
+				"name": "Portable Machine Gun - Gatling Debt-Clearer",
+				"desc": "Bangboo Chain Attack Uses machine guns and cannons to continuously attack the target, dealing massive Physical DMG."
+			}
+		],
+		"categories": [
+			{
+				"name": "s-rank"
+			}
+		]
 	},
 	{
-	  "id": "fdd82980-6b77-5da0-8b46-333b26c2bf05",
-	  "unitId": "16",
-	  "slug": "avocaboo",
-	  "name": "Avocaboo",
-	  "rarity": "A"
+		"title": "Bagboo Bangboo",
+		"name": "bagboo",
+		"nick_name": "Bagboo",
+		"bio": "There's a dark past hidden under that bag...",
+		"stats": {
+			"HP": 2604,
+			"ATK": 1953,
+			"DEF": 256,
+			"Impact": 56
+		},
+		"skills": [
+			{
+				"name": "Closer, Closer...",
+				"desc": "Active Skill Unleashes a series of slashes with dual blades, dealing Physical DMG."
+			},
+			{
+				"name": "Swiftly Honed",
+				"desc": "Increases Max HP of all Agents by 3%."
+			},
+			{
+				"name": "That's Close Enough!",
+				"desc": "Bangboo Chain Attack Continually slashes the target, dealing massive Physical DMG."
+			}
+		],
+		"categories": [
+			{
+				"name": "b-rank"
+			}
+		]
 	},
 	{
-	  "id": "48a23dad-accd-5c87-a3e5-7dba6f64201f",
-	  "unitId": "1",
-	  "slug": "bagboo",
-	  "name": "Bagboo",
-	  "rarity": "A"
+		"title": "Luckyboo Bangboo",
+		"name": "luckyboo",
+		"nick_name": "Luckyboo",
+		"bio": "Takes up quite a bit of space when placed on the counter.",
+		"stats": {
+			"HP": 4343,
+			"ATK": 3260,
+			"DEF": 427,
+			"Impact": 94
+		},
+		"skills": [
+			{
+				"name": "Lavish Spending",
+				"desc": "Luckyboo bombards the target and surrounding enemies, dealing Physical damage."
+			},
+			{
+				"name": "Luck is a Component of Power",
+				"desc": "Increases CRIT Rate of all Agents by 4%."
+			},
+			{
+				"name": "Ether Aptitude Enhance",
+				"desc": "Boosts the Max HP/ATK/DEF of Agents in battle by 16%/8%/16% of the Bangboo's Max HP/ATK/DEF."
+			}
+		],
+		"categories": [
+			{
+				"name": "a-rank"
+			}
+		]
 	},
 	{
-	  "id": "6aed26d1-79dc-54ea-b358-2cba7353f3c9",
-	  "unitId": "21",
-	  "slug": "bangvolver",
-	  "name": "Bangvolver",
-	  "rarity": "S"
+		"title": "Sumoboo Bangboo",
+		"name": "sumoboo",
+		"nick_name": "Sumoboo",
+		"bio": "A sumo wrestler never retreats!",
+		"stats": {
+			"HP": 2604,
+			"ATK": 1733,
+			"DEF": 256,
+			"Impact": 64
+		},
+		"skills": [
+			{
+				"name": "Finishing Move - Rock Crusher",
+				"desc": "Active Skill Jumps towards the target and executes a downward strike, dealing Physical DMG in an area. This skill is good at interrupting."
+			},
+			{
+				"name": "Overpower All Odds",
+				"desc": "Increases damage of all Physical Attribute Agents by 6%."
+			},
+			{
+				"name": "Ether Aptitude Enhance",
+				"desc": "Boosts the Max HP/ATK/DEF of Agents in battle by 16%/8%/16% of the Bangboo's Max HP/ATK/DEF."
+			}
+		],
+		"categories": [
+			{
+				"name": "b-rank"
+			}
+		]
 	},
 	{
-	  "id": "d6ce5ddb-c814-5bb1-8bc2-585624d38334",
-	  "unitId": "18",
-	  "slug": "boollseye",
-	  "name": "Boollseye",
-	  "rarity": "A"
+		"title": "Paperboo Bangboo",
+		"name": "paperboo",
+		"nick_name": "Paperboo",
+		"bio": "Always nostalgic over when it hatched from its shell.",
+		"stats": {
+			"HP": 4293,
+			"ATK": 2855,
+			"DEF": 423,
+			"Impact": 94
+		},
+		"skills": [
+			{
+				"name": "Decoy Paper Armor",
+				"desc": "Active Skill Uses a cardboard box to camouflage itself, inducing a taunt effect: While camouflaged, being attacked by enemies or reaching the camouflage time limit will trigger an explosion, dealing Physical DMG in an area."
+			},
+			{
+				"name": "Cardboard Armor",
+				"desc": "Increases ATK of all Agents by 5%."
+			},
+			{
+				"name": "Paper Armor: Impact Mode",
+				"desc": "Bangboo Chain Attack Enters a cardboard box and jumps at the target enemy, causing an explosion when it lands, dealing Physical DMG over a large area."
+			}
+		],
+		"categories": [
+			{
+				"name": "a-rank"
+			}
+		]
 	},
 	{
-	  "id": "0d657bad-486a-53d5-93f1-3ee7225d7c6a",
-	  "unitId": "17",
-	  "slug": "booressure",
-	  "name": "Booressure",
-	  "rarity": "A"
+		"title": "Sharkboo Bangboo",
+		"name": "sharkboo",
+		"nick_name": "Sharkboo",
+		"bio": "Seen in the distant seas and the seafood section of the fresh food market.",
+		"stats": {
+			"HP": 4972,
+			"ATK": 3691,
+			"DEF": 398,
+			"Impact": 110
+		},
+		"skills": [
+			{
+				"name": "Drylands Shark Hunt",
+				"desc": "Active Skill Plants a homing trap underfoot which bites, tears, and summons torpedos at triggering enemies, dealing Ice DMG and accumulating Ice Anomaly Buildup."
+			},
+			{
+				"name": "Relentless Pursuit",
+				"desc": "Bangboo Chain Attack Summons a homing trap and leaps toward the target, causing an explosion upon landing that deals Ice DMG and accumulates massive Ice Anomaly Buildup."
+			}
+		],
+		"categories": [
+			{
+				"name": "s-rank"
+			}
+		]
 	},
 	{
-	  "id": "59fc3785-4cea-5cc1-ac9c-1d0a7a3297f1",
-	  "unitId": "8",
-	  "slug": "butler",
-	  "name": "Butler",
-	  "rarity": "S"
+		"title": "Safety Bangboo",
+		"name": "safety",
+		"nick_name": "Safety",
+		"bio": "Safety first, ehn-na second.",
+		"stats": {
+			"HP": 5172,
+			"ATK": 3911,
+			"DEF": 364,
+			"Impact": 103
+		},
+		"skills": [
+			{
+				"name": "Boring Burst",
+				"desc": "Active Skill Enters the driving state and charges enemies, launching a drilling attack upon hit and dealing Physical DMG."
+			},
+			{
+				"name": "Demolition Drill",
+				"desc": "Bangboo Chain Attack Enters the driving state and charges enemies, launching a multi-hit drilling attack upon hit and dealing massive Physical DMG."
+			}
+		],
+		"categories": [
+			{
+				"name": "s-rank"
+			}
+		]
 	},
 	{
-	  "id": "514560e9-4cca-58c2-8ff9-90b53f5fac0f",
-	  "unitId": "15",
-	  "slug": "cryboo",
-	  "name": "Cryboo",
-	  "rarity": "A"
+		"title": "Exploreboo Bangboo",
+		"name": "exploreboo",
+		"nick_name": "Exploreboo",
+		"bio": "Beep-beep-beep-beep. Does that mean there treasure or that it's running outta battery?",
+		"stats": {
+			"HP": 2823,
+			"ATK": 1733,
+			"DEF": 218,
+			"Impact": 56
+		},
+		"skills": [
+			{
+				"name": "Modded Ether Detector",
+				"desc": "Active Skill: Strikes the target with a barrage of golden coins, dealing Physical DMG and accumulating Physical Anomaly Buildup."
+			},
+			{
+				"name": "Ether Detection Specialist",
+				"desc": "Increases DEF of all Agents by 5%."
+			},
+			{
+				"name": "Ether Aptitude Enhance",
+				"desc": "Boosts the Max HP/ATK/DEF of Agents in battle by 16%/8%/16% of the Bangboo's Max HP/ATK/DEF."
+			}
+		],
+		"categories": [
+			{
+				"name": "a-rank"
+			}
+		]
 	},
 	{
-	  "id": "a4138e79-fbf3-5250-b1eb-9b2162076127",
-	  "unitId": "5",
-	  "slug": "devilboo",
-	  "name": "Devilboo",
-	  "rarity": "A"
+		"title": "Devilboo Bangboo",
+		"name": "devilboo",
+		"nick_name": "Devilboo",
+		"bio": "The only thing more tempting than a devil... is Devilboo!",
+		"stats": {
+			"HP": 4523,
+			"ATK": 3072,
+			"DEF": 398,
+			"Impact": 100
+		},
+		"skills": [
+			{
+				"name": "Kiss of Temptation",
+				"desc": "Active Skill Enters the flying state, shooting homing bullets at enemies to deal Ether DMG and inflict Ether Anomaly Buildup."
+			},
+			{
+				"name": "Kiss of Confusion",
+				"desc": "Bangboo Chain Attack: Fires lasers at the target and then enters the coordination state. Under this state, fires homing bullets in coordination with the on-field character's attacks, dealing Ether DMG and accumulating Ether Anomaly Buildup for up to 30s or 10 activations."
+			}
+		],
+		"categories": [
+			{
+				"name": "a-rank"
+			}
+		]
 	},
 	{
-	  "id": "4eaf5036-a530-5262-80eb-7bd328e8c82e",
-	  "unitId": "14",
-	  "slug": "electroboo",
-	  "name": "Electroboo",
-	  "rarity": "A"
+		"title": "Butler Bangboo",
+		"name": "butler",
+		"nick_name": "Butler",
+		"stats": {
+			"HP": 5172,
+			"ATK": 3466,
+			"DEF": 421,
+			"Impact": 46
+		},
+		"skills": [
+			{
+				"name": "Tea Break",
+				"desc": "Butler creates a heartfelt afternoon snack. The snack will generate 40 Energy for the receiving Agent, and apply an 8% ATK buff based on own stats."
+			},
+			{
+				"name": "Personal Butler",
+				"desc": "Increases CRIT Rate of all Agents by 14%, and the CRIT Rate of Victoria Housekeeping Co. Agents by an extra 14%."
+			},
+			{
+				"name": "Ether Aptitude Enhance",
+				"desc": "Boosts the Max HP/ATK/DEF of Agents in battle by 16%/8%/16% of the Bangboo's Max HP/ATK/DEF."
+			}
+		],
+		"categories": [
+			{
+				"name": "s-rank"
+			}
+		]
 	},
 	{
-	  "id": "69a5e89f-4c8c-5e26-a9c5-b8704199dd49",
-	  "unitId": "3",
-	  "slug": "exploreboo",
-	  "name": "Exploreboo",
-	  "rarity": "A"
+		"title": "Cryboo Bangboo",
+		"name": "cryboo",
+		"nick_name": "Cryboo",
+		"bio": "Who knows what troubles plague a young Bangboo?",
+		"stats": {
+			"HP": 4343,
+			"ATK": 3260,
+			"DEF": 427,
+			"Impact": 94
+		},
+		"skills": [
+			{
+				"name": "Pull-Tab Bomb",
+				"desc": "Active Skill Throws a bomb at the target, dealing Fire DMG and accumulating Fire Anomaly Buildup."
+			},
+			{
+				"name": "Shocking Gift",
+				"desc": "Bangboo Chain Attack Throws a bomb at the target, dealing Fire DMG and inflicting massive Fire Anomaly Buildup."
+			}
+		],
+		"categories": [
+			{
+				"name": "a-rank"
+			}
+		]
 	},
 	{
-	  "id": "f6778390-21a7-540e-94b4-27b79868e260",
-	  "unitId": "4",
-	  "slug": "luckyboo",
-	  "name": "Luckyboo",
-	  "rarity": "A"
+		"title": "Avocaboo Bangboo",
+		"name": "avocaboo",
+		"nick_name": "Avocaboo",
+		"bio": "Who knows what troubles plague a young Bangboo?",
+		"stats": {
+			"HP": 4343,
+			"ATK": 3260,
+			"DEF": 427,
+			"Impact": 94
+		},
+		"skills": [
+			{
+				"name": "Sweet and Juicy",
+				"desc": "Active Skill Shoots juice bullets at the character currently on the battlefield. If the bullet misses, the juice will remain on the ground for a while. Characters coming into contact with the juice will recover HP. The recovery effect can only trigger up to 15 times per combat."
+			}
+		],
+		"categories": [
+			{
+				"name": "a-rank"
+			}
+		]
 	},
 	{
-	  "id": "fcc9bb26-546f-50d7-bf15-1998f14a02f8",
-	  "unitId": "22",
-	  "slug": "magnetiboo",
-	  "name": "Magnetiboo",
-	  "rarity": "A"
+		"title": "Boollseye Bangboo",
+		"name": "boollseye",
+		"nick_name": "Boollseye",
+		"bio": "Right in the bull's eye!",
+		"stats": {
+			"HP": 4343,
+			"ATK": 3260,
+			"DEF": 427,
+			"Impact": 94
+		},
+		"skills": [
+			{
+				"name": "Straight in the Heart",
+				"desc": "Active Skill Shoots juice bullets at the character currently on the battlefield. If the bullet misses, the juice will remain on the ground for a while. Characters coming into contact with the juice will recover HP. The recovery effect can only trigger up to 15 times per combat."
+			},
+			{
+				"name": "Dart of Desperation",
+				"desc": "Bangboo Chain Attack Launches itself with a slingshot, flying towards the target and performing consecutive slashes, dealing massive Physical DMG."
+			}
+		],
+		"categories": [
+			{
+				"name": "a-rank"
+			}
+		]
 	},
 	{
-	  "id": "d36a5245-0912-53fb-b2d2-a31be8cfe5e5",
-	  "unitId": "6",
-	  "slug": "paperboo",
-	  "name": "Paperboo",
-	  "rarity": "A"
+		"title": "Electroboo Bangboo",
+		"name": "electroboo",
+		"nick_name": "Electroboo",
+		"bio": "Bzzzt... Please wear insulated gloves when petting.",
+		"stats": {
+			"HP": 4343,
+			"ATK": 3260,
+			"DEF": 427,
+			"Impact": 94
+		},
+		"skills": [
+			{
+				"name": "Maximum Voltage!",
+				"desc": "Active Skill Charges the enemy and continuously electrocutes the target, dealing Electric DMG and accumulating Electric Anomaly Buildup."
+			},
+			{
+				"name": "Billion Volt Thunderbolt!",
+				"desc": "Bangboo Chain Attack Continually electrocutes the target, dealing Electric DMG and inflicting massive Electric Anomaly Buildup."
+			}
+		],
+		"categories": [
+			{
+				"name": "a-rank"
+			}
+		]
 	},
 	{
-	  "id": "bfa64468-668a-5850-a2d0-fc18f9d5fda4",
-	  "unitId": "13",
-	  "slug": "penguinboo",
-	  "name": "Penguinboo",
-	  "rarity": "A"
+		"title": "Booressure Bangboo",
+		"name": "booressure",
+		"nick_name": "Booressure",
+		"bio": "Understanding the mood of a conversation is key to becoming a Bangboo social expert.",
+		"stats": {
+			"HP": 4343,
+			"ATK": 3260,
+			"DEF": 427,
+			"Impact": 94
+		},
+		"skills": [
+			{
+				"name": "Ether Bubble",
+				"desc": "Active Skill Releases Ether bubbles that generate Energy for characters coming into contact with them."
+			}
+		],
+		"categories": [
+			{
+				"name": "a-rank"
+			}
+		]
 	},
 	{
-	  "id": "5dc64002-c783-5c59-8992-b13ff62fd676",
-	  "unitId": "19",
-	  "slug": "plugboo",
-	  "name": "Plugboo",
-	  "rarity": "S"
+		"title": "Rocketboo Bangboo",
+		"name": "rocketboo",
+		"nick_name": "Rocketboo",
+		"bio": "This Bangboo accelerates for 17.5 steps when running a hundred kilometers.",
+		"stats": {
+			"HP": 4343,
+			"ATK": 3260,
+			"DEF": 427,
+			"Impact": 94
+		},
+		"skills": [
+			{
+				"name": "Boom!",
+				"desc": "Active Skill Mounts a rocket and charges at the target. Upon hitting a target, the rocket will explode, dealing Fire DMG to enemies within range and accumulating Fire Anomaly Buildup."
+			},
+			{
+				"name": "Ka-Boom Express Shipping",
+				"desc": "Bangboo Chain Attack Mounts a rocket and charges at the target. Upon hitting a target, the rocket will explode, dealing Fire DMG to enemies in a large area and inflicting massive Fire Anomaly Buildup."
+			}
+		],
+		"categories": [
+			{
+				"name": "s-rank"
+			}
+		]
 	},
 	{
-	  "id": "735b324b-8550-5e29-aaba-a771877989a2",
-	  "unitId": "20",
-	  "slug": "resonaboo",
-	  "name": "Resonaboo",
-	  "rarity": "S"
-	},
-	{
-	  "id": "256ed643-1f59-57c5-8d14-3b3c5648ba7a",
-	  "unitId": "12",
-	  "slug": "rocketboo",
-	  "name": "Rocketboo",
-	  "rarity": "S"
-	},
-	{
-	  "id": "2952c892-8009-5e49-9ac3-a30af6133940",
-	  "unitId": "9",
-	  "slug": "safety",
-	  "name": "Safety",
-	  "rarity": "S"
-	},
-	{
-	  "id": "c452d558-3c49-542d-988b-169c3b4ec379",
-	  "unitId": "10",
-	  "slug": "sharkboo",
-	  "name": "Sharkboo",
-	  "rarity": "S"
-	},
-	{
-	  "id": "9b70a81e-74cf-5692-a0bf-e53832f815fb",
-	  "unitId": "2",
-	  "slug": "sumoboo",
-	  "name": "Sumoboo ",
-	  "rarity": "A"
+		"title": "Resonaboo Bangboo",
+		"name": "resonaboo",
+		"nick_name": "Resonaboo",
+		"bio": "",
+		"stats": {
+			"HP": 4343,
+			"ATK": 3260,
+			"DEF": 427,
+			"Impact": 94
+		},
+		"skills": [
+			{
+				"name": "Mini-Black Hole",
+				"desc": "Summon an Ether black hole that continuously pulls in enemies and deals Ether DMG to enemies struck and accumulated Ether Attribute Anomaly Buildup."
+			},
+			{
+				"name": "Primordial Black Hole",
+				"desc": "Throws an Ether bomb at the target, dealing Ether DMG and accumulating massive Ether Attribute Anomaly Buildup."
+			}
+		],
+		"categories": [
+			{
+				"name": "s-rank"
+			}
+		]
 	}
-  ]
+]

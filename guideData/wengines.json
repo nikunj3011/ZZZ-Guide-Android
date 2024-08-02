@@ -1,1862 +1,1425 @@
 [
 	{
-		"engineId": "32",
-		"name": "Bashful Demon",
-		"rarity": "A",
-		"talentName": "Visage of Greed",
-		"element": "Ice",
-		"type": "Support",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/3a53e4eb9541820085d177375d18b74d/d1e3d/zzz_Bashful_Demon.webp",
-								"srcSet": "/static/3a53e4eb9541820085d177375d18b74d/72e27/zzz_Bashful_Demon.webp 39w,\n/static/3a53e4eb9541820085d177375d18b74d/7a63e/zzz_Bashful_Demon.webp 78w,\n/static/3a53e4eb9541820085d177375d18b74d/d1e3d/zzz_Bashful_Demon.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "weeping-cradle",
+		"title": "Weeping Cradle",
+		"desc": "A special W-Engine with multiple layers embedded inside. It can quickly recharge special Bangboo and custom-made combat equipment. This model is favored by Alexandrina.",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/28/9f4924ffe81c410503bae88fa2091112_3523828991100569349.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "PEN Ratio"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Support</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Punishment",
+				"value": "While off-field, Energy Regen increases by <span style=\"color: rgb(106, 168, 79)\">0.6</span>/s. Dealing <span style=\"color: rgb(71, 199, 253)\">Electric DMG</span> increases the DMG taken by the target from all squad members by <span style=\"color: rgb(106, 168, 79)\">15%</span> for 3s. During this period, this effect is further increased by <span style=\"color: rgb(106, 168, 79)\">2.5%</span> every 0.5s, up to a maximum additional increase of <span style=\"color: rgb(106, 168, 79)\">15%</span>. Repeated triggers only refreshes its duration without refreshing the DMG increase effect. Passive effects of the same name do not stack."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Ice DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22/24%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When launching an EX Special Attack, all squad members' ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2/2.3/2.6/2.9/3.2%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"4\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. Retriggering refreshes duration. Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "48",
-			"max_atk": "624",
-			"base_special": "10%",
-			"max_special": "25%"
-		}
+		],
+		"additional_info": "A special W-Engine with multiple layers embedded inside. It contains a special Ether charging layer that can quickly recharge special Bangboo and custom-made combat equipment. Even though this W-Engine looks like a cruel confinement chamber, Alexandrina's Bangboo seem to enjoy sneaking in there to recharge their batteries. They even treat resting inside as a cozy reward.",
+		"categories": [
+			{
+				"name": "s-rank"
+			},
+			{
+				"name": "support"
+			}
+		]
 	},
 	{
-		"engineId": "20",
-		"name": "Big Cylinder",
-		"rarity": "A",
-		"talentName": "Ten Ton Top",
-		"element": null,
-		"type": "Defence",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/bf48e80966d2b0a9f83f00140d1973c3/acb7c/Big_Cylinder.png",
-								"srcSet": "/static/bf48e80966d2b0a9f83f00140d1973c3/1c9ce/Big_Cylinder.png 64w,\n/static/bf48e80966d2b0a9f83f00140d1973c3/bf8e1/Big_Cylinder.png 128w,\n/static/bf48e80966d2b0a9f83f00140d1973c3/acb7c/Big_Cylinder.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/bf48e80966d2b0a9f83f00140d1973c3/8257c/Big_Cylinder.webp 64w,\n/static/bf48e80966d2b0a9f83f00140d1973c3/6766a/Big_Cylinder.webp 128w,\n/static/bf48e80966d2b0a9f83f00140d1973c3/22bfc/Big_Cylinder.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "deep-sea-visitor",
+		"title": "Deep Sea Visitor",
+		"desc": "A high-power W-Engine that possesses efficient freezing capabilities and high damage output. This model is often used by Ellen.",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/28/dae26d43c0d188d2f4e555e52a18962c_2740317081228095773.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "CRIT Rate"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: rgb(241, 194, 50)\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Lord of Seas",
+				"value": "Increases <span style=\"color: rgb(152, 239, 240)\">Ice DMG</span> by <span style=\"color: rgb(106, 168, 79)\">25%</span>. Dealing <span style=\"color: rgb(152, 239, 240)\">Ice DMG</span> usingDash Attacks or Dodge Counters increases the equipper's CRIT Rate by <span style=\"color: rgb(106, 168, 79)\">20%</span> for 8s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Reduces DMG taken by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.5/8.5/9.5/10.5/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". After being attacked, the next attack to hit an enemy will trigger a critical hit and deal\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 600/690/780/870/960% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"of the equipper's DEF as additional DMG. This effect can be triggered once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.5s.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Defense",
-			"base_atk": "48",
-			"max_atk": "624",
-			"base_special": "16%",
-			"max_special": "40%"
-		}
+		],
+		"additional_info": "This high-power W-Engine has the capability to rapidly lower the temperature of the environment, allowing it to instantly freeze nearby objects. Although it is an excellent tactical W-Engine due to its efficient freezing and high damage output, Ellen primarily uses it to make frappes.",
+		"categories": [
+			{
+				"name": "s-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "38",
-		"name": "Bunny Band",
-		"rarity": "A",
-		"talentName": "Pet the Bunny",
-		"element": null,
-		"type": "Defence",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#f8f8f8",
-						"images": {
-							"fallback": {
-								"src": "/static/dd40eae5e461422ded15fb9f4deb6156/d1e3d/zzz_Bunny_Band.webp",
-								"srcSet": "/static/dd40eae5e461422ded15fb9f4deb6156/72e27/zzz_Bunny_Band.webp 39w,\n/static/dd40eae5e461422ded15fb9f4deb6156/7a63e/zzz_Bunny_Band.webp 78w,\n/static/dd40eae5e461422ded15fb9f4deb6156/d1e3d/zzz_Bunny_Band.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "fusion-compiler",
+		"desc": "The latest W-Engine that possesses a hypercalculation core. It can compile operational codes for machines at top speed.",
+		"title": "Fusion Compiler",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/28/bb37a8b17006c2a4f0b67c912dbf8638_7324575882580030643.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "PEN Ratio"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Anomaly</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Data Flood",
+				"value": "Increases <span style=\"color: rgb(152, 239, 240)\">Electric DMG</span> by <span style=\"color: rgb(106, 168, 79)\">20%</span>. When using a Special Attack or an EX Special Attack, the equipper's Anomaly Proficiency is increased by 25 for 8s, stacking up to 3 times. The duration of each stack is calculated separately."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases Max HP by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/9.2/10.4/11.6/12.8%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Increases the equipper's ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" when they are shielded.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Defense",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "16%",
-			"max_special": "40%"
-		}
+		],
+		"additional_info": "The latest W-Engine that possesses a hypercalculation core. It can compile operational codes for machines at top speed or collect combat data to provide support for your squad. Of course, for Grace, this W-Engine is just a device she uses to communicate with her silicon-based children.",
+		"categories": [
+			{
+				"name": "s-rank"
+			},
+			{
+				"name": "anomaly"
+			}
+		]
 	},
 	{
-		"engineId": "21",
-		"name": "Cannon Rotor",
-		"rarity": "A",
-		"talentName": "Oversized Barrel",
-		"element": null,
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/28127ed5d3e632eb9fc6e975fff7f646/acb7c/Cannon_Rotor.png",
-								"srcSet": "/static/28127ed5d3e632eb9fc6e975fff7f646/1c9ce/Cannon_Rotor.png 64w,\n/static/28127ed5d3e632eb9fc6e975fff7f646/bf8e1/Cannon_Rotor.png 128w,\n/static/28127ed5d3e632eb9fc6e975fff7f646/acb7c/Cannon_Rotor.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/28127ed5d3e632eb9fc6e975fff7f646/8257c/Cannon_Rotor.webp 64w,\n/static/28127ed5d3e632eb9fc6e975fff7f646/6766a/Cannon_Rotor.webp 128w,\n/static/28127ed5d3e632eb9fc6e975fff7f646/22bfc/Cannon_Rotor.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "the-restrained",
+		"desc": "A special W-Engine with a powerful temperature control system. Modified by Lycaon, it has the capability to quickly create extremely cold environments.",
+		"title": "The Restrained",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/28/639c8fe847c4cb93ae21a9b3ef0784e0_2201212053026817330.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Impact"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Stun</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Binding Chains",
+				"value": "Increases <span style=\"color: rgb(152, 239, 240)\">Ice DMG</span> by <span style=\"color: rgb(106, 168, 79)\">20%</span>. Basic Attack DMG and Daze increases by <span style=\"color: rgb(106, 168, 79)\">20%</span>."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.5/8.6/9.7/10.8/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Attacks that land a CRIT on an enemy will inflict an additional \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"200%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" of ATK as DMG. This effect can only be triggered once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/7.5/7/6.5/6s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Crit Rate",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "8%",
-			"max_special": "20%"
-		}
+		],
+		"additional_info": "This special W-Engine has the capability to create extreme low temperatures. Its radiator opening was designed with an eerie animal teeth decoration and often drips condensation. After Lycaon's improvements, its rough appearance has become much more refined and elegant, and the opening is now utilized to store envelopes and other keepsakes.",
+		"categories": [
+			{
+				"name": "s-rank"
+			},
+			{
+				"name": "stun"
+			}
+		]
 	},
 	{
-		"engineId": "25",
-		"name": "Deep Sea Visitor",
-		"rarity": "S",
-		"talentName": "Lord of Seas",
-		"element": "Ice",
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/1caa98f79cd184e88b1621ec66c0f794/acb7c/Deep_Sea_Visitor.png",
-								"srcSet": "/static/1caa98f79cd184e88b1621ec66c0f794/1c9ce/Deep_Sea_Visitor.png 64w,\n/static/1caa98f79cd184e88b1621ec66c0f794/bf8e1/Deep_Sea_Visitor.png 128w,\n/static/1caa98f79cd184e88b1621ec66c0f794/acb7c/Deep_Sea_Visitor.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/1caa98f79cd184e88b1621ec66c0f794/8257c/Deep_Sea_Visitor.webp 64w,\n/static/1caa98f79cd184e88b1621ec66c0f794/6766a/Deep_Sea_Visitor.webp 128w,\n/static/1caa98f79cd184e88b1621ec66c0f794/22bfc/Deep_Sea_Visitor.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "hellfire-gears",
+		"desc": "A functional W-Engine with ultra-high power capacity. Modified by Koleda, its energy level has almost exceeded the safety limit.",
+		"title": "Hellfire Gears",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/28/8c3175f84212c34583bcbfdd1625508d_4767881933208113143.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Energy Regen"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Stun</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Passionate Construction",
+				"value": "Increases <span style=\"color: rgb(248, 79, 54)\">Fire DMG</span> by <span style=\"color: rgb(106, 168, 79)\">20%</span>. When using an EX Special Attack, the equipper's Impact increases by <span style=\"color: rgb(106, 168, 79)\">10%</span> for 10s, stacking up to 2 times. The duration of each stack is calculated separately."
 			}
-		},
-		"description": {
-			"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Increases \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Ice DMG\",\"marks\":[{\"type\":\"underline\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"25/31.5/38/44.5/50%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". Upon hitting an enemy with a Basic Attack, the equipper's CRIT Rate increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10/12.5.15/17.5/20%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". When dealing \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Ice DMG\",\"marks\":[{\"type\":\"underline\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" with a\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Dash Attack, the equipper's CRIT Rate increases by an additional \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10/12.5.15/17.5/20%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"15s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". The duration of each effect is calculated separately.\",\"marks\":[],\"data\":{}}]}]}"
-		},
-		"stats": {
-			"stat": "Crit Rate",
-			"base_atk": "55",
-			"max_atk": "713",
-			"base_special": "9.6%",
-			"max_special": "24%"
-		}
+		],
+		"additional_info": "This W-Engine is renowned for its ultra power. Modified by Koleda, its energy level has almost exceeded the safety limit. Although this W-Engine is entirely designed for damage output, and the Speedup and Incineration functions have been merged into one, this is precisely what Koleda wanted.",
+		"categories": [
+			{
+				"name": "s-rank"
+			},
+			{
+				"name": "stun"
+			}
+		]
 	},
 	{
-		"engineId": "15",
-		"name": "Demara Battery Mark II",
-		"rarity": "A",
-		"talentName": "In a Flash of Light",
-		"element": "Electric",
-		"type": "Stun",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/2e823bdea1941380099e29c62da7196f/acb7c/Demara_Battery_Mark_II.png",
-								"srcSet": "/static/2e823bdea1941380099e29c62da7196f/1c9ce/Demara_Battery_Mark_II.png 64w,\n/static/2e823bdea1941380099e29c62da7196f/bf8e1/Demara_Battery_Mark_II.png 128w,\n/static/2e823bdea1941380099e29c62da7196f/acb7c/Demara_Battery_Mark_II.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/2e823bdea1941380099e29c62da7196f/8257c/Demara_Battery_Mark_II.webp 64w,\n/static/2e823bdea1941380099e29c62da7196f/6766a/Demara_Battery_Mark_II.webp 128w,\n/static/2e823bdea1941380099e29c62da7196f/22bfc/Demara_Battery_Mark_II.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "riot-suppressor-mark-vi",
+		"title": "Riot Suppressor Mark VI",
+		"desc": "The latest tactical W-Engine used by Public Security's elite Hollow squads, possessing a powerful Ether energy source. It's Zhu Yuan's favored model.",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/28/ea6e21561ddb1c48023bae5cfbee674d_1735414023453250545.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Crit DMG"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Security Patrol",
+				"value": "Increases <span style=\"color: rgb(223, 84, 255)\">Ether DMG</span> by <span style=\"color: rgb(75, 152, 35)\">25%</span>. Launching an EX Special Attack grants the equipper 8 Charge stacks, stacking up to 8 times. Whenever the equipper's Basic Attack or Dash Attack deals <span style=\"color: rgb(223, 84, 255)\">Ether DMG</span>, consumes a Charge stack and increases the skill's DMG by <span style=\"color: rgb(75, 152, 35)\">45%</span>."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Electric DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22/22%. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"When the equipper hits an enemy with Dodge Counter or Assist Attack, their Energy Generation Rate increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"18/20.5/23/25/27.5%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Impact",
-			"base_atk": "48",
-			"max_atk": "624",
-			"base_special": "6%",
-			"max_special": "15%"
-		}
+		],
+		"additional_info": "The latest tactical W-Engine used by Public Security's elite Hollow squads. It uses a powerful Ether energy source to supply all combat equipment with explosive power for a short period of time. Although the W-Engines of many elite squad members often suffer from prolonged combat, Zhu Yuan's is in perfect condition. She treats it with utmost care, keeping it looking completely brand new.",
+		"categories": [
+			{
+				"name": "s-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "19",
-		"name": "Drill Rig - Red Axis",
-		"rarity": "A",
-		"talentName": "Hell's Generator",
-		"element": "Electric",
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/8f187440dc2c1f9effe51bd7af4ea326/acb7c/Drill_Rig_Red_Axis.png",
-								"srcSet": "/static/8f187440dc2c1f9effe51bd7af4ea326/1c9ce/Drill_Rig_Red_Axis.png 64w,\n/static/8f187440dc2c1f9effe51bd7af4ea326/bf8e1/Drill_Rig_Red_Axis.png 128w,\n/static/8f187440dc2c1f9effe51bd7af4ea326/acb7c/Drill_Rig_Red_Axis.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/8f187440dc2c1f9effe51bd7af4ea326/8257c/Drill_Rig_Red_Axis.webp 64w,\n/static/8f187440dc2c1f9effe51bd7af4ea326/6766a/Drill_Rig_Red_Axis.webp 128w,\n/static/8f187440dc2c1f9effe51bd7af4ea326/22bfc/Drill_Rig_Red_Axis.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "the-brimstone",
+		"desc": "A W-Engine made for Soldier 11 by Obsidian Division. Its intense heat can be used to clear the entire battlefield.",
+		"title": "The Brimstone",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/28/24ddd958687a9320d3c4c021d7c21183_9036957407421452984.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Scorching Breath",
+				"value": "Increases <span style=\"color: rgb(248, 79, 54)\">Fire DMG</span> by <span style=\"color: rgb(106, 168, 79)\">20%</span>. Upon hitting an enemy with a Basic Attack, Dash Attack, or Dodge Counter, the equipper's ATK increases by <span style=\"color: rgb(106, 168, 79)\">2%</span> for 8s, stacking up to 8 times. This effect can trigger once every 0.5s. The duration of each stack is calculated separately."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When launching an EX Special Attack or Chain Attack, \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Electric DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" from Basic Attacks and Dash Attacks increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"50/57.5/65/72.5/80%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Energy Regen",
-			"base_atk": "48",
-			"max_atk": "624",
-			"base_special": "20%",
-			"max_special": "50%"
-		}
+		],
+		"additional_info": "A violent Obsidian Division W-Engine forged with fire and filled with a forbidden fuel that has been reprocessed using Ether-technology. Its intense heat can be used to clear the entire battlefield. Rumor has it that its designer was exchanging W-Engine design ideas with Soldier 11 over dinner. After an hour spent enjoying extra spicy noodles, she decided to bring extra spicy revenge to her enemies.",
+		"categories": [
+			{
+				"name": "s-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "14",
-		"name": "Electro-Lip Gloss",
-		"rarity": "A",
-		"talentName": "Kiss of Death",
-		"element": null,
-		"type": "Anomaly",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/05c243963ae78bcd62cdbdf7bfe30dd6/acb7c/Electro_Lip_Gloss.png",
-								"srcSet": "/static/05c243963ae78bcd62cdbdf7bfe30dd6/1c9ce/Electro_Lip_Gloss.png 64w,\n/static/05c243963ae78bcd62cdbdf7bfe30dd6/bf8e1/Electro_Lip_Gloss.png 128w,\n/static/05c243963ae78bcd62cdbdf7bfe30dd6/acb7c/Electro_Lip_Gloss.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/05c243963ae78bcd62cdbdf7bfe30dd6/8257c/Electro_Lip_Gloss.webp 64w,\n/static/05c243963ae78bcd62cdbdf7bfe30dd6/6766a/Electro_Lip_Gloss.webp 128w,\n/static/05c243963ae78bcd62cdbdf7bfe30dd6/22bfc/Electro_Lip_Gloss.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "steel-cushion",
+		"desc": "A supercomputing W-Engine equipped with a motion monitoring feature. Thanks to Nekomata's modifications, it perfectly matches the fast reflexes and combat maneuvers of feline Thirens.",
+		"title": "Steel Cushion",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/a7fc40013025c8ed2839deac526f2a6e_8950822861191014269.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "CRIT Rate"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Metal Cat Claws",
+				"value": "Increases <span style=\"color: rgb(255, 235, 97)\">Physical DMG</span> by <span style=\"color: rgb(106, 168, 79)\">20%</span>. The equipper's DMG increases by <span style=\"color: rgb(106, 168, 79)\">25%</span> when attacking the enemy from behind."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When there are enemies inflicted with Attribute Anomaly on the field, the equipper's ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" and they deal an additional \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22.5/25% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"more DMG to the target.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Anomaly Proficiency",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "30",
-			"max_special": "75"
-		}
+		],
+		"additional_info": "A supercomputing W-Engine equipped with a motion monitoring feature, perfectly matching the feline Thiren's fast reflexes and combat maneuvers. Nekomata has added a foldable knife to its casing. Although she claims that this design is to facilitate her in battle, the knife has a residue of the smell stained from cutting mackerel on it.",
+		"categories": [
+			{
+				"name": "s-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "28",
-		"name": "Fusion Compiler",
-		"rarity": "S",
-		"talentName": "Data Flood",
-		"element": "Electric",
-		"type": "Anomaly",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#f8f8f8",
-						"images": {
-							"fallback": {
-								"src": "/static/65a18e597955f39716db583b45ca56fd/d1e3d/zzz_Fusion_Compiler.webp",
-								"srcSet": "/static/65a18e597955f39716db583b45ca56fd/72e27/zzz_Fusion_Compiler.webp 39w,\n/static/65a18e597955f39716db583b45ca56fd/7a63e/zzz_Fusion_Compiler.webp 78w,\n/static/65a18e597955f39716db583b45ca56fd/d1e3d/zzz_Fusion_Compiler.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "six-shooter",
+		"desc": "A special W-Engine modeled after a revolver. It can load bullet-shaped condensed Ether batteries, which release a great amount of power when fired.",
+		"title": "Six Shooter",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/a0744ea07b5a4d542cde0ee4b81f7084_6339759383361167585.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Impact"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Stun</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Fire!",
+				"value": "The equipper gains a Charge stack every 50s, stacking up to 6 times. When launching an EX Special Attack, consumes all Charge stacks and each stack consumed increases the skill's Daze inflicted by <span style=\"color: rgb(106, 168, 79)\">20%</span>."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12/15/18/21/24%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When using a Special Attack or EX Special Attack, the equipper's Anomaly Proficiency is increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/31/37/43/50\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "PEN Ratio",
-			"base_atk": "53",
-			"max_atk": "684",
-			"base_special": "9.6%",
-			"max_special": "24%"
-		}
+		],
+		"additional_info": "A special W-Engine modeled after a revolver. It can load six bullet-shaped condensed Ether batteries, which release a significant amount of power when fired. It is said that as long as you carry this W-Engine, you will be able to spontaneously learn how to whistle and will occasionally reference old movies while making a cowboy voice.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "stun"
+			}
+		]
 	},
 	{
-		"engineId": "23",
-		"name": "Hellfire Gears",
-		"rarity": "S",
-		"talentName": "Passionate Construction",
-		"element": "Fire",
-		"type": "Stun",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/61adfb51dfee1ad89b619401aa3fdcec/acb7c/Hellfire_Gears.png",
-								"srcSet": "/static/61adfb51dfee1ad89b619401aa3fdcec/1c9ce/Hellfire_Gears.png 64w,\n/static/61adfb51dfee1ad89b619401aa3fdcec/bf8e1/Hellfire_Gears.png 128w,\n/static/61adfb51dfee1ad89b619401aa3fdcec/acb7c/Hellfire_Gears.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/61adfb51dfee1ad89b619401aa3fdcec/8257c/Hellfire_Gears.webp 64w,\n/static/61adfb51dfee1ad89b619401aa3fdcec/6766a/Hellfire_Gears.webp 128w,\n/static/61adfb51dfee1ad89b619401aa3fdcec/22bfc/Hellfire_Gears.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "unfettered-game-ball",
+		"desc": "A new supercomputing W-Engine, featuring cutting-edge integrated chips that dynamically monitor the battlefield and provide tactical analysis for the user.",
+		"title": "Unfettered Game Ball",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/a659e9bd89593804c966577ea05674b1_1691654266621243181.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Energy Regen"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Support</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Game Start!",
+				"value": "Whenever the equipper's attack triggers an Attribute Counter effect, all squad members' CRIT Rate increases by <span style=\"color: rgb(106, 168, 79)\">20%</span> for 5s. Passive effects of the same name do not stack."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When off-field, the equipper's Energy Regen increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.6/0.75/0.9/1.5/1.2\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" per second. When using an EX Special Attack, the equipper's Impact is increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/12.5/15/17.5/20%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Impact",
-			"base_atk": "53",
-			"max_atk": "684",
-			"base_special": "7.2%",
-			"max_special": "18%"
-		}
+		],
+		"additional_info": "A new supercomputing W-Engine, featuring cutting-edge integrated chips that dynamically monitor the battlefield and provide tactical analysis for its user. Furthermore, this W-Engine can serve as a portable console, allowing its user to play the most popular video games anytime, anywhere. However, it is not advisable to use the speakers while playing games... Especially not in Hollow areas frequented by Ethereals.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "support"
+			}
+		]
 	},
 	{
-		"engineId": "17",
-		"name": "Housekeeper",
-		"rarity": "A",
-		"talentName": "Safe Household Saw",
-		"element": "Physical",
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/9ec6c5da8147ef2b977571bc09c4e3e8/acb7c/Housekeeper.png",
-								"srcSet": "/static/9ec6c5da8147ef2b977571bc09c4e3e8/1c9ce/Housekeeper.png 64w,\n/static/9ec6c5da8147ef2b977571bc09c4e3e8/bf8e1/Housekeeper.png 128w,\n/static/9ec6c5da8147ef2b977571bc09c4e3e8/acb7c/Housekeeper.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/9ec6c5da8147ef2b977571bc09c4e3e8/8257c/Housekeeper.webp 64w,\n/static/9ec6c5da8147ef2b977571bc09c4e3e8/6766a/Housekeeper.webp 128w,\n/static/9ec6c5da8147ef2b977571bc09c4e3e8/22bfc/Housekeeper.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "cannon-rotor",
+		"desc": "A high-performance supercomputing W-Engine, capable of collecting real-time battlefield data and equipped with mini cannons.",
+		"title": "Cannon Rotor",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/d70339497b7220ed85fe6cc88524d991_2331968646945133750.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "CRIT Rate"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Oversized Barrel",
+				"value": "Increases CRIT Rate by <span style=\"color: rgb(106, 168, 79)\">50%</span>. Attacks that land a critical hit on an enemy will inflict an additional 275% of ATK as DMG. This effect can trigger once every 20s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"While off-field, Energy Regen increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.45/0.52/0.58/0.65/0.72 per second\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When an EX Special Attack hits an enemy, the equipper's \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Physical DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3/3.5/4/4.4/4.8%,\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times and lasting \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Retriggering refreshes duration.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "48",
-			"max_atk": "624",
-			"base_special": "10%",
-			"max_special": "25%"
-		}
+		],
+		"additional_info": "A high-performance supercomputing W-Engine, capable of collecting real-time data on the battlefield and providing tactical support to its operator. Additionally, it is equipped with mini cannons and can even be deployed as an automatic combat unit in critical moments. In such situations, the operator may become more of a hindrance than a help.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "52",
-		"name": "Kaboom the Cannon",
-		"rarity": "A",
-		"talentName": "Visage of Greed",
-		"element": null,
-		"type": "Support",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/07b10ef94a2c0384f90fbabd4037189a/d1e3d/zzz_kaboom.webp",
-								"srcSet": "/static/07b10ef94a2c0384f90fbabd4037189a/72e27/zzz_kaboom.webp 39w,\n/static/07b10ef94a2c0384f90fbabd4037189a/7a63e/zzz_kaboom.webp 78w,\n/static/07b10ef94a2c0384f90fbabd4037189a/d1e3d/zzz_kaboom.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "bashful-demon",
+		"desc": "An intricate W-Engine developed by Section 6 and later modified with extra features. It can control Ether particles to form an energy field. This model is favored by Soukaku.",
+		"title": "Bashful Demon",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/1f30c15bf69442c4d4194f38b12ffc70_913108221502838372.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Support</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Visage of Greed",
+				"value": "Increases <span style=\"color: rgb(152, 239, 240)\">Ice DMG</span> by <span style=\"color: rgb(106, 168, 79)\">15%</span>. When launching an EX Special Attack, all squad members' ATK increases by <span style=\"color: rgb(106, 168, 79)\">2%</span> for 12s, stacking up to 4 times. Retriggering refreshes duration. Passive effects of the same name do not stack."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When any friendly unit in the squad attacks and hits an enemy, all squad members' ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2.5/2.8/3.2/3.6/4%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"4\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. The duration of each stack is calculated separately, and each friendly unit can provide \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" stack of the buff. Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Energy Regen",
-			"base_atk": "48",
-			"max_atk": "624",
-			"base_special": "20%",
-			"max_special": "50%"
-		}
+		],
+		"additional_info": "An intricate W-Engine developed by Section 6 and later modified using the technology of a certain martial arts clan. It can control Ether particles to form an energy field and boasts a terrifying appearance that can easily silence a crying child! If you are unfortunate enough to face its wicked stare, then just wait until it unfurls its fangs. What lies inside is... Don't laugh! This poor little thing really hurts when it hits you!",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "support"
+			}
+		]
 	},
 	{
-		"engineId": "36",
-		"name": "Original Transmorpher",
-		"rarity": "A",
-		"talentName": "Starlight Knight Flying Kick",
-		"element": null,
-		"type": "Defence",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/b307e5270649403131bf2e5fb0be59d4/d1e3d/zzz_Original_Transmorpher.webp",
-								"srcSet": "/static/b307e5270649403131bf2e5fb0be59d4/72e27/zzz_Original_Transmorpher.webp 39w,\n/static/b307e5270649403131bf2e5fb0be59d4/7a63e/zzz_Original_Transmorpher.webp 78w,\n/static/b307e5270649403131bf2e5fb0be59d4/d1e3d/zzz_Original_Transmorpher.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "big-cylinder",
+		"desc": "A powerful protection-type W-Engine, characterized by thick oil cylinders that ceaselessly roar inside it. It can provide sufficient power for heavy machinery.",
+		"title": "Big Cylinder",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/2516f089225f5e24a3b94e2fc5c4efd9_419873227136385435.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "DEF %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Defense</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Ten Ton Top",
+				"value": "Ten Ton Top Reduces DMG taken by <span style=\"color: rgb(103, 174, 32)\">7.5%</span>. After being attacked, the next attack to hit an enemy will trigger a critical hit and deal <span style=\"color: rgb(103, 174, 32)\">600%</span> of the equipper's DEF as additional DMG. This effect can be triggered once every 7.5s."
 			}
-		},
-		"description": {
-			"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Increases Max HP by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8/9/10/11/12.5%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". When attacked, the equipper's Impact is increased by\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" 10/11.5/13/14.5/16% \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"12s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\".\",\"marks\":[],\"data\":{}}]}]}"
-		},
-		"stats": {
-			"stat": "HP",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "10%",
-			"max_special": "25%"
-		}
+		],
+		"additional_info": "This powerful protection-type W-Engine, characterized by thick oil engines that ceaselessly roar inside it, can even provide sufficient power for heavy machinery. Although its weight is so immense that ordinary people would not be able to lift it, it is just right for Ben to use it as a counterweight ball for his concrete pillar.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "defense"
+			}
+		]
 	},
 	{
-		"engineId": "13",
-		"name": "Precious Fossilized Core",
-		"rarity": "A",
-		"talentName": "Behemoth Hunter",
-		"element": null,
-		"type": "Stun",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/192d9d02afe582dfcd49b6c55d1fe92c/acb7c/Precious_Fossilized_Core.png",
-								"srcSet": "/static/192d9d02afe582dfcd49b6c55d1fe92c/1c9ce/Precious_Fossilized_Core.png 64w,\n/static/192d9d02afe582dfcd49b6c55d1fe92c/bf8e1/Precious_Fossilized_Core.png 128w,\n/static/192d9d02afe582dfcd49b6c55d1fe92c/acb7c/Precious_Fossilized_Core.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/192d9d02afe582dfcd49b6c55d1fe92c/8257c/Precious_Fossilized_Core.webp 64w,\n/static/192d9d02afe582dfcd49b6c55d1fe92c/6766a/Precious_Fossilized_Core.webp 128w,\n/static/192d9d02afe582dfcd49b6c55d1fe92c/22bfc/Precious_Fossilized_Core.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "drill-rig-red-axis",
+		"desc": "Originally a rev-enhanced W-Engine, it has been modified by Anton with the most expensive rotary drill parts that allow it to exceed its output limits.",
+		"title": "Drill Rig - Red Axis",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/51eea17bcd948bb74f838276c6637121_152065707901586759.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "CRIT DMG"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Hell's Generator",
+				"value": "When launching an EX Special Attack, <span style=\"color: rgb(71, 199, 253)\">Electric DMG</span> from Basic Attacks and Dash Attacks increases by <span style=\"color: rgb(106, 168, 79)\">50%</span> for 10s. This effect can trigger once every 15s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When the target's HP is no lower than \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"50%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", the equipper inflicts\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" more Daze. When the target's HP is no lower than \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"75%,\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" this bonus is further enhanced by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Impact",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "6%",
-			"max_special": "15%"
-		}
+		],
+		"additional_info": "Originally a rev-enhanced W-Engine, it has been modified by Anton with the most expensive rotary drill parts. These modifications allow the engine to temporarily exceed its output limits, enabling it to better serve Anton's 'bro.' Anton has spared no expense when it comes to anything related to his 'bro.'",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "35",
-		"name": "Rainforest Gourmet",
-		"rarity": "A",
-		"talentName": "Dinner's Ready!",
-		"element": null,
-		"type": "Anomaly",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/efa4a3ed56dc68dddcb86538a1bd01dc/d1e3d/zzz_Rainforest_Gourmet.webp",
-								"srcSet": "/static/efa4a3ed56dc68dddcb86538a1bd01dc/72e27/zzz_Rainforest_Gourmet.webp 39w,\n/static/efa4a3ed56dc68dddcb86538a1bd01dc/7a63e/zzz_Rainforest_Gourmet.webp 78w,\n/static/efa4a3ed56dc68dddcb86538a1bd01dc/d1e3d/zzz_Rainforest_Gourmet.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "starlight-engine-replica",
+		"desc": "A customized supercomputing W-Engine, specialized in aim support and ballistic calculations. Modified by Billy, it now looks like some sort of knock-off Starlight Knight figurine.",
+		"title": "Starlight Engine Replica",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/da1d61b78ac58994267108d486e1d607_4604412153787348452.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "CRIT Rate"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Knight Beam: Change",
+				"value": "Increases the equipper's <span style=\"color: rgb(255, 235, 97)\">Physical DMG</span> by <span style=\"color: rgb(75, 152, 35)\">36%</span> for 8s upon hitting an enemy no less than 6 meters away with a Basic Attack or Dash Attack."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"For every 10 Energy consumed, the equipper gains a buff that increases ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2.5/2.8/3.2/3.6/4% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Anomaly Proficiency",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "30",
-			"max_special": "75"
-		}
+		],
+		"additional_info": "A customized supercomputing W-Engine, specialized in aiming aid and ballistic calculations. After being modified by Billy, it now looks like some sort of knock-off Starlight Knight figurine. When it detects an enemy, it flashes and shouts out its programmed line. Although this move will surely alert the enemy, it's not a big deal for Billy, as long as it looks cool.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "26",
-		"name": "Riot Suppressor Mark VI",
-		"rarity": "S",
-		"talentName": "Security Patrol",
-		"element": "Ether",
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/0c433646324547c30e58783e9b1353b2/d1e3d/zzz_Riot_Suppressor_Mark_VI.webp",
-								"srcSet": "/static/0c433646324547c30e58783e9b1353b2/72e27/zzz_Riot_Suppressor_Mark_VI.webp 39w,\n/static/0c433646324547c30e58783e9b1353b2/7a63e/zzz_Riot_Suppressor_Mark_VI.webp 78w,\n/static/0c433646324547c30e58783e9b1353b2/d1e3d/zzz_Riot_Suppressor_Mark_VI.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "housekeeper",
+		"desc": "An enhanced W-Engine with a high rotation speed. A chainsaw has been integrated into its shaft. This model is often used by Corin.",
+		"title": "Housekeeper",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/db725981632c467d5c6cbb77657498ce_7207189592451608323.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Crit DMG"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Safe Household Saw",
+				"value": "While off-field, Energy Regen increases by <span style=\"color: rgb(75, 152, 35)\">0.45</span>/s. When an EX Special Attack hits an enemy, the equipper's <span style=\"color: rgb(255, 235, 97)\">Physical DMG</span> increases by <span style=\"color: rgb(75, 152, 35)\">3%</span>, stacking up to 15 times and lasting 1s. Retriggering refreshes duration."
 			}
-		},
-		"description": {
-			"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Increases CRIT Rate by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"15%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". Launching an EX Special Attack grants the equipper \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8 \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Charge stacks, up to a maximum of \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" stacks. Whenever the equipper's Basic Attack deals \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Ether DMG\",\"marks\":[{\"type\":\"underline\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", consumes a Charge stack and increases the skill's DMG by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"35%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\".\",\"marks\":[],\"data\":{}}]}]}"
-		},
-		"stats": {
-			"stat": "Crit Damage",
-			"base_atk": "55",
-			"max_atk": "713",
-			"base_special": "19.2%",
-			"max_special": "48%"
-		}
+		],
+		"additional_info": "An enhanced W-Engine with a high rotation speed. Corin has integrated its shaft portion with a chainsaw to provide additional cutting power for her 'cleaning' work. To ensure that her 'cleaning' goes smoothly and to minimize the pain inflicted on her target, she has thoughtfully increased the rotation speed to the maximum.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "51",
-		"name": "Roaring Ride",
-		"rarity": "A",
-		"talentName": "Collision Potential",
-		"element": null,
-		"type": "Anomaly",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/58003ca11d182a3a08c508542356e45b/d1e3d/zzz_41.webp",
-								"srcSet": "/static/58003ca11d182a3a08c508542356e45b/72e27/zzz_41.webp 39w,\n/static/58003ca11d182a3a08c508542356e45b/7a63e/zzz_41.webp 78w,\n/static/58003ca11d182a3a08c508542356e45b/d1e3d/zzz_41.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "the-vault",
+		"desc": "A cost-effective W-Engine that can store energy, with improvements made to its internal space. This model is often used by Nicole.",
+		"title": "The Vault",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/2021b8577a58805c3a25c7ac63e827de_3065549949730004307.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Energy Regen"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Support</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Money-Lover",
+				"value": "When equipped, dealing <span style=\"color: rgb(223, 84, 255)\">Ether DMG</span> using an EX Special Attack, Chain Attack, or Ultimate increases all squad members' DMG against the target by <span style=\"color: rgb(106, 168, 79)\">15%</span> and increases the equipper's Energy Regen by <span style=\"color: rgb(106, 168, 79)\">0.5</span>/s for 2s. Passive effects of the same name do not stack."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When EX Special Attack hits an enemy, one of three possible effects is randomly triggered for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"5\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" seconds. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.3s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". The same types of effects cannot stack. Repeated triggers reset the duration allowing several effects to be active at once: \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"increases the equipper's ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/9.210.4/11.6/12.8%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"increases the equipper's Anomaly Proficiency by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"40/46/52/58/64\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\",\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"increases the equipper's Anomaly Buildup Rate by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/28/32/36/40%.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "48",
-			"max_atk": "624",
-			"base_special": "10%",
-			"max_special": "25%"
-		}
+		],
+		"additional_info": "A cost-effective W-Engine that focuses on energy storage. After Nicole modified its internal space, it can now be used as a storage box. While the gold coins stored inside are fake, they may catch greedy Hollow Raiders off guard. Or rather, the operator can simply toss the heavy coins at them and knock them out.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "support"
+			}
+		]
 	},
 	{
-		"engineId": "30",
-		"name": "Six Shooter",
-		"rarity": "A",
-		"talentName": "Fire!",
-		"element": null,
-		"type": "Stun",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/4e3689c938dd240b1675fe7b21edbdf8/d1e3d/zzz_Six_Shooter.webp",
-								"srcSet": "/static/4e3689c938dd240b1675fe7b21edbdf8/72e27/zzz_Six_Shooter.webp 39w,\n/static/4e3689c938dd240b1675fe7b21edbdf8/7a63e/zzz_Six_Shooter.webp 78w,\n/static/4e3689c938dd240b1675fe7b21edbdf8/d1e3d/zzz_Six_Shooter.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "spring-embrace",
+		"desc": "A special W-Engine equipped with a temperature regulator where residual heat generated by the W-Engine's high frequency is funneled into the hot springs on its surface.",
+		"title": "Spring Embrace",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/77d13a1b07199eca1184947cbfc5dca6_362982672893142375.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK Ratio"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Defense</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Hot Spring Soup",
+				"value": "When attacked, the equipper's DEF increases by <span style=\"color: rgb(106, 168, 79)\">15%</span> for 12s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The equipper gains a Charge stack every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. When launching an EX Special Attack, consumes all Charge stacks, and each stack increases the Daze inflicted by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"4/4.6/5.2/5.8/6.4%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Impact",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "6%",
-			"max_special": "15%"
-		}
+		],
+		"additional_info": "A special W-Engine equipped with a temperature regulator where residual heat generated by the W-Engine's high frequency is funneled into the hot springs on its surface. The owner of this W-Engine can drink hot spring soup with all its spring warmth in front of frost-covered enemies. Of course, some people think it's like drinking bath water.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "defense"
+			}
+		]
 	},
 	{
-		"engineId": "34",
-		"name": "Slice of Time",
-		"rarity": "A",
-		"talentName": "Say Cheese",
-		"element": null,
-		"type": "Support",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/bc220c2657ed18dfb0102dce54d0ccc0/d1e3d/zzz_Slice_of_Time.webp",
-								"srcSet": "/static/bc220c2657ed18dfb0102dce54d0ccc0/72e27/zzz_Slice_of_Time.webp 39w,\n/static/bc220c2657ed18dfb0102dce54d0ccc0/7a63e/zzz_Slice_of_Time.webp 78w,\n/static/bc220c2657ed18dfb0102dce54d0ccc0/d1e3d/zzz_Slice_of_Time.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "bunny-band",
+		"desc": "A special W-Engine decorated with a fluffy bunny. However, it is just an imitation of the real animal.",
+		"title": "Bunny Band",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/86fc6746614138de80d380b8c284c975_1112372090618892522.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "DEF"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Defense</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Pet the Bunny",
+				"value": "Increases Max HP by <span style=\"color: rgb(106, 168, 79)\">8%</span>. Increases the equipper's ATK by <span style=\"color: rgb(106, 168, 79)\">10%</span> when they are shielded."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Any squad members' Dodge Counter, EX Special Attack, Assist Attack, or Chain Attack respectively generates \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20/23/26/29/32 (Dodge) | 25/28.5/32/35.5/40 (Special) | 30/34.5/39/43.5/48 (Assist) | 35/40/45/50/55 (Chain) \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"more Decibels and generates \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.7/0.8/0.9/1/1.1\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Energy for the equipper. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". The cooldown for each type of attack is independent of others. Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "PEN Ratio",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "8%",
-			"max_special": "20%"
-		}
+		],
+		"additional_info": "A special W-Engine decorated with a fluffy bunny. Although it is a mere imitation of the real animal, even the fiercest of Hollow Raiders can relieve stress by petting their bunnies while taking a break, which enhances their combat performance. There are many similar models in this series of W-Engines: a portable bunny, a foldable bunny, a furless bunny... Everyone can find one they will not be able to refuse.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "defense"
+			}
+		]
 	},
 	{
-		"engineId": "39",
-		"name": "Spring Embrace",
-		"rarity": "A",
-		"talentName": "Hot Spring Soup",
-		"element": null,
-		"type": "Defence",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#f8f8f8",
-						"images": {
-							"fallback": {
-								"src": "/static/6283439cef372ba166471ed5bd01b79b/d1e3d/zzz_Spring_Embrace.webp",
-								"srcSet": "/static/6283439cef372ba166471ed5bd01b79b/72e27/zzz_Spring_Embrace.webp 39w,\n/static/6283439cef372ba166471ed5bd01b79b/7a63e/zzz_Spring_Embrace.webp 78w,\n/static/6283439cef372ba166471ed5bd01b79b/d1e3d/zzz_Spring_Embrace.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "electro-lip-gloss",
+		"desc": "This damage-type W-Engine boasts a built-in current transformer, and automatically attracts electrically sensitive objects around the operator and deals additional damage to them.",
+		"title": "Electro-Lip Gloss",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/336e1dec31d4240f95655aff94d3730f_3065410309352357180.png",
+		"attributes": [
+			{
+				"key": "Name",
+				"value": "Electro-Lip Gloss"
+			},
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Anomaly Proficiency"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Anomaly</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Kiss of Death",
+				"value": "When there are enemies inflicted with Attribute Anomaly on the field, the equipper's ATK increases by <span style=\"color: rgb(106, 168, 79)\">12%</span> and they deal an additional <span style=\"color: rgb(106, 168, 79)\">10%</span> more DMG to the target."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Reduces DMG taken \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.5/8.5/9.5/10.5/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When attacked, the equipper's Energy Generation Rate increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When the equipper switches off-field, this buff will be transferred to the new on-field character with its duration refreshed. Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "10%",
-			"max_special": "25%"
-		}
+		],
+		"additional_info": "This damage-type W-Engine boasts a built-in current transformer, with its discharge part designed as a protruding lip gloss. It automatically attracts electrically sensitive objects around the operator and deals additional damage to them. Such is not the power of love, but rather the Lorentz force generated by a 1,000-volt electric field.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "anomaly"
+			}
+		]
 	},
 	{
-		"engineId": "11",
-		"name": "Starlight Engine",
-		"rarity": "A",
-		"talentName": "Knight Plummel",
-		"element": null,
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/e676208d15ca617a242f40c5a310d08a/acb7c/Starlight_Engine.png",
-								"srcSet": "/static/e676208d15ca617a242f40c5a310d08a/1c9ce/Starlight_Engine.png 64w,\n/static/e676208d15ca617a242f40c5a310d08a/bf8e1/Starlight_Engine.png 128w,\n/static/e676208d15ca617a242f40c5a310d08a/acb7c/Starlight_Engine.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/e676208d15ca617a242f40c5a310d08a/8257c/Starlight_Engine.webp 64w,\n/static/e676208d15ca617a242f40c5a310d08a/6766a/Starlight_Engine.webp 128w,\n/static/e676208d15ca617a242f40c5a310d08a/22bfc/Starlight_Engine.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "weeping-gemini",
+		"desc": "A W-Engine produced by recycling abandoned Bangboo shells. Its electrode cores made of recycled metals can release high-voltage charges.",
+		"title": "Weeping Gemini",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/b38daaf10a4a617ab983128bcb9ede1b_8053171427379220504.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Anomaly</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Lingering Cries",
+				"value": "Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper gains a buff that increases Anomaly Proficiency by <span style=\"color: rgb(106, 168, 79)\">30</span>, stacking up to 4 times. This effect expires when the target recovers from Stun or is defeated. The duration of each stack is calculated separately."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching a Dodge Counter or Quick Assist increases the equipper's ATK by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 12/13.8/15.6/17.4/19.2%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "10%",
-			"max_special": "25%"
-		}
+		],
+		"additional_info": "A W-Engine produced by recycling abandoned Bangboo shells. Though it's made from scrapped parts, it still caused some distress among Bangboo lovers. 'No Bangboo were hurt during the production of this W-Engine.' — the manufacturer had to include this note on the packaging due to protests from Bangboo rights organizations.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "anomaly"
+			}
+		]
 	},
 	{
-		"engineId": "18",
-		"name": "Starlight Engine Replica",
-		"rarity": "A",
-		"talentName": "Knight Beam: Change",
-		"element": "Physical",
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/6efcb959b844ba0d1fd569bbd40f8a84/acb7c/Starlight_Engine_Replica.png",
-								"srcSet": "/static/6efcb959b844ba0d1fd569bbd40f8a84/1c9ce/Starlight_Engine_Replica.png 64w,\n/static/6efcb959b844ba0d1fd569bbd40f8a84/bf8e1/Starlight_Engine_Replica.png 128w,\n/static/6efcb959b844ba0d1fd569bbd40f8a84/acb7c/Starlight_Engine_Replica.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/6efcb959b844ba0d1fd569bbd40f8a84/8257c/Starlight_Engine_Replica.webp 64w,\n/static/6efcb959b844ba0d1fd569bbd40f8a84/6766a/Starlight_Engine_Replica.webp 128w,\n/static/6efcb959b844ba0d1fd569bbd40f8a84/22bfc/Starlight_Engine_Replica.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "original-transmorpher",
+		"desc": "An epic W-Engine favored by Starlight Knight fans. Its high popularity and scarcity marketing strategy have caused an influx of knock-offs.",
+		"title": "Original Transmorpher",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/dfd5648949aa1a5286dc189335bcc8f4_3307768919842540691.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "HP %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Defense</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Starlight Knight Flying Kick",
+				"value": "Increases Max HP by <span style=\"color: rgb(106, 168, 79)\">8%</span>. When attacked, the equipper's Impact is increased by <span style=\"color: rgb(106, 168, 79)\">10%</span> for 12s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases the equipper's \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Physical DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"36/41/46.5/52/57.5%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"upon hitting an enemy at least \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"meters away with a Basic Attack or Dash Attack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "ATK",
-			"base_atk": "48",
-			"max_atk": "624",
-			"base_special": "10%",
-			"max_special": "25%"
-		}
+		],
+		"additional_info": "An epic W-Engine favored by Starlight Knight fans. Its high popularity and scarcity marketing strategy have caused an influx of knock-offs. 'Using a fake transmorpher will only turn you into a villain's minion!' said its distributor at the product launch conference. Did you see that mighty kick that can send any evil-doer flying? Such is the power of the original product license!",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "defense"
+			}
+		]
 	},
 	{
-		"engineId": "12",
-		"name": "Steam Oven",
-		"rarity": "A",
-		"talentName": "Thick Broth",
-		"element": null,
-		"type": "Stun",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/c359748f9658d63dfc73cda4d4370978/acb7c/Steam_Oven.png",
-								"srcSet": "/static/c359748f9658d63dfc73cda4d4370978/1c9ce/Steam_Oven.png 64w,\n/static/c359748f9658d63dfc73cda4d4370978/bf8e1/Steam_Oven.png 128w,\n/static/c359748f9658d63dfc73cda4d4370978/acb7c/Steam_Oven.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/c359748f9658d63dfc73cda4d4370978/8257c/Steam_Oven.webp 64w,\n/static/c359748f9658d63dfc73cda4d4370978/6766a/Steam_Oven.webp 128w,\n/static/c359748f9658d63dfc73cda4d4370978/22bfc/Steam_Oven.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "precious-fossilized-core",
+		"desc": "A special W-Engine whose outer shell is made of composite Ether materials that effectively absorb impact, and turning it against the enemy.",
+		"title": "Precious Fossilized Core",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/27/68cd79b8cc5fc3c21d68ac1d64c74b9c_4141920817216082416.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Impact"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Stun</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Behemoth Hunter",
+				"value": "When the target's HP is no lower than <span style=\"color: rgb(106, 168, 79)\">50%</span>, the equipper inflicts <span style=\"color: rgb(106, 168, 79)\">10%</span> more Daze. When the target's HP is no lower than <span style=\"color: rgb(106, 168, 79)\">75%</span>, this bonus is further enhanced by <span style=\"color: rgb(106, 168, 79)\">10%</span>."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"For every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Energy accumulated, the equipper's Impact is increased by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 2/2.3/2.6/2.9/3.2%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. After Energy is consumed, this bonus remains for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"more seconds. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Energy Regen",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "20%",
-			"max_special": "50%"
-		}
+		],
+		"additional_info": "A special W-Engine whose outer shell is made of composite Ether materials that effectively absorb incoming impacts in combat and turn it against the enemy. Rumors suggest that its prototype was crafted by a legendary Hollow explorer, and despite its ancient appearance, it continues to run smoothly. This W-Engine is literally an 'old timer' in the field of W-Engines.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "stun"
+			}
+		]
 	},
 	{
-		"engineId": "22",
-		"name": "Steel Cushion",
-		"rarity": "S",
-		"talentName": "Metal Cat Claws",
-		"element": "Physical",
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/be335ef9d7f3ac559515a9f9569c2949/acb7c/Steel_Cushion.png",
-								"srcSet": "/static/be335ef9d7f3ac559515a9f9569c2949/1c9ce/Steel_Cushion.png 64w,\n/static/be335ef9d7f3ac559515a9f9569c2949/bf8e1/Steel_Cushion.png 128w,\n/static/be335ef9d7f3ac559515a9f9569c2949/acb7c/Steel_Cushion.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/be335ef9d7f3ac559515a9f9569c2949/8257c/Steel_Cushion.webp 64w,\n/static/be335ef9d7f3ac559515a9f9569c2949/6766a/Steel_Cushion.webp 128w,\n/static/be335ef9d7f3ac559515a9f9569c2949/22bfc/Steel_Cushion.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "steam-oven",
+		"desc": "This damage-type W-Engine boasts a built-in current transformer, and automatically attracts electrically sensitive objects around the operator and deals additional damage to them.",
+		"title": "Steam Oven",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/cdc8672cca4b08f85b6805ee255b0990_8217408805846710874.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Energy Regen"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Stun</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Thick Broth",
+				"value": "For every 10 Energy accumulated by your squad, the equipper's Impact increases by <span style=\"color: rgb(106, 168, 79)\">2%</span>, stacking up to 8 times. After Energy is consumed, this bonus remains for 8 more seconds. The duration of each stack is calculated separately."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Physical DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20/25/30/35/40%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". The equipper's DMG increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/31.5/38/44/50%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" when attacking the enemy from behind.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Crit Rate",
-			"base_atk": "53",
-			"max_atk": "684",
-			"base_special": "9.6%",
-			"max_special": "24%"
-		}
+		],
+		"additional_info": "This high-power W-Engine boasts a cutting-edge energy conversion device that collects heat from its surroundings and supplies it to the steamer, making it easy for the operator to cook or heat up objects. This makes it a perfect choice for Hollow explorers. However... please be careful when using it to avoid burns.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "stun"
+			}
+		]
 	},
 	{
-		"engineId": "33",
-		"name": "Street Superstar",
-		"rarity": "A",
-		"talentName": "Flaming Bars",
-		"element": null,
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#f8f8f8",
-						"images": {
-							"fallback": {
-								"src": "/static/cc6a67585be559098778625ef6962136/d1e3d/zzz_Street_Superstar.webp",
-								"srcSet": "/static/cc6a67585be559098778625ef6962136/72e27/zzz_Street_Superstar.webp 39w,\n/static/cc6a67585be559098778625ef6962136/7a63e/zzz_Street_Superstar.webp 78w,\n/static/cc6a67585be559098778625ef6962136/d1e3d/zzz_Street_Superstar.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "starlight-engine",
+		"desc": "A damage-type W-Engine made of special Ether materials. When its user is attacked, it builds up energy.",
+		"title": "Starlight Engine",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/ce67c4580b653f4487b17b409e76d888_6604204669033803289.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Knight Plummel",
+				"value": "Launching an Assist Attack increases the equipper's ATK by <span style=\"color: rgb(75, 152, 35)\">16%</span> for 12s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Whenever a squad member launches a Chain Attack, the equipper gains a Charge stack, stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. Upon activating their own Ultimate, the equipper consumes all Charge stacks, and each stack increases the skill's DMG by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.2/19.5/21.7/24%.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "10%",
-			"max_special": "25%"
-		}
+		],
+		"additional_info": "A damage-type W-Engine made of special Ether materials. When its operator is attacked, it builds up energy and boosts its damage output. Although it does not grant the operator the power to transform into a Starlight Knight, it provides a surge of courage when the operator is in dire situations.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "29",
-		"name": "The Brimstone",
-		"rarity": "S",
-		"talentName": "Scorching Breath",
-		"element": "Fire",
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/8cd2e05597902c0ef48a793761d8b863/d1e3d/zzz_The_Brimstone.webp",
-								"srcSet": "/static/8cd2e05597902c0ef48a793761d8b863/72e27/zzz_The_Brimstone.webp 39w,\n/static/8cd2e05597902c0ef48a793761d8b863/7a63e/zzz_The_Brimstone.webp 78w,\n/static/8cd2e05597902c0ef48a793761d8b863/d1e3d/zzz_The_Brimstone.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "rainforest-gourmet",
+		"desc": "A consumer-class W-Engine launched by an exotic pet fan club to promote pet culture. Due to its cute appearance, it was once a very popular model.",
+		"title": "Rainforest Gourmet",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/247d9d4dc8e23b6a4072835356d2792e_2674252433195249997.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Anomaly Proficiency"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Anomaly</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Dinner's Ready!",
+				"value": "Whenever your squad consumes 10 Energy, the equipper gains a buff that increases ATK by <span style=\"color: rgb(75, 152, 35)\">2.5%</span> for 10s, stacking up to 10 times. The duration of each stack is calculated separately."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Upon hitting an enemy with a Basic Attack, Dash Attack, or Dodge Counter, the equipper's ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3.5/4.4/5.2/6/7%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.5s.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "53",
-			"max_atk": "684",
-			"base_special": "12%",
-			"max_special": "30%"
-		}
+		],
+		"additional_info": "A consumer-class W-Engine launched by an exotic pet fan club to promote pet culture. It used to be a popular model until three customers' fingers, a staff member, and half a Bangboo disappeared into a Gourmet's big mouth. Ether blocks generated by the mouth module can rapidly devour substances. Please avoid putting your head and limbs inside.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "anomaly"
+			}
+		]
 	},
 	{
-		"engineId": "24",
-		"name": "The Restrained",
-		"rarity": "S",
-		"talentName": "Binding Chains",
-		"element": null,
-		"type": "Stun",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/23785fc7cd3d9faf0fedc2ed055c8984/acb7c/The_Restrained.png",
-								"srcSet": "/static/23785fc7cd3d9faf0fedc2ed055c8984/1c9ce/The_Restrained.png 64w,\n/static/23785fc7cd3d9faf0fedc2ed055c8984/bf8e1/The_Restrained.png 128w,\n/static/23785fc7cd3d9faf0fedc2ed055c8984/acb7c/The_Restrained.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/23785fc7cd3d9faf0fedc2ed055c8984/8257c/The_Restrained.webp 64w,\n/static/23785fc7cd3d9faf0fedc2ed055c8984/6766a/The_Restrained.webp 128w,\n/static/23785fc7cd3d9faf0fedc2ed055c8984/22bfc/The_Restrained.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "slice-of-time",
+		"desc": "A special W-Engine equipped with a high-speed camera module. The best choice for in-Hollow photography enthusiasts.",
+		"title": "Slice of Time",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/6c94c2a105cb4bbcf09b01e00581f10b_5994255127158190523.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Support</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Say Cheese",
+				"value": "Any squad members' Dodge Counter, EX Special Attack, Assist Attack, or Chain Attack respectively generates <span style=\"color: rgb(75, 152, 35)\">20</span>/<span style=\"color: rgb(75, 152, 35)\">25</span>/<span style=\"color: rgb(75, 152, 35)\">30</span>/<span style=\"color: rgb(75, 152, 35)\">35</span> more Decibels and generates <span style=\"color: rgb(75, 152, 35)\">0.7</span> Energy for the equipper. This effect can trigger once every 12s. The cooldown for each type of attack is independent of others. Passive effects of the same name do not stack."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When an attack hits an enemy, DMG and Daze from Basic Attacks increase by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6/7.5/9/10.5/12% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"5\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. This effect can trigger at most once during each skill. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Impact",
-			"base_atk": "53",
-			"max_atk": "684",
-			"base_special": "7.2%",
-			"max_special": "18%"
-		}
+		],
+		"additional_info": "A special W-Engine equipped with a high-speed camera module. The best choice for in-Hollow photography enthusiasts. It captures every touching moment spent beating up your Ethereal friends, as long as you have a free hand to press the shutter.\nP.S. The internal optical components have not undergone anti-corruption treatment. Please do not lose the warranty form.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "support"
+			}
+		]
 	},
 	{
-		"engineId": "16",
-		"name": "The Vault",
-		"rarity": "A",
-		"talentName": "Money-Lover",
-		"element": "Ether",
-		"type": "Support",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/fe6732752d5d8a5a98bdd176ccccac58/acb7c/The_Vault.png",
-								"srcSet": "/static/fe6732752d5d8a5a98bdd176ccccac58/1c9ce/The_Vault.png 64w,\n/static/fe6732752d5d8a5a98bdd176ccccac58/bf8e1/The_Vault.png 128w,\n/static/fe6732752d5d8a5a98bdd176ccccac58/acb7c/The_Vault.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/fe6732752d5d8a5a98bdd176ccccac58/8257c/The_Vault.webp 64w,\n/static/fe6732752d5d8a5a98bdd176ccccac58/6766a/The_Vault.webp 128w,\n/static/fe6732752d5d8a5a98bdd176ccccac58/22bfc/The_Vault.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "street-superstar",
+		"desc": "A custom-made W-Engine designed for urban music lovers. It sacrifices heat dissipation components for improved sound quality.",
+		"title": "Street Superstar",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/c0dde6fed90278aa89031c9f9f37ec7a_8614161933780309250.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Flaming Bars",
+				"value": "Whenever a squad member launches a Chain Attack, the equipper gains a Charge stack, stacking up to 3 times. Upon activating their own Ultimate, the equipper consumes all Charge stacks, and each stack increases the skill's DMG by <span style=\"color: rgb(75, 152, 35)\">15%</span>."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"D\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"ealing \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Ether DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" using an EX Special Attack, Chain Attack, or Ultimate increases all squad members' DMG against the target by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22/24%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" and increases the equipper's Energy Regen by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 0.5/0.58/0.65/0.72/0.8\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" per second for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Energy Regen",
-			"base_atk": "48",
-			"max_atk": "624",
-			"base_special": "20%",
-			"max_special": "50%"
-		}
+		],
+		"additional_info": "A custom-made W-Engine designed for urban music lovers. It sacrifices cooling components to make space for expensive speaker modules, just to let your fans, Ethereal and human alike, hear your every word.\n——From the streets to the Hollows, this superstar deserves your likes and follows. The bars they spit are flaming hot, enough to make those Ethereals rot.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "31",
-		"name": "Unfettered Game Ball",
-		"rarity": "A",
-		"talentName": "Game Start!",
-		"element": null,
-		"type": "Support",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/d634e1114beac62ef132cfd554296044/d1e3d/zzz_Unfettered_Game_Ball.webp",
-								"srcSet": "/static/d634e1114beac62ef132cfd554296044/72e27/zzz_Unfettered_Game_Ball.webp 39w,\n/static/d634e1114beac62ef132cfd554296044/7a63e/zzz_Unfettered_Game_Ball.webp 78w,\n/static/d634e1114beac62ef132cfd554296044/d1e3d/zzz_Unfettered_Game_Ball.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "identity-inflection",
+		"desc": "A functional W-Engine that specializes in energy conversion. It can analyze combat environments and generate special sounds to disrupt the enemy's offense.",
+		"title": "[Identity] Inflection",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/f3125208abf98cd6e43e2a685245d41f_7210308984793219075.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "DEF %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Defense</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Dazzle",
+				"value": "When attacked, reduces the attacker's DMG by <span style=\"color: rgb(103, 174, 32)\">6%</span> for 12s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Whenever the equipper's attack triggers an Attribute Counter effect, all squad members' CRIT Rate against the struck enemy increases by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 12/13.5/15.5/17.5/20%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". The bonuses triggered by the same type of passive effects do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Energy Regen",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "20%",
-			"max_special": "50%"
-		}
+		],
+		"additional_info": "A functional W-Engine that specializes in energy conversion. It can analyze combat environments and generate special sounds to disrupt the enemy's attack. However, when facing a strong-willed enemy, you will still need to seize the right opportunity to attack. Luckily, most Ethereals lack the willpower to resist it.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "defense"
+			}
+		]
 	},
 	{
-		"engineId": "27",
-		"name": "Weeping Cradle",
-		"rarity": "S",
-		"talentName": "Punishment",
-		"element": "Electric",
-		"type": "Support",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#f8f8f8",
-						"images": {
-							"fallback": {
-								"src": "/static/8c369febde87471c57de6dba6d650798/d1e3d/zzz_Weeping_Cradle.webp",
-								"srcSet": "/static/8c369febde87471c57de6dba6d650798/72e27/zzz_Weeping_Cradle.webp 39w,\n/static/8c369febde87471c57de6dba6d650798/7a63e/zzz_Weeping_Cradle.webp 78w,\n/static/8c369febde87471c57de6dba6d650798/d1e3d/zzz_Weeping_Cradle.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "identity-base",
+		"desc": "A W-Engine with a component structure adjusted according to specific parameters. It can enhance the defensive capabilities of those who have a certain style of combat.",
+		"title": "[Identity] Base",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/e120078fc9937ed0eb1066492e487f95_2527983435510495971.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "DEF %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Defense</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Sinking Strike",
+				"value": "When attacked, the equipper's DEF increases by <span style=\"color: rgb(103, 174, 32)\">20%</span> for 8s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"While off-field, Energy Regen increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.6/0.75/0.9/1.05/1.2 per second\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Attacks from the equipper enhance the squad's DMG against a struck target by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/12.5/15/17.5/20%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" seconds. During this period, this effect is further increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1.7/2/2.5/3/3.3%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.5s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", up to a maximum additional increase of \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10.2/12/15/18/19.8%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Repeated triggers only refresh its duration without refreshing the DMG increase effect. Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "PEN Ratio",
-			"base_atk": "53",
-			"max_atk": "684",
-			"base_special": "9.6%",
-			"max_special": "24%"
-		}
+		],
+		"additional_info": "A W-Engine with a component structure adjusted according to specific parameters. It can enhance the defensive capabilities of those who have a certain style of combat. If the user does not meet the requirements for this W-Engine, then carrying it would be like lugging around an over-sized shield in battle.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "defense"
+			}
+		]
 	},
 	{
-		"engineId": "37",
-		"name": "Weeping Gemini",
-		"rarity": "A",
-		"talentName": "Lingering Cries",
-		"element": null,
-		"type": "Anomaly",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/4409f2a85f0ad9c601ed9dc60baebc8d/d1e3d/zzz_Weeping_Gemini.webp",
-								"srcSet": "/static/4409f2a85f0ad9c601ed9dc60baebc8d/72e27/zzz_Weeping_Gemini.webp 39w,\n/static/4409f2a85f0ad9c601ed9dc60baebc8d/7a63e/zzz_Weeping_Gemini.webp 78w,\n/static/4409f2a85f0ad9c601ed9dc60baebc8d/d1e3d/zzz_Weeping_Gemini.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "magnetic-storm-charlie",
+		"desc": "A high-capacity W-Engine that features a built-in generator, which allows it to keep a stable storage of electrical power.",
+		"title": "[Magnetic Storm] Charlie",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/ee4aad73d3c9cb99d0c7f220157287a5_890915002414521580.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "PEN Ratio"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Anomaly</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Charge Overload",
+				"value": "Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper generates <span style=\"color: rgb(106, 168, 79)\">3.5</span> Energy. This effect can trigger once every 12s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper gains a buff that increases Anomaly Proficiency by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"30/34/38/42/46\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"4 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. This effect expires when the target recovers from Stun or is defeated. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "46",
-			"max_atk": "594",
-			"base_special": "10%",
-			"max_special": "25%"
-		}
+		],
+		"additional_info": "A high-capacity W-Engine that features a built-in generator, allowing it to keep a stable storage of electrical power without any manual operation from the operator. As a result, it proves to be exceptionally used in battle as its electric current can stun tough enemies.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "anomaly"
+			}
+		]
 	},
 	{
-		"engineId": "43",
-		"name": "[Identity] Base",
-		"rarity": "B",
-		"talentName": "Sinking Strike",
-		"element": null,
-		"type": "Defence",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#f8f8f8",
-						"images": {
-							"fallback": {
-								"src": "/static/6e0e0552cfecbbeaffc07842effa6f66/d1e3d/zzz_-Identity-_Base.webp",
-								"srcSet": "/static/6e0e0552cfecbbeaffc07842effa6f66/72e27/zzz_-Identity-_Base.webp 39w,\n/static/6e0e0552cfecbbeaffc07842effa6f66/7a63e/zzz_-Identity-_Base.webp 78w,\n/static/6e0e0552cfecbbeaffc07842effa6f66/d1e3d/zzz_-Identity-_Base.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "magnetic-storm-bravo",
+		"desc": "A damage-type W-Engine that features an enhanced movement detection module that can quickly alter its output intensity to optimize battle efficiency.",
+		"title": "[Magnetic Storm] Bravo",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/0583fe10df2bce056e32eac538907076_5352268814944419541.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Anomaly Proficiency"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Anomaly</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "High-Voltage Surge",
+				"value": "Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper generates <span style=\"color: rgb(106, 168, 79)\">25</span> Energy. This effect can trigger once every 20s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When attacked, the equipper's DEF increases by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 20/23/26/29/32%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Defense",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "12.8%",
-			"max_special": "32%"
-		}
+		],
+		"additional_info": "This damage-type W-Engine features enhanced movement detection modules that can detect the operator's status in real-time and boost their combat prowess at critical moments to optimize battle efficiency. After the operator completes the finishing move, the W-Engine emits a dazzling multicolored flash and rates the operator's move.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "anomaly"
+			}
+		]
 	},
 	{
-		"engineId": "44",
-		"name": "[Identity] Inflection",
-		"rarity": "B",
-		"talentName": "Dazzle",
-		"element": null,
-		"type": "Defence",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/6a33d5748bbaed1bdbc0b97593dfbfbd/d1e3d/zzz_-Identity-_Inflection.webp",
-								"srcSet": "/static/6a33d5748bbaed1bdbc0b97593dfbfbd/72e27/zzz_-Identity-_Inflection.webp 39w,\n/static/6a33d5748bbaed1bdbc0b97593dfbfbd/7a63e/zzz_-Identity-_Inflection.webp 78w,\n/static/6a33d5748bbaed1bdbc0b97593dfbfbd/d1e3d/zzz_-Identity-_Inflection.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "magnetic-storm-alpha",
+		"desc": "A special W-Engine that can analyze the target's weak spots through real-time calculations.",
+		"title": "[Magnetic Storm] Alpha",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/34a4ccec245eb9227cb132b9d2d482b0_4569440803693444228.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Anomaly</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Disordered Current",
+				"value": "Accumulating Anomaly Buildup increases the equipper's Anomaly Mastery by <span style=\"color: rgb(106, 168, 79)\">25</span> for 10s. This effect can trigger once every 20s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When attacked, reduces the attacker's DMG by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6/7/8/9/10%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Defense",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "12.8%",
-			"max_special": "32%"
-		}
+		],
+		"additional_info": "This special W-Engine can analyze the target's weak spots through real-time calculations. Although its heavy exoskeleton can be a burden to the operator, some users have found it to be an efficient way to exercise and lose weight, and have thus become loyal customers.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "anomaly"
+			}
+		]
 	},
 	{
-		"engineId": "42",
-		"name": "[Lunar] Decrescent",
-		"rarity": "B",
-		"talentName": "Waning Moon",
-		"element": null,
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/2e9c4e4854b085a6aef8d5c13b3a6742/d1e3d/zzz_-Lunar-_Decrescent.webp",
-								"srcSet": "/static/2e9c4e4854b085a6aef8d5c13b3a6742/72e27/zzz_-Lunar-_Decrescent.webp 39w,\n/static/2e9c4e4854b085a6aef8d5c13b3a6742/7a63e/zzz_-Lunar-_Decrescent.webp 78w,\n/static/2e9c4e4854b085a6aef8d5c13b3a6742/d1e3d/zzz_-Lunar-_Decrescent.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "vortex-hatchet",
+		"desc": "A frequency-converting W-Engine that can quickly generate excessive power and effectively increase its user's battle prowess.",
+		"title": "[Vortex] Hatchet",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/c737a49f294b49447af590c341469fda_4940823944840506938.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Energy Regen"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Stun</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Riptide",
+				"value": "Upon entering combat or switching in, the equipper's Impact increases by <span style=\"color: rgb(106, 168, 79)\">9%</span> for 10s. This effect can trigger once every 20s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching a Chain Attack or Ultimate increases the equipper's DMG by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22.5/25%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "8%",
-			"max_special": "20%"
-		}
+		],
+		"additional_info": "This inverter W-Engine can generate excessive power and effectively increase its operator's battle prowess. However, due to its poor heat dissipation, it emits ear-splitting noise during battle. As a result, all squad members will need to wear earplugs.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "stun"
+			}
+		]
 	},
 	{
-		"engineId": "1",
-		"name": "[Lunar] Noviluna",
-		"rarity": "B",
-		"talentName": "New Moon",
-		"element": null,
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/9112702f83908d2cb90b1be0b66bdc06/acb7c/-Lunar-_Crescent.png",
-								"srcSet": "/static/9112702f83908d2cb90b1be0b66bdc06/1c9ce/-Lunar-_Crescent.png 64w,\n/static/9112702f83908d2cb90b1be0b66bdc06/bf8e1/-Lunar-_Crescent.png 128w,\n/static/9112702f83908d2cb90b1be0b66bdc06/acb7c/-Lunar-_Crescent.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/9112702f83908d2cb90b1be0b66bdc06/8257c/-Lunar-_Crescent.webp 64w,\n/static/9112702f83908d2cb90b1be0b66bdc06/6766a/-Lunar-_Crescent.webp 128w,\n/static/9112702f83908d2cb90b1be0b66bdc06/22bfc/-Lunar-_Crescent.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "vortex-arrow",
+		"desc": "A tactical W-Engine that locates enemies using high-frequency sound waves. Its aiming aid can make its operator's precision attack more deadly.",
+		"title": "[Vortex] Arrow",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/8ca501a7b1cb018e715bcc16ec42dc83_5265377747145853973.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Impact"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Stun</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Tsunami",
+				"value": "The equipper's attacks inflict <span style=\"color: rgb(106, 168, 79)\">8%</span> more Daze on their main target."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching an EX Special Attack generates \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3/3.5/4/4.5/5\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Energy for the equipper. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Crit Rate",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "6.4%",
-			"max_special": "16%"
-		}
+		],
+		"additional_info": "A tactical W-Engine that locates enemies using high-frequency sound waves. Once it has marked its targets, it will activate its aiming aid to make the operator's precision attack more deadly. While this feature increases the operator's efficiency in battles, it may occasionally attract curious Ethereals from afar.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "stun"
+			}
+		]
 	},
 	{
-		"engineId": "41",
-		"name": "[Lunar] Pleniluna",
-		"rarity": "B",
-		"talentName": "Full Moon",
-		"element": null,
-		"type": "Attack",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/785269c009d416f34841010dd8cfa806/d1e3d/zzz_-Lunar-_Pleniluna.webp",
-								"srcSet": "/static/785269c009d416f34841010dd8cfa806/72e27/zzz_-Lunar-_Pleniluna.webp 39w,\n/static/785269c009d416f34841010dd8cfa806/7a63e/zzz_-Lunar-_Pleniluna.webp 78w,\n/static/785269c009d416f34841010dd8cfa806/d1e3d/zzz_-Lunar-_Pleniluna.webp 156w",
-								"sizes": "(min-width: 156px) 156px, 100vw"
-							},
-							"sources": []
-						},
-						"width": 156,
-						"height": 156
-					}
-				}
+		"name": "vortex-revolver",
+		"desc": "An energy-storage type W-Engine with a unique operation circuit. It will absorb scattered energy up to a certain amount before unleashing it all at once.",
+		"title": "[Vortex] Revolver",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/4a26a6db9d9defde0493552842c0d792_2673118712069976797.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Stun</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Undercurrent",
+				"value": "EX Special Attacks inflict 10% more Daze."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack, Dash Attack, and Dodge Counter DMG increase by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12/14/16/18/20%.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "8%",
-			"max_special": "20%"
-		}
+		],
+		"additional_info": "An energy-storage type W-Engine with a unique operation circuit. It will absorb scattered energy up to a certain amount before unleashing it, dealing some extra impact. It's impossible to control when that energy is unleashed, but when it is, it'll give you the joy of winning a prize draw.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "stun"
+			}
+		]
 	},
 	{
-		"engineId": "8",
-		"name": "[Magnetic Storm] Alpha",
-		"rarity": "B",
-		"talentName": "Disordered Current",
-		"element": null,
-		"type": "Anomaly",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/43af18a383437f22852399807ecd9349/acb7c/-Magnetic_Storm-_Alpha.png",
-								"srcSet": "/static/43af18a383437f22852399807ecd9349/1c9ce/-Magnetic_Storm-_Alpha.png 64w,\n/static/43af18a383437f22852399807ecd9349/bf8e1/-Magnetic_Storm-_Alpha.png 128w,\n/static/43af18a383437f22852399807ecd9349/acb7c/-Magnetic_Storm-_Alpha.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/43af18a383437f22852399807ecd9349/8257c/-Magnetic_Storm-_Alpha.webp 64w,\n/static/43af18a383437f22852399807ecd9349/6766a/-Magnetic_Storm-_Alpha.webp 128w,\n/static/43af18a383437f22852399807ecd9349/22bfc/-Magnetic_Storm-_Alpha.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "reverb-mark-iii",
+		"desc": "A special W-Engine that features motion capture algorithms, which enhance the overall combat competency of your squad.",
+		"title": "[Reverb] Mark III",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/4cb9dedbbfad708401fb3207f75fc1af_1064419650821889438.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "HP %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Support</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Booming Sound",
+				"value": "Launching a Chain Attack or Ultimate increases all squad members' ATK by <span style=\"color: rgb(0, 0, 0)\">&nbsp;</span><span style=\"color: rgb(106, 168, 79)\">8%</span> for 10s. This effect can trigger once every 20s. Passive effects of the same name do not stack."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Accumulating Anomaly Buildup increases the equipper's Anomaly Mastery by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/28/32/36/40\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for 10s. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "8%",
-			"max_special": "20%"
-		}
+		],
+		"additional_info": "This special W-Engine features motion capture algorithms that monitor the status of the operator's teammates, enabling it to send signals to coordinate tactical movements and enhance the overall combat competency of the squad. However, this premise assumes that everyone can keep up with its signals instead of stepping on other members' toes...",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "support"
+			}
+		]
 	},
 	{
-		"engineId": "10",
-		"name": "[Magnetic Storm] Bravo",
-		"rarity": "B",
-		"talentName": "High-Voltage Surge",
-		"element": null,
-		"type": "Anomaly",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/849bfaed871d363edcb69b2bb5add26c/acb7c/-Magnetic_Storm-_Charlie.png",
-								"srcSet": "/static/849bfaed871d363edcb69b2bb5add26c/1c9ce/-Magnetic_Storm-_Charlie.png 64w,\n/static/849bfaed871d363edcb69b2bb5add26c/bf8e1/-Magnetic_Storm-_Charlie.png 128w,\n/static/849bfaed871d363edcb69b2bb5add26c/acb7c/-Magnetic_Storm-_Charlie.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/849bfaed871d363edcb69b2bb5add26c/8257c/-Magnetic_Storm-_Charlie.webp 64w,\n/static/849bfaed871d363edcb69b2bb5add26c/6766a/-Magnetic_Storm-_Charlie.webp 128w,\n/static/849bfaed871d363edcb69b2bb5add26c/22bfc/-Magnetic_Storm-_Charlie.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "reverb-mark-ii",
+		"desc": "A standardized W-Engine with balanced performance that enhances its owner's and their teammates' combat effectiveness in all aspects.",
+		"title": "[Reverb] Mark II",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/4c9a238da84c85a1879117f97f917aab_7735619464145873450.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Energy Regen"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Support</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Roaring Waves",
+				"value": "Launching an EX Special Attack or Chain Attack increases all squad members' Anomaly Mastery and Anomaly Proficiency by <span style=\"color: rgb(147, 196, 125)\">10</span> for 10s. This effect can trigger once every 20s. Passive effects of the same name do not stack."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Accumulating Anomaly Buildup increases the equipper's Anomaly Proficiency by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/28/32/36/40\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can only be triggered once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\\n\\n \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Anomaly Proficiency",
-			"base_atk": "37",
-			"max_atk": "356",
-			"base_special": "24",
-			"max_special": "???"
-		}
+		],
+		"additional_info": "A standardized W-Engine with balanced performance. Despite lacking any particular tendencies, it enhances its owner's and it's owner's teammates' combat effectiveness in all aspects. For novice explorers who have not figured out their preferred combat style, this W-Engine is an excellent choice.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "support"
+			}
+		]
 	},
 	{
-		"engineId": "9",
-		"name": "[Magnetic Storm] Charlie",
-		"rarity": "B",
-		"talentName": "Charge Overload",
-		"element": null,
-		"type": "Anomaly",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/e4a720d011b21349d92eee8a6cfcf84c/acb7c/-Magnetic_Storm-_Bravo.png",
-								"srcSet": "/static/e4a720d011b21349d92eee8a6cfcf84c/1c9ce/-Magnetic_Storm-_Bravo.png 64w,\n/static/e4a720d011b21349d92eee8a6cfcf84c/bf8e1/-Magnetic_Storm-_Bravo.png 128w,\n/static/e4a720d011b21349d92eee8a6cfcf84c/acb7c/-Magnetic_Storm-_Bravo.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/e4a720d011b21349d92eee8a6cfcf84c/8257c/-Magnetic_Storm-_Bravo.webp 64w,\n/static/e4a720d011b21349d92eee8a6cfcf84c/6766a/-Magnetic_Storm-_Bravo.webp 128w,\n/static/e4a720d011b21349d92eee8a6cfcf84c/22bfc/-Magnetic_Storm-_Bravo.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "reverb-mark-i",
+		"desc": "A special W-Engine that features motion capture algorithms, which enhance the overall combat competency of your squad.",
+		"title": "[Reverb] Mark I",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/a2f3e67c61dab5429e92a0ca6bc5ed9d_2358166179725728251.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Support</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Changing Tides",
+				"value": "Launching an EX Special Attack increases all squad members' Impact by <span style=\"color: rgb(106, 168, 79)\">8%</span> for 10s. This effect can trigger once every 20s. Passive effects of the same name do not stack."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper generates \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3.5/4/4.5/5/5.5\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Energy. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "PEN Ratio",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "6.4%",
-			"max_special": "16%"
-		}
+		],
+		"additional_info": "This special W-Engine features a built-in sonic generator that converts collected energy into penetrating infrasound waves, thereby boosting its damage output. However, to activate this function, the operator needs to charge up enough power, and the first step of charging up is to use up any remaining energy in the W-Engine.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "support"
+			}
+		]
 	},
 	{
-		"engineId": "2",
-		"name": "[Reverb] Mark I",
-		"rarity": "B",
-		"talentName": "Changing Tides",
-		"element": null,
-		"type": "Support",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/fd5fa7483bbe39a8be3bf2c714333c06/acb7c/-Reverb-_Mark_I.png",
-								"srcSet": "/static/fd5fa7483bbe39a8be3bf2c714333c06/1c9ce/-Reverb-_Mark_I.png 64w,\n/static/fd5fa7483bbe39a8be3bf2c714333c06/bf8e1/-Reverb-_Mark_I.png 128w,\n/static/fd5fa7483bbe39a8be3bf2c714333c06/acb7c/-Reverb-_Mark_I.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/fd5fa7483bbe39a8be3bf2c714333c06/8257c/-Reverb-_Mark_I.webp 64w,\n/static/fd5fa7483bbe39a8be3bf2c714333c06/6766a/-Reverb-_Mark_I.webp 128w,\n/static/fd5fa7483bbe39a8be3bf2c714333c06/22bfc/-Reverb-_Mark_I.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "lunar-noviluna",
+		"desc": "A high-capacity portable W-Engine that can collect dissipated energy from its surroundings, thus enhancing the combat effectiveness of its operator.",
+		"title": "[Lunar] Noviluna",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/c6d76cbc954b8e3a4d1ff8f48a38b5c1_8338384547198949610.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "CRIT Rate"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "New Moon",
+				"value": "Launching an EX Special Attack generates <span style=\"color: rgb(106, 168, 79)\">3</span> Energy for the equipper. This effect can trigger once every 12s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching an EX Special Attack increases all squad members' Impact by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/9/10/11/12% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "8%",
-			"max_special": "20%"
-		}
+		],
+		"additional_info": "This high-capacity portable W-Engine can collect dissipated energy from its surroundings, thus enhancing the combat effectiveness of its operator. It is a perfect choice for novice explorers who are worried that their W-Engine may run out of power during expeditions.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "3",
-		"name": "[Reverb] Mark II",
-		"rarity": "B",
-		"talentName": "Roaring Waves",
-		"element": null,
-		"type": "Support",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/3bb2ac7e7689b31456db99323485198b/acb7c/-Reverb-_Mark_II.png",
-								"srcSet": "/static/3bb2ac7e7689b31456db99323485198b/1c9ce/-Reverb-_Mark_II.png 64w,\n/static/3bb2ac7e7689b31456db99323485198b/bf8e1/-Reverb-_Mark_II.png 128w,\n/static/3bb2ac7e7689b31456db99323485198b/acb7c/-Reverb-_Mark_II.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/3bb2ac7e7689b31456db99323485198b/8257c/-Reverb-_Mark_II.webp 64w,\n/static/3bb2ac7e7689b31456db99323485198b/6766a/-Reverb-_Mark_II.webp 128w,\n/static/3bb2ac7e7689b31456db99323485198b/22bfc/-Reverb-_Mark_II.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "lunar-decrescnet",
+		"desc": "A W-Engine with excellent sonic and thermal energy usage, capable of hitting its target with a double whammy.",
+		"title": "[Lunar] Decrescent",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/24/9aea5bd2c53106611d8aecc0b156a221_5356768188165806311.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Waning Moon",
+				"value": "Launching a Chain Attack or Ultimate increases the equipper's DMG by <span style=\"color: rgb(106, 168, 79)\">15%</span> for 6s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching an EX Special Attack or Chain Attack increases all squad members' Anomaly Mastery and Anomaly Proficiency by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/12/13/15/16 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Energy Regen",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "16%",
-			"max_special": "40%"
-		}
+		],
+		"additional_info": "A W-Engine with excellent sonic and thermal energy usage, capable of hitting its target with a double whammy. Those hit, be it intentionally or not, have a chance to be diagnosed with snow blindness. The exact cause remains unknown, so obtaining insurance compensation after falling victim to this malady is close to impossible. There was a poor Hollow Investigator who learned it the hard way.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "4",
-		"name": "[Reverb] Mark III",
-		"rarity": "B",
-		"talentName": "Booming Sound",
-		"element": null,
-		"type": "Support",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/8e49b14641acc6ed99efd3b19bc7dba9/acb7c/-Reverb-_Mark_III.png",
-								"srcSet": "/static/8e49b14641acc6ed99efd3b19bc7dba9/1c9ce/-Reverb-_Mark_III.png 64w,\n/static/8e49b14641acc6ed99efd3b19bc7dba9/bf8e1/-Reverb-_Mark_III.png 128w,\n/static/8e49b14641acc6ed99efd3b19bc7dba9/acb7c/-Reverb-_Mark_III.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/8e49b14641acc6ed99efd3b19bc7dba9/8257c/-Reverb-_Mark_III.webp 64w,\n/static/8e49b14641acc6ed99efd3b19bc7dba9/6766a/-Reverb-_Mark_III.webp 128w,\n/static/8e49b14641acc6ed99efd3b19bc7dba9/22bfc/-Reverb-_Mark_III.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "lunar-pleniluna",
+		"desc": "A W-Engine that prioritizes damage output over noise reduction. It can indiscriminately deal considerable damage to all units nearby.",
+		"title": "[Lunar] Pleniluna",
+		"icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/23/178d2c1c97fbb89e8a436fa385c66d8c_8742380242085275183.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "ATK %"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: #FFC870\">Attack</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "Full Moon",
+				"value": "Basic Attack, Dash Attack, and Dodge Counter DMG increase by <span style=\"color: rgb(106, 168, 79)\">12%</span>."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching a Chain Attack or Ultimate increases all squad members' ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/9/10/11/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "HP",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "8%",
-			"max_special": "20%"
-		}
+		],
+		"additional_info": "A W-Engine that prioritizes damage output over noise reduction. It can indiscriminately deal considerable damage to all units nearby. Its designer compares it to the full moon. Bright moonlight can interrupt people's sleep, and nothing can be done about it. But the moonlight does not bother anyone on purpose — you just have to get used to it.",
+		"categories": [
+			{
+				"name": "b-rank"
+			},
+			{
+				"name": "attack"
+			}
+		]
 	},
 	{
-		"engineId": "7",
-		"name": "[Vortex] Arrow",
-		"rarity": "B",
-		"talentName": "Tsunami",
-		"element": null,
-		"type": "Stun",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/000ef3eebbdcef4274ce4fcefde165b3/acb7c/-Vortex-_Arrow.png",
-								"srcSet": "/static/000ef3eebbdcef4274ce4fcefde165b3/1c9ce/-Vortex-_Arrow.png 64w,\n/static/000ef3eebbdcef4274ce4fcefde165b3/bf8e1/-Vortex-_Arrow.png 128w,\n/static/000ef3eebbdcef4274ce4fcefde165b3/acb7c/-Vortex-_Arrow.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/000ef3eebbdcef4274ce4fcefde165b3/8257c/-Vortex-_Arrow.webp 64w,\n/static/000ef3eebbdcef4274ce4fcefde165b3/6766a/-Vortex-_Arrow.webp 128w,\n/static/000ef3eebbdcef4274ce4fcefde165b3/22bfc/-Vortex-_Arrow.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		"name": "demara-battery-mark-ii",
+		"desc": "This customized W-Engine focuses on energy storage, and Anby has further modified it to improve its power output.",
+		"title": "Demara Battery Mark II",
+		"icon_url": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/05/29/98205622/b6651e1b9a63cc8215587a089734d310_2980011689473290533.png",
+		"attributes": [
+			{
+				"key": "Base Stats",
+				"value": "Base ATK"
+			},
+			{
+				"key": "Advanced Stats",
+				"value": "Impact"
+			},
+			{
+				"key": "W-Engine Effect",
+				"value": "For characters with the <span style=\"color: rgb(255, 200, 112)\">Stun</span> Specialty, the following effects can be triggered:"
+			},
+			{
+				"key": "In a Flash of Light",
+				"value": "Increases <span style=\"color: #47C7FD\">Electric DMG</span> by <span style=\"color: rgb(106, 168, 79)\">15%</span>. When the equipper hits an enemy with Dodge Counter or Assist Attack, their Energy Generation Rate increases by <span style=\"color: rgb(106, 168, 79)\">18%</span> for 8s."
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The equipper's attacks inflict \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/9/10/11/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" more Daze on their main target.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Impact",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "4.8%",
-			"max_special": "12%"
-		}
-	},
-	{
-		"engineId": "6",
-		"name": "[Vortex] Hatchet",
-		"rarity": "B",
-		"talentName": "Riptide",
-		"element": null,
-		"type": "Stun",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/22675cf8959762c1e7e0f8d5814ecbc2/acb7c/-Vortex-_Hatchet.png",
-								"srcSet": "/static/22675cf8959762c1e7e0f8d5814ecbc2/1c9ce/-Vortex-_Hatchet.png 64w,\n/static/22675cf8959762c1e7e0f8d5814ecbc2/bf8e1/-Vortex-_Hatchet.png 128w,\n/static/22675cf8959762c1e7e0f8d5814ecbc2/acb7c/-Vortex-_Hatchet.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/22675cf8959762c1e7e0f8d5814ecbc2/8257c/-Vortex-_Hatchet.webp 64w,\n/static/22675cf8959762c1e7e0f8d5814ecbc2/6766a/-Vortex-_Hatchet.webp 128w,\n/static/22675cf8959762c1e7e0f8d5814ecbc2/22bfc/-Vortex-_Hatchet.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
+		],
+		"additional_info": "This customized W-Engine focuses on energy storage, and Anby has further modified it to improve its power output. However, judging by her unusually serious and careful attitude during each maintenance, her modifications may not be entirely safe.",
+		"categories": [
+			{
+				"name": "a-rank"
+			},
+			{
+				"name": "stun"
 			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Upon entering combat or switching in, the equipper's Impact increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9/10/11/12/13%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Energy Regen",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "40%",
-			"max_special": "16%"
-		}
-	},
-	{
-		"engineId": "5",
-		"name": "[Vortex] Revolver",
-		"rarity": "B",
-		"talentName": "Undercurrent",
-		"element": null,
-		"type": "Stun",
-		"image": {
-			"localFile": {
-				"childImageSharp": {
-					"gatsbyImageData": {
-						"layout": "constrained",
-						"backgroundColor": "#080808",
-						"images": {
-							"fallback": {
-								"src": "/static/1acb4c77af7454d29daaaf37a75eebf3/acb7c/-Vortex-_Revolver.png",
-								"srcSet": "/static/1acb4c77af7454d29daaaf37a75eebf3/1c9ce/-Vortex-_Revolver.png 64w,\n/static/1acb4c77af7454d29daaaf37a75eebf3/bf8e1/-Vortex-_Revolver.png 128w,\n/static/1acb4c77af7454d29daaaf37a75eebf3/acb7c/-Vortex-_Revolver.png 256w",
-								"sizes": "(min-width: 256px) 256px, 100vw"
-							},
-							"sources": [
-								{
-									"srcSet": "/static/1acb4c77af7454d29daaaf37a75eebf3/8257c/-Vortex-_Revolver.webp 64w,\n/static/1acb4c77af7454d29daaaf37a75eebf3/6766a/-Vortex-_Revolver.webp 128w,\n/static/1acb4c77af7454d29daaaf37a75eebf3/22bfc/-Vortex-_Revolver.webp 256w",
-									"type": "image/webp",
-									"sizes": "(min-width: 256px) 256px, 100vw"
-								}
-							]
-						},
-						"width": 256,
-						"height": 256
-					}
-				}
-			}
-		},
-		"description": {
-			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attacks inflict \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" more Daze.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
-		},
-		"stats": {
-			"stat": "Attack",
-			"base_atk": "37",
-			"max_atk": "475",
-			"base_special": "8%",
-			"max_special": "20%"
-		}
+		]
 	}
 ]
