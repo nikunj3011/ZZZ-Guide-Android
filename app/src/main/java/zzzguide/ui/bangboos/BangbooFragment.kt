@@ -12,16 +12,16 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import zzzguide.databinding.FragmentEchoBinding
+import zzzguide.databinding.FragmentBangbooBinding
 import zzzguide.models.api.bangboo.BangBoosResponseItem
 import zzzguide.ui.common.BangbooListAdapter
 import zzzguide.util.autoCleared
 import java.util.Locale
 
 
-class EchoFragment : Fragment() {
+class BangbooFragment : Fragment() {
 
-    var binding by autoCleared<FragmentEchoBinding>()
+    var binding by autoCleared<FragmentBangbooBinding>()
     private val viewModel by viewModel<BangbooViewModel>()
     private var echosAdapter by autoCleared<BangbooListAdapter>()
 
@@ -29,7 +29,7 @@ class EchoFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val dataBinding = FragmentEchoBinding.inflate(
+        val dataBinding = FragmentBangbooBinding.inflate(
             inflater,
             container,
             false

@@ -20,7 +20,7 @@ import zzzguide.ui.character.CharacterViewModel
 import zzzguide.ui.characterdetail.CharacterDetailsViewModel
 import zzzguide.ui.bangboos.BangbooViewModel
 import zzzguide.ui.homedata.HomeDataViewModel
-import zzzguide.ui.wengines.WeaponViewModel
+import zzzguide.ui.wengines.WEngineViewModel
 import zzzguide.util.ZZZGuide_URL
 import java.util.concurrent.TimeUnit
 
@@ -80,7 +80,7 @@ val appModule = module {
     }
 
     viewModel {
-        WeaponViewModel(get())
+        WEngineViewModel(get())
     }
 
     viewModel {

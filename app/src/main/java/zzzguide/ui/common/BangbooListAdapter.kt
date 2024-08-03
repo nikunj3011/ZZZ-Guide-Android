@@ -1,17 +1,13 @@
 package zzzguide.ui.common
 
 import android.content.Context
-import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.Animation
 import android.view.animation.Transformation
-import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import zzzguide.R
 import zzzguide.models.api.bangboo.BangBoosResponseItem
 
@@ -24,7 +20,7 @@ class BangbooListAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
-        val listItem = layoutInflater.inflate(R.layout.layout_echo_list,parent,false)
+        val listItem = layoutInflater.inflate(R.layout.layout_bangboo_list,parent,false)
         return MyViewHolder(listItem)
     }
 
@@ -48,7 +44,7 @@ class MyViewHolder(val view: View):RecyclerView.ViewHolder(view){
     fun bind(contextEcho: Context, bangboo: BangBoosResponseItem, clickListener:(BangBoosResponseItem)->Unit) {
         val echoTextView = view.findViewById<TextView>(R.id.echoName)
         echoTextView.text = bangboo.name
-
+//https://cdn.jsdelivr.net/gh/boringcdn/zzz/bangboos/amillion.webp
 //        val costTextView = view.findViewById<TextView>(R.id.textCost)
 //        costTextView.text = "Cost: " + bangboo.cost
 //

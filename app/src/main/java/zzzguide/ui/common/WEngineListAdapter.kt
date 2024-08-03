@@ -1,15 +1,11 @@
 package zzzguide.ui.common
 
 import android.content.Context
-import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import zzzguide.R
 import zzzguide.models.api.wengines.WEngineResponseItem
 
@@ -21,7 +17,7 @@ class WEngineListAdapter (
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder2 {
             val layoutInflater = LayoutInflater.from(parent.context)
-            val listItem = layoutInflater.inflate(R.layout.layout_weapon_list,parent,false)
+            val listItem = layoutInflater.inflate(R.layout.layout_wengine_list,parent,false)
             return MyViewHolder2(listItem)
         }
 

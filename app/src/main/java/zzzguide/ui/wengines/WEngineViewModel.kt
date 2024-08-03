@@ -11,7 +11,7 @@ import kotlinx.coroutines.withContext
 import zzzguide.models.api.wengines.WEngineResponseItem
 import zzzguide.repository.HomeRepository
 
-class WeaponViewModel(
+class WEngineViewModel(
     private val repository: HomeRepository
 ) : ViewModel() {
 

@@ -12,24 +12,24 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import zzzguide.databinding.FragmentWeaponBinding
+import zzzguide.databinding.FragmentWengineBinding
 import zzzguide.models.api.wengines.WEngineResponseItem
 import zzzguide.ui.common.WEngineListAdapter
 import zzzguide.util.autoCleared
 import java.util.Locale
 
 
-class WeaponFragment : Fragment() {
+class WEngineFragment : Fragment() {
 
-    private lateinit var binding: FragmentWeaponBinding
-    private val viewModel by viewModel<WeaponViewModel>()
+    private lateinit var binding: FragmentWengineBinding
+    private val viewModel by viewModel<WEngineViewModel>()
     private var weaponsAdapter by autoCleared<WEngineListAdapter>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val dataBinding = FragmentWeaponBinding.inflate(
+        val dataBinding = FragmentWengineBinding.inflate(
             inflater,
             container,
             false
