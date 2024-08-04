@@ -4,7 +4,7 @@ import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
-import zzzguide.models.api.character.CharacterResponse
+import zzzguide.models.api.character.AgentResponse
 import zzzguide.models.api.characterdetail.CharacterDetailResponse
 import zzzguide.models.api.characterdetails.CharactersDetailsResponse
 import zzzguide.models.api.bangboo.BangBoosResponse
@@ -18,7 +18,7 @@ interface ZZZGuidesService {
 
     @GET("characters.json")
     suspend fun getCharacters(
-    ): Response<CharacterResponse>
+    ): Response<AgentResponse>
 
     @GET("wengines.json")
     suspend fun getWEngines(

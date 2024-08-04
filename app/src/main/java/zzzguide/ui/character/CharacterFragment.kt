@@ -13,7 +13,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import zzzguide.databinding.FragmentCharacterBinding
-import zzzguide.models.api.character.CharacterResponseItem
+import zzzguide.models.api.character.AgentResponseItem
 import zzzguide.ui.characterdetail.CharacterDetailBottomSheetFragment
 import zzzguide.ui.common.CharacterListAdapter
 import zzzguide.util.autoCleared
@@ -43,7 +43,7 @@ class CharacterFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         var response = viewModel.charactersLiveData
-        binding.characterRecyclerView.layoutManager = GridLayoutManager(context, 2)
+        binding.characterRecyclerView.layoutManager = GridLayoutManager(context, 1)
         binding.searchCharacterView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 return false
@@ -67,7 +67,7 @@ class CharacterFragment : Fragment() {
         if (query != null) {
             viewModel.charactersLiveData.observe(viewLifecycleOwner) { result ->
 
-                val filteredList = ArrayList<CharacterResponseItem>()
+                val filteredList = ArrayList<AgentResponseItem>()
                 for (i in result) {
                     if (i.name.lowercase(Locale.ROOT).contains(query)) {
                         filteredList.add(i)
@@ -87,7 +87,7 @@ class CharacterFragment : Fragment() {
         viewModel.charactersLiveData.observe(viewLifecycleOwner) { result ->
             this.characterAdapter = CharacterListAdapter(requireContext(),
                 result
-            ) { selectedItem: CharacterResponseItem ->
+            ) { selectedItem: AgentResponseItem ->
                 listItemClicked(selectedItem)
             }
             binding.characterRecyclerView.apply {
@@ -97,11 +97,11 @@ class CharacterFragment : Fragment() {
         }
     }
 
-    private fun listItemClicked(character: CharacterResponseItem){
+    private fun listItemClicked(character: AgentResponseItem){
         val bottomSheetFragment  = CharacterDetailBottomSheetFragment()
 
         val bundle = Bundle()
-        bundle.putString("characterId", character.id)
+        bundle.putString("characterId", character.name)
         bottomSheetFragment.arguments = bundle
         bottomSheetFragment.setCancelable(true)
         bottomSheetFragment.show(requireActivity().supportFragmentManager, CharacterDetailBottomSheetFragment::class.java.name)

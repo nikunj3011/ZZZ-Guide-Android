@@ -9,11 +9,11 @@
 
         <import type="java.util.List" />
 
-        <import type="zzzguide.models.api.character.CharacterResponseItem" />
+        <import type="zzzguide.models.api.character.AgentResponseItem" />
 
         <variable
             name="echoes"
-            type="LiveData&lt;List&lt;CharacterResponseItem>>" />
+            type="LiveData&lt;List&lt;AgentResponseItem>>" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

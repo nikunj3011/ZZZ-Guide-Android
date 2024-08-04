@@ -8,15 +8,15 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import zzzguide.models.api.character.CharacterResponseItem
+import zzzguide.models.api.character.AgentResponseItem
 import zzzguide.repository.HomeRepository
 
 class CharacterViewModel(
     private val repository: HomeRepository
 ) : ViewModel() {
 
-    private val _charactersLiveData = MutableLiveData<List<CharacterResponseItem>>()
-    val charactersLiveData: LiveData<List<CharacterResponseItem>> get() = _charactersLiveData
+    private val _charactersLiveData = MutableLiveData<List<AgentResponseItem>>()
+    val charactersLiveData: LiveData<List<AgentResponseItem>> get() = _charactersLiveData
 
     init {
         fetchEchoes()
