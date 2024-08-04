@@ -31,9 +31,9 @@ class HomeFragment : Fragment() {
         TabLayoutMediator(homeTabLayout, homeViewPager) { tab, position ->
             when(position){
                 0 -> tab.text = "Home"
-                1 -> tab.text = "Characters"
-                2 -> tab.text = "Echos"
-                3 -> tab.text = "Weapons"
+                1 -> tab.text = "Agents"
+                2 -> tab.text = "Bangboos"
+                3 -> tab.text = "W-Engine"
             }
         }.attach()
         val response = wutheringGuidesService.echoesLiveData

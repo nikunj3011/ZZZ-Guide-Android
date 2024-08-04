@@ -23,7 +23,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/layout_bg"
             android:elevation="5dp"
-            android:text="Elements"
+            android:text="Attributes"
             android:textAlignment="center"
             android:textColor="@color/goldyellowThird"
             android:textSize="20sp"
@@ -35,12 +35,12 @@
 
         <TextView
             android:id="@+id/txtViewWeaponTypes"
-            android:layout_width="99dp"
+            android:layout_width="wrap_content"
             android:layout_height="26dp"
             android:layout_marginTop="28dp"
             android:background="@drawable/layout_bg"
             android:elevation="5dp"
-            android:text="Weapons"
+            android:text="Agents Speciality"
             android:textColor="@color/goldyellowThird"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -56,7 +56,7 @@
             android:layout_marginTop="28dp"
             android:background="@drawable/layout_bg"
             android:elevation="5dp"
-            android:text="Sonata Effects"
+            android:text="Agent Types"
             android:textColor="@color/goldyellowThird"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -68,7 +68,7 @@
         <TextView
             android:id="@+id/textView8"
             android:layout_width="0dp"
-            android:layout_height="154dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="10dp"
@@ -105,7 +105,7 @@
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/elementstxtView"
-            app:srcCompat="@drawable/aero" />
+            app:srcCompat="@drawable/ice" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -115,7 +115,7 @@
             android:layout_marginEnd="28dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/elementstxtView"
-            app:srcCompat="@drawable/fusion" />
+            app:srcCompat="@drawable/electric" />
 
         <TextView
             android:id="@+id/textView6"
@@ -123,7 +123,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="43dp"
             android:layout_marginTop="4dp"
-            android:text="Aero"
+            android:text="Ice"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -133,7 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="40dp"
-            android:text="Fusion"
+            android:text="Electric"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
@@ -141,23 +141,23 @@
             android:id="@+id/imageView8"
             android:layout_width="55dp"
             android:layout_height="55dp"
-            android:layout_marginStart="28dp"
-            android:layout_marginTop="14dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:srcCompat="@drawable/glacio" />
+            app:srcCompat="@drawable/physical" />
 
         <ImageView
             android:id="@+id/imageView9"
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_marginStart="50dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="50dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView10"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.094"
             app:layout_constraintStart_toEndOf="@+id/imageView8"
             app:layout_constraintTop_toBottomOf="@+id/textView10"
-            app:srcCompat="@drawable/havoc" />
+            app:srcCompat="@drawable/ether" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -169,7 +169,7 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView6"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toBottomOf="@+id/elementstxtView"
-            app:srcCompat="@drawable/electro" />
+            app:srcCompat="@drawable/fire" />
 
         <TextView
             android:id="@+id/textView10"
@@ -178,7 +178,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="50dp"
-            android:text="Electro"
+            android:text="Fire"
             app:layout_constraintEnd_toStartOf="@+id/textView11"
             app:layout_constraintStart_toEndOf="@+id/textView6"
             app:layout_constraintTop_toBottomOf="@+id/imageView5" />
@@ -187,43 +187,23 @@
             android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="76dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="50dp"
-            android:text="Havoc"
-            app:layout_constraintEnd_toStartOf="@+id/textView16"
+            android:text="Ether"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.027"
             app:layout_constraintStart_toEndOf="@+id/textView12"
             app:layout_constraintTop_toBottomOf="@+id/imageView9" />
-
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="55dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="28dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11"
-            app:srcCompat="@drawable/spectro" />
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="4dp"
-            android:text="Glacio"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="8dp"
+            android:text="Physical"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView8" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="32dp"
-            android:text="Spectro"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
         <ImageView
             android:id="@+id/imageView11"
@@ -235,7 +215,7 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView12"
             app:layout_constraintStart_toEndOf="@+id/imageView13"
             app:layout_constraintTop_toBottomOf="@+id/txtViewWeaponTypes"
-            app:srcCompat="@drawable/gauntlets" />
+            app:srcCompat="@drawable/stun" />
 
         <TextView
             android:id="@+id/textView18"
@@ -244,7 +224,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="50dp"
-            android:text="Gauntlets"
+            android:text="Stun"
             app:layout_constraintEnd_toStartOf="@+id/textView19"
             app:layout_constraintStart_toEndOf="@+id/textView4"
             app:layout_constraintTop_toBottomOf="@+id/imageView11" />
@@ -254,10 +234,10 @@
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="52dp"
+            android:layout_marginEnd="28dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtViewWeaponTypes"
-            app:srcCompat="@drawable/pistol" />
+            app:srcCompat="@drawable/anomaly" />
 
         <ImageView
             android:id="@+id/imageView13"
@@ -267,7 +247,7 @@
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtViewWeaponTypes"
-            app:srcCompat="@drawable/broadblade" />
+            app:srcCompat="@drawable/attack" />
 
         <ImageView
             android:id="@+id/imageView15"
@@ -277,7 +257,7 @@
             android:layout_marginTop="12dp"
             app:layout_constraintStart_toEndOf="@+id/imageView14"
             app:layout_constraintTop_toBottomOf="@+id/textView18"
-            app:srcCompat="@drawable/sword" />
+            app:srcCompat="@drawable/defense" />
 
         <ImageView
             android:id="@+id/imageView14"
@@ -287,7 +267,7 @@
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4"
-            app:srcCompat="@drawable/rectifier" />
+            app:srcCompat="@drawable/support" />
 
         <TextView
             android:id="@+id/textView4"
@@ -295,7 +275,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="28dp"
             android:layout_marginTop="8dp"
-            android:text="Broadblade"
+            android:text="Attack"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
@@ -304,8 +284,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:layout_marginEnd="64dp"
-            android:text="Pistols"
+            android:layout_marginEnd="28dp"
+            android:text="Anomaly"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
@@ -315,7 +295,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="92dp"
             android:layout_marginTop="8dp"
-            android:text="Rectifier"
+            android:text="Support"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView14" />
 
@@ -325,14 +305,14 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
             android:layout_marginTop="8dp"
-            android:text="Sword"
+            android:text="Defense"
             app:layout_constraintStart_toEndOf="@+id/textView20"
             app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
         <ImageView
             android:id="@+id/imageView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="50dp"
@@ -340,7 +320,7 @@
             app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toEndOf="@+id/imageView16"
             app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:srcCompat="@drawable/freezing_frost" />
+            app:srcCompat="@drawable/strike" />
 
         <TextView
             android:id="@+id/textView23"
@@ -349,7 +329,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="50dp"
-            android:text="Freezing Frost"
+            android:text="Strike"
             app:layout_constraintEnd_toStartOf="@+id/textView24"
             app:layout_constraintHorizontal_bias="0.49"
             app:layout_constraintStart_toEndOf="@+id/textView22"
@@ -357,28 +337,28 @@
 
         <ImageView
             android:id="@+id/imageView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:srcCompat="@drawable/lingering_tunes" />
+            app:srcCompat="@drawable/pierce" />
 
         <ImageView
             android:id="@+id/imageView24"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView27"
-            app:srcCompat="@drawable/void_thunder" />
+            app:srcCompat="@drawable/sons_of_calydon" />
 
         <ImageView
             android:id="@+id/imageView22"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="50dp"
@@ -386,7 +366,7 @@
             app:layout_constraintHorizontal_bias="0.482"
             app:layout_constraintStart_toEndOf="@+id/imageView23"
             app:layout_constraintTop_toBottomOf="@+id/textView26"
-            app:srcCompat="@drawable/sun_sinking_eclipse" />
+            app:srcCompat="@drawable/section_6" />
 
         <TextView
             android:id="@+id/textView29"
@@ -396,43 +376,88 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="140dp"
-            android:text="Sun-sinking Eclipse"
+            android:text="Section 6"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/textView30"
-            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintHorizontal_bias="0.242"
             app:layout_constraintStart_toEndOf="@+id/textView28"
             app:layout_constraintTop_toBottomOf="@+id/imageView22"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView21"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toEndOf="@+id/imageView19"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:srcCompat="@drawable/victoria_housekeeping_co" />
+
+        <ImageView
             android:id="@+id/imageView21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
+            android:layout_marginEnd="28dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView24"
-            app:srcCompat="@drawable/rejuvenating_glow" />
+            app:layout_constraintTop_toTopOf="@+id/imageView20"
+            app:srcCompat="@drawable/new_eridu_public_security" />
 
         <ImageView
             android:id="@+id/imageView19"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            app:srcCompat="@drawable/the_cunning_hares" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="32dp"
+            android:text="New Eridu Public Security"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:text="Victoria Housekeeping Co."
+            app:layout_constraintEnd_toStartOf="@+id/textView27"
+            app:layout_constraintStart_toEndOf="@+id/textView25"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+        <TextView
+            android:id="@+id/textView25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="20dp"
+            android:text="The Cunning Hares"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView22"
-            app:srcCompat="@drawable/molten_rift" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView19" />
 
         <ImageView
             android:id="@+id/imageView16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:srcCompat="@drawable/celestial_light" />
+            app:srcCompat="@drawable/slash" />
 
         <TextView
             android:id="@+id/textView22"
@@ -440,29 +465,19 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:text="Celestial Light"
+            android:text="Slash"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:text="Molten Rift"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView19" />
-
         <ImageView
             android:id="@+id/imageView23"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView25"
-            app:srcCompat="@drawable/sierra_gale" />
+            app:srcCompat="@drawable/belobog_heavy_industries" />
 
         <TextView
             android:id="@+id/textView28"
@@ -471,23 +486,11 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="70dp"
-            android:text="Sierra Gale"
+            android:text="Belobog Heavy Industries"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView23"
             app:layout_constraintVertical_bias="0.0" />
-
-        <ImageView
-            android:id="@+id/imageView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="50dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView21"
-            app:layout_constraintStart_toEndOf="@+id/imageView19"
-            app:layout_constraintTop_toBottomOf="@+id/textView23"
-            app:srcCompat="@drawable/moonlight_clouds" />
 
         <TextView
             android:id="@+id/textView24"
@@ -495,31 +498,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
-            android:text="Lingering Tunes"
+            android:text="Pierce"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView18" />
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="50dp"
-            android:text="Moonlit Clouds"
-            app:layout_constraintEnd_toStartOf="@+id/textView27"
-            app:layout_constraintStart_toEndOf="@+id/textView25"
-            app:layout_constraintTop_toBottomOf="@+id/imageView20" />
-
-        <TextView
-            android:id="@+id/textView27"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:text="Rejuvenation Glow"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView21" />
 
         <TextView
             android:id="@+id/textView30"
@@ -528,7 +509,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="70dp"
-            android:text="Void Thunder"
+            android:text="Sons of Calydon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView24"
@@ -587,6 +568,28 @@
             app:layout_constraintEnd_toStartOf="@+id/txtViewWeaponTypes"
             app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:elevation="5dp"
+            android:text="Factions in New Eridu"
+            android:textColor="@color/goldyellowThird"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="7dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/goldyellowThird"
+            app:layout_constraintEnd_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toTopOf="@+id/textView16" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.core.widget.NestedScrollView>
