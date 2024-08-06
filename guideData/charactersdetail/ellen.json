@@ -1,0 +1,205 @@
+{
+	"id": "76498920-c4e7-5b17-9306-9d3aa82dcc75",
+	"updatedAt": "July 19th, 2024",
+	"createdAt": "2023-11-22T19:16:14.492Z",
+	"unitId": "13",
+	"name": "Ellen",
+	"skillKey": "Ellen",
+	"fullName": "Ellen Joe",
+	"slug": "ellen",
+	"rarity": "S",
+	"smallImage": {
+		"localFile": {
+			"childImageSharp": {
+				"gatsbyImageData": {
+					"layout": "constrained",
+					"backgroundColor": "#080808",
+					"images": {
+						"fallback": {
+							"src": "/static/fd48ebd52278a982f3431431aae9549f/e9a79/13_sm.png",
+							"srcSet": "/static/fd48ebd52278a982f3431431aae9549f/f31ef/13_sm.png 40w,\n/static/fd48ebd52278a982f3431431aae9549f/1f8a1/13_sm.png 80w,\n/static/fd48ebd52278a982f3431431aae9549f/e9a79/13_sm.png 160w",
+							"sizes": "(min-width: 160px) 160px, 100vw"
+						},
+						"sources": [
+							{
+								"srcSet": "/static/fd48ebd52278a982f3431431aae9549f/e73fe/13_sm.webp 40w,\n/static/fd48ebd52278a982f3431431aae9549f/61ca6/13_sm.webp 80w,\n/static/fd48ebd52278a982f3431431aae9549f/60b4d/13_sm.webp 160w",
+								"type": "image/webp",
+								"sizes": "(min-width: 160px) 160px, 100vw"
+							}
+						]
+					},
+					"width": 160,
+					"height": 160
+				}
+			}
+		}
+	},
+	"cardImage": {
+		"localFile": {
+			"childImageSharp": {
+				"gatsbyImageData": {
+					"layout": "constrained",
+					"backgroundColor": "#080808",
+					"images": {
+						"fallback": {
+							"src": "/static/a8819792d0e4d4d37c387bd68e5edfa4/c9885/13_card.png",
+							"srcSet": "/static/a8819792d0e4d4d37c387bd68e5edfa4/2aab7/13_card.png 94w,\n/static/a8819792d0e4d4d37c387bd68e5edfa4/0a986/13_card.png 187w,\n/static/a8819792d0e4d4d37c387bd68e5edfa4/c9885/13_card.png 374w",
+							"sizes": "(min-width: 374px) 374px, 100vw"
+						},
+						"sources": [
+							{
+								"srcSet": "/static/a8819792d0e4d4d37c387bd68e5edfa4/84550/13_card.webp 94w,\n/static/a8819792d0e4d4d37c387bd68e5edfa4/34f80/13_card.webp 187w,\n/static/a8819792d0e4d4d37c387bd68e5edfa4/b26e2/13_card.webp 374w",
+								"type": "image/webp",
+								"sizes": "(min-width: 374px) 374px, 100vw"
+							}
+						]
+					},
+					"width": 374,
+					"height": 512
+				}
+			}
+		}
+	},
+	"faction": "Victoria Housekeeping Co.",
+	"attackType": [
+		"Slash"
+	],
+	"style": "Attack",
+	"element": "Ice",
+	"review": {
+		"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen is an S-Rank Ice Combat Agent specializing in delivering high amounts of pure Ice damage through her unique burst rotation and her ability to execute EX combos with the team’s Ultimate.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" Additionally, she maintains a consistent damage output against less formidable foes using a powerful sustained combo.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen boasts high mobility, enhanced by her signature sprinting state, accessible only to her, which positions her as one of the fastest characters in the game. Her gameplay revolves around managing Flash Freeze charges, a resource exclusive to her, which powers her devastating Enhanced Basic Attacks. \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Mastering these mechanics allows Ellen to achieve some of the highest damage outputs in the game, solidifying her status as a top-tier character in the endgame mode, Shiyu Defense.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen is considered one of the more complex characters due to the nuances of her kit and combos. However, mastering her mechanics transforms gameplay into a seamless experience.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen’s Basic Attack is a 3-hit combo integral to both her standard and burst rotations. It features two variants: a standard form dealing Physical damage and an enhanced form consuming Flash Freeze charges to deal Ice damage instead (requiring 3 Flash Freeze for a full 3-hit combo). In both forms, the first and second strikes are swift and relatively weak, while the third strike is a lengthier attack that can be extended further with continuous tapping. The third hit deals the majority of the combo's damage and triggers Ellen's teleportation behind her current or a new target if the original is eliminated or moves.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen possesses standard Dodge, Dodge Counter, and Dash attacks common among characters.\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" Unique to her is the ability to hold down her Dodge to enter a special sprinting state known as the Roaming State. \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"This state allows her to remain indefinitely sprinting and transforms her standard Basic Attack into Arctic Ambush, a critical component of her kit. Activating Arctic Ambush exits the Roaming State, delivering a chopping attack with her scissors that generates 1 Flash Freeze charge on hit. Alternatively, holding the Basic Attack button charges Arctic Ambush, increasing its damage and generating 3 Flash Freeze charges (ideal for executing a full Enhanced Basic Attack combo). Charging Arctic Ambush costs Ellen considerable field time, but executing a Perfect Dodge grants her the \\\"Quick Charge\\\" buff, significantly speeding up her next Charged Arctic Ambush from roughly 2 seconds to about 1.5 seconds.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen’s Defensive Assist, Assist Follow-Up, and Quick Assist are standard attacks among melee characters, dealing Ice damage and/or inflicting Daze. \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Notably, when Ellen performs a Quick Assist, she also gains the \\\"Quick Charge\\\" effect mentioned earlier, in addition to her Perfect Dodge bonus.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen possesses 3 Special Attacks: 1 Standard Special and 2 EX Specials. She utilizes her Standard Special sparingly, focusing instead on her EX Specials during burst rotations and situational use within her standard combo. The first EX Special can be activated upon sufficient energy, dealing Ice damage ahead of her, generating 1 Flash Freeze charge, and enabling an immediate Follow-Up with the third attack of her Basic Attack combo. This sequence allows Ellen to swiftly deal damage, generate a charge, and then immediately utilize it in her powerful basic combo, encompassing her entire rotation in a concise sequence. Ellen’s second EX functions similarly but with increased damage and the ability to induce Daze, requiring immediate use after her first EX. This choice gives Ellen flexibility: she can opt for EX1 followed by a Basic 3 or EX1 + EX2 followed by a Basic 3.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen’s Chain Attack and Ultimate, akin to her assists, deliver substantial Ice damage and Daze. Notably, her Chain Attack requires more time to execute compared to other characters.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen’s Core Passive is notably potent, incentivizing her to approach 100% Crit without compromising other stats. \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"This passive grants up to 100% Crit damage to Arctic Assault and all her Flash Freeze-Enhanced attacks, particularly her Basics. Additionally, her Additional Ability is equally formidable and should be activated as a priority. It grants a buff increasing her Ice damage by 3% each time she deals any Ice damage, stacking up to 10 times for 10 seconds. This ability is easily maintained, effectively providing a consistent 30% boost to Ice damage.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen is unequivocally at the forefront of the meta upon her release as a DPS. Once mastered, she proves invaluable both presently and in future gameplay\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". For optimal strategies for combining all of Ellen’s abilities, refer to the Rotation & Teams section of this guide.\",\"marks\":[],\"data\":{}}]}]}"
+	},
+	"pros": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has the highest damage output in the game at the time of her release,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Is part of the best team in the game at the time of her release (Mono-Ice),\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has incredible mobility while in the Roaming state, which allows for quick movement through levels and repositioning around bosses,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Many abilities have movement and dodging components built into them, making Ellen more challenging for enemies to hit.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has the strongest self-buffs built into her kit in the game at the time of her release,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Only Ice damage dealer at the time of her release.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Is a combo-based character with a variety of attack sequences that are all viable. This means Ellen has a slight learning curve compared to other characters,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has small moments of vulnerability unless played carefully when executing charged attacks or her fairly long Basic Attack part 3,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ellen's Chain Attack is notable for its extended cast time compared to other characters, which can potentially sacrifice valuable opportunities during the enemy's Stun window. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"videos": [
+		{
+			"video": "ZlqzwCXblLk"
+		}
+	],
+	"endgameStats": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2700-3100+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9500+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"780+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT RATE: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"75-100%\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"120-180%+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"tierListCategory": "DPS",
+	"tierListTags": [
+		"Combo",
+		"Charge"
+	],
+	"ratings": {
+		"shiyu": 11
+	},
+	"build": {
+		"main_4": [
+			{
+				"stat": "CRIT DMG",
+				"sign": "="
+			},
+			{
+				"stat": "CRIT Rate",
+				"sign": null
+			}
+		],
+		"main_5": [
+			{
+				"stat": "Ice DMG",
+				"sign": ">"
+			},
+			{
+				"stat": "ATK%",
+				"sign": null
+			}
+		],
+		"main_6": [
+			{
+				"stat": "ATK%",
+				"sign": null
+			}
+		],
+		"sets": null,
+		"engines": [
+			{
+				"super": "1",
+				"weapon": "Deep Sea Visitor",
+				"percent": "100%",
+				"percent_standard": "100%",
+				"notes": null
+			},
+			{
+				"super": "1",
+				"weapon": "The Brimstone",
+				"percent": "79.53%",
+				"percent_standard": "93%",
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "Starlight Engine",
+				"percent": "80.04%",
+				"percent_standard": "81.62%",
+				"notes": null
+			},
+			{
+				"super": "1",
+				"weapon": "Steel Cushion",
+				"percent": "81.87%",
+				"percent_standard": "82.36%",
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "Cannon Rotor",
+				"percent": "77.33%",
+				"percent_standard": "80.12%",
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "Street Superstar",
+				"percent": "79.79%",
+				"percent_standard": "70.20%",
+				"notes": null
+			}
+		],
+		"substats": "CRIT RATE = CRIT DMG > ATK% > PEN = ATK"
+	},
+	"talents": [
+		{
+			"name": "Glacial Omen",
+			"desc": "Upon hitting an enemy with a Swift Scissors during Dash Attack: Arctic Ambush, the obtained Flash Freeze Charges are increased to <b>3</b>. Upon hitting an enemy with a Charged Scissors strike during Dash Attack: Arctic Ambush, the obtained Flash Freeze Charges are increased to <b>6</b>. For each Flash Freeze Charge consumed, Ellen's CRIT Rate is increased by <b>2%</b> for <b>15s</b>, stacking up to <b>6</b> times. The duration of each stack is calculated separately."
+		},
+		{
+			"name": "Arctic Ocean Predator",
+			"desc": "The 3rd hit of Basic Attack: Flash Freeze Trimming can be directly followed up with EX Special Attack: Sharknami. When using an EX Special Attack, each Flash Freeze Charge increases the current attack's CRIT DMG by <b>20%</b>, up to a max of <b>60%</b>."
+		},
+		{
+			"name": "Overtime-Intolerant",
+			"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+		},
+		{
+			"name": "Endless Hoarfrost",
+			"desc": "Whenever a squad member <u>Freezes</u> or Stuns an enemy, Ellen gains <b>6</b> Flash Freeze Charges and the Quick Charge effect. She also recovers <b>4</b> Energy. The Energy recovery effect can trigger once per <b>10s</b>."
+		},
+		{
+			"name": "Adequate Sleep",
+			"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+		},
+		{
+			"name": "The Feast Begins",
+			"desc": "When Ellen uses an EX Special Attack, Chain Attack, or gains Quick Charge, her PEN Ratio increases by <b>20%</b> for <b>6s</b>. She also gains 1 stack of The Feast Begins, up to a maximum of 3 stacks. With 3 stacks of The Feast Begins, using a Charge Scissor Strike during Dash Attack: Arctic Ambush consumes all stacks, increasing the DMG of the current attack by 250%."
+		}
+	],
+	"introduction": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Less Is More, Simple Is Key. Complexity has no place here. Just keep everything simple. Work Smart and Rest More. Take breaks at the right time... to minimize the annoyance of working. Work With Focus, Prevail With Caution. Whether she takes it too seriously or not seriously enough, it's her enemy who ends up suffering from it. Unleash Sweet Delight, Unwrap and Indulge. Savoring the lollipop and concealing her true thoughts.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"voiceActors": {
+		"en": "",
+		"kr": "",
+		"jpn": "Wakayama Shion (若山 詩音)",
+		"cn": "Xiāoqīngyuán (萧清源)"
+	},
+	"releaseDate": null,
+	"upcoming": null
+}

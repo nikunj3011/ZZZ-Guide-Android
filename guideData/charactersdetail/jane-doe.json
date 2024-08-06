@@ -1,0 +1,79 @@
+{
+"id": "a474f168-033b-5fe1-a40a-468e6cf3d720",
+"updatedAt": "August 3rd, 2024",
+"createdAt": "2024-07-12T11:21:53.516Z",
+"unitId": "21",
+"name": "Jane Doe",
+"skillKey": "Jade",
+"fullName": "Jane Doe",
+"slug": "jane-doe",
+"rarity": "S",
+"smallImage": {
+"localFile": {
+    "childImageSharp": {
+    "gatsbyImageData": {
+        "layout": "constrained",
+        "backgroundColor": "#f8f8f8",
+        "images": {
+        "fallback": {
+            "src": "/static/749cd6dfe039ea7d7d91a8ca5587e76f/60b4d/21_sm.webp",
+            "srcSet": "/static/749cd6dfe039ea7d7d91a8ca5587e76f/e73fe/21_sm.webp 40w,\n/static/749cd6dfe039ea7d7d91a8ca5587e76f/61ca6/21_sm.webp 80w,\n/static/749cd6dfe039ea7d7d91a8ca5587e76f/60b4d/21_sm.webp 160w",
+            "sizes": "(min-width: 160px) 160px, 100vw"
+        },
+        "sources": []
+        },
+        "width": 160,
+        "height": 160
+    }
+    }
+}
+},
+"cardImage": {
+"localFile": {
+    "childImageSharp": {
+    "gatsbyImageData": {
+        "layout": "constrained",
+        "backgroundColor": "#f8f8f8",
+        "images": {
+        "fallback": {
+            "src": "/static/624e37d9caaf8f3c9b5d30488104af60/b26e2/21_card.webp",
+            "srcSet": "/static/624e37d9caaf8f3c9b5d30488104af60/84550/21_card.webp 94w,\n/static/624e37d9caaf8f3c9b5d30488104af60/34f80/21_card.webp 187w,\n/static/624e37d9caaf8f3c9b5d30488104af60/b26e2/21_card.webp 374w",
+            "sizes": "(min-width: 374px) 374px, 100vw"
+        },
+        "sources": []
+        },
+        "width": 374,
+        "height": 512
+    }
+    }
+}
+},
+"faction": "N.E.P.S.",
+"attackType": [
+"Unknown"
+],
+"style": "Anomaly",
+"element": "Physical",
+"review": null,
+"pros": null,
+"cons": null,
+"videos": null,
+"endgameStats": null,
+"tierListCategory": "Anomaly",
+"tierListTags": null,
+"ratings": {
+"shiyu": 1
+},
+"build": null,
+"talents": null,
+"introduction": null,
+"voiceActors": {
+"en": "",
+"kr": "",
+"jpn": "",
+"cn": ""
+},
+"releaseDate": null,
+"upcoming": true
+}
+          

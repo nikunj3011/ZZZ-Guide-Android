@@ -1,0 +1,196 @@
+{
+"id": "2246b11c-4314-5c88-9600-b4e0a26e3bcd",
+"updatedAt": "July 24th, 2024",
+"createdAt": "2024-06-12T13:15:04.295Z",
+"unitId": "16",
+"name": "Zhu Yuan",
+"skillKey": "Zhu",
+"fullName": "Zhu Yuan",
+"slug": "zhu-yuan",
+"rarity": "S",
+"smallImage": {
+"localFile": {
+	"childImageSharp": {
+	"gatsbyImageData": {
+		"layout": "constrained",
+		"backgroundColor": "#080808",
+		"images": {
+		"fallback": {
+			"src": "/static/90a94d8272965fea93d1e20685aefad5/60b4d/16_sm.webp",
+			"srcSet": "/static/90a94d8272965fea93d1e20685aefad5/e73fe/16_sm.webp 40w,\n/static/90a94d8272965fea93d1e20685aefad5/61ca6/16_sm.webp 80w,\n/static/90a94d8272965fea93d1e20685aefad5/60b4d/16_sm.webp 160w",
+			"sizes": "(min-width: 160px) 160px, 100vw"
+		},
+		"sources": []
+		},
+		"width": 160,
+		"height": 160
+	}
+	}
+}
+},
+"cardImage": {
+"localFile": {
+	"childImageSharp": {
+	"gatsbyImageData": {
+		"layout": "constrained",
+		"backgroundColor": "#080808",
+		"images": {
+		"fallback": {
+			"src": "/static/985d82faa526c95c6588080f72827ffc/b26e2/16_card.webp",
+			"srcSet": "/static/985d82faa526c95c6588080f72827ffc/84550/16_card.webp 94w,\n/static/985d82faa526c95c6588080f72827ffc/34f80/16_card.webp 187w,\n/static/985d82faa526c95c6588080f72827ffc/b26e2/16_card.webp 374w",
+			"sizes": "(min-width: 374px) 374px, 100vw"
+		},
+		"sources": []
+		},
+		"width": 374,
+		"height": 512
+	}
+	}
+}
+},
+"faction": "N.E.P.S.",
+"attackType": [
+"Pierce"
+],
+"style": "Attack",
+"element": "Ether",
+"review": {
+"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Zhu Yuan is a Ranged/Melee hybrid S-Rank Ether Combat Agent specializing in delivering massive Ether Burst damage to stunned enemies with her unique ammunition system\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". Known for her high mobility, Zhu Yuan integrates multiple Dash attacks into her optimal damaging combos, allowing her to reposition mid-attack and implement Invulnerability frames while dealing optimal damage.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Zhu Yuan’s kit revolves around her Shotgun Shell gauge, which can hold up to 9 Enhanced Shells. These shells empower her Basic and Dash Attacks. She switches between two modes of attack: Assault Mode and Suppressive Mode.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\": This mode includes most of her Default Attack sequences. It deals low damage but focuses on generating Enhanced Shotgun Shells.\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\": This mode features high-damage Charged Attacks. It can be accessed by holding down the basic attack, causing Zhu Yuan to perform a backflip before entering Suppressive Mode. In this mode, while holding, Zhu Yuan continuously consumes 1-3 Enhanced Shotgun Shells to deal massive damage with her attacks.\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Zhu Yuan has some of the most varied combos available in the game, with each offering unique benefits in different situations. Learning and mastering them all is quite a challenge. Fortunately, it’s possible to focus on the most commonly used, highest-damage combos, which this guide will cover. Zhu Yuan has access to two completely different basic attack combos, one for each Suppressive and Assault mode.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Zhu Yuan’s Assault Mode Basic Attacks consist of a six-part attack combo (despite the game only listing five of the six parts). Here is the breakdown of the combo:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P1: Physical Melee Kick\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P2: Ether Ranged Shotgun Blast\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P3: Physical Melee Multi-Kick\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P4: Ether Ranged Shotgun Jump Blast (Generates 1 Shell)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P5: Ether Ranged Shotgun Dash Blast (Generates 1 Shell)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P6: Ether Ranged Shotgun Slide\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"The most valuable attacks in this sequence are Basic P4 and P5, as they deal the best damage and also generate Zhu Yuan's shells. Ideally, we’d like to access these as frequently as possible.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Another unique aspect of Zhu Yuan’s basic attacks is that she can weave in a Dash Attack after any of the combo sequences above by triggering a Basic Attack by holding down the directional key. In this guide, we’ll be talking specifically about her left and right Dash Attacks (they’re the same as each other), as they are the most effective in her kit and the ones you should be using whenever mentioned. Dashing after attacks in this way will alter the sequencing of her next attack depending on which you dashed after. Here is a list of how using a side dash after each part of the Assault Mode basic attack changes things:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P1 -\u003E Dash Attack -\u003E Assault Mode Basic P3 (Optimal)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P2 -\u003E Dash Attack -\u003E Assault Mode Basic P3 (Avoid)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P3 -\u003E Dash Attack -\u003E Loop Back to Assault Mode Basic P3 (Avoid)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P4 -\u003E Dash Attack -\u003E Assault Mode Basic P5 (Avoid)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P5 -\u003E Dash Attack -\u003E Loop to Assault Mode Basic P3 (Optimal)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P6 -\u003E Dash Attack -\u003E Loop Back to Assault Mode Basic P3 (Avoid)\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"The changes to attack ordering allow Zhu Yuan to execute higher damage, faster combos that generate more shells. Here is an example of a combo in action:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P1\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Dash Attack\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P3\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P4\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P5\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Dash Attack\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P3\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P4\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assault Mode Basic P5\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"By using Dash Attacks, we can speed up Zhu Yuan’s standard rotation and loop/skip to the best parts of it.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Zhu Yuan’s other Basic Attack moves are within Suppressive Mode, which, as mentioned above, needs to be entered by holding down the Basic Attack and waiting for Zhu Yuan to perform a short preparatory flip. The time needed for Zhu Yuan to enter Suppressive Mode is roughly 0.5 seconds, long enough that you don’t want to be constantly moving in and out of Assault and Suppressive unless necessary. The best approach is to enter Suppressive mode only when you have sufficient Enhanced Shells to consume (5 or 9 being optimal). Additionally, several abilities in Zhu Yuan’s kit allow her to immediately enter Suppressive Mode without delay as long as you immediately begin using Suppressive Mode Basics right after they finish. These abilities are:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ultimate Attack\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Chain Attack\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"After entering Suppression mode, continuously holding down the Basic Attack will cause Zhu Yuan to fire an Enhanced Shotgun combo consisting of 3 parts which if available, will each consume a number of Shotgun Shells to deal either tiny Physical (un-enhanced) or massive Ether damage (enhanced). Due to the poor multipliers on Zhu Yuan’s un-enhanced Suppressive Basics it’s never worth using them without Shells available. Here is how many Shells each attack uses:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P1 = 1 Shell\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P2 = 1 Shell\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P3 = 3 Shells (Deals triple the damage of P1 and P2)\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Just like Zhu Yuan’s Assault Mode Basic Attacks, she can also make use of a special Suppressive Mode Dodge Attack to alter and improve her Basic Attack sequences. We’ll again be making use of side Dash Attacks (left and right) as they are the most competitive in most cases. Here is how dashes affect the combo:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P1 -\u003E Suppressive Mode Dash Attack -\u003E Suppressive Mode Basic P3\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P2 -\u003E Suppressive Mode Dash Attack -\u003E Suppressive Mode Basic P3\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P3 -\u003E Suppressive Mode Dash Attack -\u003E Suppressive Mode Basic P3 (Loop)\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"The key takeaway here is that we can use a Suppressive Mode Dash Attack following a Suppressive Mode Basic P3 to skip straight back to another P3 incredibly quickly, allowing us to consume our Shells much faster and increase Zhu Yuan’s burst potential. Here is an example combo that dumps all 9 Shells as fast as possible (a full gauge):\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P1 (1 Shell)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P2 (1 Shell)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P3 (3 Shells) \",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Dash Attack (1 Shell)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Suppressive Mode Basic P3  (3 Shells)\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"As mentioned above, Zhu Yuan has a Dash Attack for both Assault Mode and Suppressive Mode. For both modes, she has different Dash attacks for forward, back, left and right, but left and right are primarily used in both modes for her combos. They can be not only used mid-combo for cancels but also in general combat outside of combos.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Zhu Yuan’s Dodge Counter is a quick Shotgun Blast that deals Ether damage and generates 1 Shotgun Shell, making it an optimal way to stack up Shells quickly against fast-attacking enemies. Following this Dodge Counter, Zhu Yuan skips straight to her Assault Mode Basic P3, allowing her to quickly chain attacks together if desired.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Zhu Yuan’s Quick Assist and Assist Follow-Up both launch a Shotgun Blast dealing Ether damage and generating Shotgun Shells. Her Quick Assist generates 1 Shell and her Assist Follow-Up generates 3.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Zhu Yuan’s EX Special Attack, Chain Attack, and Ultimate are all functionally the same but with varying damage multipliers. All of them trigger massive Shotgun Blasts that immediately place Zhu Yuan in Suppressive Mode allowing for immediate usage of Suppressive Mode Basics and generating 3 Shells each.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"To round off her kit, Zhu Yuan features an incredible Core Passive as well as an Additional Ability, both of which tremendously boost her damage output. \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Zhu Yuan’s Core Passive boosts the damage of all her Shell-Enhanced Suppressive Mode Basic Attacks and Dash Attacks by up to 40%, further increasing against Stunned targets by another 40% for a total of 80%. She also gains 6 Shells at the start of each combat. Meanwhile, with her Additional Ability if Zhu Yuan has a Support character or a character sharing either her Faction in the team, she’ll gain 30% Crit Rate for 10 seconds after using an EX Special, Chain, or Ultimate. This buff is all but guaranteed to be permanently active during Zhu Yuan’s main burst window where she unloads all her Shells (usually against Stunned enemies). \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Zhu Yuan’s build-and-spend kit plays perfectly into a Burst damage playstyle where she can build up Shells, Energy, and her Ultimate to unleash absolute devastation on Stunned enemies in an incredibly short amount of time. At the time of her release, Zhu Yuan delivers the most Burst damage during a Stun window in the game, assuming she has all her kit at her disposal.\",\"marks\":[],\"data\":{}}]}]}"
+},
+"pros": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Zhu Yuan is the new highest Burst DPS during Stun windows.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"She has a strong F2P-friendly support in Nicole.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Zhu Yuan possesses exceptional mobility options that not only do not lower her damage but actually increase it, allowing her to reposition on the battlefield constantly and effectively.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Due to baked-in dash attacks in most of her attack sequences, Zhu Yuan gains small moments of invulnerability mid-combo, providing her with an edge in combat survivability.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"At the time of her release, Zhu Yuan is the only Ether DPS, giving her a unique niche in the game.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Good cleave-based hitboxes on almost all attacks for a character that is mostly ranged DPS.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"cons": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Zhu Yuan is a combo-based character who can take a bit of practice to pick up and play perfectly, presenting a learning curve for new players.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"At present, Zhu Yuan lacks synergistic teammate options outside of 4-star characters, though more from her faction are expected soon.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Zhu Yuan's damage output is significantly weaker when enhanced shells are not available.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"videos": [
+{
+	"video": "-pFq08cIB2k"
+}
+],
+"endgameStats": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2600-3000+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9500+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT RATE: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"60-70% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"(90-100% with Additional Ability)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"160-180%+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (without Chaotic Metal buff)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"tierListCategory": "DPS",
+"tierListTags": [
+"Charge"
+],
+"ratings": {
+"shiyu": 11
+},
+"build": {
+"main_4": [
+	{
+	"stat": "CRIT DMG",
+	"sign": "="
+	},
+	{
+	"stat": "CRIT Rate",
+	"sign": null
+	}
+],
+"main_5": [
+	{
+	"stat": "Ether DMG",
+	"sign": "\u003E"
+	},
+	{
+	"stat": "ATK%",
+	"sign": "="
+	},
+	{
+	"stat": "PEN Ratio",
+	"sign": null
+	}
+],
+"main_6": [
+	{
+	"stat": "ATK%",
+	"sign": null
+	}
+],
+"sets": null,
+"engines": [
+	{
+	"super": "1",
+	"weapon": "Riot Suppressor Mark VI",
+	"percent": "100%",
+	"percent_standard": "100%",
+	"notes": null
+	},
+	{
+	"super": "1",
+	"weapon": "The Brimstone",
+	"percent": "98.27%",
+	"percent_standard": "100.04%",
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "Starlight Engine",
+	"percent": "94.37%",
+	"percent_standard": "87.89%",
+	"notes": null
+	},
+	{
+	"super": "1",
+	"weapon": "Steel Cushion",
+	"percent": "94.08%",
+	"percent_standard": "83.60%",
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "Cannon Rotor",
+	"percent": "89.30%",
+	"percent_standard": "85.54%",
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "Street Superstar",
+	"percent": "90.62%",
+	"percent_standard": "73.73%",
+	"notes": null
+	}
+],
+"substats": "CRIT RATE = CRIT DMG \u003E ATK% \u003E PEN = ATK"
+},
+"talents": [
+{
+	"name": "Quick Reload",
+	"desc": "When Zhu Yuan activates Chain Attacks/Ultimates, gain the Quick Reload effect. When Zhu Yuan has the Quick Reload effect and uses up all Enhanced Shotshells, the Quick Reload effect will be consumed to instantly gain 6/9 Enhanced Shotshells."
+},
+{
+	"name": "Ether Ember",
+	"desc": "In Suppressive Mode, Zhu Yuan’s Anti-Interrupt level is increased and DMG taken reduced by \u003Cb\u003E10%\u003C/b\u003E. When Zhu Yuan hits an enemy with Enhanced Shotshells, the target takes \u003Cb\u003E10%\u003C/b\u003E more Basic Attack: Please Do Not Resist and Dash Attack: Overwhelming Firepower DMG, stacking up to \u003Cb\u003E5\u003C/b\u003E times and lasting for \u003Cb\u003E5s\u003C/b\u003E. Each shot adds one stack of this effect, and repeated triggers reset the duration."
+},
+{
+	"name": "Public Security Special Training",
+	"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+},
+{
+	"name": "Ether Perforation",
+	"desc": "When Zhu Yuan hits an enemy with Enhanced Shotshells, her Basic Attack: Please Do Not Resist and Dash Attack: Overwhelming Firepower ignore \u003Cb\u003E25%\u003C/b\u003E of the target’s \u003Cu\u003EEther RES\u003C/u\u003E."
+},
+{
+	"name": "Special Ops Experience",
+	"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+},
+{
+	"name": "Expanded Energy Pack III",
+	"desc": "When Zhu Yuan consumes a total of \u003Cb\u003E12\u003C/b\u003E Enhanced Shotshells, she receives the Ether Afterglow effect, and the Energy cost of the next EX Special Attack is reduced by \u003Cb\u003E30\u003C/b\u003E. Launching an EX Special Attack will consume Ether Afterglow and shoot an additional 4-bullet Ether Buckshot. Each extra bullet deals DMG equal to \u003Cb\u003E220%\u003C/b\u003E of Zhu Yuan's ATK. "
+}
+],
+"introduction": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Leader of Public Security's Criminal Investigation team, Zhu Yuan, standing by. You can come to me if you need any help. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"voiceActors": {
+"en": "",
+"kr": "",
+"jpn": "Inoue Marina (井上 麻里奈)",
+"cn": "Mace (陆敏悦)"
+},
+"releaseDate": "July 25th, 2024",
+"upcoming": null
+}

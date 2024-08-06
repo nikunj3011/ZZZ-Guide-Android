@@ -1,6 +1,5 @@
 package zzzguide.models.api.bangboo
 
-data class BangbooSet(
-    val img: String,
+data class Category(
     val name: String
 )

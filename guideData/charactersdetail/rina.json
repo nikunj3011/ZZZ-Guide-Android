@@ -1,0 +1,193 @@
+{
+	"id": "82ea9f2a-2ab8-5983-826a-4b61c4870e10",
+	"updatedAt": "July 17th, 2024",
+	"createdAt": "2023-11-22T18:37:44.679Z",
+	"unitId": "7",
+	"name": "Rina",
+	"skillKey": "Rina",
+	"fullName": "Alexandrina Sebastiane",
+	"slug": "rina",
+	"rarity": "S",
+	"smallImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#080808",
+			"images": {
+			"fallback": {
+				"src": "/static/59179352a0768751004825a2e2c6f9e3/e9a79/7_sm.png",
+				"srcSet": "/static/59179352a0768751004825a2e2c6f9e3/f31ef/7_sm.png 40w,\n/static/59179352a0768751004825a2e2c6f9e3/1f8a1/7_sm.png 80w,\n/static/59179352a0768751004825a2e2c6f9e3/e9a79/7_sm.png 160w",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/59179352a0768751004825a2e2c6f9e3/e73fe/7_sm.webp 40w,\n/static/59179352a0768751004825a2e2c6f9e3/61ca6/7_sm.webp 80w,\n/static/59179352a0768751004825a2e2c6f9e3/60b4d/7_sm.webp 160w",
+				"type": "image/webp",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+				}
+			]
+			},
+			"width": 160,
+			"height": 160
+		}
+		}
+	}
+	},
+	"cardImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#080808",
+			"images": {
+			"fallback": {
+				"src": "/static/a033ab7d2edd6d7aa0bbaaaac47304f7/c9885/7_card.png",
+				"srcSet": "/static/a033ab7d2edd6d7aa0bbaaaac47304f7/2aab7/7_card.png 94w,\n/static/a033ab7d2edd6d7aa0bbaaaac47304f7/0a986/7_card.png 187w,\n/static/a033ab7d2edd6d7aa0bbaaaac47304f7/c9885/7_card.png 374w",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/a033ab7d2edd6d7aa0bbaaaac47304f7/84550/7_card.webp 94w,\n/static/a033ab7d2edd6d7aa0bbaaaac47304f7/34f80/7_card.webp 187w,\n/static/a033ab7d2edd6d7aa0bbaaaac47304f7/b26e2/7_card.webp 374w",
+				"type": "image/webp",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+				}
+			]
+			},
+			"width": 374,
+			"height": 512
+		}
+		}
+	}
+	},
+	"faction": "Victoria Housekeeping Co.",
+	"attackType": [
+	"Strike",
+	"Pierce"
+	],
+	"style": "Support",
+	"element": "Electric",
+	"review": null,
+	"pros": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has two pet Bangboo puppets she casts all her abilities with - they hang around on the field after she casts abilities for a short while before returning to her.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has the incredibly generic buff that while Bangboos are on the field Rina grants 25% of her PEN ratio + a flat amount up to a limit of 30% to all team members, increasing the whole team’s damage tremendously.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Additional ability increases all Shock durations from 10 seconds to 13 seconds resulting in higher Shock uptime and 30% more total damage if all Shocks have the chance to run their full duration (essential for Shock teams). Also grants the team 10% Electric damage while there is a Shocked enemy.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Pen Ratio buff is universal enough to always be helpful in any team and the Shock duration extension is unique enough that it’s unlikely Rina will become replaced too quickly.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Very easy to understand and play outside of ensuring Rina’s Bangboo’s stay deployed.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Very high movement speed, \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash distance and can attack while slightly moving making Rina one of the highest mobility characters in the game (next to Grace).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Many abilities last multiple seconds and occupy Rina’s Bangboos, restricting her from casting another ability until the last one finishes - this makes the use of Rina’s abilities in quick succession challenging.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Bangboos need to be constantly redeployed in order to take advantage of Rina’s Pen Ratio buff, meaning you’ll need to stay on top of weaving her attacking in between your other characters as much as possible.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"videos": null,
+	"endgameStats": null,
+	"tierListCategory": "Support",
+	"tierListTags": [
+	"Shock",
+	"Minion",
+	"Buff"
+	],
+	"ratings": {
+	"shiyu": 10
+	},
+	"build": {
+	"main_4": [
+		{
+		"stat": "ATK%",
+		"sign": "="
+		},
+		{
+		"stat": "Anomaly Proficiency",
+		"sign": null
+		}
+	],
+	"main_5": [
+		{
+		"stat": "PEN Ratio",
+		"sign": null
+		}
+	],
+	"main_6": [
+		{
+		"stat": "Energy Regen",
+		"sign": "\u003E="
+		},
+		{
+		"stat": "Anomaly Mastery",
+		"sign": null
+		}
+	],
+	"sets": [
+		{
+		"set_2": "",
+		"set_4": "Stat",
+		"value": "100%",
+		"notes": ""
+		}
+	],
+	"engines": [
+		{
+		"super": "1",
+		"weapon": "Weeping Cradle",
+		"percent": "",
+		"percent_standard": null,
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "[Reverb] Mark II",
+		"percent": "",
+		"percent_standard": null,
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "[Reverb] Mark III",
+		"percent": "",
+		"percent_standard": null,
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Unfettered Game Ball",
+		"percent": "",
+		"percent_standard": null,
+		"notes": null
+		}
+	],
+	"substats": "Anomaly Proficiency \u003E ATK% \u003E PEN = FLAT ATK"
+	},
+	"talents": [
+	{
+		"name": "Dance Duet",
+		"desc": "After being sent out to launch an attack, Drusilla and Anastella stay in place for an additional \u003Cb\u003E5.5s\u003C/b\u003E before returning to Rina. The effect gained from Core Passive: Mini Destruction Partner by characters within 10m is increased to \u003Cb\u003E130%\u003C/b\u003E."
+	},
+	{
+		"name": "Master's Paragon",
+		"desc": "Upon entering combat or switching in, Rina's DMG increases by 15% for 12s. This effect can trigger once every 18s."
+	},
+	{
+		"name": "Head Maid's Speciality",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Needle and Hammer",
+		"desc": "Rina's Energy Regen increases by 0.5/s when both Drusilla and Anastella are deployed. The effect ends when Drusilla or Anastella returns to Rina."
+	},
+	{
+		"name": "Head Maid Perfectionist",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Stormy Night's Fright",
+		"desc": "When an EX Special Attack, Chain Attack or Ultimate hits an enemy, the entire squad's \u003Cu\u003EElectric DMG\u003C/u\u003E is increased by \u003Cb\u003E15%\u003C/b\u003E for \u003Cb\u003E8s\u003C/b\u003E."
+	}
+	],
+	"introduction": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"A Midsummer Night's Dance. A delicate and gentle melody flows naturally through Rina's movements. Twisted Fate Concerto. Additional music performed by the dolls, best enjoyed with attentive ears. New World Symphony. Stirring, powerful, and elegant. Rina is as elegant as ever, even when beating people up. Silent Sonata Pathetique. The soundtrack that resonates in many people's minds when they see Rina step into the kitchen.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"voiceActors": {
+	"en": "",
+	"kr": "",
+	"jpn": "Arai Satomi (新井 里美)",
+	"cn": "Zhāngruòyú (张若瑜)"
+	},
+	"releaseDate": null,
+	"upcoming": null
+}
+		  

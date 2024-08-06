@@ -1,0 +1,177 @@
+{
+"id": "c3c1ee19-f665-5108-8992-dd69a1a2daf5",
+"updatedAt": "July 29th, 2024",
+"createdAt": "2024-06-27T06:30:47.021Z",
+"unitId": "17",
+"name": "Lucy",
+"skillKey": "Lucy",
+"fullName": "Lucy",
+"slug": "lucy",
+"rarity": "A",
+"smallImage": {
+"localFile": {
+	"childImageSharp": {
+	"gatsbyImageData": {
+		"layout": "constrained",
+		"backgroundColor": "#181818",
+		"images": {
+		"fallback": {
+			"src": "/static/911e8eb8be8cc944aaf5d9eb494bddbf/60b4d/17_sm.webp",
+			"srcSet": "/static/911e8eb8be8cc944aaf5d9eb494bddbf/e73fe/17_sm.webp 40w,\n/static/911e8eb8be8cc944aaf5d9eb494bddbf/61ca6/17_sm.webp 80w,\n/static/911e8eb8be8cc944aaf5d9eb494bddbf/60b4d/17_sm.webp 160w",
+			"sizes": "(min-width: 160px) 160px, 100vw"
+		},
+		"sources": []
+		},
+		"width": 160,
+		"height": 160
+	}
+	}
+}
+},
+"cardImage": {
+"localFile": {
+	"childImageSharp": {
+	"gatsbyImageData": {
+		"layout": "constrained",
+		"backgroundColor": "#f8f8f8",
+		"images": {
+		"fallback": {
+			"src": "/static/4d91060488554694e8c1ec47c078db4a/b26e2/17_card.webp",
+			"srcSet": "/static/4d91060488554694e8c1ec47c078db4a/84550/17_card.webp 94w,\n/static/4d91060488554694e8c1ec47c078db4a/34f80/17_card.webp 187w,\n/static/4d91060488554694e8c1ec47c078db4a/b26e2/17_card.webp 374w",
+			"sizes": "(min-width: 374px) 374px, 100vw"
+		},
+		"sources": []
+		},
+		"width": 374,
+		"height": 512
+	}
+	}
+}
+},
+"faction": "Sons of Calydon",
+"attackType": [
+"Unknown"
+],
+"style": "Support",
+"element": "Fire",
+"review": null,
+"pros": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has up to 3 pet guard boars that attack, dealing a small amount of damage and Daze.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Guard boars stay on the field and keep attacking even while Lucy leaves the field.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Grants the whole squad (including Bangboo and guard boars) a 600 flat ATK buff, assuming Lucy’s own personal Attack is high enough to cap out the buff.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Very very easy to play without much to do or mess up in order to bring out her full potential.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has different teams she is very very good in and a few where she is even the best - making her flexibility in teams incredibly good.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Doesn’t require her additional ability in order to fully unlock her supportive capabilities although she will lose some of her potential guard boar damage.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has two separate EX moves to choose from depending on the situation at hand.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"cons": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Guard boars can sometimes have trouble keeping up and hitting faster enemies in melee range, leading to them chasing enemies instead of constantly attacking.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Requires a high amount of personal Attack to grant her allies the full most powerful 600 flat Attack buff.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"videos": null,
+"endgameStats": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2475\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Lvl 10 Special) / \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2700\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Lvl 8 Special) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10000+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT RATE: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"40% - 60%+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"100% - 120%+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"tierListCategory": "Support",
+"tierListTags": [
+"Minion",
+"Buff",
+"Charge"
+],
+"ratings": {
+"shiyu": 9
+},
+"build": {
+"main_4": [
+	{
+	"stat": "ATK%",
+	"sign": null
+	}
+],
+"main_5": [
+	{
+	"stat": "ATK%",
+	"sign": null
+	}
+],
+"main_6": [
+	{
+	"stat": "Energy Regen",
+	"sign": "\u003E="
+	},
+	{
+	"stat": "ATK%",
+	"sign": null
+	}
+],
+"sets": [
+	{
+	"set_2": "",
+	"set_4": "Stat",
+	"value": "100%",
+	"notes": ""
+	}
+],
+"engines": [
+	{
+	"super": "5",
+	"weapon": "Kaboom the Cannon",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "[Reverb] Mark II",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "[Reverb] Mark III",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "Unfettered Game Ball",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	}
+],
+"substats": "ATK% \u003E Everything else"
+},
+"talents": [
+{
+	"name": "Drill Formations",
+	"desc": "When the guard boars launch Guard Boars: Spinning Swing!, Lucy recovers \u003Cb\u003E2\u003C/b\u003E Energy. This effect can trigger once every \u003Cb\u003E15s\u003C/b\u003E, with each guard boar having its own separate cooldown."
+},
+{
+	"name": "Little Boar Captain",
+	"desc": "When Lucy uses a Chain Attack or Ultimate, it grants all squad members, Bangboo, and the guard boars the Cheer On! status for \u003Cb\u003E10s\u003C/b\u003E."
+},
+{
+	"name": "Ironfist Overseer",
+	"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+},
+{
+	"name": "Chaos Ball Game",
+	"desc": "While in the Cheer On! state, allies' CRIT DMG is increased by an additional \u003Cb\u003E10%\u003C/b\u003E."
+},
+{
+	"name": "Wildland Princess",
+	"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+},
+{
+	"name": "Fierce Fangs of Fire",
+	"desc": "When an ally in the Cheer On! state hits an enemy with an EX Special Attack, a guard boar will drop from the sky and cause an explosion, dealing \u003Cu\u003EFire DMG\u003C/u\u003E equal to \u003Cb\u003E300%\u003C/b\u003E of the guard boar's ATK. This will extend the duration of the Cheer On! buff for all squad members by \u003Cb\u003E5s\u003C/b\u003E. The duration can increase up to \u003Cb\u003E3\u003C/b\u003E times, with a maximum duration of \u003Cb\u003E30s\u003C/b\u003E. Refreshing the Cheer On! state resets the stack count. After the guard boar's explosion, it will launch Guard Boars: Spinning Swing!."
+}
+],
+"introduction": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\\\"An honored guest just arrived. Allow me, Lady Lucy, to entertain you!\\\" Luciana Auxesis Theodoro de Montefio \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"voiceActors": {
+"en": "Courtney Lin",
+"kr": "",
+"jpn": "",
+"cn": ""
+},
+"releaseDate": null,
+"upcoming": null
+}

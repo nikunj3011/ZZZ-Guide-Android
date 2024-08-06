@@ -1,0 +1,203 @@
+{
+	"id": "bab0f053-10b6-5664-813c-e61d5528602a",
+	"updatedAt": "July 18th, 2024",
+	"createdAt": "2024-06-28T06:09:31.527Z",
+	"unitId": "18",
+	"name": "Piper",
+	"skillKey": "Piper",
+	"fullName": "Piper Wheel",
+	"slug": "piper",
+	"rarity": "A",
+	"smallImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#f8f8f8",
+			"images": {
+			"fallback": {
+				"src": "/static/6308974bdbbb44f7221be6d87cdc048b/60b4d/18_sm.webp",
+				"srcSet": "/static/6308974bdbbb44f7221be6d87cdc048b/e73fe/18_sm.webp 40w,\n/static/6308974bdbbb44f7221be6d87cdc048b/61ca6/18_sm.webp 80w,\n/static/6308974bdbbb44f7221be6d87cdc048b/60b4d/18_sm.webp 160w",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+			},
+			"sources": []
+			},
+			"width": 160,
+			"height": 160
+		}
+		}
+	}
+	},
+	"cardImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#f8f8f8",
+			"images": {
+			"fallback": {
+				"src": "/static/149e740693e896724e313c62321586d8/b26e2/18_card.webp",
+				"srcSet": "/static/149e740693e896724e313c62321586d8/84550/18_card.webp 94w,\n/static/149e740693e896724e313c62321586d8/34f80/18_card.webp 187w,\n/static/149e740693e896724e313c62321586d8/b26e2/18_card.webp 374w",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+			},
+			"sources": []
+			},
+			"width": 374,
+			"height": 512
+		}
+		}
+	}
+	},
+	"faction": "Sons of Calydon",
+	"attackType": [
+	"Unknown"
+	],
+	"style": "Anomaly",
+	"element": "Physical",
+	"review": null,
+	"pros": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Deals a large amount of her total damage while performing her Charged Spinning EX attack which applies devastating amounts of Assault but also allows Piper to move while casting.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can quickly apply the Flinched state to enemies thanks to her fast Physical Anomaly buildup increasing Daze the afflicted target takes by 10%.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"After performing a fully channeled EX spin and accumulating 20 stacks of her Power buff, grants the entire squad an 18% Damage % buff boosting her own and other character's output.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Spin to Win!\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has incredibly limited potential teammates she shares a Faction or Elemental synergy with outside of other Physical DPS who she’ll need to compete with on-field time for on. Lucy is her only non-DPS who doesn’t take up said field time and is also her faction companion.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Competes with many other A-Rank Physical DPS.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"videos": null,
+	"endgameStats": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2100-2700+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9000+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Mastery: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"116 - 150+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Proficiency: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"350 - 450+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"tierListCategory": "Anomaly",
+	"tierListTags": [
+	"Charge",
+	"Assault"
+	],
+	"ratings": {
+	"shiyu": 9
+	},
+	"build": {
+	"main_4": [
+		{
+		"stat": "Anomaly Proficiency",
+		"sign": "\u003E"
+		},
+		{
+		"stat": "ATK%",
+		"sign": ""
+		}
+	],
+	"main_5": [
+		{
+		"stat": "Physical DMG",
+		"sign": "\u003E"
+		},
+		{
+		"stat": "ATK%",
+		"sign": "="
+		},
+		{
+		"stat": "PEN Ratio",
+		"sign": null
+		}
+	],
+	"main_6": [
+		{
+		"stat": "Anomaly Mastery",
+		"sign": "="
+		},
+		{
+		"stat": "ATK%",
+		"sign": null
+		}
+	],
+	"sets": [
+		{
+		"set_2": "",
+		"set_4": "Stat",
+		"value": "100%",
+		"notes": ""
+		}
+	],
+	"engines": [
+		{
+		"super": "5",
+		"weapon": "Roaring Ride",
+		"percent": "100.00%",
+		"percent_standard": null,
+		"notes": null
+		},
+		{
+		"super": "1",
+		"weapon": "Fusion Compiler",
+		"percent": "94.97%",
+		"percent_standard": null,
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Weeping Gemini",
+		"percent": "88.68%",
+		"percent_standard": null,
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Electro-Lip Gloss",
+		"percent": "96.14%",
+		"percent_standard": null,
+		"notes": "100% uptime"
+		},
+		{
+		"super": "5",
+		"weapon": "Electro-Lip Gloss",
+		"percent": "83.46%",
+		"percent_standard": null,
+		"notes": "0% uptime"
+		},
+		{
+		"super": "5",
+		"weapon": "Rainforest Gourmet",
+		"percent": "83.80%",
+		"percent_standard": null,
+		"notes": null
+		}
+	],
+	"substats": "Anomaly Proficiency \u003E ATK% \u003E PEN = ATK"
+	},
+	"talents": [
+	{
+		"name": "Leisure Moment",
+		"desc": "When Piper's Special Attack: Tire Spin, EX Special Attack: Engine Spin, or Ultimate hits an enemy with a spinning slash, there is a \u003Cb\u003E50%\u003C/b\u003E chance to gain an additional stack of Power. The maximum stack limit of Power is increased to \u003Cb\u003E30\u003C/b\u003E."
+	},
+	{
+		"name": "Motivation",
+		"desc": "During Special Attack: Tire Spin and EX Special Attack: Engine Spin, Piper's movement speed increases. When using Special Attack: One Trillion Tons, EX Special Attack: Really Heavy, or Ultimate to launch a downward smash that hits an enemy, the Physical DMG dealt by the move is increased by \u003Cb\u003E10%\u003C/b\u003E. For each stack of Power, this buff is further increased by \u003Cb\u003E1%\u003C/b\u003E."
+	},
+	{
+		"name": "Truck Expert",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Refined Techniques",
+		"desc": "Whenever a squad member inflicts an Attribute Anomaly on an enemy, Piper recovers \u003Cb\u003E20\u003C/b\u003E Energy. This effect can trigger once every \u003Cb\u003E30s\u003C/b\u003E."
+	},
+	{
+		"name": "Personal Hobbies",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Mild Excitement",
+		"desc": "Increases the duration limit of EX Special Attack: Engine Spin by \u003Cb\u003E2s\u003C/b\u003E and extends the duration of Power by \u003Cb\u003E4s\u003C/b\u003E."
+	}
+	],
+	"introduction": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Hmph, what in the world is so appealing about lottery tickets anyway? Victory and defeat are completely out of your own control!\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"voiceActors": {
+	"en": "Suzie Yeung",
+	"kr": "",
+	"jpn": "",
+	"cn": ""
+	},
+	"releaseDate": null,
+	"upcoming": null
+}
+		  

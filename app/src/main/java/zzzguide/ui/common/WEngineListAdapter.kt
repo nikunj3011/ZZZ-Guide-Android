@@ -1,11 +1,17 @@
 package zzzguide.ui.common
 
+import android.annotation.SuppressLint
 import android.content.Context
+import android.graphics.Color
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import zzzguide.R
 import zzzguide.models.api.wengines.WEngineResponseItem
 
@@ -38,56 +44,111 @@ class WEngineListAdapter (
     }
 
     class MyViewHolder2(val view: View): RecyclerView.ViewHolder(view){
-        fun bind(contextWeapon: Context, weapon: WEngineResponseItem, clickListener:(WEngineResponseItem)->Unit) {
-            val myTextView = view.findViewById<TextView>(R.id.weaponName)
-            myTextView.text = weapon.name
+        @SuppressLint("ClickableViewAccessibility")
+        fun bind(contextWeapon: Context, wengine: WEngineResponseItem, clickListener:(WEngineResponseItem)->Unit) {
+            val myTextView = view.findViewById<TextView>(R.id.wengineName)
+            myTextView.text = wengine.title
+            val echoImageView = view.findViewById<ImageView>(R.id.imageViewWEngine)
+            if(wengine.name != null) {
+                Glide.with(view)
+                    .load(wengine.icon_url)
+                    .into(echoImageView)
+            }
 
-//            val rarityTextView = view.findViewById<TextView>(R.id.textRarityWeapon)
-//            rarityTextView.text = "Rarity: " + weapon.rarity
-//
-//            val typeTextView = view.findViewById<TextView>(R.id.textWeaponType)
-//            typeTextView.text = "" + weapon.type
-//
-//            val descriptionTextView = view.findViewById<TextView>(R.id.textDescriptionWeapon)
-//            descriptionTextView.movementMethod = ScrollingMovementMethod()
-//            descriptionTextView.text = "CD: " + weapon.description
-//
-//            val atkTextView = view.findViewById<TextView>(R.id.textAtkWeapon)
-//            atkTextView.text =  "ATK (Lv.1): " + weapon.baseAtk.toString()
-//
-//            val bonusTextView = view.findViewById<TextView>(R.id.textWeaponSpAttribute)
-//            bonusTextView.text = weapon.bonusStat
-//
-//            val echoImageView = view.findViewById<ImageView>(R.id.imageViewWeapon)
-//            if(weapon.img != null){
-//                Glide.with(view)
-//                    .load(weapon.img)
-//                    .into(echoImageView)
-//
-//                when (weapon.rarityDes) {
-//                    "Star5" -> {
-//                        echoImageView.background = ContextCompat.getDrawable(contextWeapon, R.drawable.five_star_gradient)
-//                    }
-//                    "Star4" -> {
-//                        echoImageView.background = ContextCompat.getDrawable(contextWeapon, R.drawable.four_star_gradient)
-//                    }
-//                    "Star3" -> {
-//                        echoImageView.background = ContextCompat.getDrawable(contextWeapon, R.drawable.three_star_gradient)
-//                    }
-//                    "Star2" -> {
-//                        echoImageView.background = ContextCompat.getDrawable(contextWeapon, R.drawable.two_star_gradient)
-//                    }
-//                    "Star1" -> {
-//                        echoImageView.background = ContextCompat.getDrawable(contextWeapon, R.drawable.one_star_gradient)
-//                    }
-//                    else -> {
-//                        echoImageView.background = ContextCompat.getDrawable(contextWeapon, R.drawable.one_star_gradient)
-//                    }
-//                }
-//            }
-//
-//            view.setOnClickListener {
-//                clickListener(fruit)
-//            }
+            val imageViewWengineRank = view.findViewById<ImageView>(R.id.imageViewWengineRank)
+            val viewWengineRank1 =
+                view.findViewById<View>(R.id.viewWengineRank1)
+            val viewWengineRank2 =
+                view.findViewById<View>(R.id.viewWengineRank2)
+
+            if (wengine?.categories?.elementAt(0) != null) {
+
+                when (wengine.categories.elementAt(0).name) {
+                    "a-rank" -> {
+                        Glide.with(view)
+                            .load(R.drawable.arank)
+                            .into(imageViewWengineRank)
+                        viewWengineRank1.setBackgroundColor(Color.parseColor("#AB3A4E"))
+                        viewWengineRank2.setBackgroundColor(Color.parseColor("#AB3A4E"))
+                    }
+
+                    "s-rank" -> {
+                        Glide.with(view)
+                            .load(R.drawable.srank)
+                            .into(imageViewWengineRank)
+                        viewWengineRank1.setBackgroundColor(Color.parseColor("#F9A700"))
+                        viewWengineRank2.setBackgroundColor(Color.parseColor("#F9A700"))
+                    }
+
+                    "b-rank" -> {
+                        Glide.with(view)
+                            .load(R.drawable.brank)
+                            .into(imageViewWengineRank)
+                        viewWengineRank1.setBackgroundColor(Color.parseColor("#0FB8E5"))
+                        viewWengineRank2.setBackgroundColor(Color.parseColor("#0FB8E5"))
+                    }
+
+                    else -> {
+                        Glide.with(view)
+                            .load(R.drawable.srank)
+                            .into(imageViewWengineRank)
+                        viewWengineRank1.setBackgroundColor(Color.parseColor("#F9A700"))
+                        viewWengineRank2.setBackgroundColor(Color.parseColor("#F9A700"))
+                    }
+                }
+            }
+
+            val imageViewWEngineSpeciality = view.findViewById<ImageView>(R.id.imageViewWEngineSpeciality)
+            if (wengine?.categories?.elementAt(1) != null) {
+                when (wengine.categories.elementAt(1).name.lowercase()) {
+                    "attack" -> {
+                        Glide.with(view)
+                            .load(R.drawable.attack)
+                            .into(imageViewWEngineSpeciality)
+                    }
+
+                    "stun" -> {
+                        Glide.with(view)
+                            .load(R.drawable.stun)
+                            .into(imageViewWEngineSpeciality)
+                    }
+
+                    "anomaly" -> {
+                        Glide.with(view)
+                            .load(R.drawable.anomaly)
+                            .into(imageViewWEngineSpeciality)
+                    }
+
+                    "support" -> {
+                        Glide.with(view)
+                            .load(R.drawable.support)
+                            .into(imageViewWEngineSpeciality)
+                    }
+
+                    "defense" -> {
+                        Glide.with(view)
+                            .load(R.drawable.defense)
+                            .into(imageViewWEngineSpeciality)
+                    }
+
+                    else -> {
+                        Glide.with(view)
+                            .load(R.drawable.stun)
+                            .into(imageViewWEngineSpeciality)
+                    }
+                }
+            }
+
+            view.setOnTouchListener { view, event ->
+                if (event.action == MotionEvent.ACTION_DOWN) {
+                    view.background =
+                        ContextCompat.getDrawable(contextWeapon, R.drawable.translucent_black)
+                } else if (event.action == MotionEvent.ACTION_UP) {
+                    view.background =
+                        ContextCompat.getDrawable(contextWeapon, R.drawable.layout_bg)
+                    clickListener(wengine)
+                }
+                true
+            }
         }
     }

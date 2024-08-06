@@ -143,32 +143,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
         <TextView
-            android:id="@+id/textView14"
-            android:layout_width="110dp"
-            android:layout_height="21dp"
-            android:layout_marginTop="44dp"
-            android:layout_marginEnd="4dp"
-            android:fontFamily="@font/poppins"
-            android:gravity="right"
-            android:text="Best Set "
-            android:textColor="#AAEFEAE6"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewCharacterBottomSheet" />
-
-        <TextView
-            android:id="@+id/txtBestSetBottomSheet"
-            android:layout_width="wrap_content"
-            android:layout_height="31dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="4dp"
-            android:text="Loading..."
-            android:textAlignment="viewEnd"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" />
-
-        <TextView
             android:id="@+id/textRatingsCharacterBottomSheet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -208,9 +182,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/poppins"
-            android:text="Main Echo"
+            android:text="Best W-Engine"
             android:textColor="#AAEFEAE6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewBestWeapon" />
@@ -505,18 +479,6 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView17" />
-
-        <View
-            android:id="@+id/viewCharacterLineMainEchoLineBottomSheet"
-            android:layout_width="40dp"
-            android:layout_height="2dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:background="@color/goldyellowThird"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
         <View
             android:id="@+id/viewCharacterLineEchoLineBottomSheet"

@@ -1,0 +1,78 @@
+{
+	"id": "eb6dc5b6-7140-5c78-9d3e-983cb4c69152",
+	"updatedAt": "August 3rd, 2024",
+	"createdAt": "2024-07-09T06:04:29.888Z",
+	"unitId": "20",
+	"name": "Seth",
+	"skillKey": "Seth",
+	"fullName": "Seth Lowell",
+	"slug": "seth",
+	"rarity": "A",
+	"smallImage": {
+	  "localFile": {
+		"childImageSharp": {
+		  "gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#282828",
+			"images": {
+			  "fallback": {
+				"src": "/static/4de2b668cb0ed1f92cb5b9ebeb71c918/60b4d/20_sm.webp",
+				"srcSet": "/static/4de2b668cb0ed1f92cb5b9ebeb71c918/e73fe/20_sm.webp 40w,\n/static/4de2b668cb0ed1f92cb5b9ebeb71c918/61ca6/20_sm.webp 80w,\n/static/4de2b668cb0ed1f92cb5b9ebeb71c918/60b4d/20_sm.webp 160w",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+			  },
+			  "sources": []
+			},
+			"width": 160,
+			"height": 160
+		  }
+		}
+	  }
+	},
+	"cardImage": {
+	  "localFile": {
+		"childImageSharp": {
+		  "gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#282828",
+			"images": {
+			  "fallback": {
+				"src": "/static/08e1b50db955142a4022bde6e7f3d2aa/b26e2/20_card.webp",
+				"srcSet": "/static/08e1b50db955142a4022bde6e7f3d2aa/84550/20_card.webp 94w,\n/static/08e1b50db955142a4022bde6e7f3d2aa/34f80/20_card.webp 187w,\n/static/08e1b50db955142a4022bde6e7f3d2aa/b26e2/20_card.webp 374w",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+			  },
+			  "sources": []
+			},
+			"width": 374,
+			"height": 512
+		  }
+		}
+	  }
+	},
+	"faction": "N.E.P.S.",
+	"attackType": [
+	  "Unknown"
+	],
+	"style": "Defence",
+	"element": "Electric",
+	"review": null,
+	"pros": null,
+	"cons": null,
+	"videos": null,
+	"endgameStats": null,
+	"tierListCategory": null,
+	"tierListTags": null,
+	"ratings": {
+	  "shiyu": 1
+	},
+	"build": null,
+	"talents": null,
+	"introduction": null,
+	"voiceActors": {
+	  "en": "Nazeeh Tarsha",
+	  "kr": "",
+	  "jpn": "",
+	  "cn": ""
+	},
+	"releaseDate": null,
+	"upcoming": true
+}

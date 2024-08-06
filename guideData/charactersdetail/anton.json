@@ -1,0 +1,198 @@
+{
+"id": "13237092-cc9c-55f7-944f-d9d39cfeeaf1",
+"updatedAt": "July 21st, 2024",
+"createdAt": "2023-11-22T19:25:32.231Z",
+"unitId": "15",
+"name": "Anton",
+"skillKey": "Anton",
+"fullName": "Anton Ivanov",
+"slug": "anton",
+"rarity": "A",
+"smallImage": {
+"localFile": {
+	"childImageSharp": {
+	"gatsbyImageData": {
+		"layout": "constrained",
+		"backgroundColor": "#080808",
+		"images": {
+		"fallback": {
+			"src": "/static/ca26f63cd8c4de3ffdcb316300562982/e9a79/15_sm.png",
+			"srcSet": "/static/ca26f63cd8c4de3ffdcb316300562982/f31ef/15_sm.png 40w,\n/static/ca26f63cd8c4de3ffdcb316300562982/1f8a1/15_sm.png 80w,\n/static/ca26f63cd8c4de3ffdcb316300562982/e9a79/15_sm.png 160w",
+			"sizes": "(min-width: 160px) 160px, 100vw"
+		},
+		"sources": [
+			{
+			"srcSet": "/static/ca26f63cd8c4de3ffdcb316300562982/e73fe/15_sm.webp 40w,\n/static/ca26f63cd8c4de3ffdcb316300562982/61ca6/15_sm.webp 80w,\n/static/ca26f63cd8c4de3ffdcb316300562982/60b4d/15_sm.webp 160w",
+			"type": "image/webp",
+			"sizes": "(min-width: 160px) 160px, 100vw"
+			}
+		]
+		},
+		"width": 160,
+		"height": 160
+	}
+	}
+}
+},
+"cardImage": {
+"localFile": {
+	"childImageSharp": {
+	"gatsbyImageData": {
+		"layout": "constrained",
+		"backgroundColor": "#080808",
+		"images": {
+		"fallback": {
+			"src": "/static/3de23a4b31243629062226c10ec6720e/c9885/15_card.png",
+			"srcSet": "/static/3de23a4b31243629062226c10ec6720e/2aab7/15_card.png 94w,\n/static/3de23a4b31243629062226c10ec6720e/0a986/15_card.png 187w,\n/static/3de23a4b31243629062226c10ec6720e/c9885/15_card.png 374w",
+			"sizes": "(min-width: 374px) 374px, 100vw"
+		},
+		"sources": [
+			{
+			"srcSet": "/static/3de23a4b31243629062226c10ec6720e/84550/15_card.webp 94w,\n/static/3de23a4b31243629062226c10ec6720e/34f80/15_card.webp 187w,\n/static/3de23a4b31243629062226c10ec6720e/b26e2/15_card.webp 374w",
+			"type": "image/webp",
+			"sizes": "(min-width: 374px) 374px, 100vw"
+			}
+		]
+		},
+		"width": 374,
+		"height": 512
+	}
+	}
+}
+},
+"faction": "Belobog Heavy Industries",
+"attackType": [
+"Pierce"
+],
+"style": "Attack",
+"element": "Electric",
+"review": null,
+"pros": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has the unique mechanic to retrigger Shocks every 0.5 seconds after dealing 4 Critical Hits while in Burst mode giving him one of the highest potential kits for an A-rank unit.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Part of one of the top teams (Shock team) as of 1.0 making him one of the only non-support A-Ranks to find a spot in the most competitive compositions.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has great Mindscapes, giving him good scaling potential as you develop your account. His M1 prolongs his Burst Mode duration by a good amount, and his M4 gives the whole team a Crit Rate buff after he uses a Chain or Ultimate attack for 12 seconds.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Is a Bro.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"cons": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has a large amount of his potential damage within his kit tied to his ability to trigger additional damage against Shocked enemies, making him reliant on ensuring enemies remain Shocked as much as possible and for as large amount of damage as possible.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has limited options outside of S-rank’s when it comes to team building.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Relies heavily on being in Burst Mode to deal the majority of his damage and feels lackluster outside of it, making Anton one of the most energy-reliant characters in the game.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"videos": null,
+"endgameStats": {
+"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"ATK: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"2300-2800+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"HP: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"9000+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"DEF: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"800+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"CRIT RATE: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"70-100%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"CRIT DMG: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"120-160%+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"\",\"marks\":[],\"data\":{}}]}]}"
+},
+"tierListCategory": "DPS",
+"tierListTags": [
+"Shock"
+],
+"ratings": {
+"shiyu": 7
+},
+"build": {
+"main_4": [
+	{
+	"stat": "CRIT Rate",
+	"sign": "="
+	},
+	{
+	"stat": "CRIT DMG",
+	"sign": null
+	}
+],
+"main_5": [
+	{
+	"stat": "Electric DMG",
+	"sign": "\u003E="
+	},
+	{
+	"stat": "PEN Ratio",
+	"sign": null
+	}
+],
+"main_6": [
+	{
+	"stat": "ATK%",
+	"sign": null
+	}
+],
+"sets": [
+	{
+	"set_2": "",
+	"set_4": "Stat",
+	"value": "100%",
+	"notes": ""
+	}
+],
+"engines": [
+	{
+	"super": "5",
+	"weapon": "Drill Rig - Red Axis",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "1",
+	"weapon": "The Brimstone",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "Starlight Engine",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "Street Superstar",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "Cannon Rotor",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	}
+],
+"substats": "CRIT RATE = CRIT DMG \u003E ATK% \u003E PEN = ATK"
+},
+"talents": [
+{
+	"name": "Warm-up Exercises",
+	"desc": "When Drill Attack hits an enemy, Anton gains additional Energy up to a maximum of \u003Cb\u003E5\u003C/b\u003E Energy per skill use."
+},
+{
+	"name": "State of Flow",
+	"desc": "When Anton uses his EX Special Attack and enters Burst Mode, he gains a Shield that equals to \u003Cb\u003E7.5%\u003C/b\u003E of his max HP. While in Burst Mode, entering combat or switching in reapplies the Shield effect. This effect can trigger once every 15s. The Shield dissipates when Burst Mode ends."
+},
+{
+	"name": "Rotational Training",
+	"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+},
+{
+	"name": "Everyone Get Fired Up!",
+	"desc": "When Anton uses a Chain Attack or Ultimate, all squad members' CRIT Rate increases by \u003Cb\u003E10%\u003C/b\u003E for \u003Cb\u003E12s\u003C/b\u003E."
+},
+{
+	"name": "Jack of All Trades",
+	"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+},
+{
+	"name": "Break the Limit",
+	"desc": "When Anton's Piledriver Attack triggers a critical hit, his Basic Attack: Enthusiastic Drills (Burst Mode) and Dodge Counter: Overload Drill (Burst Mode) deal \u003Cb\u003E4%\u003C/b\u003E more DMG for \u003Cb\u003E30s\u003C/b\u003E, stacking up to \u003Cb\u003E6\u003C/b\u003E times. Repeated triggers reset the duration."
+}
+],
+"introduction": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Leads Others in His Passion for Work. A senior staff member of Belobog Industries, he's an onsite project manager who's always ready to go. Energetic and Reliable. He's full of vigor and always rises to the occasion. Kind-Hearted Despite Appearances. With a sharp tongue but a soft heart, he can't say \\\"no\\\" to those in need. Strong, Sincere & Straightforward. Open and honest, nothing can seem to upset him.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"voiceActors": {
+"en": "",
+"kr": "",
+"jpn": "Kamio Shinichiro (神尾 晋一郎)",
+"cn": "Xiāo Dí (萧翟)"
+},
+"releaseDate": null,
+"upcoming": null
+}

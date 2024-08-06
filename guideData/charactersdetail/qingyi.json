@@ -1,0 +1,108 @@
+{
+	"id": "c49be0a1-f6d3-59ca-b465-b9a30f6bac5e",
+	"updatedAt": "August 6th, 2024",
+	"createdAt": "2024-07-06T12:52:50.478Z",
+	"unitId": "19",
+	"name": "Qingyi",
+	"skillKey": "Qingyi",
+	"fullName": "Qingyi",
+	"slug": "qingyi",
+	"rarity": "S",
+	"smallImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#586858",
+			"images": {
+			"fallback": {
+				"src": "/static/09a883040e21a946c0b2088682e90b0a/60b4d/19_sm.webp",
+				"srcSet": "/static/09a883040e21a946c0b2088682e90b0a/e73fe/19_sm.webp 40w,\n/static/09a883040e21a946c0b2088682e90b0a/61ca6/19_sm.webp 80w,\n/static/09a883040e21a946c0b2088682e90b0a/60b4d/19_sm.webp 160w",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+			},
+			"sources": []
+			},
+			"width": 160,
+			"height": 160
+		}
+		}
+	}
+	},
+	"cardImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#f8f8f8",
+			"images": {
+			"fallback": {
+				"src": "/static/3d6b608143a955440dce864c8929ab5d/b26e2/19_card.webp",
+				"srcSet": "/static/3d6b608143a955440dce864c8929ab5d/84550/19_card.webp 94w,\n/static/3d6b608143a955440dce864c8929ab5d/34f80/19_card.webp 187w,\n/static/3d6b608143a955440dce864c8929ab5d/b26e2/19_card.webp 374w",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+			},
+			"sources": []
+			},
+			"width": 374,
+			"height": 512
+		}
+		}
+	}
+	},
+	"faction": "N.E.P.S.",
+	"attackType": [
+	"Strike"
+	],
+	"style": "Stun",
+	"element": "Electric",
+	"review": null,
+	"pros": null,
+	"cons": null,
+	"videos": [
+	{
+		"video": "bD701NHDtCE"
+	}
+	],
+	"endgameStats": null,
+	"tierListCategory": "Stun",
+	"tierListTags": null,
+	"ratings": {
+	"shiyu": 1
+	},
+	"build": null,
+	"talents": [
+	{
+		"name": "Insulation Breakdown",
+		"desc": "When Qingyi enters combat, Flash Connect Voltage is instantly restored to its maximum, and the accumulation rate is increased by \u003Cb\u003E30%\u003C/b\u003E. When using her Basic Attack: Enchanted Moonlit Blossoms, if Flash Connect Voltage is at its maximum, the attack will reduce the defense of the enemy it hits by \u003Cb\u003E15%\u003C/b\u003E, and Qingyi's CRIT Rate against that enemy will increase by \u003Cb\u003E20%\u003C/b\u003E for \u003Cb\u003E15s\u003C/b\u003E."
+	},
+	{
+		"name": "Minimal Effort, Maximum Impact",
+		"desc": "Each stack of Subjugation in Core Passive: Eternal Seasons increases the Stun DMG Multiplier to \u003Cb\u003E133%\u003C/b\u003E of its original value. When Qingyi's attack hits an enemy and the stacks of Subjugation she applies reaches its maximum stacks, her daze dealt to the target increases by \u003Cb\u003E15%\u003C/b\u003E."
+	},
+	{
+		"name": "Drink Hot Water",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Stable Arc Barrier",
+		"desc": "Upon entering or exiting Flash Connect state, gain a shield equal to \u003Cb\u003E10%\u003C/b\u003E of Qingyi's max HP. If a previous shield is still active when the shield effect refreshes, Qingyi generates \u003Cb\u003E5\u003C/b\u003E Energy. This Energy generation effect can be triggered once every \u003Cb\u003E10s\u003C/b\u003E."
+	},
+	{
+		"name": "Youthful Spirit",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Eight Meridians",
+		"desc": "The Interrupt Level of Basic Attack: Enchanted Moonlit Blossoms is greatly increased, and the CRIT DMG is increased by an additional \u003Cb\u003E100%\u003C/b\u003E. When Qingyi hits an enemy with her Basic Attack: Enchanted Moonlit Blossoms, the target's Resistance to all Attribute DMG is reduced by \u003Cb\u003E20%\u003C/b\u003E for \u003Cb\u003E15s\u003C/b\u003E."
+	}
+	],
+	"introduction": null,
+	"voiceActors": {
+	"en": "Kira Buckland",
+	"kr": "",
+	"jpn": "Maria Abo (阿保まりあ)",
+	"cn": ""
+	},
+	"releaseDate": "August 14th, 2024",
+	"upcoming": true
+}
+		  

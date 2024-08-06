@@ -2,6 +2,7 @@
 	{
 		"name": "anby",
 		"nick_name": "Anby",
+		"slug": "anby-demara",
 		"full_name": "Anby Demara",
 		"bio": "Target confirmed. Commencing the operation.",
 		"gender": "Female",
@@ -187,6 +188,7 @@
 	{
 		"name": "billy",
 		"full_name": "Billy Kid",
+		"slug": "billy-kid",
 		"bio": "",
 		"nick_name": "Billy",
 		"gender": "Male",
@@ -368,6 +370,7 @@
 	{
 		"name": "nicole",
 		"nick_name": "Nicole",
+		"slug": "nicole-demara",
 		"full_name": "Nicole Demara",
 		"bio": "",
 		"gender": "Female",
@@ -544,6 +547,7 @@
 	{
 		"name": "anton",
 		"nick_name": "Anton",
+		"slug": "anton",
 		"full_name": "Anton Ivanov",
 		"bio": "",
 		"gender": "Male",
@@ -745,6 +749,7 @@
 	{
 		"name": "corin",
 		"nick_name": "Corin",
+		"slug": "corin",
 		"full_name": "Corin Wickes",
 		"bio": "",
 		"gender": "Female",
@@ -915,6 +920,7 @@
 	},
 	{
 		"name": "ben",
+		"slug": "ben",
 		"nick_name": "Ben",
 		"full_name": "Ben Bigger",
 		"bio": "",
@@ -1081,6 +1087,7 @@
 	},
 	{
 		"name": "soukaku",
+		"slug": "soukaku",
 		"nick_name": "Soukaku",
 		"full_name": "Soukaku",
 		"bio": "",
@@ -1275,6 +1282,7 @@
 	},
 	{
 		"name": "nekomiya",
+		"slug": "nekomata",
 		"nick_name": "Nekomiya",
 		"full_name": "Nekomiya Mana",
 		"bio": "",
@@ -1455,6 +1463,7 @@
 	},
 	{
 		"name": "lycaon",
+		"slug": "lycaon",
 		"nick_name": "Lycaon",
 		"full_name": "Von Lycaon",
 		"bio": "",
@@ -1625,6 +1634,7 @@
 	},
 	{
 		"name": "soldier-11",
+		"slug": "soldier-11",
 		"nick_name": "Soldier 11",
 		"full_name": "Soldier 11",
 		"bio": "",
@@ -1809,6 +1819,7 @@
 	},
 	{
 		"name": "koleda",
+		"slug": "koleda",
 		"nick_name": "Koleda",
 		"full_name": "Koleda Belobog",
 		"bio": "",
@@ -1980,6 +1991,7 @@
 	},
 	{
 		"name": "grace",
+		"slug": "grace-howard",
 		"nick_name": "Grace",
 		"full_name": "Grace Howard",
 		"bio": "",
@@ -2150,6 +2162,7 @@
 	},
 	{
 		"name": "ellen",
+		"slug": "ellen",
 		"nick_name": "Ellen",
 		"full_name": "Ellen Joe",
 		"bio": "",
@@ -2365,6 +2378,7 @@
 	},
 	{
 		"name": "alexandrina",
+		"slug": "rina",
 		"nick_name": "Alexandrina",
 		"full_name": "Alexandrina Sebastiane",
 		"bio": "",
@@ -2550,6 +2564,7 @@
 	},
 	{
 		"name": "zhu-yuan",
+		"slug": "zhu-yuan",
 		"nick_name": "Zhu Yuan",
 		"full_name": "Zhu Yuan",
 		"bio": "",
@@ -2730,6 +2745,7 @@
 	},
 	{
 		"name": "piper",
+		"slug": "piper",
 		"nick_name": "Piper",
 		"full_name": "Piper Wheel",
 		"bio": "",
@@ -2914,6 +2930,7 @@
 	},
 	{
 		"name": "luciana",
+		"slug": "lucy",
 		"nick_name": "Luciana",
 		"full_name": "Luciana de Montefio",
 		"bio": "",

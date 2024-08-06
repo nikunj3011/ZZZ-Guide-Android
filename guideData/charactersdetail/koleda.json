@@ -1,0 +1,193 @@
+{
+	"id": "93aa5e24-0e31-5b12-b127-791ec3b24923",
+	"updatedAt": "July 23rd, 2024",
+	"createdAt": "2023-11-22T19:14:09.473Z",
+	"unitId": "12",
+	"name": "Koleda",
+	"skillKey": "Koleda",
+	"fullName": "Koleda Belobog",
+	"slug": "koleda",
+	"rarity": "S",
+	"smallImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#e86838",
+			"images": {
+			"fallback": {
+				"src": "/static/6b43127593b23cf46ba122081e544329/e9a79/12_sm.png",
+				"srcSet": "/static/6b43127593b23cf46ba122081e544329/f31ef/12_sm.png 40w,\n/static/6b43127593b23cf46ba122081e544329/1f8a1/12_sm.png 80w,\n/static/6b43127593b23cf46ba122081e544329/e9a79/12_sm.png 160w",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/6b43127593b23cf46ba122081e544329/e73fe/12_sm.webp 40w,\n/static/6b43127593b23cf46ba122081e544329/61ca6/12_sm.webp 80w,\n/static/6b43127593b23cf46ba122081e544329/60b4d/12_sm.webp 160w",
+				"type": "image/webp",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+				}
+			]
+			},
+			"width": 160,
+			"height": 160
+		}
+		}
+	}
+	},
+	"cardImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#080808",
+			"images": {
+			"fallback": {
+				"src": "/static/8a253335d36c0007a3c2add3fb787cbd/c9885/12_card.png",
+				"srcSet": "/static/8a253335d36c0007a3c2add3fb787cbd/2aab7/12_card.png 94w,\n/static/8a253335d36c0007a3c2add3fb787cbd/0a986/12_card.png 187w,\n/static/8a253335d36c0007a3c2add3fb787cbd/c9885/12_card.png 374w",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/8a253335d36c0007a3c2add3fb787cbd/84550/12_card.webp 94w,\n/static/8a253335d36c0007a3c2add3fb787cbd/34f80/12_card.webp 187w,\n/static/8a253335d36c0007a3c2add3fb787cbd/b26e2/12_card.webp 374w",
+				"type": "image/webp",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+				}
+			]
+			},
+			"width": 374,
+			"height": 512
+		}
+		}
+	}
+	},
+	"faction": "Belobog Heavy Industries",
+	"attackType": [
+	"Strike"
+	],
+	"style": "Stun",
+	"element": "Fire",
+	"review": null,
+	"pros": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Gains temporary invincibility during the enhanced portions of her basic attack sequence allowing Koleda to ignore hits and finish her combo instead of dodging.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Very easy to play to her full potential.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Combining Koleda’s EX with an enhanced basic attack sequence delivers devastating amounts of daze.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Gain’s empowered abilities when in a party with Ben changing and improving some of her kit.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Additional ability (gained by having a Belobog or Fire teammate) is nice but not a dealbreaker to lose making Koleda feel fine to splash into team archetypes she doesn’t have direct synergy in (she can be used in every team without you feeling bad for losing something).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has attack animations on the slower side with some attacks that lock her into completing them, sometimes causing Koleda to end up out of position unless you perform a character swap during them.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Non-enhanced basic attacks feel lackluster compared to her EX-enhanced basic combo making her feel somewhat EX-reliant outside of parrying and dodge countering.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Nothing that makes her outstanding outside of her great Daze and being a Fire element makes her subject to power creep.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"videos": null,
+	"endgameStats": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Impact: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"169-190+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10000+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1700-2000+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT RATE: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"50%-60%+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"100%-120%+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"tierListCategory": "Stun",
+	"tierListTags": null,
+	"ratings": {
+	"shiyu": 10
+	},
+	"build": {
+	"main_4": [
+		{
+		"stat": "CRIT Rate",
+		"sign": "\u003E="
+		},
+		{
+		"stat": "CRIT DMG",
+		"sign": null
+		}
+	],
+	"main_5": [
+		{
+		"stat": "Fire DMG",
+		"sign": null
+		}
+	],
+	"main_6": [
+		{
+		"stat": "Impact",
+		"sign": null
+		}
+	],
+	"sets": null,
+	"engines": [
+		{
+		"super": "1",
+		"weapon": "Hellfire Gears",
+		"percent": "100%",
+		"percent_standard": "100%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Steam Oven",
+		"percent": "94.77%",
+		"percent_standard": "99.85%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Six Shooter",
+		"percent": "94.77%",
+		"percent_standard": "97.23%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Precious Fossilized Core",
+		"percent": "94.77%",
+		"percent_standard": "96.98%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "[Vortex] Arrow",
+		"percent": "87.85%",
+		"percent_standard": "96.25%",
+		"notes": null
+		},
+		{
+		"super": "1",
+		"weapon": "The Restrained",
+		"percent": "106.05%",
+		"percent_standard": "94.91%",
+		"notes": null
+		}
+	],
+	"substats": "CRIT RATE = CRIT DMG \u003E ATK% \u003E PEN = ATK"
+	},
+	"talents": [
+	{
+		"name": "Beat of the Hammer",
+		"desc": "After the 2nd or 4th hit of Koleda's Basic Attack or her enhanced Basic Attack, quickly use a Special Attack or EX Special Attack to increase the Daze dealt by \u003Cb\u003E15%\u003C/b\u003E."
+	},
+	{
+		"name": "Kinetic Recovery",
+		"desc": "When Koleda's EX Special Attack hits an enemy, she recovers \u003Cb\u003E60\u003C/b\u003E Energy. Can trigger once every \u003Cb\u003E45s\u003C/b\u003E."
+	},
+	{
+		"name": "Don’t Mess With Me!",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Furnace’s Glow",
+		"desc": "Koleda gains one stack of Charge (max \u003Cb\u003E2\u003C/b\u003E stacks) when consuming Furnace Fire to use her Enhanced Basic Attack. When her Chain Attack or Ultimate hits an enemy, she consumes all stacks of Charge to increase the attack's DMG by \u003Cb\u003E18%\u003C/b\u003E per stack."
+	},
+	{
+		"name": "You Dare Underestimate Me?",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Saturated Blast",
+		"desc": "When EX Special Attack, Chain Attack, or Ultimate triggers an explosion that hits an enemy, it deals additional DMG equal to \u003Cb\u003E360%\u003C/b\u003E of Koleda's ATK."
+	}
+	],
+	"introduction": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Small & Cute, With Some Fierce Combat Power. She may be small, but can certainly wield that huge hammer. A Fierce Young Girl Who's Also a President. The young leader at the helm of Belobog Industries. A President Who Leads by Example. She prefers to work out in the field, rather than being stuck at a desk. Leads by Example While Maintaining Her Cute Nature.\\nHer maturity sometimes gives way to occasional childishness. She's a leader who sometimes needs to be taken care of by her followers.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"voiceActors": {
+	"en": "",
+	"kr": "",
+	"jpn": "Iguchi Yuka (井口 裕香)",
+	"cn": "Mù Xuětíng (穆雪婷)"
+	},
+	"releaseDate": null,
+	"upcoming": null
+}
+		  

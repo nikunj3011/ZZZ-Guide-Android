@@ -1,0 +1,183 @@
+{
+	"id": "5c430295-ceb5-5c9a-b7a9-9c538433f507",
+	"updatedAt": "July 17th, 2024",
+	"createdAt": "2023-11-22T19:04:37.820Z",
+	"unitId": "9",
+	"name": "Nekomata",
+	"skillKey": "Neko",
+	"fullName": "Nekomiya Mana",
+	"slug": "nekomata",
+	"rarity": "S",
+	"smallImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#080808",
+			"images": {
+			"fallback": {
+				"src": "/static/e50aa3d0db1fe12d05b278e928fb1bbe/e9a79/9_sm.png",
+				"srcSet": "/static/e50aa3d0db1fe12d05b278e928fb1bbe/f31ef/9_sm.png 40w,\n/static/e50aa3d0db1fe12d05b278e928fb1bbe/1f8a1/9_sm.png 80w,\n/static/e50aa3d0db1fe12d05b278e928fb1bbe/e9a79/9_sm.png 160w",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/e50aa3d0db1fe12d05b278e928fb1bbe/e73fe/9_sm.webp 40w,\n/static/e50aa3d0db1fe12d05b278e928fb1bbe/61ca6/9_sm.webp 80w,\n/static/e50aa3d0db1fe12d05b278e928fb1bbe/60b4d/9_sm.webp 160w",
+				"type": "image/webp",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+				}
+			]
+			},
+			"width": 160,
+			"height": 160
+		}
+		}
+	}
+	},
+	"cardImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#080808",
+			"images": {
+			"fallback": {
+				"src": "/static/615dc9144eebf8d1a52c89a5eadfab1e/c9885/9_card.png",
+				"srcSet": "/static/615dc9144eebf8d1a52c89a5eadfab1e/2aab7/9_card.png 94w,\n/static/615dc9144eebf8d1a52c89a5eadfab1e/0a986/9_card.png 187w,\n/static/615dc9144eebf8d1a52c89a5eadfab1e/c9885/9_card.png 374w",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/615dc9144eebf8d1a52c89a5eadfab1e/84550/9_card.webp 94w,\n/static/615dc9144eebf8d1a52c89a5eadfab1e/34f80/9_card.webp 187w,\n/static/615dc9144eebf8d1a52c89a5eadfab1e/b26e2/9_card.webp 374w",
+				"type": "image/webp",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+				}
+			]
+			},
+			"width": 374,
+			"height": 512
+		}
+		}
+	}
+	},
+	"faction": "Cunning Hares",
+	"attackType": [
+	"Slash"
+	],
+	"style": "Attack",
+	"element": "Physical",
+	"review": null,
+	"pros": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has great AoE coverage on her Ultimate, Chain, and Dodge Counter allowing for easy cleanup of weaker enemies.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Multiple team synergies among free-to-play characters even if they aren’t as strong as other characters' best teams.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Incredible mobility with a Dash Attack that is a borderline teleport.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Fast attacking and dodge-based kit perfect for those who enjoy a fast-paced playstyle.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Incredibly cheap EX Special meaning it will be available far more frequently than other characters.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Requires constant use of Dodge Counters or Quick Assists in order to keep her Core passive ability active whereas many other characters get theirs permanently active for free.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"During Stun damage windows when the enemy cannot attack, Nekomata must rely on her Support to grant her a Quick Assist or go without a large damage bonus.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Is a Physical damage dealer and there are three A-Rank characters from this element - one of which is free - meaning she has by far the most competition for her role within her element, making her relative value compared to other elemental S-Rank drop.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has incredibly limited team synergy options. There is no Physical support or Stun characters and the characters from her faction Cunning Hares only have mediocre synergy with her at best. This results in lower endgame potential for her at the time of her release.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"videos": null,
+	"endgameStats": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2500-3100+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9500+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT RATE: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"70% - 80%+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"140% - 160%+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"tierListCategory": "DPS",
+	"tierListTags": null,
+	"ratings": {
+	"shiyu": 9
+	},
+	"build": {
+	"main_4": [
+		{
+		"stat": "CRIT Rate",
+		"sign": "="
+		},
+		{
+		"stat": "CRIT DMG",
+		"sign": null
+		}
+	],
+	"main_5": [
+		{
+		"stat": "ATK%",
+		"sign": "\u003E="
+		},
+		{
+		"stat": "Physical DMG",
+		"sign": null
+		}
+	],
+	"main_6": [
+		{
+		"stat": "ATK%",
+		"sign": null
+		}
+	],
+	"sets": null,
+	"engines": [
+		{
+		"super": "1",
+		"weapon": "Steel Cushion",
+		"percent": "100%",
+		"percent_standard": "100%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Starlight Engine",
+		"percent": "87.67%",
+		"percent_standard": "95.73%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Cannon Rotor",
+		"percent": "87.27%",
+		"percent_standard": "97.41%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Street Superstar",
+		"percent": "83.94%",
+		"percent_standard": "80.31%",
+		"notes": null
+		}
+	],
+	"substats": "CRIT RATE = CRIT DMG \u003E ATK% \u003E PEN = ATK"
+	},
+	"talents": [
+	{
+		"name": "Bird Hunter",
+		"desc": "When Nekomata hits an enemy from behind, she ignores \u003Cb\u003E16%\u003C/b\u003E of the target's \u003Cu\u003EPhysical RES\u003C/u\u003E. If the enemy is Stunned, all Nekomata's attacks are considered back attacks."
+	},
+	{
+		"name": "Cat & Mouse",
+		"desc": "When there's only one enemy on the field and Nekomata is in combat, her Energy Generation Rate is increased by \u003Cb\u003E25%\u003C/b\u003E."
+	},
+	{
+		"name": "Curious Left Tail",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Sharpen Claws",
+		"desc": "When Nekomata uses her EX Special Attack, her CRIT Rate increases by \u003Cb\u003E7%\u003C/b\u003E for \u003Cb\u003E15s\u003C/b\u003E, stacking up to \u003Cb\u003E2\u003C/b\u003E times, with each stack's duration being calculated separately."
+	},
+	{
+		"name": "Lucky Right Tail",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Predator Lineage",
+		"desc": "When Nekomata launches a Chain Attack or uses her Ultimate, her CRIT DMG increases by \u003Cb\u003E18%\u003C/b\u003E, stacking up to \u003Cb\u003E3\u003C/b\u003E times, and expiring when she's no longer in-combat. This effect gains maximum stacks immediately on defeating an enemy."
+	}
+	],
+	"introduction": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\\\"The best mackerel is always the one you haven't eaten yet~\\\" — Nekomiya Mana. Spirited and mischievous, she likes to play tricks on others. Your wallet is her wallet. (Really... It's hers now.) Athletic and daring, no Hollow is too dangerous for her. \\\"Cats love fish\\\" is actually an incorrect stereotype. But Nekomata does love fish... She's seen a lot of cat-astrophy and \\\"curiosity killed the cat\\\" moments, and seen many a secret that can't be told.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"voiceActors": {
+	"en": "",
+	"kr": "",
+	"jpn": "Hara Sayuri (原 紗友里)",
+	"cn": "Huā líng (花铃)"
+	},
+	"releaseDate": "July 4th, 2024",
+	"upcoming": null
+}
+		  

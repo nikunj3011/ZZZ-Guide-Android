@@ -1,0 +1,175 @@
+{
+	"id": "3ee6a88a-19e4-57dc-8f95-4170594552fc",
+	"updatedAt": "July 5th, 2024",
+	"createdAt": "2023-11-22T18:46:08.748Z",
+	"unitId": "8",
+	"name": "Ben",
+	"skillKey": "Ben",
+	"fullName": "Ben Bigger",
+	"slug": "ben",
+	"rarity": "A",
+	"smallImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#080808",
+			"images": {
+			"fallback": {
+				"src": "/static/a1f6f3950fc65d64f86d0fef52a70ae3/e9a79/8_sm.png",
+				"srcSet": "/static/a1f6f3950fc65d64f86d0fef52a70ae3/f31ef/8_sm.png 40w,\n/static/a1f6f3950fc65d64f86d0fef52a70ae3/1f8a1/8_sm.png 80w,\n/static/a1f6f3950fc65d64f86d0fef52a70ae3/e9a79/8_sm.png 160w",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/a1f6f3950fc65d64f86d0fef52a70ae3/e73fe/8_sm.webp 40w,\n/static/a1f6f3950fc65d64f86d0fef52a70ae3/61ca6/8_sm.webp 80w,\n/static/a1f6f3950fc65d64f86d0fef52a70ae3/60b4d/8_sm.webp 160w",
+				"type": "image/webp",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+				}
+			]
+			},
+			"width": 160,
+			"height": 160
+		}
+		}
+	}
+	},
+	"cardImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#080808",
+			"images": {
+			"fallback": {
+				"src": "/static/9e8d615116bfc7abf6e1bfa94edd638a/c9885/8_card.png",
+				"srcSet": "/static/9e8d615116bfc7abf6e1bfa94edd638a/2aab7/8_card.png 94w,\n/static/9e8d615116bfc7abf6e1bfa94edd638a/0a986/8_card.png 187w,\n/static/9e8d615116bfc7abf6e1bfa94edd638a/c9885/8_card.png 374w",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/9e8d615116bfc7abf6e1bfa94edd638a/84550/8_card.webp 94w,\n/static/9e8d615116bfc7abf6e1bfa94edd638a/34f80/8_card.webp 187w,\n/static/9e8d615116bfc7abf6e1bfa94edd638a/b26e2/8_card.webp 374w",
+				"type": "image/webp",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+				}
+			]
+			},
+			"width": 374,
+			"height": 512
+		}
+		}
+	}
+	},
+	"faction": "Belobog Heavy Industries",
+	"attackType": [
+	"Strike"
+	],
+	"style": "Defence",
+	"element": "Fire",
+	"review": null,
+	"pros": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Applies a sizable team-wide Shield when executing his EX combo - something that isn’t necessary in endgame but can be nice to have and allows you to make a few mistakes.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The only Defensive character suitable for being played as a Stunning character making him valuable to F2P players without other options.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Grants all other Fire and Belobog agents 16% Crit Rate while Shielding them, allowing him to stand out from other Stun and Defense-based characters.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When paired with Koleda will modify and significantly improve her Ultimate and Enhanced Basic Attacks.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+	"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Has far slower Movement Speed than any other character in the game making main fielding him cumbersome when moving around and not attacking.\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Despite having the potential to be played as a Daze character has less base Impact and no additional bonuses to his Daze potential in his kit causing him to fall noticeably behind dedicated Stun characters in the role.\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"\",\"marks\":[],\"data\":{}}]}]}"
+	},
+	"videos": null,
+	"endgameStats": null,
+	"tierListCategory": "Stun",
+	"tierListTags": [
+	"Shield",
+	"Buff"
+	],
+	"ratings": {
+	"shiyu": 7
+	},
+	"build": {
+	"main_4": [
+		{
+		"stat": "DEF%",
+		"sign": null
+		}
+	],
+	"main_5": [
+		{
+		"stat": "DEF%",
+		"sign": null
+		}
+	],
+	"main_6": [
+		{
+		"stat": "Impact",
+		"sign": null
+		}
+	],
+	"sets": [
+		{
+		"set_2": "",
+		"set_4": "Stat",
+		"value": "100%",
+		"notes": ""
+		}
+	],
+	"engines": [
+		{
+		"super": "5",
+		"weapon": "Spring Embrace",
+		"percent": "",
+		"percent_standard": null,
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Original Transmorpher",
+		"percent": "",
+		"percent_standard": null,
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "[Identity] Base",
+		"percent": "",
+		"percent_standard": null,
+		"notes": null
+		}
+	],
+	"substats": "DEF% \u003E DEF \u003E Everything else"
+	},
+	"talents": [
+	{
+		"name": "Reacting Force",
+		"desc": "When successfully Blocking an enemy with Ben's Special Attack or EX Special Attack, the DMG dealt by the blocked enemy is reduced by \u003Cb\u003E30%\u003C/b\u003E for \u003Cb\u003E15s\u003C/b\u003E."
+	},
+	{
+		"name": "Offense Through Defense",
+		"desc": "When successfully triggering a Block Counter during Ben's Special Attack or EX Special Attack, inflict an additional \u003Cb\u003E300%\u003C/b\u003E of Ben's DEF as DMG."
+	},
+	{
+		"name": "Careful Accounting",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Agile Adaptation",
+		"desc": "When successfully blocking enemy DMG with Ben’s invulnerable effect during his Special Attack or EX Special Attack, the following counter deals \u003Cb\u003E30%\u003C/b\u003E more DMG."
+	},
+	{
+		"name": "Meticulous Detail",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Wild spirit",
+		"desc": "After launching an attack or follow-up attack during Ben's EX Special Attack, Daze inflicted by Basic Attacks, Dash Attack, and Dodge Counter is increased by \u003Cb\u003E20%\u003C/b\u003E, lasting \u003Cb\u003E12s\u003C/b\u003E."
+	}
+	],
+	"introduction": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Strong Body & Honest Soul\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Those paws could shatter bones, luckily they're busy tapping away on a calculator. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Has His Fish and Eats It Too\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Finds an easy balance between fighting thugs with his pillar on the battlefield and returning to accounting at the times of peace... The only thing that could make it all better is a jar of caviar. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Fuzzy Fur, No Fuzzy Math\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Naturally sensitive to all things numerical, he's careful in his bookkeeping, and has memorized all 58 account ledgers in his office. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Repays Recognition With Loyalty\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". After 1 year and 321 days of employment, Koleda promoted him to Head of Finance, and he's followed her faithfully ever since.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"voiceActors": {
+	"en": "",
+	"kr": "",
+	"jpn": "Hamada Kenji (浜田 賢二)",
+	"cn": "Xianglong Meng (孟祥龙)"
+	},
+	"releaseDate": null,
+	"upcoming": null
+}

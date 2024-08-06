@@ -1,0 +1,186 @@
+{
+"id": "6f67c842-3d1a-59b2-8e21-715ca62436e9",
+"updatedAt": "July 17th, 2024",
+"createdAt": "2023-11-22T18:28:08.353Z",
+"unitId": "6",
+"name": "Soukaku",
+"skillKey": "Soukaku",
+"fullName": "Soukaku",
+"slug": "soukaku",
+"rarity": "A",
+"smallImage": {
+"localFile": {
+	"childImageSharp": {
+	"gatsbyImageData": {
+		"layout": "constrained",
+		"backgroundColor": "#080808",
+		"images": {
+		"fallback": {
+			"src": "/static/b18f4e77769f6bae35463e19b9b0bd61/e9a79/6_sm.png",
+			"srcSet": "/static/b18f4e77769f6bae35463e19b9b0bd61/f31ef/6_sm.png 40w,\n/static/b18f4e77769f6bae35463e19b9b0bd61/1f8a1/6_sm.png 80w,\n/static/b18f4e77769f6bae35463e19b9b0bd61/e9a79/6_sm.png 160w",
+			"sizes": "(min-width: 160px) 160px, 100vw"
+		},
+		"sources": [
+			{
+			"srcSet": "/static/b18f4e77769f6bae35463e19b9b0bd61/e73fe/6_sm.webp 40w,\n/static/b18f4e77769f6bae35463e19b9b0bd61/61ca6/6_sm.webp 80w,\n/static/b18f4e77769f6bae35463e19b9b0bd61/60b4d/6_sm.webp 160w",
+			"type": "image/webp",
+			"sizes": "(min-width: 160px) 160px, 100vw"
+			}
+		]
+		},
+		"width": 160,
+		"height": 160
+	}
+	}
+}
+},
+"cardImage": {
+"localFile": {
+	"childImageSharp": {
+	"gatsbyImageData": {
+		"layout": "constrained",
+		"backgroundColor": "#080808",
+		"images": {
+		"fallback": {
+			"src": "/static/3d418dfcd851030fc819647fce23a087/c9885/6_card.png",
+			"srcSet": "/static/3d418dfcd851030fc819647fce23a087/2aab7/6_card.png 94w,\n/static/3d418dfcd851030fc819647fce23a087/0a986/6_card.png 187w,\n/static/3d418dfcd851030fc819647fce23a087/c9885/6_card.png 374w",
+			"sizes": "(min-width: 374px) 374px, 100vw"
+		},
+		"sources": [
+			{
+			"srcSet": "/static/3d418dfcd851030fc819647fce23a087/84550/6_card.webp 94w,\n/static/3d418dfcd851030fc819647fce23a087/34f80/6_card.webp 187w,\n/static/3d418dfcd851030fc819647fce23a087/b26e2/6_card.webp 374w",
+			"type": "image/webp",
+			"sizes": "(min-width: 374px) 374px, 100vw"
+			}
+		]
+		},
+		"width": 374,
+		"height": 512
+	}
+	}
+}
+},
+"faction": "Section 6",
+"attackType": [
+"Slash"
+],
+"style": "Support",
+"element": "Ice",
+"review": null,
+"pros": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Gains a buff that grants herself an absurd 1000 flat Attack that can be transferred to the next character that switches in after using Fly the Flag normally or as a part of a chain skill. Transferring this ATK buff to your main damage dealer makes Soukaku one of the most potent supports in the game for this alone.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Grants the team 20% additional Ice damage after consuming a full set of 3 Vortex charges - something that can be done easily and continually after a short ramp-up time at the start of the fight.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"All buffs Soukaku applies last a long time meaning they can be maintained indefinitely if managed carefully.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Deals a strong amount of Ice anomaly with most of the attacks she uses when played as a dedicated Support, allowing her to help Freeze and Shatter enemies interrupting their movement and sometimes extending stun durations.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Despite having an Ice-themed additional ability can still be used to support non-Ice damaging characters thanks to her incredibly powerful 1000 possible flat Attack buff.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"cons": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Requires a high amount of personal Attack in order to gain and grant her most powerful 1000 flat Attack buff to herself or allies.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When activating Fly the Flag to gain her flat Attack buff Soukaku is only capable of gaining the full 1000 potential flat ATK if she consumes 3 Vortex charges which must first be built by using her EX. Casting Fly the Flag without consuming Vortex Charges will only grant 500 flat ATK.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX ability feels sluggish to use, opening up Soukaku to getting attacked while using it. While this is a problem it can be mitigated by immediately switching after using the EX.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX does not grant a quick assist to the next character like most other support characters. Instead, Soukaku’s quick assist is tied to her Fly the Flag ability which is accessed by holding down the Special Attack regardless if she has enough energy or not.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"videos": null,
+"endgameStats": null,
+"tierListCategory": "Support",
+"tierListTags": [
+"Buff"
+],
+"ratings": {
+"shiyu": 11
+},
+"build": {
+"main_4": [
+	{
+	"stat": "ATK%",
+	"sign": null
+	}
+],
+"main_5": [
+	{
+	"stat": "ATK%",
+	"sign": null
+	}
+],
+"main_6": [
+	{
+	"stat": "Energy Regen",
+	"sign": "\u003E="
+	},
+	{
+	"stat": "ATK%",
+	"sign": null
+	}
+],
+"sets": [
+	{
+	"set_2": "",
+	"set_4": "Stat",
+	"value": "100%",
+	"notes": ""
+	}
+],
+"engines": [
+	{
+	"super": "5",
+	"weapon": "Bashful Demon",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "[Reverb] Mark II",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "[Reverb] Mark III",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	},
+	{
+	"super": "5",
+	"weapon": "Unfettered Game Ball",
+	"percent": "",
+	"percent_standard": null,
+	"notes": null
+	}
+],
+"substats": "ATK% \u003E Everything else"
+},
+"talents": [
+{
+	"name": "Uplifting Current",
+	"desc": "When Soukaku triggers Core Passive: Blade Banner or Additional Ability: Group Set Meal, the buff duration is increased by 8s."
+},
+{
+	"name": "Experimental Charging Module",
+	"desc": "When Soukaku's Basic Attacks, Dash Attacks, Dodge Counters, or Quick Assist hits an enemy, there's a \u003Cb\u003E15%\u003C/b\u003E chance she gains \u003Cb\u003E1\u003C/b\u003E stack of Vortex, triggering up to once per second. When Vortex reaches max stacks, any additional stacks grant Soukaku \u003Cb\u003E1.2\u003C/b\u003E Energy instead."
+},
+{
+	"name": "Attendance Meal Allowance",
+	"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+},
+{
+	"name": "Hypothermia",
+	"desc": "If an enemy is hit by Fly the Flag, the target's \u003Cu\u003EIce RES\u003C/u\u003E is reduced by \u003Cb\u003E10%\u003C/b\u003E for \u003Cb\u003E8s\u003C/b\u003E."
+},
+{
+	"name": "Late-Night Snacks",
+	"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+},
+{
+	"name": "Northern Wind",
+	"desc": "While in the Frosted Banner state, the number of usable enhanced Basic Attacks and enhanced Dash Attacks is increased to \u003Cb\u003E12\u003C/b\u003E, and also deal \u003Cb\u003E45%\u003C/b\u003E more DMG."
+}
+],
+"introduction": {
+"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Soukaku, Deceptively Strong in Combat\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Not only a member of Section 6, but also one of its \\\"assets.\\\" Enemies who underestimate her have a tendency to vanish from existence. Totally. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Not Picky, Hates Wasting Food\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". She loves to eat, and gets angry when seeing others waste food. Totally. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Trouble With Words\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Due to certain reasons, she's somewhat uneducated, and often mispronounces words, which results in some cute blunders. Totally. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"A Pure & Innocent Child\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Though only an immature kid, much like the boy in \\\"The Emperor's New Clothes,\\\" she often uncovers the simple truths. Totally.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+},
+"voiceActors": {
+"en": "",
+"kr": "",
+"jpn": "Saito Machiko (齊藤真知子)",
+"cn": "Liu Wen (刘雯)"
+},
+"releaseDate": null,
+"upcoming": null
+}
+		  

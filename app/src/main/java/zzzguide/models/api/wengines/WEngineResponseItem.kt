@@ -1,13 +1,11 @@
 package zzzguide.models.api.wengines
 
 data class WEngineResponseItem(
-    val bStyle: String,
-    val baseAtk: Int,
-    val bonusStat: String,
-//    val description: String,
-    val img: String,
+    val additional_info: String,
+    val attributes: List<Attribute>,
+    val categories: List<Category>,
+    val desc: String,
+    val icon_url: String,
     val name: String,
-    val rarity: String,
-    val rarityDes: String,
-    val type: String
+    val title: String
 )

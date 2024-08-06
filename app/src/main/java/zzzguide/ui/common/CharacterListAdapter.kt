@@ -53,7 +53,7 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
         clickListener: (AgentResponseItem) -> Unit
     ) {
         val characterTextView = view.findViewById<TextView>(R.id.characterName)
-        characterTextView.text = character.name
+        characterTextView.text = character.full_name
         val characterRecyclerView = view.findViewById<RecyclerView>(R.id.characterRecyclerView)
 
         val imageViewCharacterType = view.findViewById<ImageView>(R.id.imageViewCharacterType)
@@ -98,51 +98,76 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
         }
 
         val imageViewCharacterFaction = view.findViewById<ImageView>(R.id.imageViewCharacterFaction)
+        val imageViewCharacterAgencyShadowed = view.findViewById<ImageView>(R.id.imageViewCharacterAgencyShadowed)
         if (character?.categories?.elementAt(4) != null) {
             when (character.categories.elementAt(4).name.lowercase()) {
                 "the-cunning-hares" -> {
                     Glide.with(view)
                         .load(R.drawable.the_cunning_hares)
                         .into(imageViewCharacterFaction)
+                    Glide.with(view)
+                        .load(R.drawable.the_cunning_hares)
+                        .into(imageViewCharacterAgencyShadowed)
                 }
 
                 "victoria-housekeeping-co" -> {
                     Glide.with(view)
                         .load(R.drawable.victoria_housekeeping_co)
                         .into(imageViewCharacterFaction)
+                    Glide.with(view)
+                        .load(R.drawable.victoria_housekeeping_co)
+                        .into(imageViewCharacterAgencyShadowed)
                 }
 
                 "new-eridu-public-security" -> {
                     Glide.with(view)
                         .load(R.drawable.new_eridu_public_security)
                         .into(imageViewCharacterFaction)
+                    Glide.with(view)
+                        .load(R.drawable.new_eridu_public_security)
+                        .into(imageViewCharacterAgencyShadowed)
                 }
 
                 "belobog-heavy-industries" -> {
                     Glide.with(view)
                         .load(R.drawable.belobog_heavy_industries)
                         .into(imageViewCharacterFaction)
+                    Glide.with(view)
+                        .load(R.drawable.belobog_heavy_industries)
+                        .into(imageViewCharacterAgencyShadowed)
                 }
 
                 "section-6" -> {
                     Glide.with(view)
                         .load(R.drawable.section_6)
                         .into(imageViewCharacterFaction)
+                    Glide.with(view)
+                        .load(R.drawable.section_6)
+                        .into(imageViewCharacterAgencyShadowed)
                 }
 
                 "sons-of-calydon" -> {
                     Glide.with(view)
                         .load(R.drawable.sons_of_calydon)
                         .into(imageViewCharacterFaction)
+                    Glide.with(view)
+                        .load(R.drawable.sons_of_calydon)
+                        .into(imageViewCharacterAgencyShadowed)
                 }
 
                 "obols-obsidian" -> {
                     Glide.with(view)
                         .load(R.drawable.obols_obsidian)
                         .into(imageViewCharacterFaction)
+                    Glide.with(view)
+                        .load(R.drawable.obols_obsidian)
+                        .into(imageViewCharacterFaction)
                 }
 
                 else -> {
+                    Glide.with(view)
+                        .load(R.drawable.sons_of_calydon)
+                        .into(imageViewCharacterFaction)
                     Glide.with(view)
                         .load(R.drawable.sons_of_calydon)
                         .into(imageViewCharacterFaction)

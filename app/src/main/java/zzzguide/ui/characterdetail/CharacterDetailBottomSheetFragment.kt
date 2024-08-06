@@ -92,7 +92,6 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
             binding.textRatingsCharacterBottomSheet.text = "Tower of Adversity: " + character?.ratings?.tower?.toString()
 
 
-            binding.txtBestSetBottomSheet.text = "5x: " + character?.buildInfoEcho?.echo_sets?.first()?.name
             binding.txtMainEchoBottomSheet.text = character?.buildInfoEcho?.echo_sets?.first()?.main_echo
             binding.textViewBestWeapon.text = character?.buildInfoWeapon?.first()?.weapon
             binding.txtCharacterWeaponTypeBottomSheet.text = character?.weapon.toString()

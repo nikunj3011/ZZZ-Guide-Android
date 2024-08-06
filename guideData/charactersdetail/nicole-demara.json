@@ -1,0 +1,188 @@
+{
+	"id": "3215582b-f2d8-5b99-995a-d1715725a7fd",
+	"updatedAt": "July 12th, 2024",
+	"createdAt": "2023-11-22T17:18:32.004Z",
+	"unitId": "2",
+	"name": "Nicole",
+	"skillKey": "Nicole",
+	"fullName": "Nicole Demara",
+	"slug": "nicole-demara",
+	"rarity": "A",
+	"smallImage": {
+		"localFile": {
+			"childImageSharp": {
+				"gatsbyImageData": {
+					"layout": "constrained",
+					"backgroundColor": "#080808",
+					"images": {
+						"fallback": {
+							"src": "/static/18a0d3272cf847f7d431294ae93947fa/e9a79/2_sm.png",
+							"srcSet": "/static/18a0d3272cf847f7d431294ae93947fa/f31ef/2_sm.png 40w,\n/static/18a0d3272cf847f7d431294ae93947fa/1f8a1/2_sm.png 80w,\n/static/18a0d3272cf847f7d431294ae93947fa/e9a79/2_sm.png 160w",
+							"sizes": "(min-width: 160px) 160px, 100vw"
+						},
+						"sources": [
+							{
+								"srcSet": "/static/18a0d3272cf847f7d431294ae93947fa/e73fe/2_sm.webp 40w,\n/static/18a0d3272cf847f7d431294ae93947fa/61ca6/2_sm.webp 80w,\n/static/18a0d3272cf847f7d431294ae93947fa/60b4d/2_sm.webp 160w",
+								"type": "image/webp",
+								"sizes": "(min-width: 160px) 160px, 100vw"
+							}
+						]
+					},
+					"width": 160,
+					"height": 160
+				}
+			}
+		}
+	},
+	"cardImage": {
+		"localFile": {
+			"childImageSharp": {
+				"gatsbyImageData": {
+					"layout": "constrained",
+					"backgroundColor": "#080808",
+					"images": {
+						"fallback": {
+							"src": "/static/a2c9d34e985fe39d89a8159a2e3bc4c9/c9885/2_card.png",
+							"srcSet": "/static/a2c9d34e985fe39d89a8159a2e3bc4c9/2aab7/2_card.png 94w,\n/static/a2c9d34e985fe39d89a8159a2e3bc4c9/0a986/2_card.png 187w,\n/static/a2c9d34e985fe39d89a8159a2e3bc4c9/c9885/2_card.png 374w",
+							"sizes": "(min-width: 374px) 374px, 100vw"
+						},
+						"sources": [
+							{
+								"srcSet": "/static/a2c9d34e985fe39d89a8159a2e3bc4c9/84550/2_card.webp 94w,\n/static/a2c9d34e985fe39d89a8159a2e3bc4c9/34f80/2_card.webp 187w,\n/static/a2c9d34e985fe39d89a8159a2e3bc4c9/b26e2/2_card.webp 374w",
+								"type": "image/webp",
+								"sizes": "(min-width: 374px) 374px, 100vw"
+							}
+						]
+					},
+					"width": 374,
+					"height": 512
+				}
+			}
+		}
+	},
+	"faction": "Cunning Hares",
+	"attackType": [
+		"Strike"
+	],
+	"style": "Support",
+	"element": "Ether",
+	"review": null,
+	"pros": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can apply a very large Defense Shred debuff on enemies increasing the damage they take considerably.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases the entire squads' Ether damage by 25% while her Additional Ability is active\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"She’s free!\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"One of the only characters that synergizes with characters such as Billy and Nekomata due to the limited roster of characters on release in 1.0.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"There are no Ether damage characters for Nicole to support on release, but this will quickly change with the release of Zhu Yuan - still, for now, her Ether boost is only useful for herself.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Requires specific timing or constant swapping to maintain good uptime of DEF shred debuff on enemies due to its low duration.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"videos": null,
+	"endgameStats": null,
+	"tierListCategory": "Support",
+	"tierListTags": [
+		"Debuff"
+	],
+	"ratings": {
+		"shiyu": 9
+	},
+	"build": {
+		"main_4": [
+			{
+				"stat": "Flex",
+				"sign": null
+			}
+		],
+		"main_5": [
+			{
+				"stat": "Flex",
+				"sign": null
+			}
+		],
+		"main_6": [
+			{
+				"stat": "Energy Regen",
+				"sign": null
+			}
+		],
+		"sets": [
+			{
+				"set_2": "",
+				"set_4": "Stat",
+				"value": "100%",
+				"notes": ""
+			}
+		],
+		"engines": [
+			{
+				"super": "1",
+				"weapon": "Weeping Cradle",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "The Vault",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "[Reverb] Mark II",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "[Reverb] Mark III",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "Unfettered Game Ball",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			}
+		],
+		"substats": ""
+	},
+	"talents": [
+		{
+			"name": "Supercharged Bomb",
+			"desc": "The DMG and the Anomaly Buildup inflicted by Nicole’s EX Special Attack increases by <b>16%</b>. For each additional <b>0.1s</b> of charging when Nicole activates her EX Special Attack, the duration of the energy field created at the target location increases by <b>0.15s</b>."
+		},
+		{
+			"name": "Charging Device",
+			"desc": "Nicole recovers <b>5</b> Energy when Core Passive: Mechanical Case's debuff is triggered. This effect can trigger once every 15s."
+		},
+		{
+			"name": "A Hare’s Cunning",
+			"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+		},
+		{
+			"name": "Field Expansion",
+			"desc": "When Nicole uses her EX Special Attack, Chain Attack, or Ultimate, the diameter of the energy field generated at the target location is increased by <b>3m</b>."
+		},
+		{
+			"name": "Industry Star",
+			"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+		},
+		{
+			"name": "Corrupting Energy Field",
+			"desc": "When Nicole’s energy fields deal DMG to an enemy, all squad members CRIT Rate against that enemy increases by <b>1.5%</b>, stacking up to <b>10</b> times, and lasting <b>12s</b>. The duration of each stack is calculated separately."
+		}
+	],
+	"introduction": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The leader of the odd-job agency the Cunning Hares, who accept all kinds of Hollow-related commissions. She's been on the streets for many years, and has a reputation among her peers as being exceedingly cunning. She's been blacklisted by many clients due to her all-or nothing approach. She loves money, but is surprisingly bad at managing it, leaving the \\nCunning Hares constantly on the edge of bankruptcy and owing many debts.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"voiceActors": {
+		"en": "",
+		"kr": "",
+		"jpn": "Serizawa Yu (芹澤優)",
+		"cn": "Tingting Chen (陈婷婷)"
+	},
+	"releaseDate": null,
+	"upcoming": null
+}

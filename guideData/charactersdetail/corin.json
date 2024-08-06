@@ -1,0 +1,191 @@
+{
+	"id": "6524d6fb-4d1d-5b50-aea7-9c19c6830be6",
+	"updatedAt": "July 17th, 2024",
+	"createdAt": "2023-11-22T19:11:23.535Z",
+	"unitId": "11",
+	"name": "Corin",
+	"skillKey": "Corin",
+	"fullName": " Corin Wickes",
+	"slug": "corin",
+	"rarity": "A",
+	"smallImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#080808",
+			"images": {
+			"fallback": {
+				"src": "/static/13df7855ff28f95c63d146f34cf1efcc/e9a79/11_sm.png",
+				"srcSet": "/static/13df7855ff28f95c63d146f34cf1efcc/f31ef/11_sm.png 40w,\n/static/13df7855ff28f95c63d146f34cf1efcc/1f8a1/11_sm.png 80w,\n/static/13df7855ff28f95c63d146f34cf1efcc/e9a79/11_sm.png 160w",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/13df7855ff28f95c63d146f34cf1efcc/e73fe/11_sm.webp 40w,\n/static/13df7855ff28f95c63d146f34cf1efcc/61ca6/11_sm.webp 80w,\n/static/13df7855ff28f95c63d146f34cf1efcc/60b4d/11_sm.webp 160w",
+				"type": "image/webp",
+				"sizes": "(min-width: 160px) 160px, 100vw"
+				}
+			]
+			},
+			"width": 160,
+			"height": 160
+		}
+		}
+	}
+	},
+	"cardImage": {
+	"localFile": {
+		"childImageSharp": {
+		"gatsbyImageData": {
+			"layout": "constrained",
+			"backgroundColor": "#080808",
+			"images": {
+			"fallback": {
+				"src": "/static/4342eddfa1ee1d9568ea697774d4100b/c9885/11_card.png",
+				"srcSet": "/static/4342eddfa1ee1d9568ea697774d4100b/2aab7/11_card.png 94w,\n/static/4342eddfa1ee1d9568ea697774d4100b/0a986/11_card.png 187w,\n/static/4342eddfa1ee1d9568ea697774d4100b/c9885/11_card.png 374w",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+			},
+			"sources": [
+				{
+				"srcSet": "/static/4342eddfa1ee1d9568ea697774d4100b/84550/11_card.webp 94w,\n/static/4342eddfa1ee1d9568ea697774d4100b/34f80/11_card.webp 187w,\n/static/4342eddfa1ee1d9568ea697774d4100b/b26e2/11_card.webp 374w",
+				"type": "image/webp",
+				"sizes": "(min-width: 374px) 374px, 100vw"
+				}
+			]
+			},
+			"width": 374,
+			"height": 512
+		}
+		}
+	}
+	},
+	"faction": "Victoria Housekeeping Co.",
+	"attackType": [
+	"Slash"
+	],
+	"style": "Attack",
+	"element": "Physical",
+	"review": null,
+	"pros": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Kit synergizes well with the standard Stun, Support, Damage team composition meta. She also has an incredible synergistic combo with Lycaon to take advantage of. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"All characters Corin can play with to activate her additional ability are either other DPS she doesn’t want to be paired with due to her high field time requirements or S-Ranks, making Corin’s team-building options somewhat limited.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Struggles to launch and fully charge her most powerful attacks on enemies without them moving, interrupting her, or needing to cancel the channel in order to reposition resulting in lower damage performance against more active targets.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has an entire kit built around dealing the majority of her damage while the enemy is Stunned causing her to feel somewhat lackluster outside of it.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Competes with many other A-Rank Physical DPS and even one with a reasonably similar playstyle (Piper).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"videos": null,
+	"endgameStats": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2400-3000+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9000+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT RATE: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"70% - 80%+\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"140% - 160%+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"tierListCategory": "DPS",
+	"tierListTags": [
+	"Charge"
+	],
+	"ratings": {
+	"shiyu": 7
+	},
+	"build": {
+	"main_4": [
+		{
+		"stat": "CRIT Rate",
+		"sign": "="
+		},
+		{
+		"stat": "CRIT DMG",
+		"sign": null
+		}
+	],
+	"main_5": [
+		{
+		"stat": "ATK%",
+		"sign": "\u003E="
+		},
+		{
+		"stat": "Physical DMG",
+		"sign": null
+		}
+	],
+	"main_6": [
+		{
+		"stat": "ATK%",
+		"sign": null
+		}
+	],
+	"sets": null,
+	"engines": [
+		{
+		"super": "1",
+		"weapon": "Steel Cushion",
+		"percent": "100%",
+		"percent_standard": "100%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Housekeeper",
+		"percent": "87.45%",
+		"percent_standard": "83.18%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Starlight Engine",
+		"percent": "89.11%",
+		"percent_standard": "97.30%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Cannon Rotor",
+		"percent": "88.43%",
+		"percent_standard": "95.61%",
+		"notes": null
+		},
+		{
+		"super": "5",
+		"weapon": "Street Superstar",
+		"percent": "87.59%",
+		"percent_standard": "81.63%",
+		"notes": null
+		}
+	],
+	"substats": "CRIT RATE = CRIT DMG \u003E ATK% \u003E PEN = ATK"
+	},
+	"talents": [
+	{
+		"name": "Open Trauma",
+		"desc": "When Corin's Chain Attack or Ultimate hits an enemy, her DMG against the target increases by \u003Cb\u003E12%\u003C/b\u003E for \u003Cb\u003E15s\u003C/b\u003E."
+	},
+	{
+		"name": "Atomic Smash",
+		"desc": "When Corin's EX Special Attack, Chain Attack or Ultimate hits an enemy, the target's \u003Cu\u003EPhysical RES\u003C/u\u003E is reduced by \u003Cb\u003E0.5%\u003C/b\u003E, stacking up to \u003Cb\u003E20\u003C/b\u003E times and lasting \u003Cb\u003E5s\u003C/b\u003E. The duration of each stack is calculated separately."
+	},
+	{
+		"name": "Amatuer Maid",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Battlefield Retainer",
+		"desc": "When Corin uses a Quick Assist, Defensive Assist, or Chain Attack, she recovers \u003Cb\u003E7.2\u003C/b\u003E Energy. This effect can trigger once every \u003Cb\u003E16s\u003C/b\u003E."
+	},
+	{
+		"name": "Special Ops Maid",
+		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. \u003Cb\u003E+2\u003C/b\u003E"
+	},
+	{
+		"name": "Accumulated Release",
+		"desc": "When Corin's extended slash hits an enemy, she obtains a stack of Charge (max 40 stacks). During a Dodge Counter, Special Attack, EX Special Attack, Quick Assist, or Assist Follow-Up, when her chainsaw detonation hits an enemy, consumes all stacks of Charge. Each stack consumed causes the attack to deal an additional \u003Cb\u003E3%\u003C/b\u003E of ATK as DMG."
+	}
+	],
+	"introduction": {
+	"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Domestic work or not, leave everything to her! (Oh, uhh? B-but I'm not that good!) She's obedient, diligent and responsible, and not afraid of a little hard work! (One moment please! That's really not me!) She'll never let her companions suffer, and always takes responsibility!\\n(Please listen to me! Such exaggeration will make customers misunderstand!) You'll find no better maid than Corin! (Oooh, please, please don't send this report out! This isn't the real me!)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"voiceActors": {
+	"en": "",
+	"kr": "",
+	"jpn": "Igarashi Hiromi (五十嵐 裕美)",
+	"cn": "Mù Fēi (沐霏)"
+	},
+	"releaseDate": null,
+	"upcoming": null
+}

@@ -8,12 +8,16 @@ import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.viewModelScope
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.gson.Gson
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import zzzguide.databinding.FragmentWengineBinding
 import zzzguide.models.api.wengines.WEngineResponseItem
+import zzzguide.ui.characterdetail.CharacterDetailBottomSheetFragment
+import zzzguide.ui.characterdetail.WengineBottomSheetFragment
 import zzzguide.ui.common.WEngineListAdapter
 import zzzguide.util.autoCleared
 import java.util.Locale
@@ -45,7 +49,7 @@ class WEngineFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         var response = viewModel.weaponsLiveData
-        binding.weaponRecyclerView.layoutManager = LinearLayoutManager(requireActivity())
+        binding.weaponRecyclerView.layoutManager = GridLayoutManager(context, 2)
         binding.searchWeaponView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 return false
@@ -100,11 +104,16 @@ class WEngineFragment : Fragment() {
         }
     }
 
-    private fun listItemClicked(fruit: WEngineResponseItem){
-        Toast.makeText(
-            requireActivity(),
-            "Supplier is : ${fruit.name}",
-            Toast.LENGTH_LONG
-        ).show()
+    private fun listItemClicked(wengine: WEngineResponseItem){
+        val bottomSheetFragment  = WengineBottomSheetFragment()
+
+        val bundle = Bundle()
+        var gson = Gson()
+        var wengine = gson.toJson(wengine)
+
+        bundle.putString("wengine", wengine.toString())
+        bottomSheetFragment.arguments = bundle
+        bottomSheetFragment.setCancelable(true)
+        bottomSheetFragment.show(requireActivity().supportFragmentManager, WengineBottomSheetFragment::class.java.name)
     }
 }

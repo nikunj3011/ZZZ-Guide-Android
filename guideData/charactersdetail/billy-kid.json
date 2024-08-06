@@ -1,0 +1,196 @@
+{
+	"id": "860fde4e-3e46-5028-b62b-8c0fce26b19d",
+	"updatedAt": "July 21st, 2024",
+	"createdAt": "2023-11-22T18:03:59.928Z",
+	"unitId": "3",
+	"name": "Billy",
+	"skillKey": "Billy",
+	"fullName": "Billy Kid",
+	"slug": "billy-kid",
+	"rarity": "A",
+	"smallImage": {
+		"localFile": {
+			"childImageSharp": {
+				"gatsbyImageData": {
+					"layout": "constrained",
+					"backgroundColor": "#080808",
+					"images": {
+						"fallback": {
+							"src": "/static/5a2277ab9ca40da41c0e3dca511d8f99/e9a79/3_sm.png",
+							"srcSet": "/static/5a2277ab9ca40da41c0e3dca511d8f99/f31ef/3_sm.png 40w,\n/static/5a2277ab9ca40da41c0e3dca511d8f99/1f8a1/3_sm.png 80w,\n/static/5a2277ab9ca40da41c0e3dca511d8f99/e9a79/3_sm.png 160w",
+							"sizes": "(min-width: 160px) 160px, 100vw"
+						},
+						"sources": [
+							{
+								"srcSet": "/static/5a2277ab9ca40da41c0e3dca511d8f99/e73fe/3_sm.webp 40w,\n/static/5a2277ab9ca40da41c0e3dca511d8f99/61ca6/3_sm.webp 80w,\n/static/5a2277ab9ca40da41c0e3dca511d8f99/60b4d/3_sm.webp 160w",
+								"type": "image/webp",
+								"sizes": "(min-width: 160px) 160px, 100vw"
+							}
+						]
+					},
+					"width": 160,
+					"height": 160
+				}
+			}
+		}
+	},
+	"cardImage": {
+		"localFile": {
+			"childImageSharp": {
+				"gatsbyImageData": {
+					"layout": "constrained",
+					"backgroundColor": "#080808",
+					"images": {
+						"fallback": {
+							"src": "/static/b5d5ae6a09510a7846c738abc06a3ab2/c9885/3_card.png",
+							"srcSet": "/static/b5d5ae6a09510a7846c738abc06a3ab2/2aab7/3_card.png 94w,\n/static/b5d5ae6a09510a7846c738abc06a3ab2/0a986/3_card.png 187w,\n/static/b5d5ae6a09510a7846c738abc06a3ab2/c9885/3_card.png 374w",
+							"sizes": "(min-width: 374px) 374px, 100vw"
+						},
+						"sources": [
+							{
+								"srcSet": "/static/b5d5ae6a09510a7846c738abc06a3ab2/84550/3_card.webp 94w,\n/static/b5d5ae6a09510a7846c738abc06a3ab2/34f80/3_card.webp 187w,\n/static/b5d5ae6a09510a7846c738abc06a3ab2/b26e2/3_card.webp 374w",
+								"type": "image/webp",
+								"sizes": "(min-width: 374px) 374px, 100vw"
+							}
+						]
+					},
+					"width": 374,
+					"height": 512
+				}
+			}
+		}
+	},
+	"faction": "Cunning Hares",
+	"attackType": [
+		"Pierce"
+	],
+	"style": "Attack",
+	"element": "Physical",
+	"review": null,
+	"pros": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Is Free!\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has a very mobile playstyle - the highest among all A-rank characters currently.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack, Dash Attack, Ultimate, and even Billy’s EX when lined up correctly all hit multiple enemies within a generous range making him good at taking out groups of small enemies.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Easy to understand and play kit makes unlocking his full potential for any player incredibly easy.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Biggest Starlight Knight Fan.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Incredibly limited potential teammates he shares a faction or elemental synergy with. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Outside of other Physical DPS who he’ll need to compete with field time for on. Anby and Nicole are his only non-DPS Element/Faction synergies who don’t take up said field time and even then, they aren’t perfect fits for Billy’s playstyle as a Ranged Physical DPS.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Competes with many other A-Rank Physical DPS. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"videos": null,
+	"endgameStats": {
+		"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"ATK: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"2400-2800+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"HP: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"9000+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"DEF: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"800+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"CRIT RATE: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"70-80%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"CRIT DMG: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"140-160%+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"\",\"marks\":[],\"data\":{}}]}]}"
+	},
+	"tierListCategory": "DPS",
+	"tierListTags": null,
+	"ratings": {
+		"shiyu": 6
+	},
+	"build": {
+		"main_4": [
+			{
+				"stat": "CRIT Rate",
+				"sign": "="
+			},
+			{
+				"stat": "CRIT DMG",
+				"sign": null
+			}
+		],
+		"main_5": [
+			{
+				"stat": "Physical DMG",
+				"sign": ">="
+			},
+			{
+				"stat": "PEN Ratio",
+				"sign": null
+			}
+		],
+		"main_6": [
+			{
+				"stat": "ATK%",
+				"sign": null
+			}
+		],
+		"sets": [
+			{
+				"set_2": "",
+				"set_4": "Stat",
+				"value": "100%",
+				"notes": ""
+			}
+		],
+		"engines": [
+			{
+				"super": "5",
+				"weapon": "Starlight Engine Replica",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "1",
+				"weapon": "The Brimstone",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "1",
+				"weapon": "Steel Cushion",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "Starlight Engine",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "Street Superstar",
+				"percent": "",
+				"percent_standard": null,
+				"notes": null
+			}
+		],
+		"substats": "CRIT RATE = CRIT DMG > ATK% > PEN = ATK"
+	},
+	"talents": [
+		{
+			"name": "Dazzling Entrance",
+			"desc": "When Billy hits an enemy with a Dash Attack or Dodge Counter, he gains an additional <b>2.7</b> Energy. Can trigger once every <b>5s</b>."
+		},
+		{
+			"name": "Roaming Gunslinger",
+			"desc": "Billy's Dodge Counter DMG increases by <b>25%</b>. Rolling Shots during his Basic Attacks count as dodges, making Billy Invulnerable during skill activation and able to trigger Perfect Dodges. When a Rolling Shot triggers a Perfect Dodge, it will automatically follow up a Dodge Counter."
+		},
+		{
+			"name": "Teachings of the Starlight Knights",
+			"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+		},
+		{
+			"name": "Starlight Ballistics",
+			"desc": "When Billy hits an enemy with his EX Special Attack, the skill's CRIT Rate increases based on the distance from the enemy. The closer he is to the target, the greater the effect, up to a maximum increase of <b>32%</b>."
+		},
+		{
+			"name": "Lost Technological Construct",
+			"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+		},
+		{
+			"name": "Starlight Hero",
+			"desc": "When Billy accumulates <b>10</b> hits on enemies or triggers a Perfect Dodge, his DMG increases by <b>6%</b>, stacking up to <b>5</b> times. The effect resets is he is knocked back or launched by an enemy."
+		}
+	],
+	"introduction": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"A handsome cyborg with a casual and carefree personality. He's an avid fan of the Starlight Knight show, not only referring to himself as one of the Starlight Knights, but repeating many classic lines from the show. Refers to his pair of special custom-made high-caliber revolvers as \\\"the girls\\\". They appear to have been a gift from an old friend. He may look unreliable, but once he gets serious Billy can take on any challenge.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"voiceActors": {
+		"en": "",
+		"kr": "",
+		"jpn": "Hayashi Yū (林勇)",
+		"cn": "Chen Runqiu (陈润秋)"
+	},
+	"releaseDate": null,
+	"upcoming": null
+}
