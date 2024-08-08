@@ -15,8 +15,8 @@ import zzzguide.R
 
 class InfoFragment : Fragment() {
 
-//    private val InterAd = "ca-app-pub-8299128249632072/3313271773"
-//    private var mInterstitialAd: InterstitialAd? = null
+    private val InterAd = "ca-app-pub-8299128249632072/4935781534"
+    private var mInterstitialAd: InterstitialAd? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,19 +28,19 @@ class InfoFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
 
-//        var adRequest = AdRequest.Builder().build()
-//
-//        InterstitialAd.load(requireContext(), InterAd, adRequest, object : InterstitialAdLoadCallback() {
-//            override fun onAdFailedToLoad(adError: LoadAdError) {
-////                Log.d(TAG, adError?.toString())
-//                mInterstitialAd = null
-//            }
-//
-//            override fun onAdLoaded(interstitialAd: InterstitialAd) {
-//                Log.d(TAG, "Ad was loaded.")
-//                mInterstitialAd = interstitialAd
-//            }
-//        })
+        var adRequest = AdRequest.Builder().build()
+
+        InterstitialAd.load(requireContext(), InterAd, adRequest, object : InterstitialAdLoadCallback() {
+            override fun onAdFailedToLoad(adError: LoadAdError) {
+//                Log.d(TAG, adError?.toString())
+                mInterstitialAd = null
+            }
+
+            override fun onAdLoaded(interstitialAd: InterstitialAd) {
+                Log.d(TAG, "Ad was loaded.")
+                mInterstitialAd = interstitialAd
+            }
+        })
 
         return inflater.inflate(R.layout.fragment_info, container, false)
     }
@@ -51,11 +51,11 @@ class InfoFragment : Fragment() {
     }
 
     private fun showAd() {
-//        if (mInterstitialAd != null) {
-//            mInterstitialAd?.show(requireActivity())
-//        } else {
-//            Log.d("TAG", "The interstitial ad wasn't ready yet.")
-//        }
+        if (mInterstitialAd != null) {
+            mInterstitialAd?.show(requireActivity())
+        } else {
+            Log.d("TAG", "The interstitial ad wasn't ready yet.")
+        }
     }
 
 }
