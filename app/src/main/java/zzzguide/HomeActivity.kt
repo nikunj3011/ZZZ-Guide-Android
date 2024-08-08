@@ -16,20 +16,20 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
     private lateinit var navController: NavController
 
-    private lateinit var mAdView: AdView
+//    private lateinit var mAdView: AdView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate((layoutInflater))
         enableEdgeToEdge()
         initNavController()
 
-        MobileAds.initialize(
-            this
-        ) { }
+//        MobileAds.initialize(
+//            this
+//        ) { }
         //setContentView(R.layout.sticker_packs_list_item);
-        mAdView = binding.adView
-        val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
+//        mAdView = binding.adView
+//        val adRequest = AdRequest.Builder().build()
+//        mAdView.loadAd(adRequest)
         setContentView(binding.root)
     }
 

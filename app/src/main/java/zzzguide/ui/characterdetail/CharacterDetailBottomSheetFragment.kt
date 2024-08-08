@@ -1,15 +1,21 @@
 package zzzguide.ui.characterdetail
 
+import android.graphics.Color
 import android.os.Bundle
+import android.text.SpannableStringBuilder
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
+import androidx.core.text.HtmlCompat
+import androidx.core.text.bold
+import androidx.core.text.color
 import com.bumptech.glide.Glide
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.google.gson.Gson
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import zzzguide.R
 import zzzguide.databinding.FragmentCharacterDetailBottomSheetBinding
+import zzzguide.models.api.character.AgentResponseItem
 
 
 class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
@@ -17,10 +23,10 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
     private lateinit var binding: FragmentCharacterDetailBottomSheetBinding
     private val viewModel by viewModel<CharacterDetailsViewModel>()
     private lateinit var characterId : String
+    private lateinit var characterModel : AgentResponseItem
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
-//        setStyle(BottomSheetDialogFragment.STYLE_NORMAL, com.google.android.material.R.style.Animation_Material3_BottomSheetDialog);
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -31,285 +37,246 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
             container,
             false
         )
-
-//        val window: Window = context.win
-//        window.setBackgroundDrawableResource(android.R.color.transparent)
-//        val lp = window.attributes
-//        lp.alpha = 1.0f
-//        lp.dimAmount = 0.0f
-//        window.attributes = lp
         characterId = arguments?.getString("characterId").toString()
         if(characterId == null)
         {
             characterId = "1"
         }
+        var gson = Gson()
+        characterModel = gson.fromJson(characterId, AgentResponseItem::class.java)
         binding = dataBinding
 
-//        binding.shimmerFrameLayoutCharacterDetailBottomSheet.startShimmer()
-//        binding.characterListItemBottomSheetSub.setVisibility(View.GONE)
         view?.parent
         // Inflate the layout for this fragment
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-//        val bottomSheet : ConstraintLayout = dialog?.findViewById(R.id.characterListItemBottomSheet)!!
-//
-//        // Height of the view
-//        bottomSheet.layoutParams.height = ViewGroup.LayoutParams.MATCH_PARENT
-//
-//        // Behavior of the bottom sheet
-//        val behavior = BottomSheetBehavior.from(bottomSheet)
-//        behavior.apply {
-//            peekHeight = resources.displayMetrics.heightPixels // Pop-up height
-//            state = BottomSheetBehavior.STATE_EXPANDED // Expanded state
-//
-//            addBottomSheetCallback(object : BottomSheetBehavior.BottomSheetCallback() {
-//                override fun onStateChanged(bottomSheet: View, newState: Int) {
-//                }
-//
-//                override fun onSlide(bottomSheet: View, slideOffset: Float) {}
-//            })
-//        }
 
-        viewModel.id = characterId
+        viewModel.id = characterModel.slug
         viewModel.characterDetailsLiveData.observe(viewLifecycleOwner) { result ->
             var character = result
-            binding.txtCharacterNameBottomSheet.text = character?.name.toString()
-            binding.textCharacterNameTransparentBottomSheet.text = character?.name.toString()
-            binding.textDescriptionBottomSheet.text = character?.introduction?.raw?.content?.first()?.content?.first()?.value
+            binding.txtCharacterNameBottomSheet.text = character?.fullName
+            binding.textCharacterNameTransparentBottomSheet.text = characterModel?.name
+            binding.textDescriptionBottomSheet.text = characterModel?.intro
+//            binding.txtCharacterStyleBottomSheet.text = character?.style
+            Glide.with(view)
+                .load("https://www.prydwen.gg${character.cardImage.localFile.childImageSharp.gatsbyImageData.images.fallback.src}")
+                .into(binding.imageViewCharacterBottomSheet)
+            binding.textCharFactionSmall.text = character?.faction
 
-            binding.textMainCategoryCharacterBottomSheet.text = "Main Role: ${character?.tierCategory}"
+            binding.textViewBestWEngineAgent.text = character?.build?.engines?.first()?.weapon;
 
-            var characterSubCategories = ""
-            if(!character?.tierTags.isNullOrEmpty()){
-                for (name in character?.tierTags!!) {
-                    characterSubCategories = "$characterSubCategories $name "
+
+            binding.textRatingsCharacterBottomSheet.text = "Shiyu Defence: " +character?.ratings?.shiyu?.toString()
+            binding.textMainCategoryCharacterBottomSheet.text = "Main Role: " +character?.tierListCategory
+
+            var characterTalents = SpannableStringBuilder()
+            if(!character.talents.isNullOrEmpty()){
+                for (attribute in character.talents){
+                    characterTalents = characterTalents.append()
+                        .bold{color(Color.WHITE, { append(attribute?.name) })}
+                        .append(" : ")
+                        .append(HtmlCompat.fromHtml(attribute.desc, HtmlCompat.FROM_HTML_MODE_COMPACT))
+                        .append("\n\n")
                 }
             }
-            binding.textSubCategoryCharacterBottomSheet.text = "Other Roles: $characterSubCategories"
+            binding.textViewCharacterTalents.text = characterTalents
 
-            binding.textRatingsCharacterBottomSheet.text = "Tower of Adversity: " + character?.ratings?.tower?.toString()
-
-
-            binding.txtMainEchoBottomSheet.text = character?.buildInfoEcho?.echo_sets?.first()?.main_echo
-            binding.textViewBestWeapon.text = character?.buildInfoWeapon?.first()?.weapon
-            binding.txtCharacterWeaponTypeBottomSheet.text = character?.weapon.toString()
-            binding.textCharDesSmall.text = character?.region + "_@2024"
-
-            var echo4PCStat = ""
-            if(!character?.buildInfoEcho?.echo_4_stat.isNullOrEmpty()){
-                for (name in character?.buildInfoEcho?.echo_4_stat!!) {
-                    echo4PCStat = echo4PCStat + " " + name.stat + " "
+            var otherRoles = "Other Role: "
+            if(!character.tierListTags.isNullOrEmpty()){
+                for(tiertag in character.tierListTags){
+                    otherRoles = "$otherRoles $tiertag"
                 }
             }
-            binding.textView4CEchoSet.text = echo4PCStat
+            binding.textSubCategoryCharacterBottomSheet.text = otherRoles
 
-            var echo3PCStat = ""
-            if(!character?.buildInfoEcho?.echo_3_stat.isNullOrEmpty()){
-                for (name in character?.buildInfoEcho?.echo_3_stat!!) {
-                    echo3PCStat = echo3PCStat + " " + name.stat + " "
+            var stats1 = ""
+            if(!character.build.main_4.isNullOrEmpty()){
+                for(stat in character.build.main_4){
+                    stats1 = "$stats1 ${stat.stat}"
                 }
             }
-            binding.textView3CEchoSet.text = echo3PCStat
+            binding.textViewStat1.text = stats1
 
-            var echo1PCStat = ""
-            if(!character?.buildInfoEcho?.echo_1_stat.isNullOrEmpty()){
-                for (name in character?.buildInfoEcho?.echo_1_stat!!) {
-                    echo1PCStat = echo1PCStat + " " + name.stat + " "
+            var stats2 = ""
+            if(!character.build.main_4.isNullOrEmpty()){
+                for(stat in character.build.main_5){
+                    stats2 = "$stats2 ${stat.stat}"
                 }
             }
-            binding.textView1CEchoSet.text = echo1PCStat
+            binding.textViewStat2.text = stats2
 
-            var teammates = ""
-            if(!character?.synergies.isNullOrEmpty()){
-                for (name in character?.synergies!!) {
-                    teammates = teammates + " " + name.char + " "
+            var stats3 = ""
+            if(!character.build.main_4.isNullOrEmpty()){
+                for(stat in character.build.main_6){
+                    stats3 = "$stats3 ${stat.stat}"
                 }
             }
+            binding.textViewStat3.text = stats3
 
-            binding.textViewCharacterBestTeammates.text = teammates
+            binding.textViewCharacterSubStats.text = character?.build?.substats
 
-            binding.textViewCharacterSubStats.text = character?.buildInfoOther?.substats
+            if (characterModel?.categories?.elementAt(0) != null) {
 
-            var characterAscension = ""
-            if(!character?.ascensionMaterials?.common.isNullOrEmpty()){
-                for (name in character?.ascensionMaterials?.common!!) {
-                    characterAscension = "$characterAscension \n${name.number_char} x ${name.name} "
-                }
-            }
-            if(character?.ascensionMaterials?.ascension != null){
-                characterAscension = "$characterAscension \n${character?.ascensionMaterials?.ascension?.number} x ${character?.ascensionMaterials?.ascension?.name} "
-            }
-            if(character?.ascensionMaterials?.breakthrough != null){
-                characterAscension = "$characterAscension \n${character?.ascensionMaterials?.breakthrough?.number} x ${character?.ascensionMaterials?.breakthrough?.name} "
-            }
-            if(character?.ascensionMaterials?.skill != null){
-                characterAscension = "$characterAscension \n${character?.ascensionMaterials?.skill?.number} x ${character?.ascensionMaterials?.skill?.name} "
-            }
-            binding.textViewCharacterAscensionMaterials.text = characterAscension
-
-            var characterSkillUpgrades = ""
-            if(!character?.ascensionMaterials?.common.isNullOrEmpty()){
-                for (name in character?.ascensionMaterials?.common!!) {
-                    characterSkillUpgrades = "$characterSkillUpgrades \n${name.number_skill} x ${name.name} "
-                }
-            }
-            if(!character?.ascensionMaterials?.skill_other.isNullOrEmpty()){
-                for (name in character?.ascensionMaterials?.skill_other!!) {
-                    characterSkillUpgrades = "$characterSkillUpgrades \n${name.number} x ${name.name} "
-                }
-            }
-
-            binding.textViewCharacterSkillUpgradesMaterials.text = characterSkillUpgrades
-
-            var backgroundColor = ContextCompat.getColor(requireContext(), R.color.purple_200)
-
-            if(character?.tag != null){
-                when (character.tag) {
-                    "Aero" -> {
+                when (characterModel.categories.elementAt(0).name) {
+                    "a-rank" -> {
                         Glide.with(view)
-                            .load(R.drawable.aero)
-                            .into(binding.imageViewCharacterElementBottomSheet)
-                        backgroundColor = ContextCompat.getColor(requireContext(), R.color.color_aero)
+                            .load(R.drawable.arank)
+                            .into(binding.imageViewStarAgent)
                     }
-                    "Glacio" -> {
-                        Glide.with(view)
-                            .load(R.drawable.glacio)
-                            .into(binding.imageViewCharacterElementBottomSheet)
-                        backgroundColor = ContextCompat.getColor(requireContext(), R.color.color_glacio)
 
-                    }
-                    "Electro" -> {
+                    "s-rank" -> {
                         Glide.with(view)
-                            .load(R.drawable.electro)
-                            .into(binding.imageViewCharacterElementBottomSheet)
-                        backgroundColor = ContextCompat.getColor(requireContext(), R.color.color_electro)
+                            .load(R.drawable.srank)
+                            .into(binding.imageViewStarAgent)
                     }
-                    "Fusion" -> {
-                        Glide.with(view)
-                            .load(R.drawable.fusion)
-                            .into(binding.imageViewCharacterElementBottomSheet)
-                        backgroundColor = ContextCompat.getColor(requireContext(), R.color.color_fusion)
-                    }
-                    "Havoc" -> {
-                        Glide.with(view)
-                            .load(R.drawable.havoc)
-                            .into(binding.imageViewCharacterElementBottomSheet)
-                        backgroundColor = ContextCompat.getColor(requireContext(), R.color.color_havoc)
-                    }
-                    "Spectro" -> {
-                        Glide.with(view)
-                            .load(R.drawable.spectro)
-                            .into(binding.imageViewCharacterElementBottomSheet)
-                        backgroundColor = ContextCompat.getColor(requireContext(), R.color.color_spectro)
-                    }
+
                     else -> {
                         Glide.with(view)
-                            .load(R.drawable.spectro)
+                            .load(R.drawable.srank)
+                            .into(binding.imageViewStarAgent)
+                    }
+                }
+            }
+
+            if (characterModel?.categories?.elementAt(2) != null) {
+                when (characterModel.categories.elementAt(2).name.lowercase()) {
+                    "attack" -> {
+                        Glide.with(view)
+                            .load(R.drawable.attack)
+                            .into(binding.imageViewWeaponTypeBottomSheet)
+                    }
+
+                    "stun" -> {
+                        Glide.with(view)
+                            .load(R.drawable.stun)
+                            .into(binding.imageViewWeaponTypeBottomSheet)
+                    }
+
+                    "anomaly" -> {
+                        Glide.with(view)
+                            .load(R.drawable.anomaly)
+                            .into(binding.imageViewWeaponTypeBottomSheet)
+                    }
+
+                    "support" -> {
+                        Glide.with(view)
+                            .load(R.drawable.support)
+                            .into(binding.imageViewWeaponTypeBottomSheet)
+                    }
+
+                    "defense" -> {
+                        Glide.with(view)
+                            .load(R.drawable.defense)
+                            .into(binding.imageViewWeaponTypeBottomSheet)
+                    }
+
+                    else -> {
+                        Glide.with(view)
+                            .load(R.drawable.stun)
+                            .into(binding.imageViewWeaponTypeBottomSheet)
+                    }
+                }
+            }
+            
+            if (characterModel?.categories?.elementAt(1) != null) {
+                when (characterModel.categories.elementAt(1).name.lowercase()) {
+                    "ice" -> {
+                        Glide.with(view)
+                            .load(R.drawable.ice)
                             .into(binding.imageViewCharacterElementBottomSheet)
-                        backgroundColor = ContextCompat.getColor(requireContext(), R.color.color_glacio)
                     }
-                }
-            }
 
-            binding.viewCharacterNameBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineWeaponLineBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineMainEchoLineBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineEchoLineBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineEchoSetLineBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineSubStatsLineBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineTeamLineBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineRatingLineBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineUpgradeMatLineBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineCharAscBottomSheet.setBackgroundColor(backgroundColor)
-            binding.viewCharacterLineCharSkillUpBottomSheet.setBackgroundColor(backgroundColor)
+                    "fire" -> {
+                        Glide.with(view)
+                            .load(R.drawable.fire)
+                            .into(binding.imageViewCharacterElementBottomSheet)
+                    }
 
-            if(character?.weapon != null){
-                when (character.weapon) {
-                    "Broadblade" -> {
+                    "electric" -> {
                         Glide.with(view)
-                            .load(R.drawable.broadblade)
-                            .into(binding.imageViewWeaponTypeBottomSheet)
+                            .load(R.drawable.electric)
+                            .into(binding.imageViewCharacterElementBottomSheet)
                     }
-                    "Gauntlets" -> {
+
+                    "physical" -> {
                         Glide.with(view)
-                            .load(R.drawable.gauntlets)
-                            .into(binding.imageViewWeaponTypeBottomSheet)
+                            .load(R.drawable.physical)
+                            .into(binding.imageViewCharacterElementBottomSheet)
                     }
-                    "Pistols" -> {
+
+                    "ether" -> {
                         Glide.with(view)
-                            .load(R.drawable.pistol)
-                            .into(binding.imageViewWeaponTypeBottomSheet)
+                            .load(R.drawable.ether)
+                            .into(binding.imageViewCharacterElementBottomSheet)
                     }
-                    "Rectifier" -> {
-                        Glide.with(view)
-                            .load(R.drawable.rectifier)
-                            .into(binding.imageViewWeaponTypeBottomSheet)
-                    }
-                    "Sword" -> {
-                        Glide.with(view)
-                            .load(R.drawable.sword)
-                            .into(binding.imageViewWeaponTypeBottomSheet)
-                    }
+
                     else -> {
                         Glide.with(view)
-                            .load(R.drawable.sword)
-                            .into(binding.imageViewWeaponTypeBottomSheet)
+                            .load(R.drawable.electric)
+                            .into(binding.imageViewCharacterElementBottomSheet)
                     }
                 }
             }
+            
+            if (characterModel?.categories?.elementAt(4) != null) {
+                when (characterModel.categories.elementAt(4).name.lowercase()) {
+                    "the-cunning-hares" -> {
+                        Glide.with(view)
+                            .load(R.drawable.the_cunning_hares)
+                            .into(binding.imageViewCharacterRegionBottomSheet)
+                    }
 
-            if(character?.region != null){
-                when (character.region) {
-                    "Huanglong" -> {
+                    "victoria-housekeeping-co" -> {
                         Glide.with(view)
-                            .load(R.drawable.huanglong)
+                            .load(R.drawable.victoria_housekeeping_co)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
-                    "Unknown" -> {
+
+                    "new-eridu-public-security" -> {
                         Glide.with(view)
-                            .load(R.drawable.unknown)
+                            .load(R.drawable.new_eridu_public_security)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
-                    "Black Shores" -> {
+
+                    "belobog-heavy-industries" -> {
                         Glide.with(view)
-                            .load(R.drawable.black_shores)
+                            .load(R.drawable.belobog_heavy_industries)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
-                    "Other" -> {
+
+                    "section-6" -> {
                         Glide.with(view)
-                            .load(R.drawable.other)
+                            .load(R.drawable.section_6)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
+
+                    "sons-of-calydon" -> {
+                        Glide.with(view)
+                            .load(R.drawable.sons_of_calydon)
+                            .into(binding.imageViewCharacterRegionBottomSheet)
+                    }
+
+                    "obols-obsidian" -> {
+                        Glide.with(view)
+                            .load(R.drawable.obols_obsidian)
+                            .into(binding.imageViewCharacterRegionBottomSheet)
+                    }
+
                     else -> {
                         Glide.with(view)
-                            .load(R.drawable.other)
+                            .load(R.drawable.sons_of_calydon)
+                            .into(binding.imageViewCharacterRegionBottomSheet)
+                        Glide.with(view)
+                            .load(R.drawable.sons_of_calydon)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
                 }
             }
+            
+//            binding.textCharDesSmall.text = characterModel?.bio.toString()
 
-            if(character?.img != null){
-                Glide.with(view)
-                    .load(character.img)
-                    .into(binding.imageViewCharacterBottomSheet)
-                if(character.bStyle == "linear-gradient(0deg, rgba(119,61,166,1) -79%, rgba(255,255,255,0) 100%)"){
-                    Glide.with(view)
-                        .load(R.drawable.four_star_flat)
-                        .into(binding.imageViewStarGradient)
-//                    binding.imageViewCharacterBottomSheet.background = ContextCompat.getDrawable(requireContext(), R.drawable.four_star_gradient)
-                }
-                else{
-                    Glide.with(view)
-                        .load(R.drawable.five_star_flat)
-                        .into(binding.imageViewStarGradient)
-//                    binding.imageViewCharacterBottomSheet.background = ContextCompat.getDrawable(requireContext(), R.drawable.five_star_gradient)
-                }
-            }
-
-//            binding.shimmerFrameLayoutCharacterDetailBottomSheet.setVisibility(View.GONE)
-//            binding.characterListItemBottomSheetSub.setVisibility(View.VISIBLE)
         }
     }
 }

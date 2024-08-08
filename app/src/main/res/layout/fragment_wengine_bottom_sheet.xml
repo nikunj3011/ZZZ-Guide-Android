@@ -145,10 +145,11 @@
             app:layout_constraintTop_toBottomOf="@+id/imageViewWengineBottomSheet" />
 
         <ImageView
-            android:id="@+id/imageViewStarGradient"
+            android:id="@+id/imageViewStarGradientWEngine"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_marginTop="140dp"
+            android:alpha="0.6"
             android:background="@drawable/five_star_flat"
             android:elevation="-1dp"
             app:layout_constraintEnd_toEndOf="parent"

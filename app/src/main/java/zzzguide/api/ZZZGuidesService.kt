@@ -6,7 +6,6 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 import zzzguide.models.api.character.AgentResponse
 import zzzguide.models.api.characterdetail.CharacterDetailResponse
-import zzzguide.models.api.characterdetails.CharactersDetailsResponse
 import zzzguide.models.api.bangboo.BangBoosResponse
 import zzzguide.models.api.wengines.WEngineResponse
 
@@ -24,11 +23,7 @@ interface ZZZGuidesService {
     suspend fun getWEngines(
     ): Response<WEngineResponse>
 
-    @GET("charactersdetails.json")
-    suspend fun getCharactersDetails(
-    ): Response<CharactersDetailsResponse>
-
-    @GET("characters/{id}.json")
+    @GET("charactersdetail/{id}.json")
     suspend fun getCharactersDetail(
         @Path(value = "id") id: String,
         @Query("articlesCount") count: Int = 0

@@ -88,28 +88,28 @@ class WengineBottomSheetFragment :  BottomSheetDialogFragment() {
                         Glide.with(view)
                             .load(R.drawable.arank)
                             .into(binding.imageViewWengineElementBottomSheet)
-                        binding.imageViewStarGradient.setBackgroundColor(Color.parseColor("#77AB3A4E"))
+                        binding.imageViewStarGradientWEngine.setBackgroundColor(Color.parseColor("#77AB3A4E"))
                     }
 
                     "s-rank" -> {
                         Glide.with(view)
                             .load(R.drawable.srank)
                             .into(binding.imageViewWengineElementBottomSheet)
-                        binding.imageViewStarGradient.setBackgroundColor(Color.parseColor("#77F9A700"))
+                        binding.imageViewStarGradientWEngine.setBackgroundColor(Color.parseColor("#77F9A700"))
                     }
 
                     "b-rank" -> {
                         Glide.with(view)
                             .load(R.drawable.brank)
                             .into(binding.imageViewWengineElementBottomSheet)
-                        binding.imageViewStarGradient.setBackgroundColor(Color.parseColor("#770FB8E5"))
+                        binding.imageViewStarGradientWEngine.setBackgroundColor(Color.parseColor("#770FB8E5"))
                     }
 
                     else -> {
                         Glide.with(view)
                             .load(R.drawable.brank)
                             .into(binding.imageViewWengineElementBottomSheet)
-                        binding.imageViewStarGradient.setBackgroundColor(Color.parseColor("#770FB8E5"))
+                        binding.imageViewStarGradientWEngine.setBackgroundColor(Color.parseColor("#770FB8E5"))
                     }
                 }
             }

@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "WutheringWavesGuide"
+rootProject.name = "ZZZGuide"
 include ':app'

@@ -9,6 +9,7 @@ import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.viewModelScope
 import androidx.recyclerview.widget.GridLayoutManager
+import com.google.gson.Gson
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -69,7 +70,7 @@ class CharacterFragment : Fragment() {
 
                 val filteredList = ArrayList<AgentResponseItem>()
                 for (i in result) {
-                    if (i.name.lowercase(Locale.ROOT).contains(query)) {
+                    if (i.full_name.lowercase(Locale.ROOT).contains(query)) {
                         filteredList.add(i)
                     }
                 }
@@ -101,58 +102,13 @@ class CharacterFragment : Fragment() {
         val bottomSheetFragment  = CharacterDetailBottomSheetFragment()
 
         val bundle = Bundle()
-        bundle.putString("characterId", character.name)
+        var gson = Gson()
+        var characterJson = gson.toJson(character)
+
+        bundle.putString("characterId", characterJson)
         bottomSheetFragment.arguments = bundle
         bottomSheetFragment.setCancelable(true)
         bottomSheetFragment.show(requireActivity().supportFragmentManager, CharacterDetailBottomSheetFragment::class.java.name)
-
-//        val textInputLayout = view1.findViewById<TextInputLayout>(wutheringwavesguide.R.id.textFieldLayout)
-//        val editText = view1.findViewById<TextInputEditText>(wutheringwavesguide.R.id.editText)
-//        val dismissBtn = view1.findViewById<MaterialButton>(wutheringwavesguide.R.id.dismiss)
-//
-//        dismissBtn.setOnClickListener {
-//            if (Objects.requireNonNull(editText.text).toString().isEmpty()) {
-//                textInputLayout.error = "Please type some text"
-//            } else {
-//                Toast.makeText(
-//                    requireActivity(),
-//                    editText.text.toString(),
-//                    Toast.LENGTH_SHORT
-//                ).show()
-//
-//                bottomSheetDialog.dismiss()
-//            }
-//        }
-//
-//        bottomSheetDialog.setOnDismissListener {
-//            Toast.makeText(
-//                requireActivity(),
-//                "Bottom sheet dismissed",
-//                Toast.LENGTH_SHORT
-//            ).show()
-//        }
-
-//        Toast.makeText(
-//            requireActivity(),
-//            "Supplier is : ${character.name}",
-//            Toast.LENGTH_LONG
-//        ).show()
-//        findNavController()
-//            .navigate(
-//                CharacterFragmentDirections.actionCharacterFragmentToCharacterDetailedFragment(
-//                    fruit.id
-//                )
-//            )
-//        var dd = Dialog(requireActivity())
-//        dd.requestWindowFeature(Window.FEATURE_NO_TITLE)
-//        dd.setContentView(R.layout.fragment_character_detailed)
-//
-//        dd.setCancelable(false)
-//        dd.show()
-//
-//        val bundle: Bundle = Bundle()
-//        bundle.putString("characterId", character.id)
-//        findNavController().navigate(R.id.characterDetailedFragment, bundle)
     }
 
 }

@@ -20,21 +20,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/nav_graph_" />
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="invisible"
-        app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-8299128249632072/1557869808"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_nav"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent">
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        android:id="@+id/adView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:visibility="gone"-->
+<!--        app:adSize="BANNER"-->
+<!--        app:adUnitId="ca-app-pub-8299128249632072/1557869808"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/bottom_nav"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.494"-->
+<!--        app:layout_constraintStart_toStartOf="parent">-->
 
-        <!--        ads:adUnitId="ca-app-pub-6942923344194754/7375592130 - mine
-            ca-app-pub-3940256099942544/6300978111 -not mine">-->
-    </com.google.android.gms.ads.AdView>
+<!--        &lt;!&ndash;        ads:adUnitId="ca-app-pub-6942923344194754/7375592130 - mine-->
+<!--            ca-app-pub-3940256099942544/6300978111 -not mine">&ndash;&gt;-->
+<!--    </com.google.android.gms.ads.AdView>-->
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"

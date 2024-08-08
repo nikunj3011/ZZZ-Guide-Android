@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="1500dp"
-    android:elevation="20dp"
+    android:elevation="-2dp"
     android:fillViewport="true">
 
 
@@ -18,25 +18,25 @@
 
         <ImageView
             android:id="@+id/imageViewCharacterRegionBottomSheet"
-            android:layout_width="138dp"
-            android:layout_height="135dp"
-            android:layout_marginTop="36dp"
+            android:layout_width="162dp"
+            android:layout_height="163dp"
+            android:layout_marginTop="8dp"
             android:alpha="0.7"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.941"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageView
             android:id="@+id/imageViewCharacterBottomSheet"
-            android:layout_width="263dp"
-            android:layout_height="341dp"
-            android:layout_marginTop="136dp"
-            android:alpha="0.7"
+            android:layout_width="291dp"
+            android:layout_height="426dp"
+            android:layout_marginTop="120dp"
+            android:alpha="0.8"
             android:elevation="-2dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.888"
+            app:layout_constraintHorizontal_bias="0.933"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
@@ -54,14 +54,12 @@
 
         <ImageView
             android:id="@+id/imageViewCharacterElementBottomSheet"
-            android:layout_width="30dp"
-            android:layout_height="26dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="88dp"
-            android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/txtCharacterNameBottomSheet"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view6"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
@@ -69,9 +67,8 @@
             android:layout_width="0dp"
             android:layout_height="191dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="128dp"
+            android:layout_marginBottom="80dp"
             android:paddingRight="10dp"
             android:text="Loading..."
             android:textAlignment="viewStart"
@@ -79,22 +76,26 @@
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewCharacterSkillUpgradesMaterials" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewCharacterTalents" />
 
         <TextView
             android:id="@+id/txtCharacterNameBottomSheet"
-            android:layout_width="309dp"
-            android:layout_height="70dp"
-            android:layout_marginTop="68dp"
-            android:layout_marginEnd="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="144dp"
             android:fontFamily="@font/poppins"
+            android:maxWidth="240dp"
             android:text="Loading..."
             android:textAlignment="textStart"
             android:textColor="@color/white"
             android:textSize="48sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/view6"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
@@ -113,24 +114,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/txtCharacterWeaponTypeBottomSheet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="144dp"
-            android:fontFamily="@font/poppins"
-            android:rotation="270"
-            android:text="Loading..."
-            android:textColor="@color/white"
-            android:textSize="34sp"
-            android:textStyle="italic"
-            app:layout_constraintEnd_toStartOf="@+id/imageViewCharacterBottomSheet"
-            app:layout_constraintHorizontal_bias="0.305"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtCharacterNameBottomSheet" />
-
-        <TextView
-            android:id="@+id/textViewBestWeapon"
+            android:id="@+id/textViewBestWEngineAgent"
             android:layout_width="wrap_content"
             android:layout_height="29dp"
             android:layout_marginStart="4dp"
@@ -184,10 +168,10 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/poppins"
-            android:text="Best W-Engine"
+            android:text="Best Disk Drive"
             android:textColor="#AAEFEAE6"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewBestWeapon" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewBestWEngineAgent" />
 
         <TextView
             android:id="@+id/txtMainEchoBottomSheet"
@@ -196,7 +180,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/poppins"
-            android:text="Loading..."
+            android:text="N/A"
             android:textColor="@color/white"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -205,13 +189,13 @@
 
         <ImageView
             android:id="@+id/imageViewWeaponTypeBottomSheet"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
-            android:layout_marginStart="36dp"
-            android:layout_marginTop="80dp"
-            android:rotation="270"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:rotation="0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtCharacterWeaponTypeBottomSheet"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCharacterElementBottomSheet"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
@@ -221,49 +205,47 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/poppins"
-            android:text="Best Weapon"
+            android:text="Best W-Engine"
             android:textColor="#AAEFEAE6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewCharacterBottomSheet" />
 
         <ImageView
-            android:id="@+id/imageViewStarGradient"
-            android:layout_width="0dp"
-            android:layout_height="100dp"
-            android:background="@drawable/five_star_flat"
+            android:id="@+id/imageViewStarAgent"
+            android:layout_width="45dp"
+            android:layout_height="44dp"
+            android:alpha="0.7"
             android:elevation="-1dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txtCharacterWeaponTypeBottomSheet"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCharacterRegionBottomSheet"
             tools:srcCompat="@drawable/five_star_flat" />
 
         <View
             android:id="@+id/viewCharacterNameBottomSheet"
-            android:layout_width="40dp"
+            android:layout_width="90dp"
             android:layout_height="2dp"
-            android:layout_marginStart="36dp"
             android:layout_marginTop="4dp"
             android:background="@color/goldyellowThird"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/txtCharacterNameBottomSheet"
             app:layout_constraintTop_toBottomOf="@+id/txtCharacterNameBottomSheet" />
 
         <TextView
-            android:id="@+id/textCharDesSmall"
+            android:id="@+id/textCharFactionSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="36dp"
+            android:layout_marginStart="4dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="4dp"
             android:fontFamily="@font/poppins_extralight"
+            android:maxWidth="150dp"
             android:text="Loading..."
             android:textColor="@color/gray_200"
-            android:textSize="16sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toStartOf="@+id/imageViewCharacterBottomSheet"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/txtCharacterNameBottomSheet"
             app:layout_constraintTop_toBottomOf="@+id/txtCharacterNameBottomSheet" />
 
         <TextView
@@ -271,7 +253,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Echo Sets: Max 12"
+            android:text="Disk Drive Stats"
             android:textColor="#AAEFEAE6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -283,7 +265,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
-            android:text="4 Cost"
+            android:text="Stat"
             android:textColor="#AAEFEAE6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView31" />
@@ -294,7 +276,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
-            android:text="3 Cost"
+            android:text="Stat"
             android:textColor="#AAEFEAE6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView32" />
@@ -305,13 +287,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
-            android:text="1 Cost"
+            android:text="Stat"
             android:textColor="#AAEFEAE6"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView33" />
 
         <TextView
-            android:id="@+id/textView4CEchoSet"
+            android:id="@+id/textViewStat1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -322,7 +304,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView31" />
 
         <TextView
-            android:id="@+id/textView3CEchoSet"
+            android:id="@+id/textViewStat2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -330,10 +312,10 @@
             android:text="Loading..."
             android:textColor="@color/white"
             app:layout_constraintStart_toEndOf="@+id/textView33"
-            app:layout_constraintTop_toBottomOf="@+id/textView4CEchoSet" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewStat1" />
 
         <TextView
-            android:id="@+id/textView1CEchoSet"
+            android:id="@+id/textViewStat3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -341,7 +323,7 @@
             android:text="Loading..."
             android:textColor="@color/white"
             app:layout_constraintStart_toEndOf="@+id/textView34"
-            app:layout_constraintTop_toBottomOf="@+id/textView3CEchoSet" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewStat2" />
 
         <TextView
             android:id="@+id/textView38"
@@ -361,7 +343,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="24dp"
-            android:text="Loading..."
+            android:text="N/A"
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -371,9 +353,9 @@
             android:id="@+id/textViewCharacterSubStats"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="12dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="24dp"
             android:text="Loading..."
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
@@ -392,7 +374,7 @@
             android:textColor="#AAEFEAE6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView1CEchoSet" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewStat3" />
 
         <TextView
             android:id="@+id/textView42"
@@ -411,62 +393,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Upgrade Materials"
+            android:text="Talents"
             android:textColor="#AAEFEAE6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textRatingsCharacterBottomSheet" />
 
         <TextView
-            android:id="@+id/textView44"
+            android:id="@+id/textViewCharacterTalents"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="16dp"
-            android:text="Character Ascension"
-            android:textColor="#AAEFEAE6"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-        <TextView
-            android:id="@+id/textView45"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="24dp"
-            android:gravity="right"
-            android:text="Skill Upgrades"
-            android:textColor="#AAEFEAE6"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/textView44"
-            app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-        <TextView
-            android:id="@+id/textViewCharacterAscensionMaterials"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="12dp"
+            android:gravity="start|left"
             android:text="Loading..."
             android:textColor="@color/white"
-            android:textSize="13sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView44" />
-
-        <TextView
-            android:id="@+id/textViewCharacterSkillUpgradesMaterials"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="24dp"
-            android:gravity="right"
-            android:text="Loading..."
-            android:textColor="@color/white"
-            android:textSize="13sp"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewCharacterLineUpgradeMatLineBottomSheet" />
 
         <View
             android:id="@+id/viewCharacterLineWeaponLineBottomSheet"
@@ -543,31 +489,42 @@
             android:layout_marginTop="4dp"
             android:background="@color/goldyellowThird"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.388"
+            app:layout_constraintHorizontal_bias="0.489"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView43" />
 
         <View
-            android:id="@+id/viewCharacterLineCharAscBottomSheet"
-            android:layout_width="40dp"
-            android:layout_height="2dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="4dp"
+            android:id="@+id/view6"
+            android:layout_width="53dp"
+            android:layout_height="144dp"
+            android:alpha="0.8"
             android:background="@color/goldyellowThird"
+            android:elevation="-50dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView44" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <View
-            android:id="@+id/viewCharacterLineCharSkillUpBottomSheet"
-            android:layout_width="40dp"
-            android:layout_height="2dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="24dp"
-            android:background="@color/goldyellowThird"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/viewCharacterLineCharAscBottomSheet"
-            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+            android:id="@+id/view7"
+            android:layout_width="53dp"
+            android:layout_height="190dp"
+            android:alpha="0.8"
+            android:background="#1f1f1f"
+            android:elevation="-50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/baseline_double_arrow_24"
+            android:elevation="-50dp"
+            android:rotation="0"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewWeaponTypeBottomSheet" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

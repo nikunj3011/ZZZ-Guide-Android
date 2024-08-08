@@ -5,7 +5,7 @@
     android:id="@+id/infoContstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wuthering_dark"
+    android:background="@drawable/zzz_discover"
     tools:context=".ui.info.InfoFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -15,9 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="70dp"
         android:fontFamily="@font/poppins"
-        android:text="AS WUTHERING WAVES ECHO ENDLESSLY, MANKIND SET SAIL ON A NEW JOURNEY"
+        android:text="A new kind of city has emerged in this disaster-ridden world known as New Eridu"
         android:textColor="#FFF"
-        android:textSize="55sp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

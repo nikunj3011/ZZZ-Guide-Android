@@ -29,7 +29,7 @@ class BrowserMapFragment : Fragment() {
         binding.webViewMap.webViewClient = WebViewClient()
         binding.webViewMap.settings.javaScriptEnabled = true
 //        binding.webViewMap.loadUrl("https://wuthering.gg/map")
-        binding.webViewMap.loadUrl("https://mapgenie.io/wuthering-waves/maps/solaris-3")
+        binding.webViewMap.loadUrl("https://act.hoyolab.com/zzz/event/e20240601-guide-c0k2vt/index.html#/")
         return binding.root
     }
 }

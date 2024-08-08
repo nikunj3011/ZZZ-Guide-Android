@@ -9,6 +9,7 @@ data class AgentResponseItem(
     val height: String,
     val intro: String,
     val name: String,
+    val slug: String,
     val nick_name: String,
     val skills: List<Skill>,
     val talents: List<Talent>,
