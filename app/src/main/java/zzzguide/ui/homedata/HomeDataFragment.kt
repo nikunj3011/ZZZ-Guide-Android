@@ -1,6 +1,8 @@
 package zzzguide.ui.homedata
 
+import android.content.Intent
 import android.graphics.Color
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -33,6 +35,14 @@ class HomeDataFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
 
+        binding.imageViewTip.setOnClickListener(View.OnClickListener {
+            val uri = Uri.parse("https://ko-fi.com/nikunj3011") // missing 'http://' will cause crashed
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        })
+
+        binding.webViewIntroVideoHome.webViewClient = WebViewClient()
+        binding.webViewIntroVideoHome.settings.javaScriptEnabled = true
         binding.webViewIntroVideoHome.webViewClient = WebViewClient()
         binding.webViewIntroVideoHome.settings.javaScriptEnabled = true
 //        binding.webViewIntroVideoHome.loadData("<iframe width=\"380\" height=\"190\" src=\"https://www.youtube.com/embed/SJLCoNsFYfY&amp;start=2\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",

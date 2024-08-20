@@ -1,5 +1,7 @@
 package zzzguide.ui.character
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -51,11 +53,19 @@ class CharacterFragment : Fragment() {
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
-                filterList(newText)
+                filterList(newText, false)
                 return true
             }
 
         })
+
+        binding.imageViewIce.setOnClickListener { filterList("ice", true) }
+        binding.imageViewFire.setOnClickListener {filterList("fire", true)}
+        binding.imageViewElectric.setOnClickListener {filterList("electric", true)}
+        binding.imageViewPhysical.setOnClickListener {filterList("physical", true)}
+        binding.imageViewEther.setOnClickListener {filterList("ether", true)}
+        binding.imageViewFilterOff.setOnClickListener {filterList("", false)
+            binding.searchCharacterView.setQuery("", true)}
         viewModel.viewModelScope.launch {
             initRecyclerView()
             delay(500)
@@ -64,14 +74,23 @@ class CharacterFragment : Fragment() {
         }
     }
 
-    private fun filterList(query: String?) {
+    private fun filterList(query: String?, isElement: Boolean) {
         if (query != null) {
             viewModel.charactersLiveData.observe(viewLifecycleOwner) { result ->
 
                 val filteredList = ArrayList<AgentResponseItem>()
-                for (i in result) {
-                    if (i.full_name.lowercase(Locale.ROOT).contains(query)) {
-                        filteredList.add(i)
+                if(isElement){
+                    for (i in result) {
+                        if (i.categories.elementAt(1).name.lowercase(Locale.ROOT).contains(query)) {
+                            filteredList.add(i)
+                        }
+                    }
+                }
+                else{
+                    for (i in result) {
+                        if (i.name.lowercase(Locale.ROOT).contains(query)) {
+                            filteredList.add(i)
+                        }
                     }
                 }
 

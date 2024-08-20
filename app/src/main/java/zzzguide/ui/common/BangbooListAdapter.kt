@@ -13,6 +13,7 @@ import androidx.core.text.color
 import androidx.core.text.italic
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import zzzguide.R
 import zzzguide.models.api.bangboo.BangBoosResponseItem
 
@@ -56,6 +57,7 @@ class MyViewHolder(val view: View):RecyclerView.ViewHolder(view){
         val imageViewBangboo = view.findViewById<ImageView>(R.id.imageViewBangboo)
         Glide.with(view)
             .load("https://cdn.jsdelivr.net/gh/boringcdn/zzz/bangboos/${bangboo.name}.webp")
+            .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
             .into(imageViewBangboo)
 
         var bangbooSkill1 = SpannableStringBuilder()

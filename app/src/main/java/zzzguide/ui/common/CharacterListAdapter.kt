@@ -12,6 +12,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import zzzguide.R
 import zzzguide.models.api.character.AgentResponseItem
 
@@ -178,6 +179,7 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
         val imageViewCharacter = view.findViewById<ImageView>(R.id.imageViewCharacter)
         Glide.with(view)
             .load("https://cdn.jsdelivr.net/gh/boringcdn/zzz/agent-avatars/${character.name}.webp")
+            .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
             .into(imageViewCharacter)
 
         val imageViewCharacterSpeciality = view.findViewById<ImageView>(R.id.imageViewCharacterSpeciality)

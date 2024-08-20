@@ -70,8 +70,9 @@
             android:elevation="5dp"
             app:iconifiedByDefault="false"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewIce"
             app:queryBackground="@android:color/transparent" />
 
         <androidx.recyclerview.widget.RecyclerView
@@ -89,6 +90,66 @@
             app:spanCount="3">
 
         </androidx.recyclerview.widget.RecyclerView>
+
+        <ImageView
+            android:id="@+id/imageViewIce"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ice" />
+
+        <ImageView
+            android:id="@+id/imageViewEther"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewPhysical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ether" />
+
+        <ImageView
+            android:id="@+id/imageViewPhysical"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewElectric"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/physical" />
+
+        <ImageView
+            android:id="@+id/imageViewElectric"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewFire"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/electric" />
+
+        <ImageView
+            android:id="@+id/imageViewFire"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewIce"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fire" />
+
+        <ImageView
+            android:id="@+id/imageViewFilterOff"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_filter_list_off_24" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>

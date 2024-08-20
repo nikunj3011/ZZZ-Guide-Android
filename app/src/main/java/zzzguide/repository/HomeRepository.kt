@@ -9,4 +9,5 @@ class HomeRepository(
     suspend fun fetchCharacters() = apiService.getCharacters()
     suspend fun fetchWEngines() = apiService.getWEngines()
     suspend fun fetchCharacterDetails(id: String) = apiService.getCharactersDetail(id)
+    suspend fun fetchCharacterDetails() = apiService.getCharactersDetails()
 }

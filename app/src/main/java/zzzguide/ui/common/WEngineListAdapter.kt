@@ -12,6 +12,7 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import zzzguide.R
 import zzzguide.models.api.wengines.WEngineResponseItem
 
@@ -52,6 +53,7 @@ class WEngineListAdapter (
             if(wengine.name != null) {
                 Glide.with(view)
                     .load(wengine.icon_url)
+                    .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
                     .into(echoImageView)
             }
 

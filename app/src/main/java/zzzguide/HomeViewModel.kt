@@ -9,26 +9,25 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import zzzguide.models.api.bangboo.BangBoosResponseItem
+import zzzguide.models.api.characterdetail.CharacterDetailResponse
 import zzzguide.repository.HomeRepository
 
 class HomeViewModel(
     private val repository: HomeRepository
 ) : ViewModel() {
-
-    private val _echoesLiveData = MutableLiveData<List<BangBoosResponseItem>>()
-    val echoesLiveData: LiveData<List<BangBoosResponseItem>> get() = _echoesLiveData
+    private val _characterDetailsLiveData = MutableLiveData<List<CharacterDetailResponse>>()
+    val characterDetailsLiveData: LiveData<List<CharacterDetailResponse>> get() = _characterDetailsLiveData
 
     init {
-        fetchEchoes()
+        fetchData()
     }
-    private fun fetchEchoes() {
+    private fun fetchData() {
         viewModelScope.launch {
             try {
-                val newItem = withContext(Dispatchers.IO) {
-                    repository.fetchBangboos()
+                val newItem2 = withContext(Dispatchers.IO) {
+                    repository.fetchCharacterDetails()
                 }
-                _echoesLiveData.postValue(newItem.body()?.toList())
-                Log.e("element", newItem.toString())
+                _characterDetailsLiveData.postValue(newItem2.body()?.toList())
             } catch (e: Exception) {
                 // Handle exceptions, if any
                 Log.e("getDetail", "Error fetching details: ${e.message}")

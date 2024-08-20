@@ -28,4 +28,9 @@ interface ZZZGuidesService {
         @Path(value = "id") id: String,
         @Query("articlesCount") count: Int = 0
     ): Response<CharacterDetailResponse>
+
+
+    @GET("charactersdetail/charactersDetails.json")
+    suspend fun getCharactersDetails(
+    ): Response<List<CharacterDetailResponse>>
 }

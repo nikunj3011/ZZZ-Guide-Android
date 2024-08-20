@@ -9,6 +9,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import zzzguide.models.api.character.AgentResponseItem
+import zzzguide.models.api.characterdetail.CharacterDetailResponse
 import zzzguide.repository.HomeRepository
 
 class CharacterViewModel(
@@ -28,7 +29,7 @@ class CharacterViewModel(
                     repository.fetchCharacters()
                 }
                 _charactersLiveData.postValue(newItem.body()?.toList())
-                Log.e("element", newItem.toString())
+
             } catch (e: Exception) {
                 // Handle exceptions, if any
                 Log.e("getDetail", "Error fetching details: ${e.message}")
