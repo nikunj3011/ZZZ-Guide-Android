@@ -1,7 +1,9 @@
 package zzzguide.ui.gift
 
 import android.content.ContentValues
+import android.os.Build
 import android.os.Bundle
+import android.text.Html
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -48,10 +50,11 @@ class GiftFragment : Fragment() {
             container,
             false
         )
-//        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://wuthering.gg/map"))
-//        startActivity(browserIntent)
         binding = dataBinding
-        binding.textViewsadas.text = "ss"
+        binding.webViewGift.webViewClient = WebViewClient()
+        binding.webViewGift.settings.javaScriptEnabled = true
+//        binding.webViewGift.loadUrl("https://wuthering.gg/map")
+        binding.webViewGift.loadUrl("https://game8.co/games/Zenless-Zone-Zero/archives/435683")
         return binding.root
     }
 

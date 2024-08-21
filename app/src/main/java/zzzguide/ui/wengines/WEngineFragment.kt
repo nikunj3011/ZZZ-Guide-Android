@@ -18,6 +18,7 @@ import zzzguide.databinding.FragmentWengineBinding
 import zzzguide.models.api.wengines.WEngineResponseItem
 import zzzguide.ui.characterdetail.CharacterDetailBottomSheetFragment
 import zzzguide.ui.characterdetail.WengineBottomSheetFragment
+import zzzguide.ui.characterinfo.InfoBottomSheetFragment
 import zzzguide.ui.common.WEngineListAdapter
 import zzzguide.util.autoCleared
 import java.util.Locale
@@ -50,6 +51,15 @@ class WEngineFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         var response = viewModel.weaponsLiveData
         binding.weaponRecyclerView.layoutManager = GridLayoutManager(context, 2)
+
+        binding.imageViewWEnginesAbilityInfo.setOnClickListener {
+            val bottomSheetFragment  = InfoBottomSheetFragment()
+            val bundle = Bundle()
+            bundle.putString("info", getData())
+            bottomSheetFragment.arguments = bundle
+            bottomSheetFragment.setCancelable(true)
+            bottomSheetFragment.show(requireActivity().supportFragmentManager, InfoBottomSheetFragment::class.java.name)
+        }
         binding.searchWeaponView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 return false
@@ -115,5 +125,33 @@ class WEngineFragment : Fragment() {
         bottomSheetFragment.arguments = bundle
         bottomSheetFragment.setCancelable(true)
         bottomSheetFragment.show(requireActivity().supportFragmentManager, WengineBottomSheetFragment::class.java.name)
+    }
+
+    private fun getData(): String{
+        return """
+        <h3>W-Engines are the Zenless Zone Zero equivalent of Weapons from Genshin Impact or Light Cones from Honkai: Star Rail. Here&#x27;s some more information about the system:</h3>
+    <ul>
+        <li>W-Engines come in 3 rarities:
+            <!-- -->
+            <!-- --><strong class="s-rank">S-rank</strong>,
+            <!-- -->
+            <!-- --><strong class="a-rank">A-rank</strong> and
+            <!-- -->
+            <!-- --><strong class="b-rank">B-rank</strong>.
+            <!-- -->
+        </li>
+        <li>W-Engines increase the Agent&#x27;s Attack and another stat that changes based on the W-Engine,</li>
+        <li>W-Engines also come with a passive effect that activates in the combat,</li>
+        <ul>
+            <li>W-Engines are restricted to the character&#x27;s Specialty - so for example,
+                <!-- -->
+                <!-- --><strong>only Attack characters can activate the special passive of an Attack W-Engine</strong>.
+                <!-- -->
+            </li>
+        </ul>
+        <li>You can level W-Engines in the same way as you level Agents,</li>
+        <li>You can obtain W-Engines from the Signal Search, buy them in the Gadget Store or obtain them as random drops from some game modes.</li>
+    </ul>
+        """
     }
 }
