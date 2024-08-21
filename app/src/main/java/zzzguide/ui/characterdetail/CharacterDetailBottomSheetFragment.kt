@@ -92,7 +92,7 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
             binding.textMainCategoryCharacterBottomSheet.text = "Main Role: " +character?.tierListCategory
 
             var characterTalents = SpannableStringBuilder()
-            if(!character!!.talents.isNullOrEmpty()){
+            if(!character?.talents.isNullOrEmpty()){
                 for (attribute in character?.talents!!){
                     characterTalents = characterTalents.append()
                         .bold{color(Color.WHITE, { append(attribute?.name) })}
@@ -104,32 +104,32 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
             binding.textViewCharacterTalents.text = characterTalents
 
             var otherRoles = "Other Role: "
-            if(!character.tierListTags.isNullOrEmpty()){
-                for(tiertag in character.tierListTags){
+            if(!character?.tierListTags.isNullOrEmpty()){
+                for(tiertag in character?.tierListTags!!){
                     otherRoles = "$otherRoles $tiertag"
                 }
             }
             binding.textSubCategoryCharacterBottomSheet.text = otherRoles
 
             var stats1 = ""
-            if(!character.build.main_4.isNullOrEmpty()){
-                for(stat in character.build.main_4){
+            if(!character?.build?.main_4.isNullOrEmpty()){
+                for(stat in character?.build?.main_4!!){
                     stats1 = "$stats1 ${stat.stat}"
                 }
             }
             binding.textViewStat1.text = stats1
 
             var stats2 = ""
-            if(!character.build.main_4.isNullOrEmpty()){
-                for(stat in character.build.main_5){
+            if(!character?.build?.main_4.isNullOrEmpty()){
+                for(stat in character?.build?.main_5!!){
                     stats2 = "$stats2 ${stat.stat}"
                 }
             }
             binding.textViewStat2.text = stats2
 
             var stats3 = ""
-            if(!character.build.main_4.isNullOrEmpty()){
-                for(stat in character.build.main_6){
+            if(!character?.build?.main_4.isNullOrEmpty()){
+                for(stat in character?.build?.main_6!!){
                     stats3 = "$stats3 ${stat.stat}"
                 }
             }
@@ -241,44 +241,44 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
             }
 
             if (characterModel?.faction != null) {
-                when (characterModel.faction.lowercase()) {
-                    "the-cunning-hares" -> {
+                when (characterModel.faction) {
+                    "Cunning Hares" -> {
                         Glide.with(view)
                             .load(R.drawable.the_cunning_hares)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
 
-                    "victoria-housekeeping-co" -> {
+                    "Victoria Housekeeping Co." -> {
                         Glide.with(view)
                             .load(R.drawable.victoria_housekeeping_co)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
 
-                    "new-eridu-public-security" -> {
+                    "N.E.P.S." -> {
                         Glide.with(view)
                             .load(R.drawable.new_eridu_public_security)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
 
-                    "belobog-heavy-industries" -> {
+                    "Belobog Heavy Industries" -> {
                         Glide.with(view)
                             .load(R.drawable.belobog_heavy_industries)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
 
-                    "section-6" -> {
+                    "Section 6" -> {
                         Glide.with(view)
                             .load(R.drawable.section_6)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
 
-                    "sons-of-calydon" -> {
+                    "Sons of Calydon" -> {
                         Glide.with(view)
                             .load(R.drawable.sons_of_calydon)
                             .into(binding.imageViewCharacterRegionBottomSheet)
                     }
 
-                    "obols-obsidian" -> {
+                    "OBOLS Squad" -> {
                         Glide.with(view)
                             .load(R.drawable.obols_obsidian)
                             .into(binding.imageViewCharacterRegionBottomSheet)
@@ -472,53 +472,50 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
                 }
 
                 if (characterModel?.faction != null) {
-                    when (characterModel.faction.lowercase()) {
-                        "the-cunning-hares" -> {
+                    when (characterModel.faction) {
+                        "Cunning Hares" -> {
                             Glide.with(view)
                                 .load(R.drawable.the_cunning_hares)
                                 .into(binding.imageViewCharacterRegionBottomSheet)
                         }
 
-                        "victoria-housekeeping-co" -> {
+                        "Victoria Housekeeping Co." -> {
                             Glide.with(view)
                                 .load(R.drawable.victoria_housekeeping_co)
                                 .into(binding.imageViewCharacterRegionBottomSheet)
                         }
 
-                        "new-eridu-public-security" -> {
+                        "N.E.P.S." -> {
                             Glide.with(view)
                                 .load(R.drawable.new_eridu_public_security)
                                 .into(binding.imageViewCharacterRegionBottomSheet)
                         }
 
-                        "belobog-heavy-industries" -> {
+                        "Belobog Heavy Industries" -> {
                             Glide.with(view)
                                 .load(R.drawable.belobog_heavy_industries)
                                 .into(binding.imageViewCharacterRegionBottomSheet)
                         }
 
-                        "section-6" -> {
+                        "Section 6" -> {
                             Glide.with(view)
                                 .load(R.drawable.section_6)
                                 .into(binding.imageViewCharacterRegionBottomSheet)
                         }
 
-                        "sons-of-calydon" -> {
+                        "Sons of Calydon" -> {
                             Glide.with(view)
                                 .load(R.drawable.sons_of_calydon)
                                 .into(binding.imageViewCharacterRegionBottomSheet)
                         }
 
-                        "obols-obsidian" -> {
+                        "OBOLS Squad" -> {
                             Glide.with(view)
                                 .load(R.drawable.obols_obsidian)
                                 .into(binding.imageViewCharacterRegionBottomSheet)
                         }
 
                         else -> {
-                            Glide.with(view)
-                                .load(R.drawable.sons_of_calydon)
-                                .into(binding.imageViewCharacterRegionBottomSheet)
                             Glide.with(view)
                                 .load(R.drawable.sons_of_calydon)
                                 .into(binding.imageViewCharacterRegionBottomSheet)

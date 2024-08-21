@@ -15,7 +15,7 @@ interface ZZZGuidesService {
     suspend fun getBangboos(
     ): Response<BangBoosResponse>
 
-    @GET("characters.json")
+    @GET("charactersdetail/charactersDetails.json")
     suspend fun getCharacters(
     ): Response<AgentResponse>
 

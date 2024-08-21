@@ -101,8 +101,8 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
         val imageViewCharacterFaction = view.findViewById<ImageView>(R.id.imageViewCharacterFaction)
         val imageViewCharacterAgencyShadowed = view.findViewById<ImageView>(R.id.imageViewCharacterAgencyShadowed)
         if (character?.faction != null) {
-            when (character.faction.lowercase()) {
-                "the-cunning-hares" -> {
+            when (character.faction) {
+                "Cunning Hares" -> {
                     Glide.with(view)
                         .load(R.drawable.the_cunning_hares)
                         .into(imageViewCharacterFaction)
@@ -111,7 +111,7 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
                         .into(imageViewCharacterAgencyShadowed)
                 }
 
-                "victoria-housekeeping-co" -> {
+                "Victoria Housekeeping Co." -> {
                     Glide.with(view)
                         .load(R.drawable.victoria_housekeeping_co)
                         .into(imageViewCharacterFaction)
@@ -120,7 +120,7 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
                         .into(imageViewCharacterAgencyShadowed)
                 }
 
-                "new-eridu-public-security" -> {
+                "N.E.P.S." -> {
                     Glide.with(view)
                         .load(R.drawable.new_eridu_public_security)
                         .into(imageViewCharacterFaction)
@@ -129,7 +129,7 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
                         .into(imageViewCharacterAgencyShadowed)
                 }
 
-                "belobog-heavy-industries" -> {
+                "Belobog Heavy Industries" -> {
                     Glide.with(view)
                         .load(R.drawable.belobog_heavy_industries)
                         .into(imageViewCharacterFaction)
@@ -138,7 +138,7 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
                         .into(imageViewCharacterAgencyShadowed)
                 }
 
-                "section-6" -> {
+                "Section 6" -> {
                     Glide.with(view)
                         .load(R.drawable.section_6)
                         .into(imageViewCharacterFaction)
@@ -147,7 +147,7 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
                         .into(imageViewCharacterAgencyShadowed)
                 }
 
-                "sons-of-calydon" -> {
+                "Sons of Calydon" -> {
                     Glide.with(view)
                         .load(R.drawable.sons_of_calydon)
                         .into(imageViewCharacterFaction)
@@ -156,29 +156,29 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
                         .into(imageViewCharacterAgencyShadowed)
                 }
 
-                "obols-obsidian" -> {
+                "OBOLS Squad" -> {
                     Glide.with(view)
                         .load(R.drawable.obols_obsidian)
                         .into(imageViewCharacterFaction)
                     Glide.with(view)
                         .load(R.drawable.obols_obsidian)
-                        .into(imageViewCharacterFaction)
+                        .into(imageViewCharacterAgencyShadowed)
                 }
 
                 else -> {
-                    Glide.with(view)
-                        .load(R.drawable.sons_of_calydon)
-                        .into(imageViewCharacterFaction)
-                    Glide.with(view)
-                        .load(R.drawable.sons_of_calydon)
-                        .into(imageViewCharacterFaction)
+//                    Glide.with(view)
+//                        .load(R.drawable.sons_of_calydon)
+//                        .into(imageViewCharacterFaction)
+//                    Glide.with(view)
+//                        .load(R.drawable.sons_of_calydon)
+//                        .into(imageViewCharacterAgencyShadowed)
                 }
             }
         }
 
         val imageViewCharacter = view.findViewById<ImageView>(R.id.imageViewCharacter)
         Glide.with(view)
-            .load("https://cdn.jsdelivr.net/gh/boringcdn/zzz/agent-avatars/${character.name}.webp")
+            .load("https://www.prydwen.gg${character?.cardImage?.localFile?.childImageSharp?.gatsbyImageData?.images?.fallback?.src}")
             .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
             .into(imageViewCharacter)
 
