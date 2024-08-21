@@ -53,4 +53,9 @@
         android:name="zzzguide.ui.browsermap.BrowserMapFragment"
         android:label="fragment_browser_map"
         tools:layout="@layout/fragment_browser_map" />
+    <fragment
+        android:id="@+id/giftFragment"
+        android:name="zzzguide.ui.gift.GiftFragment"
+        android:label="fragment_gift"
+        tools:layout="@layout/fragment_gift" />
 </navigation>

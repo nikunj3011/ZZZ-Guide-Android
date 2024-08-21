@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
 
         initWindow()
         initNavController()
-        initToolbar()
     }
 
     private fun initWindow() {
@@ -66,14 +65,6 @@ class MainActivity : AppCompatActivity() {
             binding.appbar.isVisible = showNav
             binding.bottomNav?.isVisible = showNav
             binding.navView?.isVisible = showNav
-        }
-    }
-
-    private fun initToolbar() {
-        binding.toolbar.inflateMenu(R.menu.menu_settings)
-        binding.toolbar.setOnMenuItemClickListener {
-            navController.navigate(R.id.action_to_settingsDialog)
-            true
         }
     }
 }

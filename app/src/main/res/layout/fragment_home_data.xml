@@ -77,7 +77,7 @@
             android:overScrollMode="ifContentScrolls"
             android:padding="10dp"
             android:scrollIndicators="right"
-            android:text="Zenless Zone Zero (Chinese: 绝区零 Jué Qū Líng, &quot;Perilous Zone Zero&quot;, ZZZ) is a Urban Fantasy ARPG game. The story takes place in the near future, where a mysterious natural disaster known as the &quot;Hollows&quot; has occurred. A new kind of city has emerged in this disaster-ridden world known as &quot;New Eridu&quot;. This last 'oasis' has mastered the technology to co-exist with the Hollows, and is home to a whole host of chaotic, boisterous, dangerous and very active factions. As a professional 'Proxy', you will play a crucial role in linking the city with the Hollows. Your story awaits you."
+            android:text="Zenless Zone Zero (ZZZ) is an Action Combat RPG similar to Genshin Impact. The game is split into two modes: Story and Hollows.  In the Story, you move through areas following along the main plot while defeating enemies and bosses. Hollows are the primary game mode of ZZZ and where you’ll be spending most of your time after you’re up to date on the current story. Hollows are a roguelike experience that sees you play through randomized dungeons with a team of your choice for rewards. Overall, the game focuses on exploring Hollows using the HDD system which is very similar to a top down roguelike dungeon. The gameplay consists of navigating the HDD game board to interact with events and complete combat encounters handled by your team of Agents."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/webViewIntroVideoHome" />
