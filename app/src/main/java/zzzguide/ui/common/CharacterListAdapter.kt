@@ -54,12 +54,12 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
         clickListener: (AgentResponseItem) -> Unit
     ) {
         val characterTextView = view.findViewById<TextView>(R.id.characterName)
-        characterTextView.text = character.full_name
+        characterTextView.text = character.name
         val characterRecyclerView = view.findViewById<RecyclerView>(R.id.characterRecyclerView)
 
         val imageViewCharacterType = view.findViewById<ImageView>(R.id.imageViewCharacterType)
-        if (character?.categories?.elementAt(1) != null) {
-            when (character.categories.elementAt(1).name.lowercase()) {
+        if (character?.element != null) {
+            when (character.element.lowercase()) {
                 "ice" -> {
                     Glide.with(view)
                         .load(R.drawable.ice)
@@ -100,8 +100,8 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
 
         val imageViewCharacterFaction = view.findViewById<ImageView>(R.id.imageViewCharacterFaction)
         val imageViewCharacterAgencyShadowed = view.findViewById<ImageView>(R.id.imageViewCharacterAgencyShadowed)
-        if (character?.categories?.elementAt(4) != null) {
-            when (character.categories.elementAt(4).name.lowercase()) {
+        if (character?.faction != null) {
+            when (character.faction.lowercase()) {
                 "the-cunning-hares" -> {
                     Glide.with(view)
                         .load(R.drawable.the_cunning_hares)
@@ -183,8 +183,8 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
             .into(imageViewCharacter)
 
         val imageViewCharacterSpeciality = view.findViewById<ImageView>(R.id.imageViewCharacterSpeciality)
-        if (character?.categories?.elementAt(2) != null) {
-            when (character.categories.elementAt(2).name.lowercase()) {
+        if (character?.style != null) {
+            when (character.style.lowercase()) {
                     "attack" -> {
                         Glide.with(view)
                             .load(R.drawable.attack)
@@ -226,17 +226,17 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
             val imageViewRank = view.findViewById<ImageView>(R.id.imageViewRank)
             val viewCharacterSpecialityColor =
                 view.findViewById<View>(R.id.viewCharacterSpecialityColor)
-            if (character?.categories?.elementAt(0) != null) {
+            if (character?.rarity != null) {
 
-                when (character.categories.elementAt(0).name) {
-                    "a-rank" -> {
+                when (character.rarity) {
+                    "A" -> {
                         Glide.with(view)
                             .load(R.drawable.arank)
                             .into(imageViewRank)
                         viewCharacterSpecialityColor.setBackgroundColor(Color.parseColor("#AB3A4E"))
                     }
 
-                    "s-rank" -> {
+                    "S" -> {
                         Glide.with(view)
                             .load(R.drawable.srank)
                             .into(imageViewRank)
@@ -244,10 +244,10 @@ class MyViewHolder3(val view: View):RecyclerView.ViewHolder(view) {
                     }
 
                     else -> {
-                        Glide.with(view)
-                            .load(R.drawable.srank)
-                            .into(imageViewRank)
-                        viewCharacterSpecialityColor.setBackgroundColor(Color.parseColor("#F9A700"))
+//                        Glide.with(view)
+//                            .load(R.drawable.srank)
+//                            .into(imageViewRank)
+//                        viewCharacterSpecialityColor.setBackgroundColor(Color.parseColor("#F9A700"))
                     }
                 }
             }

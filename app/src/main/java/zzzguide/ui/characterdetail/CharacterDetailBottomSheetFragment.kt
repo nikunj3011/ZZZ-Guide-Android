@@ -76,7 +76,8 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
 
             binding.txtCharacterNameBottomSheet.text = character?.fullName
             binding.textCharacterNameTransparentBottomSheet.text = characterModel?.name
-            binding.textDescriptionBottomSheet.text = characterModel?.intro
+            binding.textDescriptionBottomSheet.text = ""
+
 //            binding.txtCharacterStyleBottomSheet.text = character?.style
             Glide.with(view)
                 .load("https://www.prydwen.gg${character?.cardImage?.localFile?.childImageSharp?.gatsbyImageData?.images?.fallback?.src}")
@@ -136,31 +137,31 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
 
             binding.textViewCharacterSubStats.text = character?.build?.substats
 
-            if (characterModel?.categories?.elementAt(0) != null) {
+            if (characterModel?.rarity != null) {
 
-                when (characterModel.categories.elementAt(0).name) {
-                    "a-rank" -> {
+                when (characterModel.rarity) {
+                    "A" -> {
                         Glide.with(view)
                             .load(R.drawable.arank)
                             .into(binding.imageViewStarAgent)
                     }
 
-                    "s-rank" -> {
+                    "S" -> {
                         Glide.with(view)
                             .load(R.drawable.srank)
                             .into(binding.imageViewStarAgent)
                     }
 
                     else -> {
-                        Glide.with(view)
-                            .load(R.drawable.srank)
-                            .into(binding.imageViewStarAgent)
+//                        Glide.with(view)
+//                            .load(R.drawable.srank)
+//                            .into(binding.imageViewStarAgent)
                     }
                 }
             }
 
-            if (characterModel?.categories?.elementAt(2) != null) {
-                when (characterModel.categories.elementAt(2).name.lowercase()) {
+            if (characterModel?.style != null) {
+                when (characterModel.style.lowercase()) {
                     "attack" -> {
                         Glide.with(view)
                             .load(R.drawable.attack)
@@ -199,8 +200,8 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
                 }
             }
 
-            if (characterModel?.categories?.elementAt(1) != null) {
-                when (characterModel.categories.elementAt(1).name.lowercase()) {
+            if (characterModel?.element != null) {
+                when (characterModel.element.lowercase()) {
                     "ice" -> {
                         Glide.with(view)
                             .load(R.drawable.ice)
@@ -239,8 +240,8 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
                 }
             }
 
-            if (characterModel?.categories?.elementAt(4) != null) {
-                when (characterModel.categories.elementAt(4).name.lowercase()) {
+            if (characterModel?.faction != null) {
+                when (characterModel.faction.lowercase()) {
                     "the-cunning-hares" -> {
                         Glide.with(view)
                             .load(R.drawable.the_cunning_hares)
@@ -307,7 +308,7 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
                 var character = result
                 binding.txtCharacterNameBottomSheet.text = character?.fullName
                 binding.textCharacterNameTransparentBottomSheet.text = characterModel?.name
-                binding.textDescriptionBottomSheet.text = characterModel?.intro
+                binding.textDescriptionBottomSheet.text = ""
 //            binding.txtCharacterStyleBottomSheet.text = character?.style
                 Glide.with(view)
                     .load("https://www.prydwen.gg${character.cardImage.localFile.childImageSharp.gatsbyImageData.images.fallback.src}")
@@ -367,31 +368,31 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
 
                 binding.textViewCharacterSubStats.text = character?.build?.substats
 
-                if (characterModel?.categories?.elementAt(0) != null) {
+                if (characterModel?.rarity != null) {
 
-                    when (characterModel.categories.elementAt(0).name) {
-                        "a-rank" -> {
+                    when (characterModel.rarity) {
+                        "A" -> {
                             Glide.with(view)
                                 .load(R.drawable.arank)
                                 .into(binding.imageViewStarAgent)
                         }
 
-                        "s-rank" -> {
+                        "S" -> {
                             Glide.with(view)
                                 .load(R.drawable.srank)
                                 .into(binding.imageViewStarAgent)
                         }
 
                         else -> {
-                            Glide.with(view)
-                                .load(R.drawable.srank)
-                                .into(binding.imageViewStarAgent)
+//                            Glide.with(view)
+//                                .load(R.drawable.srank)
+//                                .into(binding.imageViewStarAgent)
                         }
                     }
                 }
 
-                if (characterModel?.categories?.elementAt(2) != null) {
-                    when (characterModel.categories.elementAt(2).name.lowercase()) {
+                if (characterModel?.style!= null) {
+                    when (characterModel.style.lowercase()) {
                         "attack" -> {
                             Glide.with(view)
                                 .load(R.drawable.attack)
@@ -430,8 +431,8 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
                     }
                 }
 
-                if (characterModel?.categories?.elementAt(1) != null) {
-                    when (characterModel.categories.elementAt(1).name.lowercase()) {
+                if (characterModel?.element != null) {
+                    when (characterModel.element.lowercase()) {
                         "ice" -> {
                             Glide.with(view)
                                 .load(R.drawable.ice)
@@ -470,8 +471,8 @@ class CharacterDetailBottomSheetFragment :  BottomSheetDialogFragment() {
                     }
                 }
 
-                if (characterModel?.categories?.elementAt(4) != null) {
-                    when (characterModel.categories.elementAt(4).name.lowercase()) {
+                if (characterModel?.faction != null) {
+                    when (characterModel.faction.lowercase()) {
                         "the-cunning-hares" -> {
                             Glide.with(view)
                                 .load(R.drawable.the_cunning_hares)

@@ -89,7 +89,7 @@ class CharacterFragment : Fragment() {
                 val filteredList = ArrayList<AgentResponseItem>()
                 if(isElement){
                     for (i in result) {
-                        if (i.categories.elementAt(1).name.lowercase(Locale.ROOT).contains(query)) {
+                        if (i.element.lowercase(Locale.ROOT).contains(query)) {
                             filteredList.add(i)
                         }
                     }
