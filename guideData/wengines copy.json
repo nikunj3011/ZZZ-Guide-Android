@@ -1,0 +1,2052 @@
+[
+	{
+		"engineId": "32",
+		"name": "Bashful Demon",
+		"rarity": "A",
+		"talentName": "Visage of Greed",
+		"element": "Ice",
+		"type": "Support",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/3a53e4eb9541820085d177375d18b74d/d1e3d/zzz_Bashful_Demon.webp",
+								"srcSet": "/static/3a53e4eb9541820085d177375d18b74d/72e27/zzz_Bashful_Demon.webp 39w,\n/static/3a53e4eb9541820085d177375d18b74d/7a63e/zzz_Bashful_Demon.webp 78w,\n/static/3a53e4eb9541820085d177375d18b74d/d1e3d/zzz_Bashful_Demon.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Ice DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22/24%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When launching an EX Special Attack, all squad members' ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2/2.3/2.6/2.9/3.2%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"4\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. Retriggering refreshes duration. Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "48",
+			"max_atk": "624",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "20",
+		"name": "Big Cylinder",
+		"rarity": "A",
+		"talentName": "Ten Ton Top",
+		"element": null,
+		"type": "Defence",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/bf48e80966d2b0a9f83f00140d1973c3/acb7c/Big_Cylinder.png",
+								"srcSet": "/static/bf48e80966d2b0a9f83f00140d1973c3/1c9ce/Big_Cylinder.png 64w,\n/static/bf48e80966d2b0a9f83f00140d1973c3/bf8e1/Big_Cylinder.png 128w,\n/static/bf48e80966d2b0a9f83f00140d1973c3/acb7c/Big_Cylinder.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/bf48e80966d2b0a9f83f00140d1973c3/8257c/Big_Cylinder.webp 64w,\n/static/bf48e80966d2b0a9f83f00140d1973c3/6766a/Big_Cylinder.webp 128w,\n/static/bf48e80966d2b0a9f83f00140d1973c3/22bfc/Big_Cylinder.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Reduces DMG taken by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.5/8.5/9.5/10.5/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". After being attacked, the next attack to hit an enemy will trigger a critical hit and deal\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 600/690/780/870/960% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"of the equipper's DEF as additional DMG. This effect can be triggered once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.5s.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Defense",
+			"base_atk": "48",
+			"max_atk": "624",
+			"base_special": "16%",
+			"max_special": "40%"
+		}
+	},
+	{
+		"engineId": "38",
+		"name": "Bunny Band",
+		"rarity": "A",
+		"talentName": "Pet the Bunny",
+		"element": null,
+		"type": "Defence",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/dd40eae5e461422ded15fb9f4deb6156/d1e3d/zzz_Bunny_Band.webp",
+								"srcSet": "/static/dd40eae5e461422ded15fb9f4deb6156/72e27/zzz_Bunny_Band.webp 39w,\n/static/dd40eae5e461422ded15fb9f4deb6156/7a63e/zzz_Bunny_Band.webp 78w,\n/static/dd40eae5e461422ded15fb9f4deb6156/d1e3d/zzz_Bunny_Band.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases Max HP by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/9.2/10.4/11.6/12.8%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Increases the equipper's ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" when they are shielded.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Defense",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "16%",
+			"max_special": "40%"
+		}
+	},
+	{
+		"engineId": "21",
+		"name": "Cannon Rotor",
+		"rarity": "A",
+		"talentName": "Oversized Barrel",
+		"element": null,
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/28127ed5d3e632eb9fc6e975fff7f646/acb7c/Cannon_Rotor.png",
+								"srcSet": "/static/28127ed5d3e632eb9fc6e975fff7f646/1c9ce/Cannon_Rotor.png 64w,\n/static/28127ed5d3e632eb9fc6e975fff7f646/bf8e1/Cannon_Rotor.png 128w,\n/static/28127ed5d3e632eb9fc6e975fff7f646/acb7c/Cannon_Rotor.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/28127ed5d3e632eb9fc6e975fff7f646/8257c/Cannon_Rotor.webp 64w,\n/static/28127ed5d3e632eb9fc6e975fff7f646/6766a/Cannon_Rotor.webp 128w,\n/static/28127ed5d3e632eb9fc6e975fff7f646/22bfc/Cannon_Rotor.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.5/8.6/9.7/10.8/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Attacks that land a CRIT on an enemy will inflict an additional \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"200%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" of ATK as DMG. This effect can only be triggered once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/7.5/7/6.5/6s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Crit Rate",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "8%",
+			"max_special": "20%"
+		}
+	},
+	{
+		"engineId": "25",
+		"name": "Deep Sea Visitor",
+		"rarity": "S",
+		"talentName": "Lord of Seas",
+		"element": "Ice",
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/1caa98f79cd184e88b1621ec66c0f794/acb7c/Deep_Sea_Visitor.png",
+								"srcSet": "/static/1caa98f79cd184e88b1621ec66c0f794/1c9ce/Deep_Sea_Visitor.png 64w,\n/static/1caa98f79cd184e88b1621ec66c0f794/bf8e1/Deep_Sea_Visitor.png 128w,\n/static/1caa98f79cd184e88b1621ec66c0f794/acb7c/Deep_Sea_Visitor.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/1caa98f79cd184e88b1621ec66c0f794/8257c/Deep_Sea_Visitor.webp 64w,\n/static/1caa98f79cd184e88b1621ec66c0f794/6766a/Deep_Sea_Visitor.webp 128w,\n/static/1caa98f79cd184e88b1621ec66c0f794/22bfc/Deep_Sea_Visitor.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Increases \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Ice DMG\",\"marks\":[{\"type\":\"underline\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"25/31.5/38/44.5/50%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". Upon hitting an enemy with a Basic Attack, the equipper's CRIT Rate increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10/12.5.15/17.5/20%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". When dealing \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Ice DMG\",\"marks\":[{\"type\":\"underline\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" with a\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Dash Attack, the equipper's CRIT Rate increases by an additional \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10/12.5.15/17.5/20%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"15s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". The duration of each effect is calculated separately.\",\"marks\":[],\"data\":{}}]}]}"
+		},
+		"stats": {
+			"stat": "Crit Rate",
+			"base_atk": "55",
+			"max_atk": "713",
+			"base_special": "9.6%",
+			"max_special": "24%"
+		}
+	},
+	{
+		"engineId": "15",
+		"name": "Demara Battery Mark II",
+		"rarity": "A",
+		"talentName": "In a Flash of Light",
+		"element": "Electric",
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/2e823bdea1941380099e29c62da7196f/acb7c/Demara_Battery_Mark_II.png",
+								"srcSet": "/static/2e823bdea1941380099e29c62da7196f/1c9ce/Demara_Battery_Mark_II.png 64w,\n/static/2e823bdea1941380099e29c62da7196f/bf8e1/Demara_Battery_Mark_II.png 128w,\n/static/2e823bdea1941380099e29c62da7196f/acb7c/Demara_Battery_Mark_II.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/2e823bdea1941380099e29c62da7196f/8257c/Demara_Battery_Mark_II.webp 64w,\n/static/2e823bdea1941380099e29c62da7196f/6766a/Demara_Battery_Mark_II.webp 128w,\n/static/2e823bdea1941380099e29c62da7196f/22bfc/Demara_Battery_Mark_II.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Electric DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22/22%. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"When the equipper hits an enemy with Dodge Counter or Assist Attack, their Energy Generation Rate increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"18/20.5/23/25/27.5%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Impact",
+			"base_atk": "48",
+			"max_atk": "624",
+			"base_special": "6%",
+			"max_special": "15%"
+		}
+	},
+	{
+		"engineId": "19",
+		"name": "Drill Rig - Red Axis",
+		"rarity": "A",
+		"talentName": "Hell's Generator",
+		"element": "Electric",
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/8f187440dc2c1f9effe51bd7af4ea326/acb7c/Drill_Rig_Red_Axis.png",
+								"srcSet": "/static/8f187440dc2c1f9effe51bd7af4ea326/1c9ce/Drill_Rig_Red_Axis.png 64w,\n/static/8f187440dc2c1f9effe51bd7af4ea326/bf8e1/Drill_Rig_Red_Axis.png 128w,\n/static/8f187440dc2c1f9effe51bd7af4ea326/acb7c/Drill_Rig_Red_Axis.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/8f187440dc2c1f9effe51bd7af4ea326/8257c/Drill_Rig_Red_Axis.webp 64w,\n/static/8f187440dc2c1f9effe51bd7af4ea326/6766a/Drill_Rig_Red_Axis.webp 128w,\n/static/8f187440dc2c1f9effe51bd7af4ea326/22bfc/Drill_Rig_Red_Axis.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When launching an EX Special Attack or Chain Attack, \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Electric DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" from Basic Attacks and Dash Attacks increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"50/57.5/65/72.5/80%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Energy Regen",
+			"base_atk": "48",
+			"max_atk": "624",
+			"base_special": "20%",
+			"max_special": "50%"
+		}
+	},
+	{
+		"engineId": "14",
+		"name": "Electro-Lip Gloss",
+		"rarity": "A",
+		"talentName": "Kiss of Death",
+		"element": null,
+		"type": "Anomaly",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/05c243963ae78bcd62cdbdf7bfe30dd6/acb7c/Electro_Lip_Gloss.png",
+								"srcSet": "/static/05c243963ae78bcd62cdbdf7bfe30dd6/1c9ce/Electro_Lip_Gloss.png 64w,\n/static/05c243963ae78bcd62cdbdf7bfe30dd6/bf8e1/Electro_Lip_Gloss.png 128w,\n/static/05c243963ae78bcd62cdbdf7bfe30dd6/acb7c/Electro_Lip_Gloss.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/05c243963ae78bcd62cdbdf7bfe30dd6/8257c/Electro_Lip_Gloss.webp 64w,\n/static/05c243963ae78bcd62cdbdf7bfe30dd6/6766a/Electro_Lip_Gloss.webp 128w,\n/static/05c243963ae78bcd62cdbdf7bfe30dd6/22bfc/Electro_Lip_Gloss.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When there are enemies inflicted with Attribute Anomaly on the field, the equipper's ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" and they deal an additional \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22.5/25% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"more DMG to the target.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Anomaly Proficiency",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "30",
+			"max_special": "75"
+		}
+	},
+	{
+		"engineId": "28",
+		"name": "Fusion Compiler",
+		"rarity": "S",
+		"talentName": "Data Flood",
+		"element": "Electric",
+		"type": "Anomaly",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/65a18e597955f39716db583b45ca56fd/d1e3d/zzz_Fusion_Compiler.webp",
+								"srcSet": "/static/65a18e597955f39716db583b45ca56fd/72e27/zzz_Fusion_Compiler.webp 39w,\n/static/65a18e597955f39716db583b45ca56fd/7a63e/zzz_Fusion_Compiler.webp 78w,\n/static/65a18e597955f39716db583b45ca56fd/d1e3d/zzz_Fusion_Compiler.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12/15/18/21/24%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When using a Special Attack or EX Special Attack, the equipper's Anomaly Proficiency is increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/31/37/43/50\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "PEN Ratio",
+			"base_atk": "53",
+			"max_atk": "684",
+			"base_special": "9.6%",
+			"max_special": "24%"
+		}
+	},
+	{
+		"engineId": "54",
+		"name": "Gilded Blossom",
+		"rarity": "A",
+		"talentName": "Extraordinary Anti-Theft Measures",
+		"element": null,
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/e6312521b9aded579d6358b53dbe16f1/d1e3d/zzz_Gilded_Blossom.webp",
+								"srcSet": "/static/e6312521b9aded579d6358b53dbe16f1/72e27/zzz_Gilded_Blossom.webp 39w,\n/static/e6312521b9aded579d6358b53dbe16f1/7a63e/zzz_Gilded_Blossom.webp 78w,\n/static/e6312521b9aded579d6358b53dbe16f1/d1e3d/zzz_Gilded_Blossom.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6/6.9/7.8/8.7/9.6\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"%, and DMG dealt by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"EX Special Attacks\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.2/19.5/21.8/24%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "40",
+			"max_atk": "594",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "23",
+		"name": "Hellfire Gears",
+		"rarity": "S",
+		"talentName": "Passionate Construction",
+		"element": "Fire",
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/61adfb51dfee1ad89b619401aa3fdcec/acb7c/Hellfire_Gears.png",
+								"srcSet": "/static/61adfb51dfee1ad89b619401aa3fdcec/1c9ce/Hellfire_Gears.png 64w,\n/static/61adfb51dfee1ad89b619401aa3fdcec/bf8e1/Hellfire_Gears.png 128w,\n/static/61adfb51dfee1ad89b619401aa3fdcec/acb7c/Hellfire_Gears.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/61adfb51dfee1ad89b619401aa3fdcec/8257c/Hellfire_Gears.webp 64w,\n/static/61adfb51dfee1ad89b619401aa3fdcec/6766a/Hellfire_Gears.webp 128w,\n/static/61adfb51dfee1ad89b619401aa3fdcec/22bfc/Hellfire_Gears.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When off-field, the equipper's Energy Regen increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.6/0.75/0.9/1.5/1.2\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" per second. When using an EX Special Attack, the equipper's Impact is increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/12.5/15/17.5/20%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Impact",
+			"base_atk": "53",
+			"max_atk": "684",
+			"base_special": "7.2%",
+			"max_special": "18%"
+		}
+	},
+	{
+		"engineId": "17",
+		"name": "Housekeeper",
+		"rarity": "A",
+		"talentName": "Safe Household Saw",
+		"element": "Physical",
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/9ec6c5da8147ef2b977571bc09c4e3e8/acb7c/Housekeeper.png",
+								"srcSet": "/static/9ec6c5da8147ef2b977571bc09c4e3e8/1c9ce/Housekeeper.png 64w,\n/static/9ec6c5da8147ef2b977571bc09c4e3e8/bf8e1/Housekeeper.png 128w,\n/static/9ec6c5da8147ef2b977571bc09c4e3e8/acb7c/Housekeeper.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/9ec6c5da8147ef2b977571bc09c4e3e8/8257c/Housekeeper.webp 64w,\n/static/9ec6c5da8147ef2b977571bc09c4e3e8/6766a/Housekeeper.webp 128w,\n/static/9ec6c5da8147ef2b977571bc09c4e3e8/22bfc/Housekeeper.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"While off-field, Energy Regen increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.45/0.52/0.58/0.65/0.72 per second\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When an EX Special Attack hits an enemy, the equipper's \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Physical DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3/3.5/4/4.4/4.8%,\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times and lasting \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Retriggering refreshes duration.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "48",
+			"max_atk": "624",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "53",
+		"name": "Ice-Jade Teapot",
+		"rarity": "S",
+		"talentName": "Ringing Melody",
+		"element": null,
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/9a7eee807de4f7e6bad119f75616b220/d1e3d/zzz_Ice_Jade_Teapot.webp",
+								"srcSet": "/static/9a7eee807de4f7e6bad119f75616b220/72e27/zzz_Ice_Jade_Teapot.webp 39w,\n/static/9a7eee807de4f7e6bad119f75616b220/7a63e/zzz_Ice_Jade_Teapot.webp 78w,\n/static/9a7eee807de4f7e6bad119f75616b220/d1e3d/zzz_Ice_Jade_Teapot.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When a Basic Attack hits an enemy, gain\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 1\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" stack of Tea-riffic. Each stack of Tea-riffic increases the user's Impact by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.7/0.88/1.05/1.22/1.4%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to 30 times, and lasting for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". The duration of each stack is calculated separately. Upon acquiring Tea-riffic, if the equipper possesses stacks of Tea-riffic greater than or equal to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", all squad members' DMG is increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20/23/26/29/32% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Impact",
+			"base_atk": "48",
+			"max_atk": "713",
+			"base_special": "7.2%",
+			"max_special": "18%"
+		}
+	},
+	{
+		"engineId": "52",
+		"name": "Kaboom the Cannon",
+		"rarity": "A",
+		"talentName": "Visage of Greed",
+		"element": null,
+		"type": "Support",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/43fb177f26d50fcd84c9b4e3d98ec687/d1e3d/zzz_kaboom.webp",
+								"srcSet": "/static/43fb177f26d50fcd84c9b4e3d98ec687/72e27/zzz_kaboom.webp 39w,\n/static/43fb177f26d50fcd84c9b4e3d98ec687/7a63e/zzz_kaboom.webp 78w,\n/static/43fb177f26d50fcd84c9b4e3d98ec687/d1e3d/zzz_kaboom.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"When any friendly unit in the squad attacks and hits an enemy, all friendly units' ATK increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"2.5/2.8/3.2/3.6/4%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", stacking up to \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"4\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" times. The duration of each stack is calculated separately, and each friendly unit can provide \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"1\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" stack of the buff. Passive effects of the same name do not stack.\",\"marks\":[],\"data\":{}}]}]}"
+		},
+		"stats": {
+			"stat": "Energy Regen",
+			"base_atk": "48",
+			"max_atk": "624",
+			"base_special": "20%",
+			"max_special": "50%"
+		}
+	},
+	{
+		"engineId": "36",
+		"name": "Original Transmorpher",
+		"rarity": "A",
+		"talentName": "Starlight Knight Flying Kick",
+		"element": null,
+		"type": "Defence",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/b307e5270649403131bf2e5fb0be59d4/d1e3d/zzz_Original_Transmorpher.webp",
+								"srcSet": "/static/b307e5270649403131bf2e5fb0be59d4/72e27/zzz_Original_Transmorpher.webp 39w,\n/static/b307e5270649403131bf2e5fb0be59d4/7a63e/zzz_Original_Transmorpher.webp 78w,\n/static/b307e5270649403131bf2e5fb0be59d4/d1e3d/zzz_Original_Transmorpher.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Increases Max HP by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8/9/10/11/12.5%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". When attacked, the equipper's Impact is increased by\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" 10/11.5/13/14.5/16% \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"12s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\".\",\"marks\":[],\"data\":{}}]}]}"
+		},
+		"stats": {
+			"stat": "HP",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "57",
+		"name": "Peacekeeper - Specialized",
+		"rarity": "A",
+		"talentName": "Standard Blocking Technique",
+		"element": null,
+		"type": "Defence",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/5b1d21e7d9f47719dc9f1d30defe5eeb/d1e3d/zzz_peace.webp",
+								"srcSet": "/static/5b1d21e7d9f47719dc9f1d30defe5eeb/72e27/zzz_peace.webp 39w,\n/static/5b1d21e7d9f47719dc9f1d30defe5eeb/7a63e/zzz_peace.webp 78w,\n/static/5b1d21e7d9f47719dc9f1d30defe5eeb/d1e3d/zzz_peace.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"While Shielded, the equipper's Energy Regen increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.4/s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". The Anomaly Buildup of EX Special Attacks and Assist Follow-Ups increase by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"36%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "42",
+			"max_atk": "624",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "13",
+		"name": "Precious Fossilized Core",
+		"rarity": "A",
+		"talentName": "Behemoth Hunter",
+		"element": null,
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/192d9d02afe582dfcd49b6c55d1fe92c/acb7c/Precious_Fossilized_Core.png",
+								"srcSet": "/static/192d9d02afe582dfcd49b6c55d1fe92c/1c9ce/Precious_Fossilized_Core.png 64w,\n/static/192d9d02afe582dfcd49b6c55d1fe92c/bf8e1/Precious_Fossilized_Core.png 128w,\n/static/192d9d02afe582dfcd49b6c55d1fe92c/acb7c/Precious_Fossilized_Core.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/192d9d02afe582dfcd49b6c55d1fe92c/8257c/Precious_Fossilized_Core.webp 64w,\n/static/192d9d02afe582dfcd49b6c55d1fe92c/6766a/Precious_Fossilized_Core.webp 128w,\n/static/192d9d02afe582dfcd49b6c55d1fe92c/22bfc/Precious_Fossilized_Core.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When the target's HP is no lower than \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"50%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", the equipper inflicts\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" more Daze. When the target's HP is no lower than \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"75%,\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" this bonus is further enhanced by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Impact",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "6%",
+			"max_special": "15%"
+		}
+	},
+	{
+		"engineId": "35",
+		"name": "Rainforest Gourmet",
+		"rarity": "A",
+		"talentName": "Dinner's Ready!",
+		"element": null,
+		"type": "Anomaly",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/efa4a3ed56dc68dddcb86538a1bd01dc/d1e3d/zzz_Rainforest_Gourmet.webp",
+								"srcSet": "/static/efa4a3ed56dc68dddcb86538a1bd01dc/72e27/zzz_Rainforest_Gourmet.webp 39w,\n/static/efa4a3ed56dc68dddcb86538a1bd01dc/7a63e/zzz_Rainforest_Gourmet.webp 78w,\n/static/efa4a3ed56dc68dddcb86538a1bd01dc/d1e3d/zzz_Rainforest_Gourmet.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"For every 10 Energy consumed, the equipper gains a buff that increases ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2.5/2.8/3.2/3.6/4% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Anomaly Proficiency",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "30",
+			"max_special": "75"
+		}
+	},
+	{
+		"engineId": "26",
+		"name": "Riot Suppressor Mark VI",
+		"rarity": "S",
+		"talentName": "Security Patrol",
+		"element": "Ether",
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/0c433646324547c30e58783e9b1353b2/d1e3d/zzz_Riot_Suppressor_Mark_VI.webp",
+								"srcSet": "/static/0c433646324547c30e58783e9b1353b2/72e27/zzz_Riot_Suppressor_Mark_VI.webp 39w,\n/static/0c433646324547c30e58783e9b1353b2/7a63e/zzz_Riot_Suppressor_Mark_VI.webp 78w,\n/static/0c433646324547c30e58783e9b1353b2/d1e3d/zzz_Riot_Suppressor_Mark_VI.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Increases CRIT Rate by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"15%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". Launching an EX Special Attack grants the equipper \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8 \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Charge stacks, up to a maximum of \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" stacks. Whenever the equipper's Basic Attack deals \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Ether DMG\",\"marks\":[{\"type\":\"underline\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", consumes a Charge stack and increases the skill's DMG by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"35%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\".\",\"marks\":[],\"data\":{}}]}]}"
+		},
+		"stats": {
+			"stat": "Crit Damage",
+			"base_atk": "55",
+			"max_atk": "713",
+			"base_special": "19.2%",
+			"max_special": "48%"
+		}
+	},
+	{
+		"engineId": "51",
+		"name": "Roaring Ride",
+		"rarity": "A",
+		"talentName": "Collision Potential",
+		"element": null,
+		"type": "Anomaly",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/58003ca11d182a3a08c508542356e45b/d1e3d/zzz_41.webp",
+								"srcSet": "/static/58003ca11d182a3a08c508542356e45b/72e27/zzz_41.webp 39w,\n/static/58003ca11d182a3a08c508542356e45b/7a63e/zzz_41.webp 78w,\n/static/58003ca11d182a3a08c508542356e45b/d1e3d/zzz_41.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"When EX Special Attack hits an enemy, one of three possible effects is randomly triggered for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"5\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" seconds. This effect can trigger once every \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"0.3s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". The same types of effects cannot stack. Repeated triggers reset the duration allowing several effects to be active at once: \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"increases the equipper's ATK by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8/9.2/10.4/11.6/12.8%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", \",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"increases the equipper's Anomaly Proficiency by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"40/46/52/58/64\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\",\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"increases the equipper's Anomaly Buildup Rate by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"25/28/32/36/40%.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"\",\"marks\":[],\"data\":{}}]}]}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "48",
+			"max_atk": "624",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "55",
+		"name": "Sharpened Stinger",
+		"rarity": "S",
+		"talentName": "Extraordinary Anti-Theft Measures",
+		"element": "Physical",
+		"type": "Anomaly",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/ff441e6b0cfabb5e445f988be705358d/d1e3d/zzz_stinger.webp",
+								"srcSet": "/static/ff441e6b0cfabb5e445f988be705358d/72e27/zzz_stinger.webp 39w,\n/static/ff441e6b0cfabb5e445f988be705358d/7a63e/zzz_stinger.webp 78w,\n/static/ff441e6b0cfabb5e445f988be705358d/d1e3d/zzz_stinger.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Upon activating a Dash Attack, gain \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" stack of Predatory Instinct. Each stack of Predatory Instinct increases the equipper's \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Physical DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12/15/18/21/24%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.5s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" and repeated triggers reset the duration. When entering combat or triggering Perfect Dodge, gain \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" stacks of Predatory Instinct. While Predatory Instinct is at maximum stacks, the equipper's Anomaly Buildup Rate increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"40/50/60/70/80%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Anomaly Proficiency",
+			"base_atk": "48",
+			"max_atk": "713",
+			"base_special": "36",
+			"max_special": "90"
+		}
+	},
+	{
+		"engineId": "30",
+		"name": "Six Shooter",
+		"rarity": "A",
+		"talentName": "Fire!",
+		"element": null,
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/4e3689c938dd240b1675fe7b21edbdf8/d1e3d/zzz_Six_Shooter.webp",
+								"srcSet": "/static/4e3689c938dd240b1675fe7b21edbdf8/72e27/zzz_Six_Shooter.webp 39w,\n/static/4e3689c938dd240b1675fe7b21edbdf8/7a63e/zzz_Six_Shooter.webp 78w,\n/static/4e3689c938dd240b1675fe7b21edbdf8/d1e3d/zzz_Six_Shooter.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The equipper gains a Charge stack every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. When launching an EX Special Attack, consumes all Charge stacks, and each stack increases the Daze inflicted by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"4/4.6/5.2/5.8/6.4%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Impact",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "6%",
+			"max_special": "15%"
+		}
+	},
+	{
+		"engineId": "34",
+		"name": "Slice of Time",
+		"rarity": "A",
+		"talentName": "Say Cheese",
+		"element": null,
+		"type": "Support",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/bc220c2657ed18dfb0102dce54d0ccc0/d1e3d/zzz_Slice_of_Time.webp",
+								"srcSet": "/static/bc220c2657ed18dfb0102dce54d0ccc0/72e27/zzz_Slice_of_Time.webp 39w,\n/static/bc220c2657ed18dfb0102dce54d0ccc0/7a63e/zzz_Slice_of_Time.webp 78w,\n/static/bc220c2657ed18dfb0102dce54d0ccc0/d1e3d/zzz_Slice_of_Time.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Any squad members' Dodge Counter, EX Special Attack, Assist Attack, or Chain Attack respectively generates \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20/23/26/29/32 (Dodge) | 25/28.5/32/35.5/40 (Special) | 30/34.5/39/43.5/48 (Assist) | 35/40/45/50/55 (Chain) \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"more Decibels and generates \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.7/0.8/0.9/1/1.1\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Energy for the equipper. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". The cooldown for each type of attack is independent of others. Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "PEN Ratio",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "8%",
+			"max_special": "20%"
+		}
+	},
+	{
+		"engineId": "39",
+		"name": "Spring Embrace",
+		"rarity": "A",
+		"talentName": "Hot Spring Soup",
+		"element": null,
+		"type": "Defence",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/6283439cef372ba166471ed5bd01b79b/d1e3d/zzz_Spring_Embrace.webp",
+								"srcSet": "/static/6283439cef372ba166471ed5bd01b79b/72e27/zzz_Spring_Embrace.webp 39w,\n/static/6283439cef372ba166471ed5bd01b79b/7a63e/zzz_Spring_Embrace.webp 78w,\n/static/6283439cef372ba166471ed5bd01b79b/d1e3d/zzz_Spring_Embrace.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Reduces DMG taken \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.5/8.5/9.5/10.5/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When attacked, the equipper's Energy Generation Rate increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When the equipper switches off-field, this buff will be transferred to the new on-field character with its duration refreshed. Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "11",
+		"name": "Starlight Engine",
+		"rarity": "A",
+		"talentName": "Knight Plummel",
+		"element": null,
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/e676208d15ca617a242f40c5a310d08a/acb7c/Starlight_Engine.png",
+								"srcSet": "/static/e676208d15ca617a242f40c5a310d08a/1c9ce/Starlight_Engine.png 64w,\n/static/e676208d15ca617a242f40c5a310d08a/bf8e1/Starlight_Engine.png 128w,\n/static/e676208d15ca617a242f40c5a310d08a/acb7c/Starlight_Engine.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/e676208d15ca617a242f40c5a310d08a/8257c/Starlight_Engine.webp 64w,\n/static/e676208d15ca617a242f40c5a310d08a/6766a/Starlight_Engine.webp 128w,\n/static/e676208d15ca617a242f40c5a310d08a/22bfc/Starlight_Engine.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching a Dodge Counter or Quick Assist increases the equipper's ATK by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 12/13.8/15.6/17.4/19.2%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "18",
+		"name": "Starlight Engine Replica",
+		"rarity": "A",
+		"talentName": "Knight Beam: Change",
+		"element": "Physical",
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/6efcb959b844ba0d1fd569bbd40f8a84/acb7c/Starlight_Engine_Replica.png",
+								"srcSet": "/static/6efcb959b844ba0d1fd569bbd40f8a84/1c9ce/Starlight_Engine_Replica.png 64w,\n/static/6efcb959b844ba0d1fd569bbd40f8a84/bf8e1/Starlight_Engine_Replica.png 128w,\n/static/6efcb959b844ba0d1fd569bbd40f8a84/acb7c/Starlight_Engine_Replica.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/6efcb959b844ba0d1fd569bbd40f8a84/8257c/Starlight_Engine_Replica.webp 64w,\n/static/6efcb959b844ba0d1fd569bbd40f8a84/6766a/Starlight_Engine_Replica.webp 128w,\n/static/6efcb959b844ba0d1fd569bbd40f8a84/22bfc/Starlight_Engine_Replica.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases the equipper's \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Physical DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"36/41/46.5/52/57.5%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"upon hitting an enemy at least \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"meters away with a Basic Attack or Dash Attack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "ATK",
+			"base_atk": "48",
+			"max_atk": "624",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "12",
+		"name": "Steam Oven",
+		"rarity": "A",
+		"talentName": "Thick Broth",
+		"element": null,
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/c359748f9658d63dfc73cda4d4370978/acb7c/Steam_Oven.png",
+								"srcSet": "/static/c359748f9658d63dfc73cda4d4370978/1c9ce/Steam_Oven.png 64w,\n/static/c359748f9658d63dfc73cda4d4370978/bf8e1/Steam_Oven.png 128w,\n/static/c359748f9658d63dfc73cda4d4370978/acb7c/Steam_Oven.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/c359748f9658d63dfc73cda4d4370978/8257c/Steam_Oven.webp 64w,\n/static/c359748f9658d63dfc73cda4d4370978/6766a/Steam_Oven.webp 128w,\n/static/c359748f9658d63dfc73cda4d4370978/22bfc/Steam_Oven.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"For every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Energy accumulated, the equipper's Impact is increased by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 2/2.3/2.6/2.9/3.2%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. After Energy is consumed, this bonus remains for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"more seconds. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Energy Regen",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "20%",
+			"max_special": "50%"
+		}
+	},
+	{
+		"engineId": "22",
+		"name": "Steel Cushion",
+		"rarity": "S",
+		"talentName": "Metal Cat Claws",
+		"element": "Physical",
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/be335ef9d7f3ac559515a9f9569c2949/acb7c/Steel_Cushion.png",
+								"srcSet": "/static/be335ef9d7f3ac559515a9f9569c2949/1c9ce/Steel_Cushion.png 64w,\n/static/be335ef9d7f3ac559515a9f9569c2949/bf8e1/Steel_Cushion.png 128w,\n/static/be335ef9d7f3ac559515a9f9569c2949/acb7c/Steel_Cushion.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/be335ef9d7f3ac559515a9f9569c2949/8257c/Steel_Cushion.webp 64w,\n/static/be335ef9d7f3ac559515a9f9569c2949/6766a/Steel_Cushion.webp 128w,\n/static/be335ef9d7f3ac559515a9f9569c2949/22bfc/Steel_Cushion.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Physical DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20/25/30/35/40%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". The equipper's DMG increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/31.5/38/44/50%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" when attacking the enemy from behind.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Crit Rate",
+			"base_atk": "53",
+			"max_atk": "684",
+			"base_special": "9.6%",
+			"max_special": "24%"
+		}
+	},
+	{
+		"engineId": "33",
+		"name": "Street Superstar",
+		"rarity": "A",
+		"talentName": "Flaming Bars",
+		"element": null,
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/cc6a67585be559098778625ef6962136/d1e3d/zzz_Street_Superstar.webp",
+								"srcSet": "/static/cc6a67585be559098778625ef6962136/72e27/zzz_Street_Superstar.webp 39w,\n/static/cc6a67585be559098778625ef6962136/7a63e/zzz_Street_Superstar.webp 78w,\n/static/cc6a67585be559098778625ef6962136/d1e3d/zzz_Street_Superstar.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Whenever a squad member launches a Chain Attack, the equipper gains a Charge stack, stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. Upon activating their own Ultimate, the equipper consumes all Charge stacks, and each stack increases the skill's DMG by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.2/19.5/21.7/24%.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "29",
+		"name": "The Brimstone",
+		"rarity": "S",
+		"talentName": "Scorching Breath",
+		"element": "Fire",
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/8cd2e05597902c0ef48a793761d8b863/d1e3d/zzz_The_Brimstone.webp",
+								"srcSet": "/static/8cd2e05597902c0ef48a793761d8b863/72e27/zzz_The_Brimstone.webp 39w,\n/static/8cd2e05597902c0ef48a793761d8b863/7a63e/zzz_The_Brimstone.webp 78w,\n/static/8cd2e05597902c0ef48a793761d8b863/d1e3d/zzz_The_Brimstone.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Upon hitting an enemy with a Basic Attack, Dash Attack, or Dodge Counter, the equipper's ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3.5/4.4/5.2/6/7%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.5s.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "53",
+			"max_atk": "684",
+			"base_special": "12%",
+			"max_special": "30%"
+		}
+	},
+	{
+		"engineId": "24",
+		"name": "The Restrained",
+		"rarity": "S",
+		"talentName": "Binding Chains",
+		"element": null,
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/23785fc7cd3d9faf0fedc2ed055c8984/acb7c/The_Restrained.png",
+								"srcSet": "/static/23785fc7cd3d9faf0fedc2ed055c8984/1c9ce/The_Restrained.png 64w,\n/static/23785fc7cd3d9faf0fedc2ed055c8984/bf8e1/The_Restrained.png 128w,\n/static/23785fc7cd3d9faf0fedc2ed055c8984/acb7c/The_Restrained.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/23785fc7cd3d9faf0fedc2ed055c8984/8257c/The_Restrained.webp 64w,\n/static/23785fc7cd3d9faf0fedc2ed055c8984/6766a/The_Restrained.webp 128w,\n/static/23785fc7cd3d9faf0fedc2ed055c8984/22bfc/The_Restrained.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When an attack hits an enemy, DMG and Daze from Basic Attacks increase by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6/7.5/9/10.5/12% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"5\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times. This effect can trigger at most once during each skill. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Impact",
+			"base_atk": "53",
+			"max_atk": "684",
+			"base_special": "7.2%",
+			"max_special": "18%"
+		}
+	},
+	{
+		"engineId": "16",
+		"name": "The Vault",
+		"rarity": "A",
+		"talentName": "Money-Lover",
+		"element": "Ether",
+		"type": "Support",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/fe6732752d5d8a5a98bdd176ccccac58/acb7c/The_Vault.png",
+								"srcSet": "/static/fe6732752d5d8a5a98bdd176ccccac58/1c9ce/The_Vault.png 64w,\n/static/fe6732752d5d8a5a98bdd176ccccac58/bf8e1/The_Vault.png 128w,\n/static/fe6732752d5d8a5a98bdd176ccccac58/acb7c/The_Vault.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/fe6732752d5d8a5a98bdd176ccccac58/8257c/The_Vault.webp 64w,\n/static/fe6732752d5d8a5a98bdd176ccccac58/6766a/The_Vault.webp 128w,\n/static/fe6732752d5d8a5a98bdd176ccccac58/22bfc/The_Vault.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"D\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"ealing \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"underline\"}],\"value\":\"Ether DMG\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" using an EX Special Attack, Chain Attack, or Ultimate increases all squad members' DMG against the target by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22/24%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" and increases the equipper's Energy Regen by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 0.5/0.58/0.65/0.72/0.8\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" per second for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Energy Regen",
+			"base_atk": "48",
+			"max_atk": "624",
+			"base_special": "20%",
+			"max_special": "50%"
+		}
+	},
+	{
+		"engineId": "56",
+		"name": "Tusks of Fury",
+		"rarity": "S",
+		"talentName": "Invincible Rider",
+		"element": null,
+		"type": "Defence",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/795fe803d9cad72485e0cc4e5c7c2bec/d1e3d/zzz_tusks_of_fury.webp",
+								"srcSet": "/static/795fe803d9cad72485e0cc4e5c7c2bec/72e27/zzz_tusks_of_fury.webp 39w,\n/static/795fe803d9cad72485e0cc4e5c7c2bec/7a63e/zzz_tusks_of_fury.webp 78w,\n/static/795fe803d9cad72485e0cc4e5c7c2bec/d1e3d/zzz_tusks_of_fury.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The Shield value provided by the equipper increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"30/38/46/52/60%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When any squad member triggers Interrupt or Perfect Dodge, all squad members' DMG increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"18/22.5/27/31.5/36%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" and Daze dealt increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12/15/18/21/24% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Impact",
+			"base_atk": "48",
+			"max_atk": "714",
+			"base_special": "7.2%",
+			"max_special": "18%"
+		}
+	},
+	{
+		"engineId": "31",
+		"name": "Unfettered Game Ball",
+		"rarity": "A",
+		"talentName": "Game Start!",
+		"element": null,
+		"type": "Support",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/d634e1114beac62ef132cfd554296044/d1e3d/zzz_Unfettered_Game_Ball.webp",
+								"srcSet": "/static/d634e1114beac62ef132cfd554296044/72e27/zzz_Unfettered_Game_Ball.webp 39w,\n/static/d634e1114beac62ef132cfd554296044/7a63e/zzz_Unfettered_Game_Ball.webp 78w,\n/static/d634e1114beac62ef132cfd554296044/d1e3d/zzz_Unfettered_Game_Ball.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Whenever the equipper's attack triggers an Attribute Counter effect, all squad members' CRIT Rate against the struck enemy increases by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 12/13.5/15.5/17.5/20%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". The bonuses triggered by the same type of passive effects do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Energy Regen",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "20%",
+			"max_special": "50%"
+		}
+	},
+	{
+		"engineId": "27",
+		"name": "Weeping Cradle",
+		"rarity": "S",
+		"talentName": "Punishment",
+		"element": "Electric",
+		"type": "Support",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/8c369febde87471c57de6dba6d650798/d1e3d/zzz_Weeping_Cradle.webp",
+								"srcSet": "/static/8c369febde87471c57de6dba6d650798/72e27/zzz_Weeping_Cradle.webp 39w,\n/static/8c369febde87471c57de6dba6d650798/7a63e/zzz_Weeping_Cradle.webp 78w,\n/static/8c369febde87471c57de6dba6d650798/d1e3d/zzz_Weeping_Cradle.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"While off-field, Energy Regen increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.6/0.75/0.9/1.05/1.2 per second\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Attacks from the equipper enhance the squad's DMG against a struck target by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/12.5/15/17.5/20%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" seconds. During this period, this effect is further increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1.7/2/2.5/3/3.3%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.5s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", up to a maximum additional increase of \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10.2/12/15/18/19.8%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Repeated triggers only refresh its duration without refreshing the DMG increase effect. Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "PEN Ratio",
+			"base_atk": "53",
+			"max_atk": "684",
+			"base_special": "9.6%",
+			"max_special": "24%"
+		}
+	},
+	{
+		"engineId": "37",
+		"name": "Weeping Gemini",
+		"rarity": "A",
+		"talentName": "Lingering Cries",
+		"element": null,
+		"type": "Anomaly",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/4409f2a85f0ad9c601ed9dc60baebc8d/d1e3d/zzz_Weeping_Gemini.webp",
+								"srcSet": "/static/4409f2a85f0ad9c601ed9dc60baebc8d/72e27/zzz_Weeping_Gemini.webp 39w,\n/static/4409f2a85f0ad9c601ed9dc60baebc8d/7a63e/zzz_Weeping_Gemini.webp 78w,\n/static/4409f2a85f0ad9c601ed9dc60baebc8d/d1e3d/zzz_Weeping_Gemini.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper gains a buff that increases Anomaly Proficiency by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"30/34/38/42/46\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"4 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. This effect expires when the target recovers from Stun or is defeated. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "46",
+			"max_atk": "594",
+			"base_special": "10%",
+			"max_special": "25%"
+		}
+	},
+	{
+		"engineId": "43",
+		"name": "[Identity] Base",
+		"rarity": "B",
+		"talentName": "Sinking Strike",
+		"element": null,
+		"type": "Defence",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/6e0e0552cfecbbeaffc07842effa6f66/d1e3d/zzz_-Identity-_Base.webp",
+								"srcSet": "/static/6e0e0552cfecbbeaffc07842effa6f66/72e27/zzz_-Identity-_Base.webp 39w,\n/static/6e0e0552cfecbbeaffc07842effa6f66/7a63e/zzz_-Identity-_Base.webp 78w,\n/static/6e0e0552cfecbbeaffc07842effa6f66/d1e3d/zzz_-Identity-_Base.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When attacked, the equipper's DEF increases by\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 20/23/26/29/32%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Defense",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "12.8%",
+			"max_special": "32%"
+		}
+	},
+	{
+		"engineId": "44",
+		"name": "[Identity] Inflection",
+		"rarity": "B",
+		"talentName": "Dazzle",
+		"element": null,
+		"type": "Defence",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/6a33d5748bbaed1bdbc0b97593dfbfbd/d1e3d/zzz_-Identity-_Inflection.webp",
+								"srcSet": "/static/6a33d5748bbaed1bdbc0b97593dfbfbd/72e27/zzz_-Identity-_Inflection.webp 39w,\n/static/6a33d5748bbaed1bdbc0b97593dfbfbd/7a63e/zzz_-Identity-_Inflection.webp 78w,\n/static/6a33d5748bbaed1bdbc0b97593dfbfbd/d1e3d/zzz_-Identity-_Inflection.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When attacked, reduces the attacker's DMG by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6/7/8/9/10%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Defense",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "12.8%",
+			"max_special": "32%"
+		}
+	},
+	{
+		"engineId": "42",
+		"name": "[Lunar] Decrescent",
+		"rarity": "B",
+		"talentName": "Waning Moon",
+		"element": null,
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/2e9c4e4854b085a6aef8d5c13b3a6742/d1e3d/zzz_-Lunar-_Decrescent.webp",
+								"srcSet": "/static/2e9c4e4854b085a6aef8d5c13b3a6742/72e27/zzz_-Lunar-_Decrescent.webp 39w,\n/static/2e9c4e4854b085a6aef8d5c13b3a6742/7a63e/zzz_-Lunar-_Decrescent.webp 78w,\n/static/2e9c4e4854b085a6aef8d5c13b3a6742/d1e3d/zzz_-Lunar-_Decrescent.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching a Chain Attack or Ultimate increases the equipper's DMG by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"15/17.5/20/22.5/25%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "8%",
+			"max_special": "20%"
+		}
+	},
+	{
+		"engineId": "1",
+		"name": "[Lunar] Noviluna",
+		"rarity": "B",
+		"talentName": "New Moon",
+		"element": null,
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/9112702f83908d2cb90b1be0b66bdc06/acb7c/-Lunar-_Crescent.png",
+								"srcSet": "/static/9112702f83908d2cb90b1be0b66bdc06/1c9ce/-Lunar-_Crescent.png 64w,\n/static/9112702f83908d2cb90b1be0b66bdc06/bf8e1/-Lunar-_Crescent.png 128w,\n/static/9112702f83908d2cb90b1be0b66bdc06/acb7c/-Lunar-_Crescent.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/9112702f83908d2cb90b1be0b66bdc06/8257c/-Lunar-_Crescent.webp 64w,\n/static/9112702f83908d2cb90b1be0b66bdc06/6766a/-Lunar-_Crescent.webp 128w,\n/static/9112702f83908d2cb90b1be0b66bdc06/22bfc/-Lunar-_Crescent.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching an EX Special Attack generates \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3/3.5/4/4.5/5\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Energy for the equipper. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Crit Rate",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "6.4%",
+			"max_special": "16%"
+		}
+	},
+	{
+		"engineId": "41",
+		"name": "[Lunar] Pleniluna",
+		"rarity": "B",
+		"talentName": "Full Moon",
+		"element": null,
+		"type": "Attack",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/785269c009d416f34841010dd8cfa806/d1e3d/zzz_-Lunar-_Pleniluna.webp",
+								"srcSet": "/static/785269c009d416f34841010dd8cfa806/72e27/zzz_-Lunar-_Pleniluna.webp 39w,\n/static/785269c009d416f34841010dd8cfa806/7a63e/zzz_-Lunar-_Pleniluna.webp 78w,\n/static/785269c009d416f34841010dd8cfa806/d1e3d/zzz_-Lunar-_Pleniluna.webp 156w",
+								"sizes": "(min-width: 156px) 156px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 156,
+						"height": 156
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack, Dash Attack, and Dodge Counter DMG increase by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12/14/16/18/20%.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "8%",
+			"max_special": "20%"
+		}
+	},
+	{
+		"engineId": "8",
+		"name": "[Magnetic Storm] Alpha",
+		"rarity": "B",
+		"talentName": "Disordered Current",
+		"element": null,
+		"type": "Anomaly",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/43af18a383437f22852399807ecd9349/acb7c/-Magnetic_Storm-_Alpha.png",
+								"srcSet": "/static/43af18a383437f22852399807ecd9349/1c9ce/-Magnetic_Storm-_Alpha.png 64w,\n/static/43af18a383437f22852399807ecd9349/bf8e1/-Magnetic_Storm-_Alpha.png 128w,\n/static/43af18a383437f22852399807ecd9349/acb7c/-Magnetic_Storm-_Alpha.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/43af18a383437f22852399807ecd9349/8257c/-Magnetic_Storm-_Alpha.webp 64w,\n/static/43af18a383437f22852399807ecd9349/6766a/-Magnetic_Storm-_Alpha.webp 128w,\n/static/43af18a383437f22852399807ecd9349/22bfc/-Magnetic_Storm-_Alpha.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Accumulating Anomaly Buildup increases the equipper's Anomaly Mastery by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/28/32/36/40\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for 10s. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "8%",
+			"max_special": "20%"
+		}
+	},
+	{
+		"engineId": "10",
+		"name": "[Magnetic Storm] Bravo",
+		"rarity": "B",
+		"talentName": "High-Voltage Surge",
+		"element": null,
+		"type": "Anomaly",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/849bfaed871d363edcb69b2bb5add26c/acb7c/-Magnetic_Storm-_Charlie.png",
+								"srcSet": "/static/849bfaed871d363edcb69b2bb5add26c/1c9ce/-Magnetic_Storm-_Charlie.png 64w,\n/static/849bfaed871d363edcb69b2bb5add26c/bf8e1/-Magnetic_Storm-_Charlie.png 128w,\n/static/849bfaed871d363edcb69b2bb5add26c/acb7c/-Magnetic_Storm-_Charlie.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/849bfaed871d363edcb69b2bb5add26c/8257c/-Magnetic_Storm-_Charlie.webp 64w,\n/static/849bfaed871d363edcb69b2bb5add26c/6766a/-Magnetic_Storm-_Charlie.webp 128w,\n/static/849bfaed871d363edcb69b2bb5add26c/22bfc/-Magnetic_Storm-_Charlie.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Accumulating Anomaly Buildup increases the equipper's Anomaly Proficiency by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/28/32/36/40\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can only be triggered once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\\n\\n \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Anomaly Proficiency",
+			"base_atk": "37",
+			"max_atk": "356",
+			"base_special": "24",
+			"max_special": "???"
+		}
+	},
+	{
+		"engineId": "9",
+		"name": "[Magnetic Storm] Charlie",
+		"rarity": "B",
+		"talentName": "Charge Overload",
+		"element": null,
+		"type": "Anomaly",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/e4a720d011b21349d92eee8a6cfcf84c/acb7c/-Magnetic_Storm-_Bravo.png",
+								"srcSet": "/static/e4a720d011b21349d92eee8a6cfcf84c/1c9ce/-Magnetic_Storm-_Bravo.png 64w,\n/static/e4a720d011b21349d92eee8a6cfcf84c/bf8e1/-Magnetic_Storm-_Bravo.png 128w,\n/static/e4a720d011b21349d92eee8a6cfcf84c/acb7c/-Magnetic_Storm-_Bravo.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/e4a720d011b21349d92eee8a6cfcf84c/8257c/-Magnetic_Storm-_Bravo.webp 64w,\n/static/e4a720d011b21349d92eee8a6cfcf84c/6766a/-Magnetic_Storm-_Bravo.webp 128w,\n/static/e4a720d011b21349d92eee8a6cfcf84c/22bfc/-Magnetic_Storm-_Bravo.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Whenever a squad member inflicts an Attribute Anomaly on an enemy, the equipper generates \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3.5/4/4.5/5/5.5\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Energy. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "PEN Ratio",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "6.4%",
+			"max_special": "16%"
+		}
+	},
+	{
+		"engineId": "2",
+		"name": "[Reverb] Mark I",
+		"rarity": "B",
+		"talentName": "Changing Tides",
+		"element": null,
+		"type": "Support",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/fd5fa7483bbe39a8be3bf2c714333c06/acb7c/-Reverb-_Mark_I.png",
+								"srcSet": "/static/fd5fa7483bbe39a8be3bf2c714333c06/1c9ce/-Reverb-_Mark_I.png 64w,\n/static/fd5fa7483bbe39a8be3bf2c714333c06/bf8e1/-Reverb-_Mark_I.png 128w,\n/static/fd5fa7483bbe39a8be3bf2c714333c06/acb7c/-Reverb-_Mark_I.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/fd5fa7483bbe39a8be3bf2c714333c06/8257c/-Reverb-_Mark_I.webp 64w,\n/static/fd5fa7483bbe39a8be3bf2c714333c06/6766a/-Reverb-_Mark_I.webp 128w,\n/static/fd5fa7483bbe39a8be3bf2c714333c06/22bfc/-Reverb-_Mark_I.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching an EX Special Attack increases all squad members' Impact by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/9/10/11/12% \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "8%",
+			"max_special": "20%"
+		}
+	},
+	{
+		"engineId": "3",
+		"name": "[Reverb] Mark II",
+		"rarity": "B",
+		"talentName": "Roaring Waves",
+		"element": null,
+		"type": "Support",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/3bb2ac7e7689b31456db99323485198b/acb7c/-Reverb-_Mark_II.png",
+								"srcSet": "/static/3bb2ac7e7689b31456db99323485198b/1c9ce/-Reverb-_Mark_II.png 64w,\n/static/3bb2ac7e7689b31456db99323485198b/bf8e1/-Reverb-_Mark_II.png 128w,\n/static/3bb2ac7e7689b31456db99323485198b/acb7c/-Reverb-_Mark_II.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/3bb2ac7e7689b31456db99323485198b/8257c/-Reverb-_Mark_II.webp 64w,\n/static/3bb2ac7e7689b31456db99323485198b/6766a/-Reverb-_Mark_II.webp 128w,\n/static/3bb2ac7e7689b31456db99323485198b/22bfc/-Reverb-_Mark_II.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching an EX Special Attack or Chain Attack increases all squad members' Anomaly Mastery and Anomaly Proficiency by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/12/13/15/16 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Energy Regen",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "16%",
+			"max_special": "40%"
+		}
+	},
+	{
+		"engineId": "4",
+		"name": "[Reverb] Mark III",
+		"rarity": "B",
+		"talentName": "Booming Sound",
+		"element": null,
+		"type": "Support",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/8e49b14641acc6ed99efd3b19bc7dba9/acb7c/-Reverb-_Mark_III.png",
+								"srcSet": "/static/8e49b14641acc6ed99efd3b19bc7dba9/1c9ce/-Reverb-_Mark_III.png 64w,\n/static/8e49b14641acc6ed99efd3b19bc7dba9/bf8e1/-Reverb-_Mark_III.png 128w,\n/static/8e49b14641acc6ed99efd3b19bc7dba9/acb7c/-Reverb-_Mark_III.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/8e49b14641acc6ed99efd3b19bc7dba9/8257c/-Reverb-_Mark_III.webp 64w,\n/static/8e49b14641acc6ed99efd3b19bc7dba9/6766a/-Reverb-_Mark_III.webp 128w,\n/static/8e49b14641acc6ed99efd3b19bc7dba9/22bfc/-Reverb-_Mark_III.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Launching a Chain Attack or Ultimate increases all squad members' ATK by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/9/10/11/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Passive effects of the same name do not stack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "HP",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "8%",
+			"max_special": "20%"
+		}
+	},
+	{
+		"engineId": "7",
+		"name": "[Vortex] Arrow",
+		"rarity": "B",
+		"talentName": "Tsunami",
+		"element": null,
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/000ef3eebbdcef4274ce4fcefde165b3/acb7c/-Vortex-_Arrow.png",
+								"srcSet": "/static/000ef3eebbdcef4274ce4fcefde165b3/1c9ce/-Vortex-_Arrow.png 64w,\n/static/000ef3eebbdcef4274ce4fcefde165b3/bf8e1/-Vortex-_Arrow.png 128w,\n/static/000ef3eebbdcef4274ce4fcefde165b3/acb7c/-Vortex-_Arrow.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/000ef3eebbdcef4274ce4fcefde165b3/8257c/-Vortex-_Arrow.webp 64w,\n/static/000ef3eebbdcef4274ce4fcefde165b3/6766a/-Vortex-_Arrow.webp 128w,\n/static/000ef3eebbdcef4274ce4fcefde165b3/22bfc/-Vortex-_Arrow.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The equipper's attacks inflict \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8/9/10/11/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" more Daze on their main target.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Impact",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "4.8%",
+			"max_special": "12%"
+		}
+	},
+	{
+		"engineId": "6",
+		"name": "[Vortex] Hatchet",
+		"rarity": "B",
+		"talentName": "Riptide",
+		"element": null,
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/22675cf8959762c1e7e0f8d5814ecbc2/acb7c/-Vortex-_Hatchet.png",
+								"srcSet": "/static/22675cf8959762c1e7e0f8d5814ecbc2/1c9ce/-Vortex-_Hatchet.png 64w,\n/static/22675cf8959762c1e7e0f8d5814ecbc2/bf8e1/-Vortex-_Hatchet.png 128w,\n/static/22675cf8959762c1e7e0f8d5814ecbc2/acb7c/-Vortex-_Hatchet.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/22675cf8959762c1e7e0f8d5814ecbc2/8257c/-Vortex-_Hatchet.webp 64w,\n/static/22675cf8959762c1e7e0f8d5814ecbc2/6766a/-Vortex-_Hatchet.webp 128w,\n/static/22675cf8959762c1e7e0f8d5814ecbc2/22bfc/-Vortex-_Hatchet.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Upon entering combat or switching in, the equipper's Impact increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9/10/11/12/13%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Energy Regen",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "40%",
+			"max_special": "16%"
+		}
+	},
+	{
+		"engineId": "5",
+		"name": "[Vortex] Revolver",
+		"rarity": "B",
+		"talentName": "Undercurrent",
+		"element": null,
+		"type": "Stun",
+		"image": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/1acb4c77af7454d29daaaf37a75eebf3/acb7c/-Vortex-_Revolver.png",
+								"srcSet": "/static/1acb4c77af7454d29daaaf37a75eebf3/1c9ce/-Vortex-_Revolver.png 64w,\n/static/1acb4c77af7454d29daaaf37a75eebf3/bf8e1/-Vortex-_Revolver.png 128w,\n/static/1acb4c77af7454d29daaaf37a75eebf3/acb7c/-Vortex-_Revolver.png 256w",
+								"sizes": "(min-width: 256px) 256px, 100vw"
+							},
+							"sources": [
+								{
+									"srcSet": "/static/1acb4c77af7454d29daaaf37a75eebf3/8257c/-Vortex-_Revolver.webp 64w,\n/static/1acb4c77af7454d29daaaf37a75eebf3/6766a/-Vortex-_Revolver.webp 128w,\n/static/1acb4c77af7454d29daaaf37a75eebf3/22bfc/-Vortex-_Revolver.webp 256w",
+									"type": "image/webp",
+									"sizes": "(min-width: 256px) 256px, 100vw"
+								}
+							]
+						},
+						"width": 256,
+						"height": 256
+					}
+				}
+			}
+		},
+		"description": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attacks inflict \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" more Daze.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"stats": {
+			"stat": "Attack",
+			"base_atk": "37",
+			"max_atk": "475",
+			"base_special": "8%",
+			"max_special": "20%"
+		}
+	}
+]

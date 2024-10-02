@@ -1381,187 +1381,187 @@
 		"slug": "jane-doe",
 		"rarity": "S",
 		"smallImage": {
-		"localFile": {
-		"childImageSharp": {
-		"gatsbyImageData": {
-		"layout": "constrained",
-		"backgroundColor": "#f8f8f8",
-		"images": {
-		"fallback": {
-		"src": "/static/749cd6dfe039ea7d7d91a8ca5587e76f/60b4d/21_sm.webp",
-		"srcSet": "/static/749cd6dfe039ea7d7d91a8ca5587e76f/e73fe/21_sm.webp 40w,\n/static/749cd6dfe039ea7d7d91a8ca5587e76f/61ca6/21_sm.webp 80w,\n/static/749cd6dfe039ea7d7d91a8ca5587e76f/60b4d/21_sm.webp 160w",
-		"sizes": "(min-width: 160px) 160px, 100vw"
-		},
-		"sources": []
-		},
-		"width": 160,
-		"height": 160
-		}
-		}
-		}
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/749cd6dfe039ea7d7d91a8ca5587e76f/60b4d/21_sm.webp",
+								"srcSet": "/static/749cd6dfe039ea7d7d91a8ca5587e76f/e73fe/21_sm.webp 40w,\n/static/749cd6dfe039ea7d7d91a8ca5587e76f/61ca6/21_sm.webp 80w,\n/static/749cd6dfe039ea7d7d91a8ca5587e76f/60b4d/21_sm.webp 160w",
+								"sizes": "(min-width: 160px) 160px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 160,
+						"height": 160
+					}
+				}
+			}
 		},
 		"cardImage": {
-		"localFile": {
-		"childImageSharp": {
-		"gatsbyImageData": {
-		"layout": "constrained",
-		"backgroundColor": "#f8f8f8",
-		"images": {
-		"fallback": {
-		"src": "/static/624e37d9caaf8f3c9b5d30488104af60/b26e2/21_card.webp",
-		"srcSet": "/static/624e37d9caaf8f3c9b5d30488104af60/84550/21_card.webp 94w,\n/static/624e37d9caaf8f3c9b5d30488104af60/34f80/21_card.webp 187w,\n/static/624e37d9caaf8f3c9b5d30488104af60/b26e2/21_card.webp 374w",
-		"sizes": "(min-width: 374px) 374px, 100vw"
-		},
-		"sources": []
-		},
-		"width": 374,
-		"height": 512
-		}
-		}
-		}
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/624e37d9caaf8f3c9b5d30488104af60/b26e2/21_card.webp",
+								"srcSet": "/static/624e37d9caaf8f3c9b5d30488104af60/84550/21_card.webp 94w,\n/static/624e37d9caaf8f3c9b5d30488104af60/34f80/21_card.webp 187w,\n/static/624e37d9caaf8f3c9b5d30488104af60/b26e2/21_card.webp 374w",
+								"sizes": "(min-width: 374px) 374px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 374,
+						"height": 512
+					}
+				}
+			}
 		},
 		"faction": "N.E.P.S.",
 		"attackType": [
-		"Unknown"
+			"Unknown"
 		],
 		"style": "Anomaly",
 		"element": "Physical",
 		"review": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Jane Doe, an S-Rank Melee Physical Combat Agent, excels in delivering exceptionally high damage through frequent triggers of the Assault Anomaly. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"What distinguishes Jane from the typical Anomaly-based characters is her unparalleled mobility, rapid Anomaly build-up speed, a unique berserk mode called \\\"Passion State,\\\" and the ability to cause her assaults to critically strike. Mastering and synergizing these elements is key to her success, and in the hands of a skilled player, Jane can effortlessly dominate endgame content across various team compositions, making her one of the most formidable DPS characters at the time of her release.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"At the heart of Jane’s kit is the Passion Stream or simply \\\"Passion,\\\" a unique resource gauge that is exclusive to her and serves as the foundation for all her combat actions. Engaging in any damaging ability, executing Perfect Dodges, or performing Defensive Assists will generate Passion. Once the Passion gauge is fully charged, Jane enters a temporary berserk mode known as Passion State. This state enhances her abilities, increases her Physical Anomaly Buildup Rate by 25%, and grants her an additional 2 flat Combat Attack points for each point of Anomaly Proficiency she possesses over 120, capping at 600 flat Attack (which maxes out at 420 Anomaly Proficiency). The combined effects of these benefits transform Jane into an absolute powerhouse during this state. However, maintaining the Passion State indefinitely is a challenge, as her abilities that generate Passion also consume it. Once her Passion gauge depletes to 0, she exits the state. Jane's primary objective, along with the rest of her kit, revolves around entering and sustaining the Passion State for as long as possible to maximize her destructive potential.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane Doe’s has two distinct Basic Attacks: a relatively standard six-part attack combo and a less conventional, but far more powerful, charge-and-hold attack called \\\"Basic Attack: Salchow Jump.\\\" The latter can only be used once per entry into the Passion State, making it a critical tool in Jane's offensive repertoire. Jane's standard six-part basic attack combo serves the dual purpose of building and consuming Passion and acts as Jane's filler ability, used when no other skills or opportunities are available. As with other characters, the latter attacks in Jane's combo are more powerful, and she can skip the earlier parts by executing Basic Attacks after specific actions. This allows for some exceptionally satisfying and potent combinations. Notably, many of these combination attacks vary depending on whether Jane is in the Passion State, providing unique sequences that enhance her overall damage output.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s charge-and-hold attack, Basic Attack: Salchow Jump, is a game-changer. This powerful move causes Jane to spin rapidly, dealing tremendous damage to nearby enemies for as long as the attack is held. Upon releasing the attack or when the ability is canceled, Jane performs a powerful finishing move in front of her. While spinning, Jane enjoys a 40% reduction in damage taken and gains Anti-Interrupt capabilities. During the finishing move, she becomes completely invulnerable. What truly sets this ability apart is its ability to restore Passion, regardless of whether Jane is in the Passion State. This means that using this attack not only inflicts massive damage but also extends Jane’s time in the Passion State, reducing downtime and making it a must-use ability at every opportunity—preferably after entering the Passion State and spending some Passion, so she can immediately recover it.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane's agility is further enhanced by her unique Dodge, Dash Attacks, and Dodge Counters. She has distinct versions of these moves depending on whether she is in the Passion State. While the animations differ—becoming notably cooler in the Passion State—their primary function remains consistent: they are \\\"stronger\\\" variants of their non-Passion counterparts.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Unlike most characters, Jane has access to three charges of Dodge instead of the usual two. Her standard non-Passion Dodge also features two alternating animations, though this does not impact its functionality. In the Passion State, Jane’s Dodge is upgraded, allowing her to dodge through enemies rather than just away from them. Additionally, executing Perfect Dodges within the Passion State generates Passion, further extending her damage windows.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane's non-Passion Dash Attack comes in two variants, corresponding to her separate dodge animations. Both variants deal the same damage, and outside these differences, Jane's Dash Attacks are fairly standard. However, in the Passion State, the Dash Attack is enhanced, taking longer to execute, dealing more damage, and covering more distance. Jane can also follow her Passion-enhanced dash attacks with a basic attack skip to execute the following combo:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Phantom Thrust (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P4 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s standard Dodge Counters, like her Dash Attacks, have two different animations but function as typical Dodge Counters. Her Passion-enhanced Dodge Counter is stronger overall but lacks unique benefits. Executing either of the standard Dodge Counters followed by Basic Attacks allows Jane to perform the following basic-skipping combos, which are ideal for quickly building up and returning to the Passion State:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dodge Counter: Swift Shadow\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Alternatively, after a Dodge Counter in the Passion State, Jane can execute a stronger combo:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dodge Counter: Swift Shadow Dance (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s EX Special Attack is one of her most potent abilities, dealing significant damage and building up Anomaly with considerable efficiency. Despite its power, it does not integrate into any specific combo and lacks additional effects beyond the standard Passion spend/generation. Therefore, it’s advisable to use this ability during the Passion State, ideally when your team is at its peak strength and the enemy is most vulnerable (such as when stunned).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s Chain Attack and Ultimate are both devastating in terms of damage and Anomaly build-up. However, their most significant feature is their ability to instantly fill and activate (or reactivate) her Passion State. These attacks provide an invaluable shortcut to establishing and maintaining the Passion State, allowing for more frequent use of Basic Attack: Salchow Jump. Reactivating the Passion State refreshes your ability to use this attack, offering even greater opportunities to extend Jane’s already impressive damage output.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane Doe's Quick Assists, Defensive Assists, and Assist Follow-Ups are all standard attacks that can seamlessly integrate into her combat flow. Notably, Jane has Quick Assists for both her Passion and Non-Passion states, allowing her to execute Basic Attack-skipping combos with precision and flair. Below are some key combos that highlight her potential:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Quick Assist Combo\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Quick Assist: Lutz Jump (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Defensive Assist Combo\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Defensive Assist: Last Defense\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Assist Follow-Up: Gale Sweep\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P3 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P4 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s Core Passive: Insight enhances all her attacks by applying the \\\"Gnawed State\\\" to enemies for 10 seconds. This passive also grants Jane the unprecedented ability to cause the Assault Anomaly to critically strike—something typically outside the realm of possibility. When an Assault triggers against an enemy in the Gnawed State, the chance for a Critical strike is set at a base of 40%. This chance can be increased by 0.16% for each point of Anomaly Proficiency Jane possesses, capping at 100% at 375 Anomaly Proficiency (at max level). The critical damage modifier is fixed at 1.5x, unaffected by other sources of Crit or Crit Damage (outside of Mindscapes). Additionally, assaults against Gnawed enemies will extend the \\\"Flinch\\\" debuff by 5 seconds with each hit, making Jane's attacks not only more potent but also more debilitating over time.\\n \\nJane's Additional Ability: Sore Spot is activated by having any Anomaly or same-faction character on her team and significantly boosts her Anomaly Buildup Rate. It provides an unconditional 20% bonus and an additional 15% when Jane attacks enemies already suffering from an Attribute Anomaly. This powerful enhancement is essential for maximizing Jane’s damage potential, and fortunately, it’s easy to activate.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane Doe stands out as one of the most formidable Physical DPS agents at the time of her release. Her exceptional mobility, ability to deliver burst damage without ramp-up time (despite being Anomaly-based), and flexibility within the disorder archetype make her a force to be reckoned with across a variety of team compositions. Whether she’s the sole damage dealer or working alongside other Anomaly characters, Jane’s future prospects are undeniably bright.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"For optimal strategies and to fully harness the power of Jane’s abilities, refer to the Rotation & Teams section of this guide.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Jane Doe, an S-Rank Melee Physical Combat Agent, excels in delivering exceptionally high damage through frequent triggers of the Assault Anomaly. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"What distinguishes Jane from the typical Anomaly-based characters is her unparalleled mobility, rapid Anomaly build-up speed, a unique berserk mode called \\\"Passion State,\\\" and the ability to cause her assaults to critically strike. Mastering and synergizing these elements is key to her success, and in the hands of a skilled player, Jane can effortlessly dominate endgame content across various team compositions, making her one of the most formidable DPS characters at the time of her release.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"At the heart of Jane’s kit is the Passion Stream or simply \\\"Passion,\\\" a unique resource gauge that is exclusive to her and serves as the foundation for all her combat actions. Engaging in any damaging ability, executing Perfect Dodges, or performing Defensive Assists will generate Passion. Once the Passion gauge is fully charged, Jane enters a temporary berserk mode known as Passion State. This state enhances her abilities, increases her Physical Anomaly Buildup Rate by 25%, and grants her an additional 2 flat Combat Attack points for each point of Anomaly Proficiency she possesses over 120, capping at 600 flat Attack (which maxes out at 420 Anomaly Proficiency). The combined effects of these benefits transform Jane into an absolute powerhouse during this state. However, maintaining the Passion State indefinitely is a challenge, as her abilities that generate Passion also consume it. Once her Passion gauge depletes to 0, she exits the state. Jane's primary objective, along with the rest of her kit, revolves around entering and sustaining the Passion State for as long as possible to maximize her destructive potential.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane Doe’s has two distinct Basic Attacks: a relatively standard six-part attack combo and a less conventional, but far more powerful, charge-and-hold attack called \\\"Basic Attack: Salchow Jump.\\\" The latter can only be used once per entry into the Passion State, making it a critical tool in Jane's offensive repertoire. Jane's standard six-part basic attack combo serves the dual purpose of building and consuming Passion and acts as Jane's filler ability, used when no other skills or opportunities are available. As with other characters, the latter attacks in Jane's combo are more powerful, and she can skip the earlier parts by executing Basic Attacks after specific actions. This allows for some exceptionally satisfying and potent combinations. Notably, many of these combination attacks vary depending on whether Jane is in the Passion State, providing unique sequences that enhance her overall damage output.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s charge-and-hold attack, Basic Attack: Salchow Jump, is a game-changer. This powerful move causes Jane to spin rapidly, dealing tremendous damage to nearby enemies for as long as the attack is held. Upon releasing the attack or when the ability is canceled, Jane performs a powerful finishing move in front of her. While spinning, Jane enjoys a 40% reduction in damage taken and gains Anti-Interrupt capabilities. During the finishing move, she becomes completely invulnerable. What truly sets this ability apart is its ability to restore Passion, regardless of whether Jane is in the Passion State. This means that using this attack not only inflicts massive damage but also extends Jane’s time in the Passion State, reducing downtime and making it a must-use ability at every opportunity—preferably after entering the Passion State and spending some Passion, so she can immediately recover it.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane's agility is further enhanced by her unique Dodge, Dash Attacks, and Dodge Counters. She has distinct versions of these moves depending on whether she is in the Passion State. While the animations differ—becoming notably cooler in the Passion State—their primary function remains consistent: they are \\\"stronger\\\" variants of their non-Passion counterparts.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Unlike most characters, Jane has access to three charges of Dodge instead of the usual two. Her standard non-Passion Dodge also features two alternating animations, though this does not impact its functionality. In the Passion State, Jane’s Dodge is upgraded, allowing her to dodge through enemies rather than just away from them. Additionally, executing Perfect Dodges within the Passion State generates Passion, further extending her damage windows.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane's non-Passion Dash Attack comes in two variants, corresponding to her separate dodge animations. Both variants deal the same damage, and outside these differences, Jane's Dash Attacks are fairly standard. However, in the Passion State, the Dash Attack is enhanced, taking longer to execute, dealing more damage, and covering more distance. Jane can also follow her Passion-enhanced dash attacks with a basic attack skip to execute the following combo:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Phantom Thrust (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P4 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s standard Dodge Counters, like her Dash Attacks, have two different animations but function as typical Dodge Counters. Her Passion-enhanced Dodge Counter is stronger overall but lacks unique benefits. Executing either of the standard Dodge Counters followed by Basic Attacks allows Jane to perform the following basic-skipping combos, which are ideal for quickly building up and returning to the Passion State:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dodge Counter: Swift Shadow\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Alternatively, after a Dodge Counter in the Passion State, Jane can execute a stronger combo:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dodge Counter: Swift Shadow Dance (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s EX Special Attack is one of her most potent abilities, dealing significant damage and building up Anomaly with considerable efficiency. Despite its power, it does not integrate into any specific combo and lacks additional effects beyond the standard Passion spend/generation. Therefore, it’s advisable to use this ability during the Passion State, ideally when your team is at its peak strength and the enemy is most vulnerable (such as when stunned).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s Chain Attack and Ultimate are both devastating in terms of damage and Anomaly build-up. However, their most significant feature is their ability to instantly fill and activate (or reactivate) her Passion State. These attacks provide an invaluable shortcut to establishing and maintaining the Passion State, allowing for more frequent use of Basic Attack: Salchow Jump. Reactivating the Passion State refreshes your ability to use this attack, offering even greater opportunities to extend Jane’s already impressive damage output.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane Doe's Quick Assists, Defensive Assists, and Assist Follow-Ups are all standard attacks that can seamlessly integrate into her combat flow. Notably, Jane has Quick Assists for both her Passion and Non-Passion states, allowing her to execute Basic Attack-skipping combos with precision and flair. Below are some key combos that highlight her potential:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Quick Assist Combo\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Quick Assist: Lutz Jump (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Defensive Assist Combo\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Defensive Assist: Last Defense\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Assist Follow-Up: Gale Sweep\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P3 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P4 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P5 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Dancing Blades P6 (Passion)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane’s Core Passive: Insight enhances all her attacks by applying the \\\"Gnawed State\\\" to enemies for 10 seconds. This passive also grants Jane the unprecedented ability to cause the Assault Anomaly to critically strike—something typically outside the realm of possibility. When an Assault triggers against an enemy in the Gnawed State, the chance for a Critical strike is set at a base of 40%. This chance can be increased by 0.16% for each point of Anomaly Proficiency Jane possesses, capping at 100% at 375 Anomaly Proficiency (at max level). The critical damage modifier is fixed at 1.5x, unaffected by other sources of Crit or Crit Damage (outside of Mindscapes). Additionally, assaults against Gnawed enemies will extend the \\\"Flinch\\\" debuff by 5 seconds with each hit, making Jane's attacks not only more potent but also more debilitating over time.\\n \\nJane's Additional Ability: Sore Spot is activated by having any Anomaly or same-faction character on her team and significantly boosts her Anomaly Buildup Rate. It provides an unconditional 20% bonus and an additional 15% when Jane attacks enemies already suffering from an Attribute Anomaly. This powerful enhancement is essential for maximizing Jane’s damage potential, and fortunately, it’s easy to activate.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane Doe stands out as one of the most formidable Physical DPS agents at the time of her release. Her exceptional mobility, ability to deliver burst damage without ramp-up time (despite being Anomaly-based), and flexibility within the disorder archetype make her a force to be reckoned with across a variety of team compositions. Whether she’s the sole damage dealer or working alongside other Anomaly characters, Jane’s future prospects are undeniably bright.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"For optimal strategies and to fully harness the power of Jane’s abilities, refer to the Rotation & Teams section of this guide.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"pros": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Incredible mobility and 3 Dashes.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Absurdly fast and consistent Physical Anomaly buildup resulting in very frequent Assault Triggers.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can cause Assault to critically strike - an additional multiplier not accessible to any other Anomaly character at the time of her release.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Strong damage in and outside of burst windows, making her viable all throughout the duration of combat.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can drastically extend her Passion State in the hands of a skilled player thanks to multiple abilities resetting and extending the state when used optimally.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can be used as a sole DPS or alongside other Anomaly characters in Disorder teams giving her great team-building flexibility and future prospects.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Incredible mobility and 3 Dashes.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Absurdly fast and consistent Physical Anomaly buildup resulting in very frequent Assault Triggers.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can cause Assault to critically strike - an additional multiplier not accessible to any other Anomaly character at the time of her release.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Strong damage in and outside of burst windows, making her viable all throughout the duration of combat.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can drastically extend her Passion State in the hands of a skilled player thanks to multiple abilities resetting and extending the state when used optimally.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can be used as a sole DPS or alongside other Anomaly characters in Disorder teams giving her great team-building flexibility and future prospects.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"cons": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When not taking advantage of her Chain Attack or the team's Ultimate Jane requires meaningful field time to enter and take advantage of the Passion State.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can lose significant power if enough Anomaly Proficiency cannot be acquired in order to activate her scaling abilities.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can sometimes lose meaningful damage due to the Anomaly Trigger cooldown and the Anomaly Ability cap (Abilities that can only Trigger Assault at the end of their animation and can waste build-up if it exceeds 100% before the end of the animation)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When not taking advantage of her Chain Attack or the team's Ultimate Jane requires meaningful field time to enter and take advantage of the Passion State.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can lose significant power if enough Anomaly Proficiency cannot be acquired in order to activate her scaling abilities.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can sometimes lose meaningful damage due to the Anomaly Trigger cooldown and the Anomaly Ability cap (Abilities that can only Trigger Assault at the end of their animation and can waste build-up if it exceeds 100% before the end of the animation)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"videos": [
-		{
-		"video": "wWRbncjF13Q"
-		}
+			{
+				"video": "wWRbncjF13Q"
+			}
 		],
 		"endgameStats": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2400-2900+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9000-10000+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Proficiency: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"360-420+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (420 Required for the cap of 600 Flat Combat Attack in Passion State) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Mastery: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"150-195+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2400-2900+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9000-10000+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Proficiency: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"360-420+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (420 Required for the cap of 600 Flat Combat Attack in Passion State) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Mastery: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"150-195+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"tierListCategory": "Anomaly",
 		"tierListTags": [
-		"Assault"
+			"Assault"
 		],
 		"ratings": {
-		"shiyu": 11
+			"shiyu": 11
 		},
 		"build": {
-		"main_4": [
-		{
-		"stat": "Anomaly Proficiency",
-		"sign": null
-		}
-		],
-		"main_5": [
-		{
-		"stat": "Physical DMG",
-		"sign": ">"
-		},
-		{
-		"stat": "PEN Ratio",
-		"sign": ">="
-		},
-		{
-		"stat": "ATK%",
-		"sign": null
-		}
-		],
-		"main_6": [
-		{
-		"stat": "Anomaly Mastery",
-		"sign": "="
-		},
-		{
-		"stat": "ATK%",
-		"sign": null
-		}
-		],
-		"sets": null,
-		"engines": [
-		{
-		"super": "1",
-		"weapon": "Sharpened Stinger",
-		"percent": "100%",
-		"percent_standard": "100%",
-		"notes": null
-		},
-		{
-		"super": "5",
-		"weapon": "Electro-Lip Gloss",
-		"percent": "86.57%",
-		"percent_standard": "80.71%",
-		"notes": "100% uptime"
-		},
-		{
-		"super": "5",
-		"weapon": "Weeping Gemini",
-		"percent": "85.50%",
-		"percent_standard": "75.49%",
-		"notes": null
-		},
-		{
-		"super": "5",
-		"weapon": "Rainforest Gourmet",
-		"percent": "84.14%",
-		"percent_standard": "62.00%",
-		"notes": null
-		},
-		{
-		"super": "1",
-		"weapon": "Fusion Compiler",
-		"percent": "80.61%",
-		"percent_standard": "70.29%",
-		"notes": null
-		},
-		{
-		"super": "5",
-		"weapon": "Electro-Lip Gloss",
-		"percent": "81.28%",
-		"percent_standard": "67.45%",
-		"notes": "0% uptime"
-		}
-		],
-		"substats": "Anomaly Proficiency > ATK% > PEN = ATK"
+			"main_4": [
+				{
+					"stat": "Anomaly Proficiency",
+					"sign": null
+				}
+			],
+			"main_5": [
+				{
+					"stat": "Physical DMG",
+					"sign": ">"
+				},
+				{
+					"stat": "PEN Ratio",
+					"sign": ">="
+				},
+				{
+					"stat": "ATK%",
+					"sign": null
+				}
+			],
+			"main_6": [
+				{
+					"stat": "Anomaly Mastery",
+					"sign": "="
+				},
+				{
+					"stat": "ATK%",
+					"sign": null
+				}
+			],
+			"sets": null,
+			"engines": [
+				{
+					"super": "1",
+					"weapon": "Sharpened Stinger",
+					"percent": "100%",
+					"percent_standard": "100%",
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Electro-Lip Gloss",
+					"percent": "86.57%",
+					"percent_standard": "80.71%",
+					"notes": "100% uptime"
+				},
+				{
+					"super": "5",
+					"weapon": "Weeping Gemini",
+					"percent": "85.50%",
+					"percent_standard": "75.49%",
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Rainforest Gourmet",
+					"percent": "84.14%",
+					"percent_standard": "62.00%",
+					"notes": null
+				},
+				{
+					"super": "1",
+					"weapon": "Fusion Compiler",
+					"percent": "80.61%",
+					"percent_standard": "70.29%",
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Electro-Lip Gloss",
+					"percent": "81.28%",
+					"percent_standard": "67.45%",
+					"notes": "0% uptime"
+				}
+			],
+			"substats": "Anomaly Proficiency > ATK% > PEN = ATK"
 		},
 		"talents": [
-		{
-		"name": "Crime Counsel",
-		"desc": "The maximum uses of Basic Attack: Salchow Jump are increased by one. While in the Passion state, Jane's <u>Physical Anomaly</u> Buildup Rate increases by an extra 15% and each point of Jane's Anomaly Proficiency increases her damage by <b>0.1%</b>, up to a maximum of <b>30%</b>."
-		},
-		{
-		"name": "Adapt to the Environment",
-		"desc": "When Jane's attack hits an enemy in the Gnawed state, or when any squad member triggers Assault on an enemy in the Gnawed state, <b>15%</b> of the enemy's DEF is ignored. Additionally, when Assault DMG triggers a CRIT, the CRIT DMG is increased by <b>30%</b>."
-		},
-		{
-		"name": "Anonymity",
-		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
-		},
-		{
-		"name": "Adapt and Thrive",
-		"desc": "When any squad member triggers the Assault or Disorder effects, all squad members' Attribute Anomaly DMG is increased by <b>18%</b>, lasting <b>15s</b>."
-		},
-		{
-		"name": "Compulsive Hoarder",
-		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
-		},
-		{
-		"name": "Shady Technique",
-		"desc": "While in the Passion state, Jane's CRIT Rate increases by <b>20%</b>, and CRIT DMG by <b>40%</b>. After any squad member inflicts Assault, Jane instantly enters the Passion state, and gains max Passion Stream. When Assault deals a CRIT, Jane performs an additional attack on the target, dealing <u>Physical DMG</u> equal to <b>1,600%</b> of her Anomaly Proficiency."
-		}
+			{
+				"name": "Crime Counsel",
+				"desc": "The maximum uses of Basic Attack: Salchow Jump are increased by one. While in the Passion state, Jane's <u>Physical Anomaly</u> Buildup Rate increases by an extra 15% and each point of Jane's Anomaly Proficiency increases her damage by <b>0.1%</b>, up to a maximum of <b>30%</b>."
+			},
+			{
+				"name": "Adapt to the Environment",
+				"desc": "When Jane's attack hits an enemy in the Gnawed state, or when any squad member triggers Assault on an enemy in the Gnawed state, <b>15%</b> of the enemy's DEF is ignored. Additionally, when Assault DMG triggers a CRIT, the CRIT DMG is increased by <b>30%</b>."
+			},
+			{
+				"name": "Anonymity",
+				"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+			},
+			{
+				"name": "Adapt and Thrive",
+				"desc": "When any squad member triggers the Assault or Disorder effects, all squad members' Attribute Anomaly DMG is increased by <b>18%</b>, lasting <b>15s</b>."
+			},
+			{
+				"name": "Compulsive Hoarder",
+				"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+			},
+			{
+				"name": "Shady Technique",
+				"desc": "While in the Passion state, Jane's CRIT Rate increases by <b>20%</b>, and CRIT DMG by <b>40%</b>. After any squad member inflicts Assault, Jane instantly enters the Passion state, and gains max Passion Stream. When Assault deals a CRIT, Jane performs an additional attack on the target, dealing <u>Physical DMG</u> equal to <b>1,600%</b> of her Anomaly Proficiency."
+			}
 		],
 		"introduction": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane, a criminal behavior specialist, has had a \\\"colorful\\\" career as a consultant with Public Security over the years. She is an expert in disguise, infiltration, and other investigative work. She has a bad habit of trolling others and sometimes plays harmless pranks. She's a skilled mimic, able to change her appearance and demeanor at will, making people wonder what the \\\"real\\\" Jane is like. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Jane, a criminal behavior specialist, has had a \\\"colorful\\\" career as a consultant with Public Security over the years. She is an expert in disguise, infiltration, and other investigative work. She has a bad habit of trolling others and sometimes plays harmless pranks. She's a skilled mimic, able to change her appearance and demeanor at will, making people wonder what the \\\"real\\\" Jane is like. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"voiceActors": {
-		"en": "",
-		"kr": "",
-		"jpn": "",
-		"cn": ""
+			"en": "",
+			"kr": "",
+			"jpn": "",
+			"cn": ""
 		},
 		"releaseDate": "September 4th, 2024",
 		"upcoming": false
@@ -3023,170 +3023,170 @@
 		"slug": "seth",
 		"rarity": "A",
 		"smallImage": {
-		"localFile": {
-		"childImageSharp": {
-		"gatsbyImageData": {
-		"layout": "constrained",
-		"backgroundColor": "#282828",
-		"images": {
-		"fallback": {
-		"src": "/static/4de2b668cb0ed1f92cb5b9ebeb71c918/60b4d/20_sm.webp",
-		"srcSet": "/static/4de2b668cb0ed1f92cb5b9ebeb71c918/e73fe/20_sm.webp 40w,\n/static/4de2b668cb0ed1f92cb5b9ebeb71c918/61ca6/20_sm.webp 80w,\n/static/4de2b668cb0ed1f92cb5b9ebeb71c918/60b4d/20_sm.webp 160w",
-		"sizes": "(min-width: 160px) 160px, 100vw"
-		},
-		"sources": []
-		},
-		"width": 160,
-		"height": 160
-		}
-		}
-		}
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#282828",
+						"images": {
+							"fallback": {
+								"src": "/static/4de2b668cb0ed1f92cb5b9ebeb71c918/60b4d/20_sm.webp",
+								"srcSet": "/static/4de2b668cb0ed1f92cb5b9ebeb71c918/e73fe/20_sm.webp 40w,\n/static/4de2b668cb0ed1f92cb5b9ebeb71c918/61ca6/20_sm.webp 80w,\n/static/4de2b668cb0ed1f92cb5b9ebeb71c918/60b4d/20_sm.webp 160w",
+								"sizes": "(min-width: 160px) 160px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 160,
+						"height": 160
+					}
+				}
+			}
 		},
 		"cardImage": {
-		"localFile": {
-		"childImageSharp": {
-		"gatsbyImageData": {
-		"layout": "constrained",
-		"backgroundColor": "#282828",
-		"images": {
-		"fallback": {
-		"src": "/static/08e1b50db955142a4022bde6e7f3d2aa/b26e2/20_card.webp",
-		"srcSet": "/static/08e1b50db955142a4022bde6e7f3d2aa/84550/20_card.webp 94w,\n/static/08e1b50db955142a4022bde6e7f3d2aa/34f80/20_card.webp 187w,\n/static/08e1b50db955142a4022bde6e7f3d2aa/b26e2/20_card.webp 374w",
-		"sizes": "(min-width: 374px) 374px, 100vw"
-		},
-		"sources": []
-		},
-		"width": 374,
-		"height": 512
-		}
-		}
-		}
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#282828",
+						"images": {
+							"fallback": {
+								"src": "/static/08e1b50db955142a4022bde6e7f3d2aa/b26e2/20_card.webp",
+								"srcSet": "/static/08e1b50db955142a4022bde6e7f3d2aa/84550/20_card.webp 94w,\n/static/08e1b50db955142a4022bde6e7f3d2aa/34f80/20_card.webp 187w,\n/static/08e1b50db955142a4022bde6e7f3d2aa/b26e2/20_card.webp 374w",
+								"sizes": "(min-width: 374px) 374px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 374,
+						"height": 512
+					}
+				}
+			}
 		},
 		"faction": "N.E.P.S.",
 		"attackType": [
-		"Slash"
+			"Slash"
 		],
 		"style": "Defence",
 		"element": "Electric",
 		"review": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth is an A-Rank Electric Melee Defense Agent who excels in Support roles, offering potent Anomaly buffs and shields to both himself and a designated ally. Despite his minimal on-field presence, Seth contributes significantly to Daze and Anomaly buildup, making him a versatile addition to any team.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's abilities center around a unique resource called Resolve, which can be accumulated up to 100%. This resource fuels a powerful Enhanced Basic Attack, which triggers a Special Quick Assist for the character positioned before Seth in the squad order, unlike standard Quick Assists, which activate for the next character in line. Seth’s Quick Assist enhances the performance of the preceding squad member, granting them a substantial shield and a powerful Attribute Anomaly buff for an extended duration. Outside of his Chain Attacks, mastering Seth's kit requires understanding how to maximize this shield and buff for your chosen ally (to be chosen before mission starts) while keeping Seth’s field time to a minimum.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth’s effectiveness hinges on his Core Passive, Protector, and Additional Ability, High Spirit—these are the cornerstones of his support capabilities.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth’s Core Passive grants Seth a shield equal to 80% of his initial ATK every time he uses his EX Special Attack, with a maximum cap of 3000 for 25 seconds and a 10-second cooldown. Notably, the shield’s strength is tied to Seth’s initial ATK, meaning it remains unaffected by any in-combat ATK buffs. What you see on his stat page before a mission is what you get in battle. When Seth triggers a Quick Assist via his Charged Hold Basic Attack or Assist Follow-Up, the same shield, with identical scaling, cap, and duration, is granted to the ally benefiting from the assist. Additionally, all squad members, including Seth, who are shielded by this effect, gain a significant 100 additional Anomaly Proficiency at max rank. However, due to the mechanics of Seth’s shields, only himself and the preceding squad member in order can benefit from this buff.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth’s Additional Ability is simpler but no less impactful. It requires at least one squadmate to share Seth’s Attribute or Faction to activate. When active, Seth’s Chain Attack or Charged Hold Basic Attack reduces the enemy's Anomaly Buildup Resistance by 20% for 20 seconds. This debuff significantly enhances Anomaly team performance, increasing overall damage and consistency by accelerating Anomaly application. Since both attacks that apply this effect are integral to Seth’s gameplay, maintaining this debuff is straightforward and can be done with ease almost permanently.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth wields two distinct basic attack forms: a standard 4-part combo and a specialized Charged Hold Basic Attack. While his standard combo is rarely employed—owing to its lack of Resolve generation and contribution to team utility—we shall bypass its details and instead focus on the Charged Hold Basic Attack, which is far more crucial to Seth's role.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's Charged Basic Attack, known as Lightning Strike - Electrified, is the linchpin of his offensive and supportive toolkit. This attack requires and consumes 75% of his Resolve bar to activate. Upon execution, Seth unleashes a series of lightning-infused slashes, culminating in a powerful finishing move that deals moderate Daze and Electric Anomaly damage. As previously discussed in relation to Seth’s Core Passive and Additional Ability, this attack is indispensable for triggering his unique Quick Assist, which applies a shield to an ally, as well as for maintaining the Anomaly Resistance Reduction debuff on enemies. Therefore, building up and spending 75% Resolve to activate this attack should always be prioritized. Fortunately, achieving this is relatively straightforward, thanks to his EX Special Attack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's EX Special Attack is one of his most reliable and efficient methods for accumulating Resolve. By consuming 80 energy, Seth releases a barrage of heavy Electric attacks that inflict substantial Daze and Electric Anomaly damage. More importantly, this attack immediately grants Seth 75% Resolve, making it an essential component of his rotation. The synergy between the EX Special and his Charged Hold Basic Attack forms the backbone of his primary combo. This combo should be employed whenever the energy is available, and when either Seth, his designated ally, or the enemy lacks the buffs or debuffs from his Core Passive or Additional Ability.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's EX Special can be further enhanced by holding the EX button, thereby charging the attack at cost of additional time. While this increases the damage, Daze, and Anomaly application, it does not affect Resolve generation. The additional charge time can be significant, but it can be shortened by executing the charge immediately following a Chain Attack, Ultimate, Dodge Counter, Assist Follow-Up, or Quick Assist. Furthermore, Seth can reduce the recovery time of the Charged EX by performing a Dash Cancel after the final strike, or by swapping to another character while Seth completes the attack. While the Charged EX can provide a slight boost to Seth's damage, Daze, and Anomaly output, it is entirely optional. Skipping the charge in favor of the standard EX Special will not hinder Seth’s supportive capabilities and may even result in gaining extra field time.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's Chain Attack and Ultimate both deliver the expected damage, Daze, and Anomaly effects typical for a defense-oriented character like him. However, they also share a crucial trait: each generates 75% Resolve upon use. The Resolve generation from the Chain Attack, combined with the reapplication of Seth’s 20% Anomaly Resistance Reduction, makes it highly valuable. Utilizing Chain Attacks whenever possible, without causing a significant damage loss, alleviates the pressure of relying solely on Seth’s EX Special to access his Charged Hold Basic Attack. This, in turn, ensures that one of his most critical supportive bonuses remains consistently active. On the other hand, Seth’s Ultimate, while potent, is less essential. Given the ample Resolve generation provided by his EX Specials and Chain Attacks, the Ultimate does not offer enough additional benefit to justify its use in most scenarios.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth’s Quick Assist is rather unremarkable and seldom utilized. However, the synergy between his Defensive Assist and Assist Follow-Up is where his true potential shines. Using Seth’s Assist Follow-Up similarly to his Enhanced Hold Basic Attack triggers a Quick Assist, which, like the Basic Attack, can grant all of Seth’s Core Passive bonuses to a teammate. This makes it a viable alternative in combat, particularly when Resolve or energy is in short supply.\\nSeth’s Dodge, Dash Attack, and Dodge Counter are fairly standard and are rarely called upon in his usual supportive gameplay, given their minimal impact on his primary role.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth emerges as a formidable Anomaly support powerhouse, yet his playstyle is refreshingly straightforward. He only requires the execution of one simple combo to effectively apply all his buffs, shields, and debuffs:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Standard Combo \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack: Thunder Shield Rush - High Voltage (Generates 75% Resolve)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Lightning Strike - Electrified (Consumes 75% Resolve)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Team Mate Quick Assist\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Despite the simplicity of his core combo, Seth boasts an array of tricks, alternative combo sequences, and options to further enhance his performance. These elements collectively position him as a top-tier character within the Anomaly archetype, offering both ease of use and depth for those willing to explore his full potential.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth is an A-Rank Electric Melee Defense Agent who excels in Support roles, offering potent Anomaly buffs and shields to both himself and a designated ally. Despite his minimal on-field presence, Seth contributes significantly to Daze and Anomaly buildup, making him a versatile addition to any team.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's abilities center around a unique resource called Resolve, which can be accumulated up to 100%. This resource fuels a powerful Enhanced Basic Attack, which triggers a Special Quick Assist for the character positioned before Seth in the squad order, unlike standard Quick Assists, which activate for the next character in line. Seth’s Quick Assist enhances the performance of the preceding squad member, granting them a substantial shield and a powerful Attribute Anomaly buff for an extended duration. Outside of his Chain Attacks, mastering Seth's kit requires understanding how to maximize this shield and buff for your chosen ally (to be chosen before mission starts) while keeping Seth’s field time to a minimum.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth’s effectiveness hinges on his Core Passive, Protector, and Additional Ability, High Spirit—these are the cornerstones of his support capabilities.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth’s Core Passive grants Seth a shield equal to 80% of his initial ATK every time he uses his EX Special Attack, with a maximum cap of 3000 for 25 seconds and a 10-second cooldown. Notably, the shield’s strength is tied to Seth’s initial ATK, meaning it remains unaffected by any in-combat ATK buffs. What you see on his stat page before a mission is what you get in battle. When Seth triggers a Quick Assist via his Charged Hold Basic Attack or Assist Follow-Up, the same shield, with identical scaling, cap, and duration, is granted to the ally benefiting from the assist. Additionally, all squad members, including Seth, who are shielded by this effect, gain a significant 100 additional Anomaly Proficiency at max rank. However, due to the mechanics of Seth’s shields, only himself and the preceding squad member in order can benefit from this buff.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth’s Additional Ability is simpler but no less impactful. It requires at least one squadmate to share Seth’s Attribute or Faction to activate. When active, Seth’s Chain Attack or Charged Hold Basic Attack reduces the enemy's Anomaly Buildup Resistance by 20% for 20 seconds. This debuff significantly enhances Anomaly team performance, increasing overall damage and consistency by accelerating Anomaly application. Since both attacks that apply this effect are integral to Seth’s gameplay, maintaining this debuff is straightforward and can be done with ease almost permanently.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth wields two distinct basic attack forms: a standard 4-part combo and a specialized Charged Hold Basic Attack. While his standard combo is rarely employed—owing to its lack of Resolve generation and contribution to team utility—we shall bypass its details and instead focus on the Charged Hold Basic Attack, which is far more crucial to Seth's role.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's Charged Basic Attack, known as Lightning Strike - Electrified, is the linchpin of his offensive and supportive toolkit. This attack requires and consumes 75% of his Resolve bar to activate. Upon execution, Seth unleashes a series of lightning-infused slashes, culminating in a powerful finishing move that deals moderate Daze and Electric Anomaly damage. As previously discussed in relation to Seth’s Core Passive and Additional Ability, this attack is indispensable for triggering his unique Quick Assist, which applies a shield to an ally, as well as for maintaining the Anomaly Resistance Reduction debuff on enemies. Therefore, building up and spending 75% Resolve to activate this attack should always be prioritized. Fortunately, achieving this is relatively straightforward, thanks to his EX Special Attack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's EX Special Attack is one of his most reliable and efficient methods for accumulating Resolve. By consuming 80 energy, Seth releases a barrage of heavy Electric attacks that inflict substantial Daze and Electric Anomaly damage. More importantly, this attack immediately grants Seth 75% Resolve, making it an essential component of his rotation. The synergy between the EX Special and his Charged Hold Basic Attack forms the backbone of his primary combo. This combo should be employed whenever the energy is available, and when either Seth, his designated ally, or the enemy lacks the buffs or debuffs from his Core Passive or Additional Ability.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's EX Special can be further enhanced by holding the EX button, thereby charging the attack at cost of additional time. While this increases the damage, Daze, and Anomaly application, it does not affect Resolve generation. The additional charge time can be significant, but it can be shortened by executing the charge immediately following a Chain Attack, Ultimate, Dodge Counter, Assist Follow-Up, or Quick Assist. Furthermore, Seth can reduce the recovery time of the Charged EX by performing a Dash Cancel after the final strike, or by swapping to another character while Seth completes the attack. While the Charged EX can provide a slight boost to Seth's damage, Daze, and Anomaly output, it is entirely optional. Skipping the charge in favor of the standard EX Special will not hinder Seth’s supportive capabilities and may even result in gaining extra field time.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth's Chain Attack and Ultimate both deliver the expected damage, Daze, and Anomaly effects typical for a defense-oriented character like him. However, they also share a crucial trait: each generates 75% Resolve upon use. The Resolve generation from the Chain Attack, combined with the reapplication of Seth’s 20% Anomaly Resistance Reduction, makes it highly valuable. Utilizing Chain Attacks whenever possible, without causing a significant damage loss, alleviates the pressure of relying solely on Seth’s EX Special to access his Charged Hold Basic Attack. This, in turn, ensures that one of his most critical supportive bonuses remains consistently active. On the other hand, Seth’s Ultimate, while potent, is less essential. Given the ample Resolve generation provided by his EX Specials and Chain Attacks, the Ultimate does not offer enough additional benefit to justify its use in most scenarios.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth’s Quick Assist is rather unremarkable and seldom utilized. However, the synergy between his Defensive Assist and Assist Follow-Up is where his true potential shines. Using Seth’s Assist Follow-Up similarly to his Enhanced Hold Basic Attack triggers a Quick Assist, which, like the Basic Attack, can grant all of Seth’s Core Passive bonuses to a teammate. This makes it a viable alternative in combat, particularly when Resolve or energy is in short supply.\\nSeth’s Dodge, Dash Attack, and Dodge Counter are fairly standard and are rarely called upon in his usual supportive gameplay, given their minimal impact on his primary role.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth emerges as a formidable Anomaly support powerhouse, yet his playstyle is refreshingly straightforward. He only requires the execution of one simple combo to effectively apply all his buffs, shields, and debuffs:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Standard Combo \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack: Thunder Shield Rush - High Voltage (Generates 75% Resolve)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Lightning Strike - Electrified (Consumes 75% Resolve)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Team Mate Quick Assist\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Despite the simplicity of his core combo, Seth boasts an array of tricks, alternative combo sequences, and options to further enhance his performance. These elements collectively position him as a top-tier character within the Anomaly archetype, offering both ease of use and depth for those willing to explore his full potential.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"pros": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Very simple playstyle.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"High duration buff/debuff uptime and they are also easy to apply, which makes keeping them all active easy.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Takes up minimal field time.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Offers decent Defensive shields.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Grants a big Anomaly efficiency bonus to himself and an ally of your choosing.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Debuffs enemies causing them to lose 20% Anomaly Buildup Resistance of all element types.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Very simple playstyle.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"High duration buff/debuff uptime and they are also easy to apply, which makes keeping them all active easy.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Takes up minimal field time.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Offers decent Defensive shields.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Grants a big Anomaly efficiency bonus to himself and an ally of your choosing.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Debuffs enemies causing them to lose 20% Anomaly Buildup Resistance of all element types.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"cons": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can only consistently buff himself and 1 other teammate with his shield and Anomaly Efficiency.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Attack animations on most important attacks his EX Special and Charged Held Basic are on the slower side.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can only consistently buff himself and 1 other teammate with his shield and Anomaly Efficiency.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Attack animations on most important attacks his EX Special and Charged Held Basic are on the slower side.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"videos": null,
 		"endgameStats": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2600 - 3200+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Shield Caps at 3750 Initial ATK but this is hard to achieve) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"11000+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"900+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Proficiency: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"200 - 300+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2600 - 3200+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Shield Caps at 3750 Initial ATK but this is hard to achieve) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"11000+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"900+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Proficiency: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"200 - 300+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"tierListCategory": "Support",
 		"tierListTags": [
-		"Shield",
-		"Buff"
+			"Shield",
+			"Buff"
 		],
 		"ratings": {
-		"shiyu": 10
+			"shiyu": 10
 		},
 		"build": {
-		"main_4": [
-		{
-		"stat": "ATK%",
-		"sign": ">="
-		},
-		{
-		"stat": "Anomaly Proficiency",
-		"sign": null
-		}
-		],
-		"main_5": [
-		{
-		"stat": "ATK%",
-		"sign": ">="
-		},
-		{
-		"stat": "Electric DMG",
-		"sign": null
-		}
-		],
-		"main_6": [
-		{
-		"stat": "Energy Regen",
-		"sign": "="
-		},
-		{
-		"stat": "Anomaly Mastery",
-		"sign": null
-		}
-		],
-		"sets": null,
-		"engines": [
-		{
-		"super": "5",
-		"weapon": "Peacekeeper - Specialized",
-		"percent": "",
-		"percent_standard": null,
-		"notes": null
-		},
-		{
-		"super": "5",
-		"weapon": "Spring Embrace",
-		"percent": "",
-		"percent_standard": null,
-		"notes": null
-		},
-		{
-		"super": "5",
-		"weapon": "Bunny Band",
-		"percent": "",
-		"percent_standard": null,
-		"notes": null
-		},
-		{
-		"super": "5",
-		"weapon": "Original Transmorpher",
-		"percent": "",
-		"percent_standard": null,
-		"notes": null
-		}
-		],
-		"substats": "ATK% > Anomaly Proficiency > ATK > PEN"
+			"main_4": [
+				{
+					"stat": "ATK%",
+					"sign": ">="
+				},
+				{
+					"stat": "Anomaly Proficiency",
+					"sign": null
+				}
+			],
+			"main_5": [
+				{
+					"stat": "ATK%",
+					"sign": ">="
+				},
+				{
+					"stat": "Electric DMG",
+					"sign": null
+				}
+			],
+			"main_6": [
+				{
+					"stat": "Energy Regen",
+					"sign": "="
+				},
+				{
+					"stat": "Anomaly Mastery",
+					"sign": null
+				}
+			],
+			"sets": null,
+			"engines": [
+				{
+					"super": "5",
+					"weapon": "Peacekeeper - Specialized",
+					"percent": "",
+					"percent_standard": null,
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Spring Embrace",
+					"percent": "",
+					"percent_standard": null,
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Bunny Band",
+					"percent": "",
+					"percent_standard": null,
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Original Transmorpher",
+					"percent": "",
+					"percent_standard": null,
+					"notes": null
+				}
+			],
+			"substats": "ATK% > Anomaly Proficiency > ATK > PEN"
 		},
 		"talents": [
-		{
-		"name": "Heroism",
-		"desc": "The shield value provided by Shield of Firm Resolve and its maximum limit is increased by <b>30%</b>. When Shield of Firm Resolve ends, the Anomaly Proficiency increase provided by Core Passive: Protector lasts an additional <b>10s</b>."
-		},
-		{
-		"name": "Recklessness of Youth",
-		"desc": "Upon entering battle, Seth immediately gains <b>75%</b> Resolve. Hitting an enemy with Basic Attack: Lightning Strike - Electrified increases the move's accumulated Electric Anomaly Buildup by <b>35%</b>."
-		},
-		{
-		"name": "Slow Reflexes",
-		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
-		},
-		{
-		"name": "Core Aspiration",
-		"desc": "The Daze caused by Defensive Assist: Thundershield is increased by <b>25%</b>."
-		},
-		{
-		"name": "Distant Admiration",
-		"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
-		},
-		{
-		"name": "Idealist",
-		"desc": "When Seth lands a finishing strike on an enemy with Basic Attack: Lightning Strike - Electrified, it deals additional damage equal to <b>500%</b> of his ATK. The attack is guaranteed to trigger a CRIT, and CRIT DMG is increased by <b>60%</b>."
-		}
+			{
+				"name": "Heroism",
+				"desc": "The shield value provided by Shield of Firm Resolve and its maximum limit is increased by <b>30%</b>. When Shield of Firm Resolve ends, the Anomaly Proficiency increase provided by Core Passive: Protector lasts an additional <b>10s</b>."
+			},
+			{
+				"name": "Recklessness of Youth",
+				"desc": "Upon entering battle, Seth immediately gains <b>75%</b> Resolve. Hitting an enemy with Basic Attack: Lightning Strike - Electrified increases the move's accumulated Electric Anomaly Buildup by <b>35%</b>."
+			},
+			{
+				"name": "Slow Reflexes",
+				"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+			},
+			{
+				"name": "Core Aspiration",
+				"desc": "The Daze caused by Defensive Assist: Thundershield is increased by <b>25%</b>."
+			},
+			{
+				"name": "Distant Admiration",
+				"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+			},
+			{
+				"name": "Idealist",
+				"desc": "When Seth lands a finishing strike on an enemy with Basic Attack: Lightning Strike - Electrified, it deals additional damage equal to <b>500%</b> of his ATK. The attack is guaranteed to trigger a CRIT, and CRIT DMG is increased by <b>60%</b>."
+			}
 		],
 		"introduction": {
-		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth, a rookie officer in the Public Security Criminal Investigation Special Response Team, is a key player in providing fire support during criminal investigations. He graduated at the top of his class in the academy and could have landed a higher position, but he chose the tougher path of the Special Response Team. His impressive profile makes him seem like a genius, but he's actually a hard worker who has had his own struggles. There have been times when he practiced the subjects he wasn't good at until he cried.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Seth, a rookie officer in the Public Security Criminal Investigation Special Response Team, is a key player in providing fire support during criminal investigations. He graduated at the top of his class in the academy and could have landed a higher position, but he chose the tougher path of the Special Response Team. His impressive profile makes him seem like a genius, but he's actually a hard worker who has had his own struggles. There have been times when he practiced the subjects he wasn't good at until he cried.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
 		"voiceActors": {
-		"en": "Nazeeh Tarsha",
-		"kr": "",
-		"jpn": "",
-		"cn": ""
+			"en": "Nazeeh Tarsha",
+			"kr": "",
+			"jpn": "",
+			"cn": ""
 		},
 		"releaseDate": "September 4th, 2024",
 		"upcoming": false
@@ -3766,6 +3766,189 @@
 		"upcoming": null
 	},
 	{
+		"id": "c228b51d-1c4f-54bb-88ba-ac9c0b0c8871",
+		"updatedAt": "September 25th, 2024",
+		"createdAt": "2024-08-11T07:12:20.278Z",
+		"unitId": "22",
+		"name": "Caesar",
+		"skillKey": "Caesar",
+		"fullName": "Caesar",
+		"slug": "caesar",
+		"rarity": "S",
+		"smallImage": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#b8b8a8",
+						"images": {
+							"fallback": {
+								"src": "/static/f7d4e4c536b016b9274f4d744b95eccc/60b4d/22_sm.webp",
+								"srcSet": "/static/f7d4e4c536b016b9274f4d744b95eccc/e73fe/22_sm.webp 40w,\n/static/f7d4e4c536b016b9274f4d744b95eccc/61ca6/22_sm.webp 80w,\n/static/f7d4e4c536b016b9274f4d744b95eccc/60b4d/22_sm.webp 160w",
+								"sizes": "(min-width: 160px) 160px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 160,
+						"height": 160
+					}
+				}
+			}
+		},
+		"cardImage": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/23ea48e0e401bd9256d9ba899448738b/b26e2/22_card.webp",
+								"srcSet": "/static/23ea48e0e401bd9256d9ba899448738b/84550/22_card.webp 94w,\n/static/23ea48e0e401bd9256d9ba899448738b/34f80/22_card.webp 187w,\n/static/23ea48e0e401bd9256d9ba899448738b/b26e2/22_card.webp 374w",
+								"sizes": "(min-width: 374px) 374px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 374,
+						"height": 512
+					}
+				}
+			}
+		},
+		"faction": "Sons of Calydon",
+		"attackType": [
+			"Unknown"
+		],
+		"style": "Defence",
+		"element": "Physical",
+		"review": {
+			"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Caesar is S-Rank Melee Physical Defense Agent, excelling at providing both offensive and defensive buffs, while inflicting Daze equivalent to Stun Agents.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" What sets her apart from others is her amazing Shield “Radiant Aegis” that for sure is the strongest support skill in the game (at the time of her release). \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"This combined with her Support and Stun skills makes her an incredible addition to various endgame compositions.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"The entirety of her kit revolves around the “Radiant Aegis” Shield, granted by her Core Passive - Barrier of Resilience. It allows “Radiant Aegis” to be gained by any of the following actions:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack: Parry Counter\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack: Overpowered Shield Bash (When triggered via retaliation)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Chain Attack: Road Rage Slam\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ultimate: Savage Smash\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Once used, “Radiant Aegis” protects the entire team with a Shield equal to Caesar’s 1400% of Base Impact + 1400 (at maximum rank). \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"The shield boasts incredible uptime, has no re-application cooldown, and transfers to active character on the field without delay\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", allowing you permanent access as long as you retrigger it as needed. “Radiant Aegis” is more than a Barrier - it increases Attack by 1000, and increases their Anti-Interrupt value for the duration of Shield + for additional 5 seconds after it breaks. Furthermore, no single instance of damage can exceed the Shield’s total value, granting protection from being one-shotted/massive hits. As such, the versatility and strength of this Shield makes it one of strongest buffs available, providing her team with a powerful mix of Survivability and Damage.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Her Additional Ability - Battle Spirit, requires at least one teammate who can perform a Defensive Assist or belongs to the same Faction to activate. \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Enhancing her Support capabilities, Caesar applies 25% Damage Increase debuff to enemies with a 7m radius lasting for 30 seconds, when hitting with any of the following abilities:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Triggering a Retaliation via Ability use or Perfect Block (Special mechanics we’ll cover below)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Defensive Assist: Aegis Shield\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Basic Attack: Dead End\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"We will analyze each of them soon, but the important part is that the debuff is easy to apply, lasts long and will always be active. \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"The combination of these Abilities is the driving force behind her kit - with her goal in combat being keeping these buffs active while dishing out as much Daze as possible. To understand the optimal method, let us dive into her Active Abilities. \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"She possesses two different Basic Attacks. Her 6 Part Attack Combo has low damage and Daze multipliers, limiting its usage. On the other hand, her held Basic Attack - Dead End is much more impactful - it requires an Assist Point to perform and launches Shields in all directions, pulling enemies closer, granting her Temporary Invulnerability.\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" Most importantly it applies her Additional Ability - Battle Spirit, without relying on enemies attacking her.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" This Basic Attack is not part of her main game plan but can be a powerful asset to trigger her Additional Ability in a pinch when the enemy isn’t attacking you. \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Her Special Attack and EX Special Attack feature two variants each, sharing somewhat similar mechanics. With her Special Attack being more situational in use, we will be focusing on her EX Special Attack in this guide, as its primary focus of most of her combos .\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"The two types of her EX are as follows:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack: Parry Counter (1st EX)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack: Overpowered Shield Bash (2nd EX)\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack - Parry Counter is Forward Shield Slam dealing Physical Damage and strong Daze, costing 40 Energy. Her second EX Special Attack - Overpowered Shield Bash deals even stronger damage and Daze at half the cost (20 Energy), but you need to:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Launch her EX Special Attack: Parry Counter (1st EX) first.\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Gain Retaliation via an Ability or a Perfect Block.\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"The first condition is easy and allows you to use two EX’s back to back forming one of Caesar’s more effective combos:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack: Parry Counter (1st EX)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack: Overpowered Shield Bash (2nd EX)\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"The second condition “Retaliation” is a special state granted to Caesar after using some of her Abilities or by executing a “Perfect Block”. Perfect Block is a special mechanic associated exclusively with the following abilities:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack: Parry Counter (1st EX)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack: Overpowered Shield Bash (2nd EX)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Special Attack: Shockwave Shield Bash\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"When using any of these abilities while an enemy is attacking her, she will instead perform a “Perfect Block” empowered version of the ability, gaining Immunity from attack and staggering the enemy. Of course, she can immediately execute her 2nd EX Special Attack right after.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Using her 1st EX Special Attack grants her access to 2nd EX Special Attack already, so when performing a Perfect Block with 1st EX, it instead reduces the subsequent 2nd EX Special Attack energy cost from 20 to 0. Meanwhile, performing Perfect Block with her 2nd EX Special Attack refunds the 20 energy used to cast it, without allowing her to trigger it again. \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Her EX’s are indeed a bit confusing so just remember, if possible, to use her EX to interrupt enemy attacks to gain some additional benefits and whenever gaining Retaliation, ensure you make a quick use of her 2nd EX Special Attack. \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Her Dodge Abilities are decent, but are a little more specific in usage and aren't regularly used as other characters.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" When an enemy attacks it’s generally preferred to trigger a Defensive Assist or go for a Perfect Block with her Special Ability over a Dodge or Dash Attack. With that said, her Dodge Counter deals good Daze to enemies and her Dash Attack, if timed perfectly, can allow her access to Retaliation without the bonus of a Perfect Block.  \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Her Quick Assist is simple and won’t be utilized often. \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"But the combo of her Defensive Assist and Assist Follow-Up is incredibly strong and integral to her gameplay.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" Her Defensive Assist parries attack, similar to most characters and applies her Additional Ability debuff, but the Assist Follow Up you can execute right after is particularly amazing. Using it causes reasonable damage, strong Daze and allows Caesar to immediately enter Retaliation and follow-up with her 2nd EX Special Attack - Overpowered Shield Bash. The combination of these 3 abilities form the Core of her kit as executing them mitigates an enemy attack, deal strong Daze, activate/refresh her Core Passive Shield, grant an Attack Boost and apply her Damage Taken Increase debuff to all enemies in minimal field time at and cheap cost of 1 Assist Point and 20 Energy. To Sum it up: \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Caesar Core Combo:\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Defensive Assist: Aegis Shield (Activates Additional Ability: Battle Spirit)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assist Follow-Up: Aiding Blade (Gain Retaliation)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"EX Special Attack: Overpowered Shield Bash (Activates Core Ability: Radiant Aegis)\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"This specific combo lets Caesar inflict Daze per second equivalent to some of the strongest Stun Type Agents in the game\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", allowing her to substitute for that role while bringing a multitude of supportive capabilities. This combo achieves most of what Caesar aims to provide and keeping her off field, barring taking her out to trigger Defensive Assists or dump excess Energy is a completely viable and recommended way to play even.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Her Ultimate and Chain Attack feature two Unique benefits. Her Ultimate deals additional 100% Daze to enemies with Shield whereas her Chain Attack has a very short animation. These features can help optimize certain fights or against certain Bosses, but otherwise remain less important as she is primarily a Support Agent. As such other characters Ultimates will take precedence over her usually. \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Rounding off her kit, she has one more Passive bonus up her sleeve. Whenever she gains Retaliation or performs a Perfect Block or executes a Defensive Assist, she gets a buff called Stance Switch, granting her 20% Combat Impact for 3s (At Maximum). This makes the combo mentioned prior even stronger and doubles down on performing Retaliations, Perfect Blocks and Defensive Assists above anything else. \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Caesar is one of the easiest to use and most impactful agents at the time of her release, offering insane damage increases, a busted Barrier that prevents damage, Interrupts attacks, and inflicts strong Daze with Defensive Assists in mind.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" Having both Defensive and Offensive utility, flexibility in team building, and strong numbers across the board makes her the best Support in the game and she will potentially remain there for quite a long time.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"For optimal strategies for combining all of Caesar’s skills, refer to the Rotation & Teams section of this guide.\",\"marks\":[],\"data\":{}}]}]}"
+		},
+		"pros": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Huge refreshable Shield with Anti-Interrupt attached to it.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Massive Attack buff with near permanent uptime.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Strong generic damage increase which is easy to keep up.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Amazing Daze application for a character who isn’t a dedicated Stunner.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Supreme team flexibility - allows her to be played with many characters and in multiple roles.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"cons": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The ability to inflict top-tier Daze is reliant on executing Defensive Assists at the cost of Assist Points. It's less effective when Defensive Assists are not possible or less available.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The motorbike is not available in combat… yet.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"videos": [
+			{
+				"video": "1-w1WjwgVps"
+			}
+		],
+		"endgameStats": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1400 - 2000+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12000+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1000+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"IMPACT: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"145 - 170+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Most Important Stat) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"CHOOSE 1 (based on the team you use Caesar in):\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Proficiency: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"250 - 330+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Mastery: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"87+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"OR \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT RATE: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"50 - 60%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"+ (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"100 - 120%+\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Optional) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"tierListCategory": "Support",
+		"tierListTags": [
+			"Hybrid (Stun)",
+			"Debuff",
+			"Shield",
+			"Buff"
+		],
+		"ratings": {
+			"shiyu": 11
+		},
+		"build": {
+			"main_4": [
+				{
+					"stat": "CRIT Rate",
+					"sign": "="
+				},
+				{
+					"stat": "Anomaly Proficiency",
+					"sign": null
+				}
+			],
+			"main_5": [
+				{
+					"stat": "Physical DMG",
+					"sign": ">"
+				},
+				{
+					"stat": "ATK%",
+					"sign": "="
+				},
+				{
+					"stat": "PEN Ratio",
+					"sign": null
+				}
+			],
+			"main_6": [
+				{
+					"stat": "Impact%",
+					"sign": null
+				}
+			],
+			"sets": null,
+			"engines": [
+				{
+					"super": "1",
+					"weapon": "Tusks of Fury",
+					"percent": "100%",
+					"percent_standard": "100%",
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Original Transmorpher",
+					"percent": "85.42%",
+					"percent_standard": "88.45%",
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Spring Embrace",
+					"percent": "95.05%",
+					"percent_standard": "77.97%",
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Peacekeeper - Specialized",
+					"percent": "98.95%",
+					"percent_standard": "77.97%",
+					"notes": null
+				}
+			],
+			"substats": "[CRIT RATE = CRIT DMG > ATK% > PEN = ATK] OR [Anomaly Profiency > ATK% > PEN > ATK]"
+		},
+		"talents": [
+			{
+				"name": "Spearhead Advance",
+				"desc": "When Caesar enters combat or switches in, she instantly buffs the entire team with a Radiant Aegis shield, which can be can be triggered once every 300s. While Radiant Aegis is active, enemies within a 5m radius of the shield bearer suffer a <b>15%</b> Attribute DMG RES reduction."
+			},
+			{
+				"name": "Legacy of the Far Lands",
+				"desc": "While Radiant Aegis is active during Core Passive: Barrier of Resilience, Caesar's Energy Generation increases by <b>10%</b>, and the shield bearer's attack boost is increased to <b>150%</b> of its original value."
+			},
+			{
+				"name": "Absolute Trust",
+				"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+			},
+			{
+				"name": "Aries the Battering-Ram",
+				"desc": "When Caesar uses a Chain Attack or Ultimate, she gains <b>3</b> additional Assist Points. If her Energy is below 20, she can activate EX Special Attack: Overpowered Shield Bash with <b>1</b> Assist Point instead. This substitution can only be triggered once every <b>5s</b>."
+			},
+			{
+				"name": "Romantic Conquest",
+				"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+			},
+			{
+				"name": "Overlord's Will",
+				"desc": "EX Special Attack: Overpowered Shield Bash and Assist Follow-Up is guaranteed to trigger a critical hit. The skill's DMG is increased by <b>50%</b> with an additional damage of <b>50%</b> dealt to the primary target. When Caesar uses EX Special Attack: Overpowered Shield Bash or Assist Follow-Up, her CRIT Rate is increased by <b>30%</b> and her CRIT DMG is increased by <b>60%</b> for <b>15s</b>. Repeated triggers reset the duration."
+			}
+		],
+		"introduction": null,
+		"voiceActors": {
+			"en": "Jennifer Sun Bell",
+			"kr": "",
+			"jpn": "Rina Satō (佐藤 利奈)",
+			"cn": ""
+		},
+		"releaseDate": "September 25th, 2024",
+		"upcoming": false
+	},
+	{
 		"id": "6144d502-c486-52d2-9f2f-33cda544849a",
 		"updatedAt": "August 12th, 2024",
 		"createdAt": "2024-08-12T07:07:34.788Z",
@@ -3776,48 +3959,48 @@
 		"slug": "burnice",
 		"rarity": "Unknown",
 		"smallImage": {
-		"localFile": {
-		"childImageSharp": {
-		"gatsbyImageData": {
-		"layout": "constrained",
-		"backgroundColor": "#e8d8c8",
-		"images": {
-		"fallback": {
-		"src": "/static/46982f7883d20b145e416f353cc42c64/60b4d/23_sm.webp",
-		"srcSet": "/static/46982f7883d20b145e416f353cc42c64/e73fe/23_sm.webp 40w,\n/static/46982f7883d20b145e416f353cc42c64/61ca6/23_sm.webp 80w,\n/static/46982f7883d20b145e416f353cc42c64/60b4d/23_sm.webp 160w",
-		"sizes": "(min-width: 160px) 160px, 100vw"
-		},
-		"sources": []
-		},
-		"width": 160,
-		"height": 160
-		}
-		}
-		}
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#e8d8c8",
+						"images": {
+							"fallback": {
+								"src": "/static/46982f7883d20b145e416f353cc42c64/60b4d/23_sm.webp",
+								"srcSet": "/static/46982f7883d20b145e416f353cc42c64/e73fe/23_sm.webp 40w,\n/static/46982f7883d20b145e416f353cc42c64/61ca6/23_sm.webp 80w,\n/static/46982f7883d20b145e416f353cc42c64/60b4d/23_sm.webp 160w",
+								"sizes": "(min-width: 160px) 160px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 160,
+						"height": 160
+					}
+				}
+			}
 		},
 		"cardImage": {
-		"localFile": {
-		"childImageSharp": {
-		"gatsbyImageData": {
-		"layout": "constrained",
-		"backgroundColor": "#383838",
-		"images": {
-		"fallback": {
-		"src": "/static/7364dcf2659ce0d5390e76024a84467e/b26e2/23_card.webp",
-		"srcSet": "/static/7364dcf2659ce0d5390e76024a84467e/84550/23_card.webp 94w,\n/static/7364dcf2659ce0d5390e76024a84467e/34f80/23_card.webp 187w,\n/static/7364dcf2659ce0d5390e76024a84467e/b26e2/23_card.webp 374w",
-		"sizes": "(min-width: 374px) 374px, 100vw"
-		},
-		"sources": []
-		},
-		"width": 374,
-		"height": 512
-		}
-		}
-		}
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#383838",
+						"images": {
+							"fallback": {
+								"src": "/static/7364dcf2659ce0d5390e76024a84467e/b26e2/23_card.webp",
+								"srcSet": "/static/7364dcf2659ce0d5390e76024a84467e/84550/23_card.webp 94w,\n/static/7364dcf2659ce0d5390e76024a84467e/34f80/23_card.webp 187w,\n/static/7364dcf2659ce0d5390e76024a84467e/b26e2/23_card.webp 374w",
+								"sizes": "(min-width: 374px) 374px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 374,
+						"height": 512
+					}
+				}
+			}
 		},
 		"faction": "Sons of Calydon",
 		"attackType": [
-		"Unknown"
+			"Unknown"
 		],
 		"style": "Anomaly",
 		"element": "Fire",
@@ -3829,76 +4012,76 @@
 		"tierListCategory": null,
 		"tierListTags": null,
 		"ratings": {
-		"shiyu": 1
+			"shiyu": 1
 		},
 		"build": null,
 		"talents": null,
 		"introduction": null,
 		"voiceActors": {
-		"en": "",
-		"kr": "",
-		"jpn": "",
-		"cn": ""
+			"en": "",
+			"kr": "",
+			"jpn": "",
+			"cn": ""
 		},
 		"releaseDate": null,
 		"upcoming": true
 	},
 	{
-		"id": "c228b51d-1c4f-54bb-88ba-ac9c0b0c8871",
-		"updatedAt": "August 11th, 2024",
-		"createdAt": "2024-08-11T07:12:20.278Z",
-		"unitId": "22",
-		"name": "Caesar",
-		"skillKey": "Caesar",
-		"fullName": "Caesar",
-		"slug": "caesar",
+		"id": "48c4689e-282d-58bb-b67d-7af0906560b2",
+		"updatedAt": "September 24th, 2024",
+		"createdAt": "2024-09-24T15:23:45.102Z",
+		"unitId": "25",
+		"name": "Lighter",
+		"skillKey": "Lighter",
+		"fullName": "Lighter",
+		"slug": "lighter",
 		"rarity": "Unknown",
 		"smallImage": {
-		"localFile": {
-		"childImageSharp": {
-		"gatsbyImageData": {
-		"layout": "constrained",
-		"backgroundColor": "#b8b8a8",
-		"images": {
-		"fallback": {
-		"src": "/static/f7d4e4c536b016b9274f4d744b95eccc/60b4d/22_sm.webp",
-		"srcSet": "/static/f7d4e4c536b016b9274f4d744b95eccc/e73fe/22_sm.webp 40w,\n/static/f7d4e4c536b016b9274f4d744b95eccc/61ca6/22_sm.webp 80w,\n/static/f7d4e4c536b016b9274f4d744b95eccc/60b4d/22_sm.webp 160w",
-		"sizes": "(min-width: 160px) 160px, 100vw"
-		},
-		"sources": []
-		},
-		"width": 160,
-		"height": 160
-		}
-		}
-		}
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/32da9a3026b34daf6effe655122e638d/60b4d/25_sm.webp",
+								"srcSet": "/static/32da9a3026b34daf6effe655122e638d/e73fe/25_sm.webp 40w,\n/static/32da9a3026b34daf6effe655122e638d/61ca6/25_sm.webp 80w,\n/static/32da9a3026b34daf6effe655122e638d/60b4d/25_sm.webp 160w",
+								"sizes": "(min-width: 160px) 160px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 160,
+						"height": 160
+					}
+				}
+			}
 		},
 		"cardImage": {
-		"localFile": {
-		"childImageSharp": {
-		"gatsbyImageData": {
-		"layout": "constrained",
-		"backgroundColor": "#080808",
-		"images": {
-		"fallback": {
-		"src": "/static/23ea48e0e401bd9256d9ba899448738b/b26e2/22_card.webp",
-		"srcSet": "/static/23ea48e0e401bd9256d9ba899448738b/84550/22_card.webp 94w,\n/static/23ea48e0e401bd9256d9ba899448738b/34f80/22_card.webp 187w,\n/static/23ea48e0e401bd9256d9ba899448738b/b26e2/22_card.webp 374w",
-		"sizes": "(min-width: 374px) 374px, 100vw"
-		},
-		"sources": []
-		},
-		"width": 374,
-		"height": 512
-		}
-		}
-		}
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#080808",
+						"images": {
+							"fallback": {
+								"src": "/static/66d0bd76dc05c5851d2bd1cd2c081129/b26e2/25_card.webp",
+								"srcSet": "/static/66d0bd76dc05c5851d2bd1cd2c081129/84550/25_card.webp 94w,\n/static/66d0bd76dc05c5851d2bd1cd2c081129/34f80/25_card.webp 187w,\n/static/66d0bd76dc05c5851d2bd1cd2c081129/b26e2/25_card.webp 374w",
+								"sizes": "(min-width: 374px) 374px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 374,
+						"height": 512
+					}
+				}
+			}
 		},
 		"faction": "Sons of Calydon",
 		"attackType": [
-		"Unknown"
+			"Unknown"
 		],
-		"style": "Defence",
-		"element": "Physical",
+		"style": "Stun",
+		"element": "Fire",
 		"review": null,
 		"pros": null,
 		"cons": null,
@@ -3907,16 +4090,94 @@
 		"tierListCategory": null,
 		"tierListTags": null,
 		"ratings": {
-		"shiyu": 1
+			"shiyu": 1
 		},
 		"build": null,
 		"talents": null,
 		"introduction": null,
 		"voiceActors": {
-		"en": "",
-		"kr": "",
-		"jpn": "",
-		"cn": ""
+			"en": "",
+			"kr": "",
+			"jpn": "",
+			"cn": ""
+		},
+		"releaseDate": null,
+		"upcoming": true
+	},
+	{
+		"id": "04b5ada8-3dd0-5664-9aa4-3abe4793a976",
+		"updatedAt": "September 24th, 2024",
+		"createdAt": "2024-09-24T15:22:25.786Z",
+		"unitId": "24",
+		"name": "Tsukishiro Yanagi",
+		"skillKey": "Yanagi",
+		"fullName": "Tsukishiro Yanagi",
+		"slug": "tsukishiro-yanagi",
+		"rarity": "Unknown",
+		"smallImage": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/9c6b2b848f402e32bb26bb6500520f15/60b4d/24_sm.webp",
+								"srcSet": "/static/9c6b2b848f402e32bb26bb6500520f15/e73fe/24_sm.webp 40w,\n/static/9c6b2b848f402e32bb26bb6500520f15/61ca6/24_sm.webp 80w,\n/static/9c6b2b848f402e32bb26bb6500520f15/60b4d/24_sm.webp 160w",
+								"sizes": "(min-width: 160px) 160px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 160,
+						"height": 160
+					}
+				}
+			}
+		},
+		"cardImage": {
+			"localFile": {
+				"childImageSharp": {
+					"gatsbyImageData": {
+						"layout": "constrained",
+						"backgroundColor": "#f8f8f8",
+						"images": {
+							"fallback": {
+								"src": "/static/be8ec00eb7f874531695e2194a3f86e3/b26e2/24_card.webp",
+								"srcSet": "/static/be8ec00eb7f874531695e2194a3f86e3/84550/24_card.webp 94w,\n/static/be8ec00eb7f874531695e2194a3f86e3/34f80/24_card.webp 187w,\n/static/be8ec00eb7f874531695e2194a3f86e3/b26e2/24_card.webp 374w",
+								"sizes": "(min-width: 374px) 374px, 100vw"
+							},
+							"sources": []
+						},
+						"width": 374,
+						"height": 512
+					}
+				}
+			}
+		},
+		"faction": "Section 6",
+		"attackType": [
+			"Unknown"
+		],
+		"style": "Anomaly",
+		"element": "Electric",
+		"review": null,
+		"pros": null,
+		"cons": null,
+		"videos": null,
+		"endgameStats": null,
+		"tierListCategory": null,
+		"tierListTags": null,
+		"ratings": {
+			"shiyu": 1
+		},
+		"build": null,
+		"talents": null,
+		"introduction": null,
+		"voiceActors": {
+			"en": "",
+			"kr": "",
+			"jpn": "",
+			"cn": ""
 		},
 		"releaseDate": null,
 		"upcoming": true
