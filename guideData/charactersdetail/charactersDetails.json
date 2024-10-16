@@ -3950,14 +3950,14 @@
 	},
 	{
 		"id": "6144d502-c486-52d2-9f2f-33cda544849a",
-		"updatedAt": "August 12th, 2024",
+		"updatedAt": "October 16th, 2024",
 		"createdAt": "2024-08-12T07:07:34.788Z",
 		"unitId": "23",
 		"name": "Burnice",
 		"skillKey": "Burnice",
 		"fullName": "Burnice",
 		"slug": "burnice",
-		"rarity": "Unknown",
+		"rarity": "S",
 		"smallImage": {
 			"localFile": {
 				"childImageSharp": {
@@ -4004,27 +4004,136 @@
 		],
 		"style": "Anomaly",
 		"element": "Fire",
-		"review": null,
-		"pros": null,
-		"cons": null,
-		"videos": null,
-		"endgameStats": null,
-		"tierListCategory": null,
-		"tierListTags": null,
-		"ratings": {
-			"shiyu": 1
+		"review": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Burnice is a S-Rank Melee Fire Anomaly Agent who brings forth a unique playstyle of passively dealing a good part of her damage and Anomaly Buildup while being off-field. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Complimenting this, she doesn’t require much time on-field in first place, and to no surprise of anyone, being an Anomaly character she excels at applying and amplifying Burn Disorder quickly and consistently - making her a top choice for Anomaly/Disorder teams, especially ones with characters who can take up the field-time Burnice doesn’t really require. To understand exactly what makes this Pyromaniac cyclist work let's dive into her playstyle and kit! \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Her play style primarily focuses on marking enemies with her special “Scorch” status and building & utilizing her special resource “Heat” - \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"all the while taking minimal field time and using her most powerful abilities to apply massive amounts of Fire Anomaly. Enemies that are Scorched by Burnice suffer great damage and Anomaly when hit by any squad member other than Burnice. That's possible thanks to her Core Passive (that works even when she's off-field) at the cost of consuming her “Heat” count slightly. Continuously triggering Afterburn on Scorched targets is her game plan and in order to do the same she needs to build and maintain a good amount of “Heat” consistently. It can be achieved by either using her Ultimate or spending energy. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"This leads to a gameplay loop of Scorching the enemies, building and maintaining “Heat” with EX-Special/Ultimate, and going off-field. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Now with the basics covered let's get into the nitty gritty! \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Burnice’s Core Passive - Nitro-Fuel Cocktail is the source of her most important mechanics - “Heat” resource, “Scorch” status and Afterburn damage off-field. Let’s start with “Heat” first Burnice starts the battle with and can hold up to 100 “Heat” at a time. She gains 1.4 “Heat” per 1 energy spent and upon reaching 50 “Heat” enters the Nitro-Fuel Cocktail State which she will maintain until her “Heat” reaches 0. After which she’ll need to reach 50 again to re-enter.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"While in the Nitro-Fuel Cocktail State she gains access to a new Enhanced Basic Attack and is able to apply the “Scorch” status when hitting enemies with any of the following abilities: \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Mixed Flame Blend (Nitro-Fuel Cocktail Enhanced Basic Attack)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Any EX-Special Attack\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ultimate\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As mentioned earlier, whenever a Scorched enemy takes damage from a squad member other than Burnice, they suffer Afterburn taking up to 350% of Burnice’s ATK as Assist Attack\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"type damage immediately and a good chunk of Fire Anomaly buildup at the cost of 8 “Heat” per activation. Afterburn can only trigger once every 1.5 seconds and as soon as the Nitro-Fuel Cocktail state ends at 0 “Heat” all scorches will be removed immediately. As an added bonus for every 10 Anomaly Proficiency Burnice has, her Afterburn damage is boosted by 1% up to 30% (Requires 300 Anomaly Proficiency). \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Burnice’s standard Basic Attack is a multi-part combo consisting of 5 attacks with Physical and Fire hits mixed in. None of these hits deal much damage or interact with “Heat” resource, “Scorch” status, or Afterburn so aren’t usually used. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Bar this she gains access to the Special Charged Basic Attack: Mixed Flame Blend when in the Nitro-Fuel Cocktail State. Upon pressing and holding the Basic Attack button, she immediately consumes up to 20 “Heat” to perform a channeled spinning attack that applies “Scorch”, good Fire Anomaly, and deals reasonable damage. This ability is ideal for quick application of “Scorch” without any conditions or consumption of energy when you have maximum “Heat”, additionally while this ability consumes up to 20 “Heat” it is still useable with even 1 “Heat” as long as you’re still within the Nitro-Fuel Cocktail state.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Burnice’s Dash Attack and Dodge Counter, similar to her standard Basic Attacks, have no bearing on her “Heat” or “Scorch” mechanics so they aren’t used outside of niche scenarios where you need to avoid damage or close a gap.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Also in a similar vein is her Quick Assist and Assist Follow-Up. These attacks do reasonable damage and apply strong Anomaly for their field-time requirements but aren’t critical for her gameplay. As such if the opportunity to use them arises they’re worthwhile but not mandatory in any case.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Her Ultimate as we’ve covered earlier is an ability you should absolutely consider using whenever the team has the Decibels available and her “Heat” isn’t capped out\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". It hits incredibly hard, deals a tremendous amount of Anomaly, and takes up very little field time for how effective it is - all thanks to the fact that halfway through casting it she triggers a Quick Assist for her teammates and can switch out while she continues casting it off-field. On top of all this, her Ultimate generates her 50 “Heat” allowing her to keep her Afterburn trigger continuously without being solely reliant on her energy if timed correctly. Her Chain attack is also worth using when available as long as no other team member requires their Chain Attack to function - it deals a decent chunk of damage, large amounts of Fire Anomaly build-up, and is relatively quick to use. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Final,ly let's talk about her Special and EX-Special attacks. As with most characters, Burnice’s standard Special Attack isn’t used. Although when it comes to her EX she has two of them - “Standard Shot” and “Double Shot” - both of them are channeled Flamethrower attacks that deal continuous damage, massive Fire Anomaly, consume energy over a short duration and deal an explosion at the end. The difference between the two is as follows:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\" “Standard Shot” consumes a relatively small amount of energy over its duration, makes use of only one of her Flamethrowers, and allows her to reposition mid-channel by strafing left or right. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"“Double Shot” on the other hand consumes significantly more energy (over 2x), uses both of her Flamethrowers, deals more Anomaly and damage, lacks repositioning, and has an activation requirement.  \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"In most cases, it’s advisable to use “Double Shot” as it has a similar channel time to “Single Shot” but does significantly more damage and Anomaly application while also converting her energy into “Heat” at a faster pace. In order to access “Double Shot” when using the EX-Special instead of the standard “Single Shot” simply tap the EX twice in quick succession (which will cause it to swap from “Single” to “Double” after a short delay) or make use of the EX immediately after any of the following abilities to skip out on having to double tap the ability (Executes with no delay);\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: MIxed Flame Blend\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack: Fuel-Fed Flame\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Assist Follow-Up: Scorching Dew\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As a final bonus, her Additional Ability grants her 65% additional Fire Anomaly Buildup to the following abilities;\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Mixed Flame Blend\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Both EX Special Attacks “Single” and “Double”\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Afterburn\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"On top of this, it also extends all Burns inflicted by the squad by 3 seconds. It goes without saying this Additional Ability is worth activating and should always be a goal to consider when building a team for Burnice.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Now let’s bring it all together - when playing Burnice all you need to worry about is to keep your enemy consistently Scorched and maintain a healthy amount of “Heat” via timely Ultimate and EX-Special “Double Shot” use. Outside of this other abilities can be optionally used but focusing on granting your allies as much field time as possible while her Afterburn constantly triggers is generally her best play. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"As it should be clear by now that without “Heat”, she can’t make use of a very large part of her kit and to maintain it she either needs a steady supply of energy for EX’s or the use of her Ultimate. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"As such she is definitely one of the more energy-hungry characters - more so in long drawn-out fights. To remedy this somewhat ensure no “Heat” is wasted when using EX-Specials or Ultimates.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"In conclusion, \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Burnice serves as a top-tier Anomaly Sub-DPS option\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" especially when paired with characters who can make use of the field-time she frees up. If you’re looking to further invest into Anomaly, specifically Disorder, she's a great addition to any endgame roster. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
 		},
-		"build": null,
-		"talents": null,
-		"introduction": null,
+		"pros": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As a Sub-DPS who doesn't need to steal the field time from other characters, she can be easily slotted into various teams.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Incredible Fire Anomaly Application - ideal for Burn or Disorder-focused teams.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can deal a significant portion of her damage and Anomaly application while off-field doubling down on her low field-time playstyle.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has surprisingly high direct damage multipliers for an Anomaly character giving her the option to gain extra damage through stats such as Critical Rate and Critical Damage if you find it on gear.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Easy To Play.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"cons": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Reliant on energy and/or Ultimate to generate “Heat” and keep her kit fully functional - as such resource management is required. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"videos": [
+			{
+				"video": "GhSg-mQLVxE"
+			}
+		],
+		"endgameStats": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2500-3200+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"9500+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Mastery: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"118 - 153+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Proficiency: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"350 - 400+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
+		"tierListCategory": "Anomaly",
+		"tierListTags": [
+			"Sub-DPS",
+			"Charge",
+			"Burn"
+		],
+		"ratings": {
+			"shiyu": 11
+		},
+		"build": {
+			"main_4": [
+				{
+					"stat": "Anomaly Proficiency",
+					"sign": null
+				}
+			],
+			"main_5": [
+				{
+					"stat": "Fire DMG",
+					"sign": ">="
+				},
+				{
+					"stat": "PEN Ratio",
+					"sign": null
+				}
+			],
+			"main_6": [
+				{
+					"stat": "ATK%",
+					"sign": "="
+				},
+				{
+					"stat": "Anomaly Mastery",
+					"sign": null
+				}
+			],
+			"sets": null,
+			"engines": [
+				{
+					"super": "1",
+					"weapon": "Flamemaker Shaker",
+					"percent": "100%",
+					"percent_standard": null,
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Electro-Lip Gloss",
+					"percent": "96.70%",
+					"percent_standard": null,
+					"notes": null
+				},
+				{
+					"super": "1",
+					"weapon": "Fusion Compiler",
+					"percent": "88.06%",
+					"percent_standard": null,
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Weeping Gemini",
+					"percent": "86.48%",
+					"percent_standard": null,
+					"notes": null
+				},
+				{
+					"super": "5",
+					"weapon": "Rainforest Gourmet",
+					"percent": "82.45%",
+					"percent_standard": null,
+					"notes": null
+				}
+			],
+			"substats": "Anomaly Proficiency > ATK% > PEN = ATK"
+		},
+		"talents": [
+			{
+				"name": "Kindred Flames",
+				"desc": "Increases the limit of Heat from <b>100</b> to <b>140</b>. Upon entering the battlefield, Burnice accumulates an additional <b>40</b> Heat. Increases the DMG Multiplier of the Afterburn effect by <b>100%</b> of Burnice's ATK. Additionally, the accumulated <u>Fire Anomaly Buildup</u> from the Afterburn effect is increased by <b>25%</b>."
+			},
+			{
+				"name": "Extra at No Additional Charge",
+				"desc": "When triggering the Afterburn effect, Thermal Penetration is applied to the enemy, stacking up to <b>5</b> times and lasting <b>6s</b>. Repeated triggers reset the duration. When any allied unit in the squad hits the enemy, the attack's PEN Ratio is increased by <b>4%</b> for each stack of Thermal Penetration, up to a max of <b>20%</b>."
+			},
+			{
+				"name": "Optimistic by Nature",
+				"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+			},
+			{
+				"name": "Ultimate Fuel Supply",
+				"desc": "When an EX Special Attack or Assist Attack hits an enemy, the move's CRIT Rate increases by <b>30%</b>. The max flame spray duration of EX Special Attack: Intense Heat Stirring Method - Double Shot is increased by <b>1s</b>."
+			},
+			{
+				"name": "Dance of Fire and Ice",
+				"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+			},
+			{
+				"name": "Burning Invitation",
+				"desc": "When Burnice hits an enemy with EX Special Attack: Intense Heat Stirring Method - Double Shot, it triggers an additional special Afterburn effect, dealing <b>60%</b> of Burnice's ATK as Fire DMG to the target. This effect can trigger once every <b>0.5s</b> and does not consume Heat. After hitting an enemy with EX Special Attack: Intense Heat Stirring Method - Double Shot, while the move is active, EX Special Attack: Intense Heat Stirring Method - Double Shot, special Afterburn effects, and Burn effects will ignore <b>25%</b> of the target's Fire RES. When EX Special Attack: Intense Heat Stirring Method - Double Shot's fire blast hits an enemy, if that enemy is Burned, trigger an additional instance of Burn DMG equal to <b>1,800%</b> of the original DMG. This effect can trigger once every <b>20s</b> for each target."
+			}
+		],
+		"introduction": {
+			"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Burnice, the Nitro-Fuel bartender for the Sons of Calydon. A hopeless fuel lover. She is responsible for all the fuel used by the machinery owned by the Sons of Calydon. She seems to have a passion for fuel that overwhelms all else. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+		},
 		"voiceActors": {
-			"en": "",
+			"en": "Risa Mei",
 			"kr": "",
-			"jpn": "",
+			"jpn": "Karin Takahashi (高橋 花林)",
 			"cn": ""
 		},
-		"releaseDate": null,
-		"upcoming": true
+		"releaseDate": "October 16th, 2024",
+		"upcoming": false
 	},
 	{
 		"id": "48c4689e-282d-58bb-b67d-7af0906560b2",
