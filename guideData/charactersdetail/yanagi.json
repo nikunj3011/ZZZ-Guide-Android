@@ -1,0 +1,185 @@
+{
+	"id": "04b5ada8-3dd0-5664-9aa4-3abe4793a976",
+	"updatedAt": "November 6th, 2024",
+	"createdAt": "2024-09-24T15:22:25.786Z",
+	"unitId": "24",
+	"name": "Yanagi",
+	"skillKey": "Yanagi",
+	"fullName": "Yanagi",
+	"slug": "yanagi",
+	"rarity": "S",
+	"smallImage": {
+		"localFile": {
+			"childImageSharp": {
+				"gatsbyImageData": {
+					"layout": "constrained",
+					"backgroundColor": "#f8f8f8",
+					"images": {
+						"fallback": {
+							"src": "/static/9c6b2b848f402e32bb26bb6500520f15/60b4d/24_sm.webp",
+							"srcSet": "/static/9c6b2b848f402e32bb26bb6500520f15/e73fe/24_sm.webp 40w,\n/static/9c6b2b848f402e32bb26bb6500520f15/61ca6/24_sm.webp 80w,\n/static/9c6b2b848f402e32bb26bb6500520f15/60b4d/24_sm.webp 160w",
+							"sizes": "(min-width: 160px) 160px, 100vw"
+						},
+						"sources": []
+					},
+					"width": 160,
+					"height": 160
+				}
+			}
+		}
+	},
+	"cardImage": {
+		"localFile": {
+			"childImageSharp": {
+				"gatsbyImageData": {
+					"layout": "constrained",
+					"backgroundColor": "#f8f8f8",
+					"images": {
+						"fallback": {
+							"src": "/static/be8ec00eb7f874531695e2194a3f86e3/b26e2/24_card.webp",
+							"srcSet": "/static/be8ec00eb7f874531695e2194a3f86e3/84550/24_card.webp 94w,\n/static/be8ec00eb7f874531695e2194a3f86e3/34f80/24_card.webp 187w,\n/static/be8ec00eb7f874531695e2194a3f86e3/b26e2/24_card.webp 374w",
+							"sizes": "(min-width: 374px) 374px, 100vw"
+						},
+						"sources": []
+					},
+					"width": 374,
+					"height": 512
+				}
+			}
+		}
+	},
+	"faction": "Section 6",
+	"attackType": [
+		"Unknown"
+	],
+	"style": "Anomaly",
+	"element": "Electric",
+	"review": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Yanagi is an S-Rank Melee Electric Anomaly Agent who serves as a main field Anomaly DPS and specializes in dealing and amplifying Disorder damage. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Traditionally, Disorder first requires you to have an Anomaly on an enemy and then trigger another one of a different type to activate. However, what makes Yanagi unique is her ability to completely bend these rules with her special mechanic “Polarity Disorder” which she can access via her Ultimate or EX-Special Attack.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" Polarity Disorder allows Yanagi to trigger a “mini” Disorder on demand ignoring enemies Anomaly build-up and also whether current Anomaly on the enemy is different from Yanagi’s own\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Yanagi being an Electric Agent can trigger Polarity Disorder on Shock). This singular part of her kit alone carves out a place for her in the endgame meta as one of the strongest Anomaly DPS in the game, but of course that’s far from all she has to offer.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Her playstyle is straightforward but challenging to master, as it features multiple buffs to keep active, many different combos, and when played in Disorder teams a lot of Character-Swaps and Anomaly management.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Outside of Polarity Disorder, the other mechanic that makes her stand out is a special stance mechanic. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Yanagi has two stances, “Jougen” Stance and “Kagen” Stance which she can freely swap between. Each stance changes her Basic Attack pattern and grants her a buff while active. Stances can be swapped through the use of a Special Attack or EX-Special Attack and doing so will allow Yanagi to retain the buff from her previous stance for 8 seconds on top of gaining the buff of the stance she just entered.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" Getting both buffs at once is a great incentive for swapping between stances already, but the benefits don’t end there.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Swapping between stances also allows her to execute combos faster and activate her must-use Additional Ability “Gesso”. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"With all that said, the game plan is: to Swap Stances, execute shortened combos, maintain all buffs, use EX Special’s and Ultimates to trigger Polarity Disorder and manage team Anomaly to trigger standard Disorders as you would in any normal Anomaly team. Sounds pretty easy right? Not so much… \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Well fortunately it’s not quite as complicated as it sounds so let's dive into the nitty gritty of her kit to break it down.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Yanagi’s Basic attacks are at the heart of most of her combos and as we’ve learned she has two different sets - one for each of the stances. Which stance you’re currently in and which buffs you have active can be tracked in the top left of the screen (If both sides are lit up you have both buffs!).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Each set of Basic Attacks consists of a 5-part combo including 2 Physical Attacks (Basic 1 and 2) and 3 Electric Attacks (Basic 3, 4 and 5). Both stance combos take roughly the same amount of time to execute, but there are some slight differences regardless, excluding the buffs you gain in each stance. Here is what to look out for:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Jougen Stance:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Full Basic Attack combo does slightly more damage and Anomaly build-up.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Grants Anti-Interrupt Level during Basic Attacks.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"10% increased Electric DMG in stance and for 8 seconds after leaving.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Kagen Stance:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Full Basic Attack combo does slightly less damage and Anomaly build-up.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Grants Interrupt Level Increase against enemies.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"10% increased PEN Ratio% in stance and for 8 seconds after leaving.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"For those looking to min-max, spending more time in “Jougen” Stance over “Kagen” Stance offers a slight edge,\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" however the main priority should be always keeping both stance buffs active first and foremost instead.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"With min-maxing in mind, Basic Attacks 1 and 2 in both combos being Physical Attacks are not ideal to use as they don’t apply Electric Anomaly build-up. Fortunately, a large majority of her abilities all feature a condition that using Basic Attacks immediately after them allows her to skip both completely and execute Basic Attacks 3,4 and 5 immediately instead. Here’s the list of abilities that allows the streamlining of both Basic Attack combos:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dodge Counter: Rapid Retaliation\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack: Celestial Harmony\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ultimate: Raiei Tenge\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Special Attack: Ruten\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX-Special Attack: Gekka Ruten\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Quick Assist: Blade of Elegance\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Assist Follow-Up: Weeping Willow Stab\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As can be seen above there are a lot of ways to perform the Basic Attack skip and you should prioritize ensuring you always do it to maximize damage. Here is an example of a common attack sequence:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dodge Counter: Rapid Retaliation\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Kagen P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Kagen P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Kagen P5\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Now that we know most of her combos and how stances work, swapping stances and dealing massive damage via Polarity Disorder is next and both are associated with her Special Attacks.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Unlike most characters, Yanagi's standard Special Attack is actually incredibly useful. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Not only using it allows her to immediately Swap-Stance at any time but if it was used following either Basic Attack 3, 4 or 5 of standard combo, she’ll Swap-Stance faster, can continue her streak in her newly entered stance and also gain a small animation speed boost, here’s how it can be used to continually a combo endlessly:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Kagen P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Kagen P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Kagen P5\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Special Attack: Ruten\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Jougen P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Jougen P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Jougen P5\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Special Attack: Ruten\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Kagen P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Kagen P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Kagen P5\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Using the Special Attack to juggle back and forth between stances is a surefire way to keep her most powerful attacks flowing freely and all buffs active.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"With enough Energy (40) pressing and holding the Special Attack will activate her EX-Special Attack: Gekka Ruten causing her to perform a two-part attack consisting of a Thrusting Dash and Downward Smash dealing tremendous Anomaly build-up and most importantly, triggering Polarity Disorder. Polarity disorder occurs the moment the smash lands and it behaves similarly to a standard Disorder but instead only deals 15% of the usual damage.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" However, it has another special base damage multiplier added to it - equalling to 3200% of Yanagi’s Attribute Proficiency (at max rank). \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"The mix of these multipliers ensures decently damaging hits but also has the upside of triggering huge Disorders through Burn, Shock, and Corruption Anomalies when played right. As a difference from the norm and as an added bonus - Polarity Disorder \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"will not\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" remove the Anomaly from the enemy. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"In addition to Polarity Disorder, using her EX-Special Attack also grants her the “Shinrabanshou state” for 15 seconds. While in the “Shinrabanshou state” whenever Yanagi uses Basic Attack 5 she’ll immediately be able to execute Basic Attack 3 right after without any assistance. You’ll have this buff up a good amount of combat making her optimal Basic Attack combo just that much more consistent.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Similar to her standard Special Attack Yanagi’s EX also changes her stance on use but unlike the standard one, this allows her to move straight into Basic Attack 3 regardless of what came before it making it a good tool to start your Basic Attack combo if no other abilities with the signature effect are available. With enough energy available combos like the following are possible:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack: Gekka Ruten (Enter Shinrabanshou state)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Jougen P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Jougen P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Jougen P5\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Jougen P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Jougen P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Tsukuyomi Kagura: Jougen P5\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The other ability that can trigger Polarity Disorder is her Ultimate, which does damage at the same rate of 15% of Disorder and 3200% of Attribute Proficiency -  making it worth using if you can spare the team's Decibels, but not mission critical for her gameplan. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Outside of triggering Polarity Disorder her Ultimate is very standard, primarily offering a tremendous amount of Electric Anomaly.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The rest of Yanagi’s kit including her Dodge Counter, Chain Attack, Quick Assist and Assist Follow-Up are all simple direct damage strikes that apply a strong amount of Anomaly Build-Up but lack any special effect outside of skipping Basic Attack 1 and 2. All are worth using if the situation arises but none are core to her rotation or gameplan; use them at your discretion as they’re available.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Rounding off her kit is her Core Passive: Lunar Eclipse, which increases the base multiplier of Disorder damage from 450% to 700% (at max rank) for the whole squad for 15 seconds when using her EX-Special attack. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"How impactful this bonus will be depends on the Anomaly Disorder you’re triggering, but it’s always worth keeping active. As an added benefit after striking an enemy with her EX she also increases the Electric Damage% against them by 20% for 15 seconds doubling up on the buff value.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Lastly,\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" her Additional ability grants her a 45% Electric Anomaly build-up increase on the first Basic Attack she does following a stance change lasting for 8 seconds.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" This buff timing lines up perfectly with the lingering benefits of each stance making maintaining it no extra effort for what is ultimately a huge boost.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"To conclude, \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Yanagi cheats the system by being able to access Disorder at any time with no strings attached regardless of team composition\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", can infinitely string together high Anomaly Basic Attack combos making for excellent sustained damage regardless of resources, can amplify her own (and the team) Disorder multipliers and has incredible burst on demand if you’re willing to pull out all the stops. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"At the time of her release Yanagi is absolutely one of the best DPS in the game,\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" able to stand alone with Supports or alongside another Anomaly powerhouse of your choosing. While she’s combo-heavy, a bit challenging to play, and wants a good amount of field time to facilitate her Basic Attack sequences and Stance-Swaps, the payoff is well worth the investment if your team can work alongside her.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"pros": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can trigger Disorder on demand regardless of Anomaly Buildup.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can play Disorder in a team completely consisting of her own element (Electric) opening up additional strong team-building possibilities.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has excellent burst and sustained Anomaly application ideal as a main fielder and in disorder teams.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Boosts the team's Disorder damage multipliers.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"cons": {
+		"raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Very combo-heavy character requiring you to pay attention to buffs, stances, and animations to reach peak performance.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Prefers to have a lot of field time to herself to move through her combos and stances. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+	},
+	"videos": [
+		{
+			"video": "uXbockiTu04"
+		}
+	],
+	"endgameStats": {
+		"raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"ATK: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"2400-3400+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"(Depending on W-Engine choice) \",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"HP: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10000+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"DEF: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"800+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Anomaly Mastery: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"148 - 190+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Anomaly Proficiency: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"350 - 450+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"\",\"marks\":[],\"data\":{}}]}]}"
+	},
+	"tierListCategory": "Anomaly",
+	"tierListTags": [
+		"Shock",
+		"Combo",
+		"Disorder"
+	],
+	"ratings": {
+		"shiyu": 11
+	},
+	"build": {
+		"main_4": [
+			{
+				"stat": "Anomaly Proficiency",
+				"sign": null
+			}
+		],
+		"main_5": [
+			{
+				"stat": "Electric DMG",
+				"sign": ">="
+			},
+			{
+				"stat": "PEN Ratio",
+				"sign": null
+			}
+		],
+		"main_6": [
+			{
+				"stat": "ATK%",
+				"sign": "="
+			},
+			{
+				"stat": "Anomaly Mastery",
+				"sign": null
+			}
+		],
+		"sets": null,
+		"engines": [
+			{
+				"super": "1",
+				"weapon": "Timeweaver",
+				"percent": "100%",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "Electro-Lip Gloss",
+				"percent": "86.46%",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "1",
+				"weapon": "Fusion Compiler",
+				"percent": "85.85%",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "Weeping Gemini",
+				"percent": "83.24%",
+				"percent_standard": null,
+				"notes": null
+			},
+			{
+				"super": "5",
+				"weapon": "Rainforest Gourmet",
+				"percent": "80.25%",
+				"percent_standard": null,
+				"notes": null
+			}
+		],
+		"substats": "Anomaly Proficiency > ATK% > PEN = ATK"
+	},
+	"talents": [
+		{
+			"name": "Know Thy Self, Know Thy Enemy",
+			"desc": "When any squad member inflicts an Anomaly on an enemy, Yanagi gains <b>1</b> stack of Clarity, lasting <b>15s</b>, stacking up to <b>3</b> times. Repeated triggers reset the duration. Upon being hit by an enemy attack, Yanagi consumes <b>1</b> stack of Clarity to gain invulnerability for <b>1s</b>. When Yanagi has <b>1</b> or more stacks of Clarity, her Anomaly Proficiency increases by <b>80</b>."
+		},
+		{
+			"name": "Outstanding Adaptability",
+			"desc": "During her EX Special Attack, the rapid thrust's Electric Anomaly Buildup increases by <b>20%</b>. Holding down the Special Attack button after a rapid thrust hits an enemy will consume <b>10</b> additional Energy to launch another thrust. If Energy is insufficient or the button is released, the attack automatically follows up with the downward attack. When the downward attack hits an enemy suffering an Anomaly and triggers Polarity Disorder, the DMG multiplier increases to <b>20%</b> of the original Disorder effect. Each additional thrust increases this multiplier by <b>15%</b>, up to a maximum of <b>2</b> extra thrusts."
+		},
+		{
+			"name": "Tsukishiro Style Management",
+			"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+		},
+		{
+			"name": "Chessmaster",
+			"desc": "When Yanagi inflicts Attribute Anomaly DMG on an enemy, they suffer the Exposed effect, lasting <b>15s</b>. Attacks on enemies under the Expose effect will have <b>16%</b> increased PEN Ratio."
+		},
+		{
+			"name": "Other Mother",
+			"desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+		},
+		{
+			"name": "Inhuman Blood",
+			"desc": "After a thrust attack during her EX Special Attack, the duration of the Shinrabanshou state increases to <b>30s</b>. While the state is active and her EX Special Attack DMG increases by <b>20%</b>. The maximum number of times the additional DMG multiplier increase effect for Polarity Disorder in Outstanding Adaptability can be triggered increases to <b>4</b>, and the Energy cost for the first <b>4</b> additional thrust attacks is halved."
+		}
+	],
+	"introduction": null,
+	"voiceActors": {
+		"en": "",
+		"kr": "",
+		"jpn": "",
+		"cn": ""
+	},
+	"releaseDate": "November 6th, 2024",
+	"upcoming": false
+}
