@@ -1,0 +1,2748 @@
+[
+  {
+    "id": "2c3270c3-0e31-5421-acfe-ccd5a7a04f99",
+    "updatedAt": "2024-11-07T17:30:03.836+00:00",
+    "createdAt": "2024-11-07T17:30:03.836+00:00",
+    "unitId": 27,
+    "name": "Agent Gulliver",
+    "slug": "agent-gulliver",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/50c3eb202d5636b9ea822d4cd9af2ef1/60b4d/27_sm.webp",
+                "srcSet": "/static/50c3eb202d5636b9ea822d4cd9af2ef1/e73fe/27_sm.webp 40w,\n/static/50c3eb202d5636b9ea822d4cd9af2ef1/61ca6/27_sm.webp 80w,\n/static/50c3eb202d5636b9ea822d4cd9af2ef1/60b4d/27_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/77fe23d3e27cdfb990d1db22f614d3b0/b26e2/27_card.webp",
+                "srcSet": "/static/77fe23d3e27cdfb990d1db22f614d3b0/84550/27_card.webp 94w,\n/static/77fe23d3e27cdfb990d1db22f614d3b0/34f80/27_card.webp 187w,\n/static/77fe23d3e27cdfb990d1db22f614d3b0/b26e2/27_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8380,
+      "def": 666,
+      "impact": 103,
+      "anomaly": 123
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Emergency Operation",
+        "description": "Shoots 3 piercing attacks, dealing Electric DMG and accumulating Electric Anomaly Buildup.",
+        "base_multi": 640,
+        "rank_multi": 64.0,
+        "static_multi": null,
+        "daze": 234,
+        "daze_rank": 23.4,
+        "element": "Electric",
+        "cooldown": 20
+      },
+      "skill_b": {
+        "name": "Bangboo Assault Squad",
+        "element": "",
+        "description": [
+          {
+            "desc": "When there are <b>2</b> or more Hollow Special Operations Section 6 characters in your squad: When Active Skill or Bangboo Chain Attack hit Shocked enemies, the DMG increases by <b>45%</b>. When attacking enemies under other non-Electric Anomalies, attacks accumulate <b>100%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are <b>2</b> or more Hollow Special Operations Section 6 characters in your squad: When Active Skill or Bangboo Chain Attack hit Shocked enemies, the DMG increases by <b>56%</b>. When attacking enemies under other non-Electric Anomalies, attacks accumulate <b>125%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are <b>2</b> or more Hollow Special Operations Section 6 characters in your squad: When Active Skill or Bangboo Chain Attack hit Shocked enemies, the DMG increases by <b>67%</b>. When attacking enemies under other non-Electric Anomalies, attacks accumulate <b>150%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are <b>2</b> or more Hollow Special Operations Section 6 characters in your squad: When Active Skill or Bangboo Chain Attack hit Shocked enemies, the DMG increases by <b>78%</b>. When attacking enemies under other non-Electric Anomalies, attacks accumulate <b>175%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are <b>2</b> or more Hollow Special Operations Section 6 characters in your squad: When Active Skill or Bangboo Chain Attack hit Shocked enemies, the DMG increases by <b>90%</b>. When attacking enemies under other non-Electric Anomalies, attacks accumulate <b>200%</b> more Anomaly Buildup."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Assault Time",
+        "description": "Shoots 1 powerful piercing attack, dealing Electric DMG and inflicting massive Electric Anomaly Buildup.",
+        "base_multi": 799,
+        "rank_multi": 79.9,
+        "static_multi": null,
+        "daze": 114,
+        "daze_rank": 11.4,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "1ea4b298-826d-51f1-8f12-5e8876542d57",
+    "updatedAt": "2024-08-03T16:28:29.647+00:00",
+    "createdAt": "2023-11-28T09:31:28.455+00:00",
+    "unitId": 7,
+    "name": "Amillion",
+    "slug": "amillion",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/563778e282afb1d5ac356687f216e57f/e9a79/7_sm.png",
+                "srcSet": "/static/563778e282afb1d5ac356687f216e57f/f31ef/7_sm.png 40w,\n/static/563778e282afb1d5ac356687f216e57f/1f8a1/7_sm.png 80w,\n/static/563778e282afb1d5ac356687f216e57f/e9a79/7_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/563778e282afb1d5ac356687f216e57f/e73fe/7_sm.webp 40w,\n/static/563778e282afb1d5ac356687f216e57f/61ca6/7_sm.webp 80w,\n/static/563778e282afb1d5ac356687f216e57f/60b4d/7_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/ab8fdf1564fffa985e2c493ad0e58f97/c9885/7_card.png",
+                "srcSet": "/static/ab8fdf1564fffa985e2c493ad0e58f97/2aab7/7_card.png 94w,\n/static/ab8fdf1564fffa985e2c493ad0e58f97/0a986/7_card.png 187w,\n/static/ab8fdf1564fffa985e2c493ad0e58f97/c9885/7_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/ab8fdf1564fffa985e2c493ad0e58f97/84550/7_card.webp 94w,\n/static/ab8fdf1564fffa985e2c493ad0e58f97/34f80/7_card.webp 187w,\n/static/ab8fdf1564fffa985e2c493ad0e58f97/b26e2/7_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8863,
+      "def": 666,
+      "impact": 103,
+      "anomaly": 110
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Portable Machine Gun - Debt-Clearer",
+        "description": "Builds a machine gun and continuously shoots enemies, dealing massive <u>Physical DMG</u>.",
+        "base_multi": 810,
+        "rank_multi": 81.0,
+        "static_multi": null,
+        "daze": 0,
+        "daze_rank": 0.0,
+        "element": "Physical",
+        "cooldown": 22
+      },
+      "skill_b": {
+        "name": "Street Code",
+        "element": "Cunning",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Cunning Hares</u> character in your squad: Bangboo Chain Attack DMG increases with fewer enemies in combat, up to a max of <b>45%</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Cunning Hares</u> character in your squad: Bangboo Chain Attack DMG increases with fewer enemies in combat, up to a max of <b>56%</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Cunning Hares</u> character in your squad: Bangboo Chain Attack DMG increases with fewer enemies in combat, up to a max of <b>67%</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Cunning Hares</u> character in your squad: Bangboo Chain Attack DMG increases with fewer enemies in combat, up to a max of <b>88%</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Cunning Hares</u> character in your squad: Bangboo Chain Attack DMG increases with fewer enemies in combat, up to a max of <b>100%</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Portable Machine Gun - Gatling Debt-Clearer",
+        "description": "Uses machine guns and cannons to continuously attack the target, dealing massive <u>Physical DMG</u>.",
+        "base_multi": 840,
+        "rank_multi": 84.0,
+        "static_multi": null,
+        "daze": 120,
+        "daze_rank": 12.0,
+        "element": "Physical",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "fdd82980-6b77-5da0-8b46-333b26c2bf05",
+    "updatedAt": "2024-08-03T16:31:47.29+00:00",
+    "createdAt": "2024-06-29T11:09:49.352+00:00",
+    "unitId": 16,
+    "name": "Avocaboo",
+    "slug": "avocaboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/35df3eeef2e300e42d14b0afcef9af62/60b4d/16_sm.webp",
+                "srcSet": "/static/35df3eeef2e300e42d14b0afcef9af62/e73fe/16_sm.webp 40w,\n/static/35df3eeef2e300e42d14b0afcef9af62/61ca6/16_sm.webp 80w,\n/static/35df3eeef2e300e42d14b0afcef9af62/60b4d/16_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/50f22e0fe1584a86bce3fff309b60d91/b26e2/16_card.webp",
+                "srcSet": "/static/50f22e0fe1584a86bce3fff309b60d91/84550/16_card.webp 94w,\n/static/50f22e0fe1584a86bce3fff309b60d91/34f80/16_card.webp 187w,\n/static/50f22e0fe1584a86bce3fff309b60d91/b26e2/16_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4632,
+      "atk": 5826,
+      "def": 781,
+      "impact": 100,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Sweet and Juicy",
+        "description": "Shoots juice bullets at the character currently in-combat. If the bullet misses, the juice will remain on the ground for a while. Characters coming into contact with the juice will recover HP. The recovery effect can only trigger up to <b>15</b> times per combat.",
+        "base_multi": 0,
+        "rank_multi": 0.0,
+        "static_multi": 0,
+        "daze": 0,
+        "daze_rank": null,
+        "element": "",
+        "cooldown": 20
+      },
+      "skill_b": {
+        "name": "Replenishing Sugar Levels",
+        "element": "Support",
+        "description": [
+          {
+            "desc": "When there is at least <b>1</b> Support character in your squad: Active Skill recovers <b>20%</b> more HP. Active Skill has <b>3</b> more charges."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Support character in your squad: Active Skill recovers  <b>25%</b> more HP. Active Skill has <b>3</b> more charges."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Support character in your squad: Active Skill recovers  <b>30%</b> more HP. Active Skill has <b>3</b> more charges."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Support character in your squad: Active Skill recovers  <b>35%</b> more HP. Active Skill has <b>3</b> more charges."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Support character in your squad: Active Skill recovers  <b>40%</b> more HP. Active Skill has <b>3</b> more charges."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "",
+        "description": null,
+        "base_multi": null,
+        "rank_multi": null,
+        "static_multi": null,
+        "daze": null,
+        "daze_rank": null,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "7773863e-1c51-55d6-a896-d3a145a82dcb",
+    "updatedAt": "2024-11-07T06:36:27.14+00:00",
+    "createdAt": "2024-11-07T06:36:27.14+00:00",
+    "unitId": 25,
+    "name": "Baddieboo",
+    "slug": "baddieboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/1aae2e81911436c536cea68e7519a4a0/60b4d/25_sm.webp",
+                "srcSet": "/static/1aae2e81911436c536cea68e7519a4a0/e73fe/25_sm.webp 40w,\n/static/1aae2e81911436c536cea68e7519a4a0/61ca6/25_sm.webp 80w,\n/static/1aae2e81911436c536cea68e7519a4a0/60b4d/25_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/59f710af8f5219efb2271e3f3353cf8b/b26e2/25_card.webp",
+                "srcSet": "/static/59f710af8f5219efb2271e3f3353cf8b/84550/25_card.webp 94w,\n/static/59f710af8f5219efb2271e3f3353cf8b/34f80/25_card.webp 187w,\n/static/59f710af8f5219efb2271e3f3353cf8b/b26e2/25_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 6570,
+      "def": 781,
+      "impact": 94,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Rocket Barrage",
+        "description": "Sends rockets and molotov cocktails at the target enemy, dealing Fire DMG.",
+        "base_multi": 400,
+        "rank_multi": 40.0,
+        "static_multi": null,
+        "daze": 234,
+        "daze_rank": 23.4,
+        "element": "Fire",
+        "cooldown": 20
+      },
+      "skill_b": {
+        "name": "Unusually Short Fuse",
+        "element": "",
+        "description": [
+          {
+            "desc": "When there is at least <b>1</b> Anomaly character in your squad: Bangboo Chain Attack DMG increases by <b>20%</b>. When the target is a Organic enemy, this effect increases by an additional <b>15%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Anomaly character in your squad: Bangboo Chain Attack DMG increases by <b>25%</b>. When the target is a Organic enemy, this effect increases by an additional <b>19%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Anomaly character in your squad: Bangboo Chain Attack DMG increases by <b>30%</b>. When the target is a Organic enemy, this effect increases by an additional <b>23%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Anomaly character in your squad: Bangboo Chain Attack DMG increases by <b>35%</b>. When the target is a Organic enemy, this effect increases by an additional <b>27%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Anomaly character in your squad: Bangboo Chain Attack DMG increases by <b>40%</b>. When the target is a Organic enemy, this effect increases by an additional <b>30%</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Rocket Blast!",
+        "description": "Jumps forward and fires a rocket, dealing Fire DMG to enemies in a large area ahead.",
+        "base_multi": 683,
+        "rank_multi": 68.3,
+        "static_multi": null,
+        "daze": 98,
+        "daze_rank": 9.8,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "48a23dad-accd-5c87-a3e5-7dba6f64201f",
+    "updatedAt": "2024-08-03T16:32:16.634+00:00",
+    "createdAt": "2023-11-27T09:59:25.038+00:00",
+    "unitId": 1,
+    "name": "Bagboo",
+    "slug": "bagboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/f7dcbd386d6d4a7a2040094e9febd078/e9a79/1_sm.png",
+                "srcSet": "/static/f7dcbd386d6d4a7a2040094e9febd078/f31ef/1_sm.png 40w,\n/static/f7dcbd386d6d4a7a2040094e9febd078/1f8a1/1_sm.png 80w,\n/static/f7dcbd386d6d4a7a2040094e9febd078/e9a79/1_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/f7dcbd386d6d4a7a2040094e9febd078/e73fe/1_sm.webp 40w,\n/static/f7dcbd386d6d4a7a2040094e9febd078/61ca6/1_sm.webp 80w,\n/static/f7dcbd386d6d4a7a2040094e9febd078/60b4d/1_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/636b378c81480394afc2f3dd651b7051/c9885/1_card.png",
+                "srcSet": "/static/636b378c81480394afc2f3dd651b7051/2aab7/1_card.png 94w,\n/static/636b378c81480394afc2f3dd651b7051/0a986/1_card.png 187w,\n/static/636b378c81480394afc2f3dd651b7051/c9885/1_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/636b378c81480394afc2f3dd651b7051/84550/1_card.webp 94w,\n/static/636b378c81480394afc2f3dd651b7051/34f80/1_card.webp 187w,\n/static/636b378c81480394afc2f3dd651b7051/b26e2/1_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 6570,
+      "def": 781,
+      "impact": 94,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Closer, Closer...",
+        "description": "Unleashes a series of slashes with dual blades, dealing <u>Physical DMG</u>.",
+        "base_multi": 360,
+        "rank_multi": 36.0,
+        "static_multi": null,
+        "daze": 211,
+        "daze_rank": 21.1,
+        "element": "Physical",
+        "cooldown": 18
+      },
+      "skill_b": {
+        "name": "Swiftly Honed",
+        "element": "Attack",
+        "description": [
+          {
+            "desc": "When there is at least 1 <u>Attack</u> character in your squad: Bangboo Chain Attack DMG increases by <b>30%</b>."
+          },
+          {
+            "desc": "When there is at least 1 <u>Attack</u> character in your squad: Bangboo Chain Attack DMG increases by <b>37.5%</b>."
+          },
+          {
+            "desc": "When there is at least 1 <u>Attack</u> character in your squad: Bangboo Chain Attack DMG increases by <b>45%</b>."
+          },
+          {
+            "desc": "When there is at least 1 <u>Attack</u> character in your squad: Bangboo Chain Attack DMG increases by <b>52.5%</b>."
+          },
+          {
+            "desc": "When there is at least 1 <u>Attack</u> character in your squad: Bangboo Chain Attack DMG increases by <b>60%</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "That's Close Enough!",
+        "description": "Continually slashes the target, dealing massive <u>Physical DMG</u>.",
+        "base_multi": 764,
+        "rank_multi": 76.4,
+        "static_multi": null,
+        "daze": 109,
+        "daze_rank": 10.9,
+        "element": "Physical",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "6aed26d1-79dc-54ea-b358-2cba7353f3c9",
+    "updatedAt": "2024-08-03T16:28:55.493+00:00",
+    "createdAt": "2024-07-03T17:56:14.516+00:00",
+    "unitId": 21,
+    "name": "Bangvolver",
+    "slug": "bangvolver",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/73f4578a4e728ad2a500d6cfbf665746/60b4d/22_sm.webp",
+                "srcSet": "/static/73f4578a4e728ad2a500d6cfbf665746/e73fe/22_sm.webp 40w,\n/static/73f4578a4e728ad2a500d6cfbf665746/61ca6/22_sm.webp 80w,\n/static/73f4578a4e728ad2a500d6cfbf665746/60b4d/22_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/488fede1529fbb2f50d5165596c34aed/b26e2/22_card.webp",
+                "srcSet": "/static/488fede1529fbb2f50d5165596c34aed/84550/22_card.webp 94w,\n/static/488fede1529fbb2f50d5165596c34aed/34f80/22_card.webp 187w,\n/static/488fede1529fbb2f50d5165596c34aed/b26e2/22_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8057,
+      "def": 781,
+      "impact": 103,
+      "anomaly": 123
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Revolver of Fortune",
+        "description": "Uses a random bullet for different moves.<br />Powerful Firework Shell: Fires at the enemy with great force, dealing massive <u>Physical DMG</u> and accumulating a large amount of <u>Physical Anomaly Buildup</u>.<br /> Regular Firework Shell: Fires at the enemy, dealing <u>Physical DMG</u> and accumulating <u>Physical Anomaly Buildup</u>.<br />Paintball: Fails to fire as flowers leave the muzzle.",
+        "base_multi": 0,
+        "rank_multi": 0.0,
+        "static_multi": null,
+        "daze": 30,
+        "daze_rank": 0.0,
+        "element": "Physical",
+        "cooldown": 18
+      },
+      "skill_b": {
+        "name": "Luck is Skill",
+        "element": "Physical",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>100%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>125%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>150%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>175%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>200%</b> more Anomaly Buildup."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Lucky Trigger",
+        "description": "Fire continuous shots at the target, dealing <u>Physical DMG</u> and accumulating massive <u>Physical Anomaly Buildup</u>.",
+        "base_multi": 776,
+        "rank_multi": 77.6,
+        "static_multi": null,
+        "daze": 111,
+        "daze_rank": 11.1,
+        "element": "Physical",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "d6ce5ddb-c814-5bb1-8bc2-585624d38334",
+    "updatedAt": "2024-08-03T16:32:44.852+00:00",
+    "createdAt": "2024-06-29T11:14:31.38+00:00",
+    "unitId": 18,
+    "name": "Boollseye",
+    "slug": "boollseye",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/399a09ce179505badcc32d57252ab3d6/60b4d/18_sm.webp",
+                "srcSet": "/static/399a09ce179505badcc32d57252ab3d6/e73fe/18_sm.webp 40w,\n/static/399a09ce179505badcc32d57252ab3d6/61ca6/18_sm.webp 80w,\n/static/399a09ce179505badcc32d57252ab3d6/60b4d/18_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/8681f896f571e9081e962862b4ddf8ad/b26e2/18_card.webp",
+                "srcSet": "/static/8681f896f571e9081e962862b4ddf8ad/84550/18_card.webp 94w,\n/static/8681f896f571e9081e962862b4ddf8ad/34f80/18_card.webp 187w,\n/static/8681f896f571e9081e962862b4ddf8ad/b26e2/18_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 6570,
+      "def": 781,
+      "impact": 94,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Straight in the Heart",
+        "description": "Throws a dart at the target, dealing <u>Phyiscal DMG.</u>",
+        "base_multi": 320,
+        "rank_multi": 32.0,
+        "static_multi": null,
+        "daze": 187,
+        "daze_rank": 18.7,
+        "element": "Physical",
+        "cooldown": 16
+      },
+      "skill_b": {
+        "name": "Crossfire Missiles",
+        "element": "Pierce",
+        "description": [
+          {
+            "desc": "When there is at least <b>1</b> Pierce-type character in your squad. Bangboo Chain Attack: DMG increases by <b>30%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Pierce-type character in your squad. Bangboo Chain Attack: DMG increases by <b>37.5%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Pierce-type character in your squad. Bangboo Chain Attack: DMG increases by <b>45%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Pierce-type character in your squad. Bangboo Chain Attack: DMG increases by <b>52.5%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Pierce-type character in your squad. Bangboo Chain Attack: DMG increases by <b>60%</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Dart of Desperation",
+        "description": "Launches itself with a slingshot, flying towards the target and performing consecutive slashes, dealing massive <u>Physical DMG.</u>",
+        "base_multi": 875,
+        "rank_multi": 87.5,
+        "static_multi": null,
+        "daze": 125,
+        "daze_rank": 12.5,
+        "element": "Physical",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "0d657bad-486a-53d5-93f1-3ee7225d7c6a",
+    "updatedAt": "2024-08-03T16:33:05.532+00:00",
+    "createdAt": "2024-06-29T11:12:37.224+00:00",
+    "unitId": 17,
+    "name": "Booressure",
+    "slug": "booressure",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/be29e4d05154c1c06b1f65158f97833e/60b4d/17_sm.webp",
+                "srcSet": "/static/be29e4d05154c1c06b1f65158f97833e/e73fe/17_sm.webp 40w,\n/static/be29e4d05154c1c06b1f65158f97833e/61ca6/17_sm.webp 80w,\n/static/be29e4d05154c1c06b1f65158f97833e/60b4d/17_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/f825f0c8ccb82777053dc22d195253e3/b26e2/17_card.webp",
+                "srcSet": "/static/f825f0c8ccb82777053dc22d195253e3/84550/17_card.webp 94w,\n/static/f825f0c8ccb82777053dc22d195253e3/34f80/17_card.webp 187w,\n/static/f825f0c8ccb82777053dc22d195253e3/b26e2/17_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4632,
+      "atk": 5826,
+      "def": 781,
+      "impact": 100,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Ether Bubble",
+        "description": "Releases Ether bubbles that generate Energy for characters coming into contact with them.",
+        "base_multi": 0,
+        "rank_multi": 0.0,
+        "static_multi": 0,
+        "daze": 0,
+        "daze_rank": null,
+        "element": "",
+        "cooldown": 26
+      },
+      "skill_b": {
+        "name": "Balanced Pressure",
+        "element": "Support",
+        "description": [
+          {
+            "desc": "When there is at least 1 Support character in your squad: Ether bubbles come into contact with characters, they generate an additional <b>60%</b> Energy for off-field characters."
+          },
+          {
+            "desc": "When there is at least 1 Support character in your squad: Ether bubbles come into contact with characters, they generate an additional <b>70%</b> Energy for off-field characters."
+          },
+          {
+            "desc": "When there is at least 1 Support character in your squad: Ether bubbles come into contact with characters, they generate an additional <b>80%</b> Energy for off-field characters."
+          },
+          {
+            "desc": "When there is at least 1 Support character in your squad: Ether bubbles come into contact with characters, they generate an additional <b>90%</b> Energy for off-field characters."
+          },
+          {
+            "desc": "When there is at least 1 Support character in your squad: Ether bubbles come into contact with characters, they generate an additional <b>100%</b> Energy for off-field characters."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "",
+        "description": null,
+        "base_multi": null,
+        "rank_multi": null,
+        "static_multi": null,
+        "daze": null,
+        "daze_rank": null,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "59fc3785-4cea-5cc1-ac9c-1d0a7a3297f1",
+    "updatedAt": "2024-08-03T16:29:17.36+00:00",
+    "createdAt": "2023-11-28T09:40:22.244+00:00",
+    "unitId": 8,
+    "name": "Butler",
+    "slug": "butler",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/77d962aa36ce250f270dc66be886226e/e9a79/8_sm.png",
+                "srcSet": "/static/77d962aa36ce250f270dc66be886226e/f31ef/8_sm.png 40w,\n/static/77d962aa36ce250f270dc66be886226e/1f8a1/8_sm.png 80w,\n/static/77d962aa36ce250f270dc66be886226e/e9a79/8_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/77d962aa36ce250f270dc66be886226e/e73fe/8_sm.webp 40w,\n/static/77d962aa36ce250f270dc66be886226e/61ca6/8_sm.webp 80w,\n/static/77d962aa36ce250f270dc66be886226e/60b4d/8_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/b74369f09713127dd0d985bd240ff292/c9885/8_card.png",
+                "srcSet": "/static/b74369f09713127dd0d985bd240ff292/2aab7/8_card.png 94w,\n/static/b74369f09713127dd0d985bd240ff292/0a986/8_card.png 187w,\n/static/b74369f09713127dd0d985bd240ff292/c9885/8_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/b74369f09713127dd0d985bd240ff292/84550/8_card.webp 94w,\n/static/b74369f09713127dd0d985bd240ff292/34f80/8_card.webp 187w,\n/static/b74369f09713127dd0d985bd240ff292/b26e2/8_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 5095,
+      "atk": 7896,
+      "def": 666,
+      "impact": 110,
+      "anomaly": 110
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Tea Break",
+        "description": "Creates a heartfelt afternoon snack. The snack will generate Energy for the receiving Agent.",
+        "base_multi": 0,
+        "rank_multi": 0.0,
+        "static_multi": null,
+        "daze": 0,
+        "daze_rank": null,
+        "element": "Physical",
+        "cooldown": 24
+      },
+      "skill_b": {
+        "name": "Personal Butler",
+        "element": "Victoria",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Victoria Housekeeping Co.</u> character in your squad: Active Skill generates an additional <b>20%</b> Energy."
+          },
+          {
+            "desc": "When there are 2 or more <u>Victoria Housekeeping Co.</u> character in your squad: Active Skill generates an additional <b>25%</b> Energy."
+          },
+          {
+            "desc": "When there are 2 or more <u>Victoria Housekeeping Co.</u> character in your squad: Active Skill generates an additional <b>30%</b> Energy."
+          },
+          {
+            "desc": "When there are 2 or more <u>Victoria Housekeeping Co.</u> character in your squad: Active Skill generates an additional <b>35%</b> Energy."
+          },
+          {
+            "desc": "When there are 2 or more <u>Victoria Housekeeping Co.</u> character in your squad: Active Skill generates an additional <b>40%</b> Energy."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Afternoon Dessert",
+        "description": "Use a frying pan and pancakes to attack enemies from afar, dealing massive <u>Physical DMG</u>.",
+        "base_multi": 683,
+        "rank_multi": 68.3,
+        "static_multi": null,
+        "daze": 98,
+        "daze_rank": 9.8,
+        "element": "Physical",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "514560e9-4cca-58c2-8ff9-90b53f5fac0f",
+    "updatedAt": "2024-08-03T16:33:28.828+00:00",
+    "createdAt": "2024-06-29T11:03:13.324+00:00",
+    "unitId": 15,
+    "name": "Cryboo",
+    "slug": "cryboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/2704e30bae1afe8891d72e5daafe488e/60b4d/15_sm.webp",
+                "srcSet": "/static/2704e30bae1afe8891d72e5daafe488e/e73fe/15_sm.webp 40w,\n/static/2704e30bae1afe8891d72e5daafe488e/61ca6/15_sm.webp 80w,\n/static/2704e30bae1afe8891d72e5daafe488e/60b4d/15_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/26e5f598a538af5d64744bfa8f18effb/b26e2/15_card.webp",
+                "srcSet": "/static/26e5f598a538af5d64744bfa8f18effb/84550/15_card.webp 94w,\n/static/26e5f598a538af5d64744bfa8f18effb/34f80/15_card.webp 187w,\n/static/26e5f598a538af5d64744bfa8f18effb/b26e2/15_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 6198,
+      "def": 724,
+      "impact": 90,
+      "anomaly": 120
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Pull-Tab Bomb",
+        "description": "Throws a bomb at the target, dealing <u>Fire DMG</u> and accumulating <u>Fire Anomaly Buildup</u>.",
+        "base_multi": 280,
+        "rank_multi": 28.0,
+        "static_multi": null,
+        "daze": 164,
+        "daze_rank": 16.4,
+        "element": "Fire",
+        "cooldown": 14
+      },
+      "skill_b": {
+        "name": "Building Heat",
+        "element": "Fire",
+        "description": [
+          {
+            "desc": "When there 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>60%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>75%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>90%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>105%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>120%</b> more Anomaly Buildup."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Shocking Gift",
+        "description": "Throws a bomb at the target, dealing <u>Fire DMG</u> and inflicting massive <u>Fire Anomaly Buildup</u>.",
+        "base_multi": 694,
+        "rank_multi": 69.4,
+        "static_multi": null,
+        "daze": 99,
+        "daze_rank": 9.9,
+        "element": "Fire",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "a4138e79-fbf3-5250-b1eb-9b2162076127",
+    "updatedAt": "2024-08-03T16:33:50.94+00:00",
+    "createdAt": "2023-11-28T09:13:18.935+00:00",
+    "unitId": 5,
+    "name": "Devilboo",
+    "slug": "devilboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/baebfd136fb362e7fe478f9fe1790f73/e9a79/5_sm.png",
+                "srcSet": "/static/baebfd136fb362e7fe478f9fe1790f73/f31ef/5_sm.png 40w,\n/static/baebfd136fb362e7fe478f9fe1790f73/1f8a1/5_sm.png 80w,\n/static/baebfd136fb362e7fe478f9fe1790f73/e9a79/5_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/baebfd136fb362e7fe478f9fe1790f73/e73fe/5_sm.webp 40w,\n/static/baebfd136fb362e7fe478f9fe1790f73/61ca6/5_sm.webp 80w,\n/static/baebfd136fb362e7fe478f9fe1790f73/60b4d/5_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/199e99b5c4ab687f2e7ead1ca438c95d/c9885/5_card.png",
+                "srcSet": "/static/199e99b5c4ab687f2e7ead1ca438c95d/2aab7/5_card.png 94w,\n/static/199e99b5c4ab687f2e7ead1ca438c95d/0a986/5_card.png 187w,\n/static/199e99b5c4ab687f2e7ead1ca438c95d/c9885/5_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/199e99b5c4ab687f2e7ead1ca438c95d/84550/5_card.webp 94w,\n/static/199e99b5c4ab687f2e7ead1ca438c95d/34f80/5_card.webp 187w,\n/static/199e99b5c4ab687f2e7ead1ca438c95d/b26e2/5_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 6570,
+      "def": 724,
+      "impact": 90,
+      "anomaly": 108
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Kiss of Temptation",
+        "description": "Enters the flying state, shooting homing bullets at enemies to deal <u>Ether DMG</u> and inflict <u>Ether Anomaly Buildup</u>.",
+        "base_multi": 198,
+        "rank_multi": 19.8,
+        "static_multi": null,
+        "daze": 117,
+        "daze_rank": 11.7,
+        "element": "Ether",
+        "cooldown": 30
+      },
+      "skill_b": {
+        "name": "Ether Activity Increase",
+        "element": "Ether",
+        "description": [
+          {
+            "desc": "When there are at least 2 <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>40%</b> more Anomaly Buildup. After activating Bangboo Chain Attack, the coordination state lasts for <b>5</b> more seconds and can activate <b>4</b> more times."
+          },
+          {
+            "desc": "When there are at least 2 <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>50%</b> more Anomaly Buildup. After activating Bangboo Chain Attack, the coordination state lasts for <b>6</b> more seconds and can activate <b>5</b> more times."
+          },
+          {
+            "desc": "When there are at least 2 <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>60%</b> more Anomaly Buildup. After activating Bangboo Chain Attack, the coordination state lasts for <b>7</b> more seconds and can activate <b>6</b> more times."
+          },
+          {
+            "desc": "When there are at least 2 <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>70%</b> more Anomaly Buildup. After activating Bangboo Chain Attack, the coordination state lasts for <b>8</b> more seconds and can activate <b>7</b> more times."
+          },
+          {
+            "desc": "When there are at least 2 <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>80%</b> more Anomaly Buildup. After activating Bangboo Chain Attack, the coordination state lasts for <b>9</b> more seconds and can activate <b>8</b> more times."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Kiss of Confusion",
+        "description": "Fires 3 homing bullets at the target and then enters the coordination state. Under this state, fires homing bullets in coordination with the on-field character's attacks, dealing <u>Ether DMG</u> and inflicting <u>Ether Anomaly Buildup</u> for up to <b>30s</b> or <b>10</b> activations.",
+        "base_multi": 327,
+        "rank_multi": 32.7,
+        "static_multi": null,
+        "daze": 47,
+        "daze_rank": 4.7,
+        "element": "Ether",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "4eaf5036-a530-5262-80eb-7bd328e8c82e",
+    "updatedAt": "2024-08-03T16:34:52.624+00:00",
+    "createdAt": "2024-06-29T11:02:22.635+00:00",
+    "unitId": 14,
+    "name": "Electroboo",
+    "slug": "electroboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/e9fb89c42b1bcf66ec368186f7811c32/60b4d/14_sm.webp",
+                "srcSet": "/static/e9fb89c42b1bcf66ec368186f7811c32/e73fe/14_sm.webp 40w,\n/static/e9fb89c42b1bcf66ec368186f7811c32/61ca6/14_sm.webp 80w,\n/static/e9fb89c42b1bcf66ec368186f7811c32/60b4d/14_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/6c27a25769e072d157b35d969c654f87/b26e2/14_card.webp",
+                "srcSet": "/static/6c27a25769e072d157b35d969c654f87/84550/14_card.webp 94w,\n/static/6c27a25769e072d157b35d969c654f87/34f80/14_card.webp 187w,\n/static/6c27a25769e072d157b35d969c654f87/b26e2/14_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 6198,
+      "def": 724,
+      "impact": 90,
+      "anomaly": 120
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Maximum Voltage",
+        "description": "Charges the enemy and continuously electrocutes the target, dealing <u>Electric DMG</u> and accumulating <u>Electric Anomaly Buildup</u>.",
+        "base_multi": 360,
+        "rank_multi": 36.0,
+        "static_multi": null,
+        "daze": 211,
+        "daze_rank": 21.1,
+        "element": "Electric",
+        "cooldown": 18
+      },
+      "skill_b": {
+        "name": "Inductive Current",
+        "element": "Electric",
+        "description": [
+          {
+            "desc": "When there are at least <b>2</b> <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>60%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are at least <b>2</b> <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>75%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are at least <b>2</b> <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>90%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are at least <b>2</b> <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>105%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are at least <b>2</b> <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>120%</b> more Anomaly Buildup."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Billion Volt Thunderbolt!",
+        "description": "Continually electrocutes the target, dealing <u>Electric DMG</u> and inflict massive <u>Electric Anomaly Buildup</u>.",
+        "base_multi": 712,
+        "rank_multi": 71.2,
+        "static_multi": null,
+        "daze": 102,
+        "daze_rank": 10.2,
+        "element": "Electric",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "69a5e89f-4c8c-5e26-a9c5-b8704199dd49",
+    "updatedAt": "2024-08-03T16:35:09.733+00:00",
+    "createdAt": "2023-11-28T08:52:44.597+00:00",
+    "unitId": 3,
+    "name": "Exploreboo",
+    "slug": "exploreboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/63992a76f5c026b440a9c469d7b46112/e9a79/3_sm.png",
+                "srcSet": "/static/63992a76f5c026b440a9c469d7b46112/f31ef/3_sm.png 40w,\n/static/63992a76f5c026b440a9c469d7b46112/1f8a1/3_sm.png 80w,\n/static/63992a76f5c026b440a9c469d7b46112/e9a79/3_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/63992a76f5c026b440a9c469d7b46112/e73fe/3_sm.webp 40w,\n/static/63992a76f5c026b440a9c469d7b46112/61ca6/3_sm.webp 80w,\n/static/63992a76f5c026b440a9c469d7b46112/60b4d/3_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/8e405a6b4bd94e9035e4310cb2b2ed61/c9885/3_card.png",
+                "srcSet": "/static/8e405a6b4bd94e9035e4310cb2b2ed61/2aab7/3_card.png 94w,\n/static/8e405a6b4bd94e9035e4310cb2b2ed61/0a986/3_card.png 187w,\n/static/8e405a6b4bd94e9035e4310cb2b2ed61/c9885/3_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/8e405a6b4bd94e9035e4310cb2b2ed61/84550/3_card.webp 94w,\n/static/8e405a6b4bd94e9035e4310cb2b2ed61/34f80/3_card.webp 187w,\n/static/8e405a6b4bd94e9035e4310cb2b2ed61/b26e2/3_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4632,
+      "atk": 6074,
+      "def": 666,
+      "impact": 100,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Modded Ether Detector",
+        "description": "Scans and excavates the nearby ground, then gives the character a random buff based on the Bangboo's stats:<br/>Buff 1: Recovers HP. <br/>Buff 2: Generates a Shield. <br/>Buff 3: Increases Energy Regen.",
+        "base_multi": 0,
+        "rank_multi": 0.0,
+        "static_multi": null,
+        "daze": 0,
+        "daze_rank": null,
+        "element": "",
+        "cooldown": 16
+      },
+      "skill_b": {
+        "name": "Ether Detection Specialist",
+        "element": "Support",
+        "description": [
+          {
+            "desc": "Triggered when there is at least 1 <u>Support</u>-type character in your squad: Active Skill's character buff effect is increased: Buff 1: HP Recovery increases by <b>20%</b>. Buff 2: Shield generated increases by <b>20%</b>. Buff 3: Energy Regen increases by <b>0.04</b> points/s."
+          },
+          {
+            "desc": "Triggered when there is at least 1 <u>Support</u>-type character in your squad: Active Skill's character buff effect is increased: Buff 1: HP Recovery increases by <b>22.5%</b>. Buff 2: Shield generated increases by <b>22.5%</b>. Buff 3: Energy Regen increases by <b>0.05</b> points/s."
+          },
+          {
+            "desc": "Triggered when there is at least 1 <u>Support</u>-type character in your squad: Active Skill's character buff effect is increased: Buff 1: HP Recovery increases by <b>25%</b>. Buff 2: Shield generated increases by <b>25%</b>. Buff 3: Energy Regen increases by <b>0.06</b> points/s."
+          },
+          {
+            "desc": "Triggered when there is at least 1 <u>Support</u>-type character in your squad: Active Skill's character buff effect is increased: Buff 1: HP Recovery increases by <b>27.5%</b>. Buff 2: Shield generated increases by <b>27.5%</b>. Buff 3: Energy Regen increases by <b>0.07</b> points/s."
+          },
+          {
+            "desc": "Triggered when there is at least 1 <u>Support</u>-type character in your squad: Active Skill's character buff effect is increased: Buff 1: HP Recovery increases by <b>30%</b>. Buff 2: Shield generated increases by <b>30%</b>. Buff 3: Energy Regen increases by <b>0.08</b> points/s."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "",
+        "description": null,
+        "base_multi": null,
+        "rank_multi": null,
+        "static_multi": null,
+        "daze": null,
+        "daze_rank": null,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "618d62bf-9575-569c-8e2d-be60f729d489",
+    "updatedAt": "2024-11-07T06:36:27.182+00:00",
+    "createdAt": "2024-11-07T06:36:27.182+00:00",
+    "unitId": 26,
+    "name": "Knightboo",
+    "slug": "knightboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/9ea310c113406b964379c7d931b40f3f/60b4d/26_sm.webp",
+                "srcSet": "/static/9ea310c113406b964379c7d931b40f3f/e73fe/26_sm.webp 40w,\n/static/9ea310c113406b964379c7d931b40f3f/61ca6/26_sm.webp 80w,\n/static/9ea310c113406b964379c7d931b40f3f/60b4d/26_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/2b8a6b516d4f61a7a1b852d5e1c37749/b26e2/26_card.webp",
+                "srcSet": "/static/2b8a6b516d4f61a7a1b852d5e1c37749/84550/26_card.webp 94w,\n/static/2b8a6b516d4f61a7a1b852d5e1c37749/34f80/26_card.webp 187w,\n/static/2b8a6b516d4f61a7a1b852d5e1c37749/b26e2/26_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4632,
+      "atk": 5826,
+      "def": 781,
+      "impact": 100,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Knight, Charge Up!",
+        "description": "Jump repeatedly while riding Pale Bouncy and summon 3 Knight's Stars. When characters come into contact with Knight's Stars, they recover Energy.",
+        "base_multi": 1,
+        "rank_multi": 4.0,
+        "static_multi": null,
+        "daze": 1,
+        "daze_rank": 1.0,
+        "element": "",
+        "cooldown": 24
+      },
+      "skill_b": {
+        "name": "Knight's Chivalry",
+        "element": "",
+        "description": [
+          {
+            "desc": "When there is at least one Support character in your squad: When characters come into contact with Knight's Stars, their ATK increases by <b>20</b> + Bangboo level × <b>1.2</b> for <b>10s</b>."
+          },
+          {
+            "desc": "When there is at least one Support character in your squad: When characters come into contact with Knight's Stars, their ATK increases by <b>25</b> + Bangboo level × <b>1.4</b> for <b>10s</b>."
+          },
+          {
+            "desc": "When there is at least one Support character in your squad: When characters come into contact with Knight's Stars, their ATK increases by <b>30</b> + Bangboo level × <b>1.6</b> for <b>10s</b>."
+          },
+          {
+            "desc": "When there is at least one Support character in your squad: When characters come into contact with Knight's Stars, their ATK increases by <b>35</b> + Bangboo level × <b>1.8</b> for <b>10s</b>."
+          },
+          {
+            "desc": "When there is at least one Support character in your squad: When characters come into contact with Knight's Stars, their ATK increases by <b>40</b> + Bangboo level × <b>2.0</b> for <b>10s</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Knight, Bouncing Charge!",
+        "description": "Summons 3 Pale Bouncys which stomp up to 10 times in the area ahead, each time dealing Ether DMG to enemies within its attack range.",
+        "base_multi": 86,
+        "rank_multi": 8.6,
+        "static_multi": null,
+        "daze": 12,
+        "daze_rank": 1.2,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "f6778390-21a7-540e-94b4-27b79868e260",
+    "updatedAt": "2024-08-03T16:35:27.885+00:00",
+    "createdAt": "2023-11-28T09:02:18.122+00:00",
+    "unitId": 4,
+    "name": "Luckyboo",
+    "slug": "luckyboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/6125e6985dba4ecbd122ea501732b75b/e9a79/4_sm.png",
+                "srcSet": "/static/6125e6985dba4ecbd122ea501732b75b/f31ef/4_sm.png 40w,\n/static/6125e6985dba4ecbd122ea501732b75b/1f8a1/4_sm.png 80w,\n/static/6125e6985dba4ecbd122ea501732b75b/e9a79/4_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/6125e6985dba4ecbd122ea501732b75b/e73fe/4_sm.webp 40w,\n/static/6125e6985dba4ecbd122ea501732b75b/61ca6/4_sm.webp 80w,\n/static/6125e6985dba4ecbd122ea501732b75b/60b4d/4_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/1ed0c055cbb6520f47e0fab6d805aa46/c9885/4_card.png",
+                "srcSet": "/static/1ed0c055cbb6520f47e0fab6d805aa46/2aab7/4_card.png 94w,\n/static/1ed0c055cbb6520f47e0fab6d805aa46/0a986/4_card.png 187w,\n/static/1ed0c055cbb6520f47e0fab6d805aa46/c9885/4_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/1ed0c055cbb6520f47e0fab6d805aa46/84550/4_card.webp 94w,\n/static/1ed0c055cbb6520f47e0fab6d805aa46/34f80/4_card.webp 187w,\n/static/1ed0c055cbb6520f47e0fab6d805aa46/b26e2/4_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 6198,
+      "def": 781,
+      "impact": 94,
+      "anomaly": 112
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Lavish Spending",
+        "description": "Strikes the target with a barrage of golden coins, dealing <u>Physical DMG</u> and accumulating <u>Physical Anomaly Buildup</u>.",
+        "base_multi": 4,
+        "rank_multi": 0.4,
+        "static_multi": 140,
+        "daze": 3,
+        "daze_rank": 0.2,
+        "element": "Physical",
+        "cooldown": 22
+      },
+      "skill_b": {
+        "name": "Luck is a Component of Power",
+        "element": "Physical",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Active Skill inflicts <b>20%</b> more Anomaly Buildup. Active Skill's continuous strikes duration is increased by <b>0.8s</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Active Skill inflicts <b>25%</b> more Anomaly Buildup. Active Skill's continuous strikes duration is increased by <b>1s</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Active Skill inflicts <b>30%</b> more Anomaly Buildup. Active Skill's continuous strikes duration is increased by <b>1.2s</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Active Skill inflicts <b>35%</b> more Anomaly Buildup. Active Skill's continuous strikes duration is increased by <b>1.4s</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Physical Attribute</u> characters in your squad: Active Skill inflicts <b>40%</b> more Anomaly Buildup. Active Skill's continuous strikes duration is increased by <b>1.6s</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "",
+        "description": null,
+        "base_multi": null,
+        "rank_multi": null,
+        "static_multi": null,
+        "daze": null,
+        "daze_rank": null,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "fcc9bb26-546f-50d7-bf15-1998f14a02f8",
+    "updatedAt": "2024-08-03T16:35:46.542+00:00",
+    "createdAt": "2024-07-03T17:24:17.873+00:00",
+    "unitId": 22,
+    "name": "Magnetiboo",
+    "slug": "magnetiboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/e293fe894775a2dde180259b3724cad2/60b4d/22_sm.webp",
+                "srcSet": "/static/e293fe894775a2dde180259b3724cad2/e73fe/22_sm.webp 40w,\n/static/e293fe894775a2dde180259b3724cad2/61ca6/22_sm.webp 80w,\n/static/e293fe894775a2dde180259b3724cad2/60b4d/22_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/a8517d8cb077c7b1e81fe6cc621a7237/b26e2/22_card.webp",
+                "srcSet": "/static/a8517d8cb077c7b1e81fe6cc621a7237/84550/22_card.webp 94w,\n/static/a8517d8cb077c7b1e81fe6cc621a7237/34f80/22_card.webp 187w,\n/static/a8517d8cb077c7b1e81fe6cc621a7237/b26e2/22_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 6570,
+      "def": 781,
+      "impact": 94,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Magnetic Lock-On",
+        "description": "Pulls in nearby enemies and deals <u>Physical DMG</u> to all enemies hit.",
+        "base_multi": 480,
+        "rank_multi": 48.0,
+        "static_multi": null,
+        "daze": 281,
+        "daze_rank": 28.1,
+        "element": "Physical",
+        "cooldown": 24
+      },
+      "skill_b": {
+        "name": "Magnetic Attraction",
+        "element": "Anomaly",
+        "description": [
+          {
+            "desc": "When there is at least 1 <u>Anomaly</u> character in your squad: Active Skill attack range is increased, and DMG is increased by <b>30%</b>."
+          },
+          {
+            "desc": "When there is at least 1 <u>Anomaly</u> character in your squad: Active Skill attack range is increased, and DMG is increased by <b>37.5%</b>."
+          },
+          {
+            "desc": "When there is at least 1 <u>Anomaly</u> character in your squad: Active Skill attack range is increased, and DMG is increased by <b>45%</b>."
+          },
+          {
+            "desc": "When there is at least 1 <u>Anomaly</u> character in your squad: Active Skill attack range is increased, and DMG is increased by <b>52.5%</b>."
+          },
+          {
+            "desc": "When there is at least 1 <u>Anomaly</u> character in your squad: Active Skill attack range is increased, and DMG is increased by <b>60%</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "",
+        "description": null,
+        "base_multi": null,
+        "rank_multi": null,
+        "static_multi": null,
+        "daze": null,
+        "daze_rank": null,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "e5e2163a-784b-5543-ac74-3be4bc356356",
+    "updatedAt": "2024-10-03T08:46:36.811+00:00",
+    "createdAt": "2024-08-03T15:03:10.824+00:00",
+    "unitId": 23,
+    "name": "Officer Cui",
+    "slug": "officer-cui",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/0000aa3511a0dbf0941d799f680c26b6/60b4d/23_sm.webp",
+                "srcSet": "/static/0000aa3511a0dbf0941d799f680c26b6/e73fe/23_sm.webp 40w,\n/static/0000aa3511a0dbf0941d799f680c26b6/61ca6/23_sm.webp 80w,\n/static/0000aa3511a0dbf0941d799f680c26b6/60b4d/23_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/a635587033e6bc5754bc8cd27b6d4741/b26e2/23_card.webp",
+                "srcSet": "/static/a635587033e6bc5754bc8cd27b6d4741/84550/23_card.webp 94w,\n/static/a635587033e6bc5754bc8cd27b6d4741/34f80/23_card.webp 187w,\n/static/a635587033e6bc5754bc8cd27b6d4741/b26e2/23_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8863,
+      "def": 666,
+      "impact": 103,
+      "anomaly": 110
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Woof woof! Woof woof woof!",
+        "description": "Launches a two hit attack, tearing and biting enemies ahead and dealing Physical DMG.",
+        "base_multi": 277,
+        "rank_multi": 27.7,
+        "static_multi": null,
+        "daze": 101,
+        "daze_rank": 10.1,
+        "element": "Physical",
+        "cooldown": 26
+      },
+      "skill_b": {
+        "name": "Provisional Security Canine",
+        "element": "",
+        "description": [
+          {
+            "desc": "When there are <b>2</b> or more <u>Criminal Investigation Special Response Team</u> characters in your squad: After using an Active Skill, there is a <b>50%</b> chance to trigger a follow-up with <b>1</b> extra hit, up to a maximum of <b>3</b> consecutive triggers. Bangboo Chain Attack DMG increases by <b>35%.</b>"
+          },
+          {
+            "desc": "When there are <b>2</b> or more <u>Criminal Investigation Special Response Team</u> characters in your squad: After using an Active Skill, there is a <b>50%</b> chance to trigger a follow-up with <b>1</b> extra hit, up to a maximum of <b>3</b> consecutive triggers. Bangboo Chain Attack DMG increases by <b>43%.</b>"
+          },
+          {
+            "desc": "When there are <b>2</b> or more <u>Criminal Investigation Special Response Team</u> characters in your squad: After using an Active Skill, there is a <b>50%</b> chance to trigger a follow-up with <b>1</b> extra hit, up to a maximum of <b>3</b> consecutive triggers. Bangboo Chain Attack DMG increases by <b>52%.</b>"
+          },
+          {
+            "desc": "When there are <b>2</b> or more <u>Criminal Investigation Special Response Team</u> characters in your squad: After using an Active Skill, there is a <b>50%</b> chance to trigger a follow-up with <b>1</b> extra hit, up to a maximum of <b>3</b> consecutive triggers. Bangboo Chain Attack DMG increases by <b>60%.</b>"
+          },
+          {
+            "desc": "When there are <b>2</b> or more <u>Criminal Investigation Special Response Team</u> characters in your squad: After using an Active Skill, there is a <b>50%</b> chance to trigger a follow-up with <b>1</b> extra hit, up to a maximum of <b>3</b> consecutive triggers. Bangboo Chain Attack DMG increases by <b>70%.</b>"
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Woof woof!",
+        "description": "Continuously bites and tears enemies in front, dealing massive Physical DMG.",
+        "base_multi": 834,
+        "rank_multi": 83.4,
+        "static_multi": null,
+        "daze": 119,
+        "daze_rank": 11.9,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "d36a5245-0912-53fb-b2d2-a31be8cfe5e5",
+    "updatedAt": "2024-08-03T16:36:05.044+00:00",
+    "createdAt": "2023-11-28T09:21:41.521+00:00",
+    "unitId": 6,
+    "name": "Paperboo",
+    "slug": "paperboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/923e8e80619a2af74a75b4afbe7bffee/e9a79/6_sm.png",
+                "srcSet": "/static/923e8e80619a2af74a75b4afbe7bffee/f31ef/6_sm.png 40w,\n/static/923e8e80619a2af74a75b4afbe7bffee/1f8a1/6_sm.png 80w,\n/static/923e8e80619a2af74a75b4afbe7bffee/e9a79/6_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/923e8e80619a2af74a75b4afbe7bffee/e73fe/6_sm.webp 40w,\n/static/923e8e80619a2af74a75b4afbe7bffee/61ca6/6_sm.webp 80w,\n/static/923e8e80619a2af74a75b4afbe7bffee/60b4d/6_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/13665f02285b6e25ce25a0cd432e086c/c9885/6_card.png",
+                "srcSet": "/static/13665f02285b6e25ce25a0cd432e086c/2aab7/6_card.png 94w,\n/static/13665f02285b6e25ce25a0cd432e086c/0a986/6_card.png 187w,\n/static/13665f02285b6e25ce25a0cd432e086c/c9885/6_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/13665f02285b6e25ce25a0cd432e086c/84550/6_card.webp 94w,\n/static/13665f02285b6e25ce25a0cd432e086c/34f80/6_card.webp 187w,\n/static/13665f02285b6e25ce25a0cd432e086c/b26e2/6_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4632,
+      "atk": 5826,
+      "def": 781,
+      "impact": 100,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Decoy Paper Armor",
+        "description": "Uses a cardboard box to camouflage itself, inducing a taunt effect: While camouflaged, being attacked by enemies or reaching the camouflage time limit will trigger an explosion, dealing <u>Physical DMG</u> in an area.",
+        "base_multi": 462,
+        "rank_multi": 46.2,
+        "static_multi": null,
+        "daze": 270,
+        "daze_rank": 27.0,
+        "element": "Physical",
+        "cooldown": 20
+      },
+      "skill_b": {
+        "name": "Cardboard Armor",
+        "element": "Defense",
+        "description": [
+          {
+            "desc": "When there is at least 1 <u>Defense</u> character in your squad: Bangboo Chain Attack generates Shield for all squad members based on the number of enemies hit, up to a max of <b>15%</b> of Paperboo's Max HP."
+          },
+          {
+            "desc": "When there is at least 1 <u>Defense</u> character in your squad: Bangboo Chain Attack generates Shield for all squad members based on the number of enemies hit, up to a max of <b>16.5%</b> of Paperboo's Max HP."
+          },
+          {
+            "desc": "When there is at least 1 <u>Defense</u> character in your squad: Bangboo Chain Attack generates Shield for all squad members based on the number of enemies hit, up to a max of <b>18%</b> of Paperboo's Max HP."
+          },
+          {
+            "desc": "When there is at least 1 <u>Defense</u> character in your squad: Bangboo Chain Attack generates Shield for all squad members based on the number of enemies hit, up to a max of <b>19.5%</b> of Paperboo's Max HP."
+          },
+          {
+            "desc": "When there is at least 1 <u>Defense</u> character in your squad: Bangboo Chain Attack generates Shield for all squad members based on the number of enemies hit, up to a max of <b>21%</b> of Paperboo's Max HP."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Paper Armor: Impact Mode",
+        "description": "Enters a cardboard box and jumps at the target enemy, causing an explosion when it lands, dealing <u>Physical DMG</u> over a large area.",
+        "base_multi": 665,
+        "rank_multi": 66.5,
+        "static_multi": null,
+        "daze": 95,
+        "daze_rank": 9.5,
+        "element": "Physical",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "bfa64468-668a-5850-a2d0-fc18f9d5fda4",
+    "updatedAt": "2024-08-03T16:36:22.783+00:00",
+    "createdAt": "2024-06-29T11:01:24.677+00:00",
+    "unitId": 13,
+    "name": "Penguinboo",
+    "slug": "penguinboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/6ea6c076591e7d39d0f2dd90c138c9e4/60b4d/13_sm.webp",
+                "srcSet": "/static/6ea6c076591e7d39d0f2dd90c138c9e4/e73fe/13_sm.webp 40w,\n/static/6ea6c076591e7d39d0f2dd90c138c9e4/61ca6/13_sm.webp 80w,\n/static/6ea6c076591e7d39d0f2dd90c138c9e4/60b4d/13_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/cfb26b42f5bbdfeebe6a319e04fe06ec/b26e2/13_card.webp",
+                "srcSet": "/static/cfb26b42f5bbdfeebe6a319e04fe06ec/84550/13_card.webp 94w,\n/static/cfb26b42f5bbdfeebe6a319e04fe06ec/34f80/13_card.webp 187w,\n/static/cfb26b42f5bbdfeebe6a319e04fe06ec/b26e2/13_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 6198,
+      "def": 724,
+      "impact": 90,
+      "anomaly": 120
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Iceblade Dance",
+        "description": "Executes a series of graceful slashes with an ice blade, dealing <u>Ice DMG</u> and accumulating <u>Ice Anomaly Buildup</u>.",
+        "base_multi": 462,
+        "rank_multi": 46.2,
+        "static_multi": null,
+        "daze": 270,
+        "daze_rank": 27.0,
+        "element": "Ice",
+        "cooldown": 20
+      },
+      "skill_b": {
+        "name": "Dry Ice Field",
+        "element": "Ice",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>60%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>75%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>90%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>105%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>120%</b> more Anomaly Buildup."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Frozen Hurricane",
+        "description": "Attacks the target with a series of slashes, dealing <u>Ice DMG</u> and inflicting massive <u>Ice Anomaly Buildup</u>.",
+        "base_multi": 957,
+        "rank_multi": 95.7,
+        "static_multi": null,
+        "daze": 137,
+        "daze_rank": 13.7,
+        "element": "Ice",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "5dc64002-c783-5c59-8992-b13ff62fd676",
+    "updatedAt": "2024-08-03T16:29:39.087+00:00",
+    "createdAt": "2024-07-03T17:59:40.8+00:00",
+    "unitId": 19,
+    "name": "Plugboo",
+    "slug": "plugboo",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/25a6da31c4d8afd66a6c97b3f9ef5712/60b4d/19_sm.webp",
+                "srcSet": "/static/25a6da31c4d8afd66a6c97b3f9ef5712/e73fe/19_sm.webp 40w,\n/static/25a6da31c4d8afd66a6c97b3f9ef5712/61ca6/19_sm.webp 80w,\n/static/25a6da31c4d8afd66a6c97b3f9ef5712/60b4d/19_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/c7b8c2738b6a0976d32cb814f81c47ab/b26e2/19_card.webp",
+                "srcSet": "/static/c7b8c2738b6a0976d32cb814f81c47ab/84550/19_card.webp 94w,\n/static/c7b8c2738b6a0976d32cb814f81c47ab/34f80/19_card.webp 187w,\n/static/c7b8c2738b6a0976d32cb814f81c47ab/b26e2/19_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8057,
+      "def": 724,
+      "impact": 99,
+      "anomaly": 132
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Shock Sniper",
+        "description": "Unleashes an EM cannon attack on the enemy, dealing <u>Electric DMG</u> and accumulating <u>Electric Anomaly Buildup</u>.",
+        "base_multi": 512,
+        "rank_multi": 51.2,
+        "static_multi": null,
+        "daze": 187,
+        "daze_rank": 18.7,
+        "element": "Electric",
+        "cooldown": 16
+      },
+      "skill_b": {
+        "name": "Electromancer",
+        "element": "Electric",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>100%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>125%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>150%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>175%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Electric Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>200%</b> more Anomaly Buildup."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "High-Voltage Resistance",
+        "description": "Unleash a strong electric attack on all nearby enemies in a large area, dealing <u>Electric DMG</u> and inflict massive <u>Electric Anomaly Buildup</u>.",
+        "base_multi": 688,
+        "rank_multi": 68.8,
+        "static_multi": null,
+        "daze": 98,
+        "daze_rank": 9.8,
+        "element": "Electric",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "901e0d43-ffdf-5e89-968c-462205efc018",
+    "updatedAt": "2024-10-03T08:46:44.037+00:00",
+    "createdAt": "2024-09-28T09:29:28.626+00:00",
+    "unitId": 24,
+    "name": "Red Moccus",
+    "slug": "red-moccus",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/755c2c670988ee3a9467521c00a57012/60b4d/24_sm.webp",
+                "srcSet": "/static/755c2c670988ee3a9467521c00a57012/e73fe/24_sm.webp 40w,\n/static/755c2c670988ee3a9467521c00a57012/61ca6/24_sm.webp 80w,\n/static/755c2c670988ee3a9467521c00a57012/60b4d/24_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/ceec8c3e9f6af09b7a20a06c4501f270/b26e2/24_card.webp",
+                "srcSet": "/static/ceec8c3e9f6af09b7a20a06c4501f270/84550/24_card.webp 94w,\n/static/ceec8c3e9f6af09b7a20a06c4501f270/34f80/24_card.webp 187w,\n/static/ceec8c3e9f6af09b7a20a06c4501f270/b26e2/24_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8863,
+      "def": 666,
+      "impact": 103,
+      "anomaly": 110
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Roaring Wheels",
+        "description": "Rides a motorcycle and pushes the farthest enemy until they're near the Agent, dealing Physical DMG",
+        "base_multi": 960,
+        "rank_multi": 35.1,
+        "static_multi": null,
+        "daze": 351,
+        "daze_rank": 96.0,
+        "element": "Physical",
+        "cooldown": 30
+      },
+      "skill_b": {
+        "name": "Drifting Technique",
+        "element": "",
+        "description": [
+          {
+            "desc": "When there are at least <b>2</b> Sons of Calydon characters in your squad: Active Skill DMG increases by <b>36%</b>. After Active Skill deals DMG to an enemy, when that enemy is defeated, the skill's cooldown is reduced by <b>4s</b>."
+          },
+          {
+            "desc": "When there are at least <b>2</b> Sons of Calydon characters in your squad: Active Skill DMG increases by <b>45%</b>. After Active Skill deals DMG to an enemy, when that enemy is defeated, the skill's cooldown is reduced by <b>5s</b>."
+          },
+          {
+            "desc": "When there are at least <b>2</b> Sons of Calydon characters in your squad: Active Skill DMG increases by <b>54%</b>. After Active Skill deals DMG to an enemy, when that enemy is defeated, the skill's cooldown is reduced by <b>6s</b>."
+          },
+          {
+            "desc": "When there are at least <b>2</b> Sons of Calydon characters in your squad: Active Skill DMG increases by <b>63%</b>. After Active Skill deals DMG to an enemy, when that enemy is defeated, the skill's cooldown is reduced by <b>7s</b>."
+          },
+          {
+            "desc": "When there are at least <b>2</b> Sons of Calydon characters in your squad: Active Skill DMG increases by <b>72%</b>. After Active Skill deals DMG to an enemy, when that enemy is defeated, the skill's cooldown is reduced by <b>8s</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Mad Charge",
+        "description": "Run enemies over with a motorcycle and detonate an explosion, dealing massive Physical DMG.",
+        "base_multi": 753,
+        "rank_multi": 75.3,
+        "static_multi": null,
+        "daze": 108,
+        "daze_rank": 10.8,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "735b324b-8550-5e29-aaba-a771877989a2",
+    "updatedAt": "2024-08-03T16:30:05.201+00:00",
+    "createdAt": "2024-07-03T18:01:02.346+00:00",
+    "unitId": 20,
+    "name": "Resonaboo",
+    "slug": "resonaboo",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/207e43e7069620a653cab0ba78d03162/60b4d/20_sm.webp",
+                "srcSet": "/static/207e43e7069620a653cab0ba78d03162/e73fe/20_sm.webp 40w,\n/static/207e43e7069620a653cab0ba78d03162/61ca6/20_sm.webp 80w,\n/static/207e43e7069620a653cab0ba78d03162/60b4d/20_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/37536730596b16bd48050725f5d7dd56/b26e2/20_card.webp",
+                "srcSet": "/static/37536730596b16bd48050725f5d7dd56/84550/20_card.webp 94w,\n/static/37536730596b16bd48050725f5d7dd56/34f80/20_card.webp 187w,\n/static/37536730596b16bd48050725f5d7dd56/b26e2/20_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8057,
+      "def": 724,
+      "impact": 99,
+      "anomaly": 132
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Mini-Black Hole",
+        "description": "Summon an Ether black hole that continuously pulls in enemies and deals <u>Ether DMG</u> and accumulating <u>Ether Anomaly Buildup</u>.",
+        "base_multi": 896,
+        "rank_multi": 89.6,
+        "static_multi": null,
+        "daze": 328,
+        "daze_rank": 32.8,
+        "element": "Ether",
+        "cooldown": 28
+      },
+      "skill_b": {
+        "name": "Radiations Effect",
+        "element": "Ether",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>100%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>125%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>150%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>175%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ether Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>200%</b> more Anomaly Buildup."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Primordial Black Hole",
+        "description": "Throws an Ether bomb at the target, dealing <u>Ether DMG</u> and accumulating massive <u>Ether Anomaly Buildup</u>.",
+        "base_multi": 653,
+        "rank_multi": 65.3,
+        "static_multi": null,
+        "daze": 93,
+        "daze_rank": 9.3,
+        "element": "Ether",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "256ed643-1f59-57c5-8d14-3b3c5648ba7a",
+    "updatedAt": "2024-08-03T16:30:27.244+00:00",
+    "createdAt": "2024-06-29T10:59:49.256+00:00",
+    "unitId": 12,
+    "name": "Rocketboo",
+    "slug": "rocketboo",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/2f9bbccfa331194149684d5da4dde71c/60b4d/12_sm.webp",
+                "srcSet": "/static/2f9bbccfa331194149684d5da4dde71c/e73fe/12_sm.webp 40w,\n/static/2f9bbccfa331194149684d5da4dde71c/61ca6/12_sm.webp 80w,\n/static/2f9bbccfa331194149684d5da4dde71c/60b4d/12_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/f3762e42e408866c5c7f9b47fbc5d327/b26e2/12_card.webp",
+                "srcSet": "/static/f3762e42e408866c5c7f9b47fbc5d327/84550/12_card.webp 94w,\n/static/f3762e42e408866c5c7f9b47fbc5d327/34f80/12_card.webp 187w,\n/static/f3762e42e408866c5c7f9b47fbc5d327/b26e2/12_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8541,
+      "def": 724,
+      "impact": 99,
+      "anomaly": 119
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Boom!",
+        "description": "Mounts a rocket and charges at the target. Upon hitting a target, the rocket will explode, dealing <u>Fire DMG</u> to enemies in an area and inflicting massive <u>Fire Anomaly Buildup</u>.",
+        "base_multi": 576,
+        "rank_multi": 57.6,
+        "static_multi": null,
+        "daze": 211,
+        "daze_rank": 21.1,
+        "element": "Fire",
+        "cooldown": 18
+      },
+      "skill_b": {
+        "name": "Refueling",
+        "element": "Fire",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>100%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>125%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>150%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>175%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Fire Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>200%</b> more Anomaly Buildup."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Ka-Boom Express Shipping",
+        "description": "Mounts a rocket and charges at the target. Upon hitting a target, the rocket will explode, dealing <u>Fire DMG</u> to enemies in a large area and inflicting massive <u>Fire Anomaly Buildup</u>.",
+        "base_multi": 543,
+        "rank_multi": 54.3,
+        "static_multi": null,
+        "daze": 78,
+        "daze_rank": 7.8,
+        "element": "Fire",
+        "cooldown": null
+      }
+    }
+  },
+  {
+    "id": "2952c892-8009-5e49-9ac3-a30af6133940",
+    "updatedAt": "2024-08-03T16:30:51.856+00:00",
+    "createdAt": "2023-11-28T09:45:44.574+00:00",
+    "unitId": 9,
+    "name": "Safety",
+    "slug": "safety",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/78cb47bcdfc183402bef49474f299d60/e9a79/9_sm.png",
+                "srcSet": "/static/78cb47bcdfc183402bef49474f299d60/f31ef/9_sm.png 40w,\n/static/78cb47bcdfc183402bef49474f299d60/1f8a1/9_sm.png 80w,\n/static/78cb47bcdfc183402bef49474f299d60/e9a79/9_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/78cb47bcdfc183402bef49474f299d60/e73fe/9_sm.webp 40w,\n/static/78cb47bcdfc183402bef49474f299d60/61ca6/9_sm.webp 80w,\n/static/78cb47bcdfc183402bef49474f299d60/60b4d/9_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/8834a1f98bc04305e928f7757af3c449/c9885/9_card.png",
+                "srcSet": "/static/8834a1f98bc04305e928f7757af3c449/2aab7/9_card.png 94w,\n/static/8834a1f98bc04305e928f7757af3c449/0a986/9_card.png 187w,\n/static/8834a1f98bc04305e928f7757af3c449/c9885/9_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/8834a1f98bc04305e928f7757af3c449/84550/9_card.webp 94w,\n/static/8834a1f98bc04305e928f7757af3c449/34f80/9_card.webp 187w,\n/static/8834a1f98bc04305e928f7757af3c449/b26e2/9_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8863,
+      "def": 666,
+      "impact": 103,
+      "anomaly": 110
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Boring Burst",
+        "description": "Enters the driving state and charges enemies, launching a drilling attack upon hit and dealing <u>Physical DMG</u>.",
+        "base_multi": 576,
+        "rank_multi": 57.6,
+        "static_multi": null,
+        "daze": 211,
+        "daze_rank": 21.1,
+        "element": "Physical",
+        "cooldown": 18
+      },
+      "skill_b": {
+        "name": "Drill Team Mobilization",
+        "element": "Belobog",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Belobog Heavy Industries</u> characters in your squad: Bangboo Chain Attack DMG increases by <b>20%</b>. If the target is Burning or Shocked, this buff increases by an additional <b>20%</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Belobog Heavy Industries</u> characters in your squad: Bangboo Chain Attack DMG increases by <b>25%</b>. If the target is Burning or Shocked, this buff increases by an additional <b>25%</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Belobog Heavy Industries</u> characters in your squad: Bangboo Chain Attack DMG increases by <b>30%</b>. If the target is Burning or Shocked, this buff increases by an additional <b>30%</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Belobog Heavy Industries</u> characters in your squad: Bangboo Chain Attack DMG increases by <b>35%</b>. If the target is Burning or Shocked, this buff increases by an additional <b>35%</b>."
+          },
+          {
+            "desc": "When there are 2 or more <u>Belobog Heavy Industries</u> characters in your squad: Bangboo Chain Attack DMG increases by <b>40%</b>. If the target is Burning or Shocked, this buff increases by an additional <b>40%</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Demolition Drill",
+        "description": "Enters the driving state and charges enemies, launching a multi-hit drilling attack upon hit and dealing massive <u>Physical DMG</u>.",
+        "base_multi": 665,
+        "rank_multi": 66.5,
+        "static_multi": null,
+        "daze": 95,
+        "daze_rank": 9.5,
+        "element": "Physical",
+        "cooldown": 60
+      }
+    }
+  },
+  {
+    "id": "c452d558-3c49-542d-988b-169c3b4ec379",
+    "updatedAt": "2024-08-03T16:28:03.669+00:00",
+    "createdAt": "2023-11-28T09:49:41.397+00:00",
+    "unitId": 10,
+    "name": "Sharkboo",
+    "slug": "sharkboo",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/fee9c32969335e800859a9273d596235/e9a79/10_sm.png",
+                "srcSet": "/static/fee9c32969335e800859a9273d596235/f31ef/10_sm.png 40w,\n/static/fee9c32969335e800859a9273d596235/1f8a1/10_sm.png 80w,\n/static/fee9c32969335e800859a9273d596235/e9a79/10_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/fee9c32969335e800859a9273d596235/e73fe/10_sm.webp 40w,\n/static/fee9c32969335e800859a9273d596235/61ca6/10_sm.webp 80w,\n/static/fee9c32969335e800859a9273d596235/60b4d/10_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/c0d5ca2737a3d7ac13af5d2490214838/c9885/10_card.png",
+                "srcSet": "/static/c0d5ca2737a3d7ac13af5d2490214838/2aab7/10_card.png 94w,\n/static/c0d5ca2737a3d7ac13af5d2490214838/0a986/10_card.png 187w,\n/static/c0d5ca2737a3d7ac13af5d2490214838/c9885/10_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/c0d5ca2737a3d7ac13af5d2490214838/84550/10_card.webp 94w,\n/static/c0d5ca2737a3d7ac13af5d2490214838/34f80/10_card.webp 187w,\n/static/c0d5ca2737a3d7ac13af5d2490214838/b26e2/10_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 4210,
+      "atk": 8057,
+      "def": 724,
+      "impact": 99,
+      "anomaly": 132
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Drylands Shark Hunt",
+        "description": "Plants a trap underfoot which bites, tears, and summons torpedos at triggering enemies, dealing <u>Ice DMG</u> and inflicting massive <u>Ice Anomaly Buildup</u>.",
+        "base_multi": 384,
+        "rank_multi": 38.4,
+        "static_multi": null,
+        "daze": 140,
+        "daze_rank": 14.0,
+        "element": "Ice",
+        "cooldown": 12
+      },
+      "skill_b": {
+        "name": "Cold Surge",
+        "element": "Ice",
+        "description": [
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>100%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>125%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>150%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>175%</b> more Anomaly Buildup."
+          },
+          {
+            "desc": "When there are 2 or more <u>Ice Attribute</u> characters in your squad: Bangboo Chain Attack inflicts <b>200%</b> more Anomaly Buildup."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Relentless Pursuit",
+        "description": "Summons a trap and leaps toward the target, causing an explosion upon landing, dealing <u>Ice DMG</u> and inflicting massive <u>Ice Anomaly Buildup</u>.",
+        "base_multi": 461,
+        "rank_multi": 46.1,
+        "static_multi": null,
+        "daze": 93,
+        "daze_rank": 9.3,
+        "element": "Ice",
+        "cooldown": 0
+      }
+    }
+  },
+  {
+    "id": "9b70a81e-74cf-5692-a0bf-e53832f815fb",
+    "updatedAt": "2024-08-03T16:36:39.292+00:00",
+    "createdAt": "2023-11-28T08:40:32.135+00:00",
+    "unitId": 2,
+    "name": "Sumoboo ",
+    "slug": "sumoboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/4e3661f07907db2ee559ff9c8aa2e85a/e9a79/2_sm.png",
+                "srcSet": "/static/4e3661f07907db2ee559ff9c8aa2e85a/f31ef/2_sm.png 40w,\n/static/4e3661f07907db2ee559ff9c8aa2e85a/1f8a1/2_sm.png 80w,\n/static/4e3661f07907db2ee559ff9c8aa2e85a/e9a79/2_sm.png 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/4e3661f07907db2ee559ff9c8aa2e85a/e73fe/2_sm.webp 40w,\n/static/4e3661f07907db2ee559ff9c8aa2e85a/61ca6/2_sm.webp 80w,\n/static/4e3661f07907db2ee559ff9c8aa2e85a/60b4d/2_sm.webp 160w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 160px) 160px, 100vw"
+                }
+              ]
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/5018fc877f93d6a23f6abc32db3bfe22/c9885/2_card.png",
+                "srcSet": "/static/5018fc877f93d6a23f6abc32db3bfe22/2aab7/2_card.png 94w,\n/static/5018fc877f93d6a23f6abc32db3bfe22/0a986/2_card.png 187w,\n/static/5018fc877f93d6a23f6abc32db3bfe22/c9885/2_card.png 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": [
+                {
+                  "srcSet": "/static/5018fc877f93d6a23f6abc32db3bfe22/84550/2_card.webp 94w,\n/static/5018fc877f93d6a23f6abc32db3bfe22/34f80/2_card.webp 187w,\n/static/5018fc877f93d6a23f6abc32db3bfe22/b26e2/2_card.webp 374w",
+                  "type": "image/webp",
+                  "sizes": "(min-width: 374px) 374px, 100vw"
+                }
+              ]
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3828,
+      "atk": 5826,
+      "def": 781,
+      "impact": 112,
+      "anomaly": 88
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Finishing Move - Rock Crusher",
+        "description": "Jumps towards the target and executes a downward strike, dealing <u>Physical DMG</u> in an area. This skill is good at interrupting.",
+        "base_multi": 323,
+        "rank_multi": 32.3,
+        "static_multi": null,
+        "daze": 189,
+        "daze_rank": 18.9,
+        "element": "Physical",
+        "cooldown": 14
+      },
+      "skill_b": {
+        "name": "Overpower All Odds",
+        "element": "Stun",
+        "description": [
+          {
+            "desc": "When there is at least 1 <u>Stun</u> character in your squad: Active Skill inflicts <b>18%</b> more Daze to enemies whose Daze is above 50%."
+          },
+          {
+            "desc": "When there is at least 1 <u>Stun</u> character in your squad: Active Skill inflicts <b>22.5%</b> more Daze to enemies whose Daze is above 50%."
+          },
+          {
+            "desc": "When there is at least 1 <u>Stun</u> character in your squad: Active Skill inflicts <b>27%</b> more Daze to enemies whose Daze is above 50%."
+          },
+          {
+            "desc": "When there is at least 1 <u>Stun</u> character in your squad: Active Skill inflicts <b>31.5%</b> more Daze to enemies whose Daze is above 50%."
+          },
+          {
+            "desc": "When there is at least 1 <u>Stun</u> character in your squad: Active Skill inflicts <b>36%</b> more Daze to enemies whose Daze is above 50%."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "",
+        "description": null,
+        "base_multi": null,
+        "rank_multi": null,
+        "static_multi": null,
+        "daze": null,
+        "daze_rank": null,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  }
+]
