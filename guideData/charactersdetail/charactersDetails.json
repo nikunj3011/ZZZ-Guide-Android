@@ -1,7 +1,7 @@
 [
   {
     "id": "407f052f-fe8a-548d-a898-dda49f9dd9a5",
-    "updatedAt": "July 17th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2023-11-22T17:03:33.743+00:00",
     "unitId": 1,
     "name": "Anby",
@@ -83,7 +83,7 @@
       "Combo"
     ],
     "ratings": {
-      "shiyu": 9
+      "shiyu": 8
     },
     "build": {
       "main_4": [
@@ -202,7 +202,7 @@
   },
   {
     "id": "13237092-cc9c-55f7-944f-d9d39cfeeaf1",
-    "updatedAt": "November 6th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2023-11-22T19:25:32.231+00:00",
     "unitId": 15,
     "name": "Anton",
@@ -284,7 +284,7 @@
       "Shock"
     ],
     "ratings": {
-      "shiyu": 7
+      "shiyu": 6
     },
     "build": {
       "main_4": [
@@ -395,8 +395,88 @@
     "upcoming": null
   },
   {
+    "id": "89b44b85-efbd-5413-b2f4-26cf3f7c0e83",
+    "updatedAt": "December 17th, 2024",
+    "createdAt": "2024-12-15T08:20:20.139+00:00",
+    "unitId": 27,
+    "name": "Astra Yao",
+    "skillKey": "Astra",
+    "fullName": "Astra Yao",
+    "slug": "astra-yao",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/5ddf8e9736d1f0df4536f2b074c121f3/60b4d/27_sm.webp",
+                "srcSet": "/static/5ddf8e9736d1f0df4536f2b074c121f3/e73fe/27_sm.webp 40w,\n/static/5ddf8e9736d1f0df4536f2b074c121f3/61ca6/27_sm.webp 80w,\n/static/5ddf8e9736d1f0df4536f2b074c121f3/60b4d/27_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/840b08294e241ced35e5ab8c70f0a3f4/b26e2/27_card.webp",
+                "srcSet": "/static/840b08294e241ced35e5ab8c70f0a3f4/84550/27_card.webp 94w,\n/static/840b08294e241ced35e5ab8c70f0a3f4/34f80/27_card.webp 187w,\n/static/840b08294e241ced35e5ab8c70f0a3f4/b26e2/27_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "faction": "Stars of Lyra",
+    "attackType": [
+      "Unknown"
+    ],
+    "style": "Support",
+    "element": "Ether",
+    "review": null,
+    "pros": null,
+    "cons": null,
+    "videos": null,
+    "endgameStats": null,
+    "tierListCategory": "Support",
+    "tierListTags": null,
+    "ratings": {
+      "shiyu": 1
+    },
+    "build": null,
+    "talents": null,
+    "introduction": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"It's too late! You're now officially invited to join me on my one-day escape plan. I'm gonna ditch work, run away, and make my way to Reverb Arena!\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "voiceActors": {
+      "en": "",
+      "kr": "",
+      "jpn": "Aya Endo (遠藤 綾)",
+      "cn": ""
+    },
+    "releaseDate": "January 22nd, 2025",
+    "upcoming": true
+  },
+  {
     "id": "3ee6a88a-19e4-57dc-8f95-4170594552fc",
-    "updatedAt": "November 5th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2023-11-22T18:46:08.748+00:00",
     "unitId": 8,
     "name": "Ben",
@@ -483,7 +563,7 @@
       "Buff"
     ],
     "ratings": {
-      "shiyu": 7
+      "shiyu": 6
     },
     "build": {
       "main_4": [
@@ -596,7 +676,7 @@
   },
   {
     "id": "860fde4e-3e46-5028-b62b-8c0fce26b19d",
-    "updatedAt": "November 15th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2023-11-22T18:03:59.928+00:00",
     "unitId": 3,
     "name": "Billy",
@@ -680,7 +760,7 @@
     "tierListCategory": "DPS",
     "tierListTags": null,
     "ratings": {
-      "shiyu": 7
+      "shiyu": 6
     },
     "build": {
       "main_4": [
@@ -796,7 +876,7 @@
   },
   {
     "id": "6144d502-c486-52d2-9f2f-33cda544849a",
-    "updatedAt": "October 17th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2024-08-12T07:07:34.788+00:00",
     "unitId": 23,
     "name": "Burnice",
@@ -851,7 +931,7 @@
     "style": "Anomaly",
     "element": "Fire",
     "review": {
-      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Burnice is a S-Rank Melee Fire Anomaly Agent who brings forth a unique playstyle of passively dealing a good part of her damage and Anomaly Buildup while being off-field. \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Complimenting this, she doesn’t require much time on-field in first place, and to no surprise of anyone, being an Anomaly character she excels at applying and amplifying Burn Disorder quickly and consistently - making her a top choice for Anomaly/Disorder teams, especially ones with characters who can take up the field-time Burnice doesn’t really require. To understand exactly what makes this Pyromaniac cyclist work let's dive into her playstyle and kit! \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Her play style primarily focuses on marking enemies with her special “Scorch” status and building & utilizing her special resource “Heat” - \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"all the while taking minimal field time and using her most powerful abilities to apply massive amounts of Fire Anomaly. Enemies that are Scorched by Burnice suffer great damage and Anomaly when hit by any squad member other than Burnice. That's possible thanks to her Core Passive (that works even when she's off-field) at the cost of consuming her “Heat” count slightly. Continuously triggering Afterburn on Scorched targets is her game plan and in order to do the same she needs to build and maintain a good amount of “Heat” consistently. It can be achieved by either using her Ultimate or spending energy. \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"This leads to a gameplay loop of Scorching the enemies, building and maintaining “Heat” with EX-Special/Ultimate, and going off-field. \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Now with the basics covered let's get into the nitty gritty! \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Burnice’s Core Passive - Nitro-Fuel Cocktail is the source of her most important mechanics - “Heat” resource, “Scorch” status and Afterburn damage off-field. Let’s start with “Heat” first Burnice starts the battle with and can hold up to 100 “Heat” at a time. She gains 1.4 “Heat” per 1 energy spent and upon reaching 50 “Heat” enters the Nitro-Fuel Cocktail State which she will maintain until her “Heat” reaches 0. After which she’ll need to reach 50 again to re-enter.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"While in the Nitro-Fuel Cocktail State she gains access to a new Enhanced Basic Attack and is able to apply the “Scorch” status when hitting enemies with any of the following abilities: \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Basic Attack: Mixed Flame Blend (Nitro-Fuel Cocktail Enhanced Basic Attack)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Any EX-Special Attack\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Chain Attack\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ultimate\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"As mentioned earlier, whenever a Scorched enemy takes damage from a squad member other than Burnice, they suffer Afterburn taking up to 350% of Burnice’s ATK as Assist Attack\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"type damage immediately and a good chunk of Fire Anomaly buildup at the cost of 8 “Heat” per activation. Afterburn can only trigger once every 1.5 seconds and as soon as the Nitro-Fuel Cocktail state ends at 0 “Heat” all scorches will be removed immediately. As an added bonus for every 10 Anomaly Proficiency Burnice has, her Afterburn damage is boosted by 1% up to 30% (Requires 300 Anomaly Proficiency). \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Burnice’s standard Basic Attack is a multi-part combo consisting of 5 attacks with Physical and Fire hits mixed in. None of these hits deal much damage or interact with “Heat” resource, “Scorch” status, or Afterburn so aren’t usually used. \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Bar this she gains access to the Special Charged Basic Attack: Mixed Flame Blend when in the Nitro-Fuel Cocktail State. Upon pressing and holding the Basic Attack button, she immediately consumes up to 20 “Heat” to perform a channeled spinning attack that applies “Scorch”, good Fire Anomaly, and deals reasonable damage. This ability is ideal for quick application of “Scorch” without any conditions or consumption of energy when you have maximum “Heat”, additionally while this ability consumes up to 20 “Heat” it is still useable with even 1 “Heat” as long as you’re still within the Nitro-Fuel Cocktail state.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Burnice’s Dash Attack and Dodge Counter, similar to her standard Basic Attacks, have no bearing on her “Heat” or “Scorch” mechanics so they aren’t used outside of niche scenarios where you need to avoid damage or close a gap.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Also in a similar vein is her Quick Assist and Assist Follow-Up. These attacks do reasonable damage and apply strong Anomaly for their field-time requirements but aren’t critical for her gameplay. As such if the opportunity to use them arises they’re worthwhile but not mandatory in any case.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Her Ultimate as we’ve covered earlier is an ability you should absolutely consider using whenever the team has the Decibels available and her “Heat” isn’t capped out\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". It hits incredibly hard, deals a tremendous amount of Anomaly, and takes up very little field time for how effective it is - all thanks to the fact that halfway through casting it she triggers a Quick Assist for her teammates and can switch out while she continues casting it off-field. On top of all this, her Ultimate generates her 50 “Heat” allowing her to keep her Afterburn trigger continuously without being solely reliant on her energy if timed correctly. Her Chain attack is also worth using when available as long as no other team member requires their Chain Attack to function - it deals a decent chunk of damage, large amounts of Fire Anomaly build-up, and is relatively quick to use. \",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Finally let's talk about her Special and EX-Special attacks. As with most characters, Burnice’s standard Special Attack isn’t used. Although when it comes to her EX she has two of them - “Standard Shot” and “Double Shot” - both of them are channeled Flamethrower attacks that deal continuous damage, massive Fire Anomaly, consume energy over a short duration and deal an explosion at the end. The difference between the two is as follows:\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\" “Standard Shot” consumes a relatively small amount of energy over its duration, makes use of only one of her Flamethrowers, and allows her to reposition mid-channel by strafing left or right. \",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"“Double Shot” on the other hand consumes significantly more energy (over 2x), uses both of her Flamethrowers, deals more Anomaly and damage, lacks repositioning, and has an activation requirement.  \",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"In most cases, it’s advisable to use “Double Shot” as it has a similar channel time to “Single Shot” but does significantly more damage and Anomaly application while also converting her energy into “Heat” at a faster pace. In order to access “Double Shot” when using the EX-Special instead of the standard “Single Shot” simply tap the EX twice in quick succession (which will cause it to swap from “Single” to “Double” after a short delay) or make use of the EX immediately after any of the following abilities to skip out on having to double tap the ability (Executes with no delay);\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Basic Attack: Mixed Flame Blend\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Chain Attack: Fuel-Fed Flame\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Assist Follow-Up: Scorching Dew\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"As a final bonus, her Additional Ability grants her 65% additional Fire Anomaly Buildup to the following abilities;\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Basic Attack: Mixed Flame Blend\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Both EX Special Attacks “Single” and “Double”\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Afterburn\",\"marks\":[],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"On top of this, it also extends all Burns inflicted by the squad by 3 seconds. It goes without saying this Additional Ability is worth activating and should always be a goal to consider when building a team for Burnice.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Now let’s bring it all together - when playing Burnice all you need to worry about is to keep your enemy consistently Scorched and maintain a healthy amount of “Heat” via timely Ultimate and EX-Special “Double Shot” use. Outside of this other abilities can be optionally used but focusing on granting your allies as much field time as possible while her Afterburn constantly triggers is generally her best play. \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"As it should be clear by now that without “Heat”, she can’t make use of a very large part of her kit and to maintain it she either needs a steady supply of energy for EX’s or the use of her Ultimate. \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"As such she is definitely one of the more energy-hungry characters - more so in long drawn-out fights. To remedy this somewhat ensure no “Heat” is wasted when using EX-Specials or Ultimates.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"In conclusion, \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Burnice serves as a top-tier Anomaly Sub-DPS option\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" especially when paired with characters who can make use of the field-time she frees up. If you’re looking to further invest into Anomaly, specifically Disorder, she's a great addition to any endgame roster. \",\"marks\":[],\"data\":{}}]}]}"
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Burnice is a S-Rank Melee Fire Anomaly Agent who brings forth a unique playstyle of passively dealing a good part of her damage and Anomaly Buildup while being off-field. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Complimenting this, she doesn’t require much time on-field in first place, and to no surprise of anyone, being an Anomaly character she excels at applying and amplifying Burn Disorder quickly and consistently - making her a top choice for Anomaly/Disorder teams, especially ones with characters who can take up the field-time Burnice doesn’t really require. To understand exactly what makes this Pyromaniac cyclist work let's dive into her playstyle and kit! \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Her play style primarily focuses on marking enemies with her special “Scorch” status and building & utilizing her special resource “Heat” - \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"all the while taking minimal field time and using her most powerful abilities to apply massive amounts of Fire Anomaly. Enemies that are Scorched by Burnice suffer great damage and Anomaly when hit by any squad member other than Burnice. That's possible thanks to her Core Passive (that works even when she's off-field) at the cost of consuming her “Heat” count slightly. Continuously triggering Afterburn on Scorched targets is her game plan and in order to do the same she needs to build and maintain a good amount of “Heat” consistently. It can be achieved by either using her Ultimate or spending energy. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"This leads to a gameplay loop of Scorching the enemies, building and maintaining “Heat” with EX-Special/Ultimate, and going off-field. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Now with the basics covered let's get into the nitty gritty! \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Burnice’s Core Passive - Nitro-Fuel Cocktail is the source of her most important mechanics - “Heat” resource, “Scorch” status and Afterburn damage off-field. Let’s start with “Heat” first Burnice starts the battle with and can hold up to 100 “Heat” at a time. She gains 1.4 “Heat” per 1 energy spent and upon reaching 50 “Heat” enters the Nitro-Fuel Cocktail State which she will maintain until her “Heat” reaches 0. After which she’ll need to reach 50 again to re-enter.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"While in the Nitro-Fuel Cocktail State she gains access to a new Enhanced Basic Attack and is able to apply the “Scorch” status when hitting enemies with any of the following abilities: \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Mixed Flame Blend (Nitro-Fuel Cocktail Enhanced Basic Attack)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Any EX-Special Attack\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ultimate\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As mentioned earlier, whenever a Scorched enemy takes damage from a squad member other than Burnice, they suffer Afterburn taking up to 350% of Burnice’s ATK as Assist Attack\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"type damage immediately and a good chunk of Fire Anomaly buildup at the cost of 8 “Heat” per activation. Afterburn can only trigger once every 1.5 seconds and as soon as the Nitro-Fuel Cocktail state ends at 0 “Heat” all scorches will be removed immediately. As an added bonus for every 10 Anomaly Proficiency Burnice has, her Afterburn damage is boosted by 1% up to 30% (Requires 300 Anomaly Proficiency). \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Burnice’s standard Basic Attack is a multi-part combo consisting of 5 attacks with Physical and Fire hits mixed in. None of these hits deal much damage or interact with “Heat” resource, “Scorch” status, or Afterburn so aren’t usually used. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Bar this she gains access to the Special Charged Basic Attack: Mixed Flame Blend when in the Nitro-Fuel Cocktail State. Upon pressing and holding the Basic Attack button, she immediately consumes up to 20 “Heat” to perform a channeled spinning attack that applies “Scorch”, good Fire Anomaly, and deals reasonable damage. This ability is ideal for quick application of “Scorch” without any conditions or consumption of energy when you have maximum “Heat”, additionally while this ability consumes up to 20 “Heat” it is still useable with even 1 “Heat” as long as you’re still within the Nitro-Fuel Cocktail state.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Burnice’s Dash Attack and Dodge Counter, similar to her standard Basic Attacks, have no bearing on her “Heat” or “Scorch” mechanics so they aren’t used outside of niche scenarios where you need to avoid damage or close a gap.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Also in a similar vein is her Quick Assist and Assist Follow-Up. These attacks do reasonable damage and apply strong Anomaly for their field-time requirements but aren’t critical for her gameplay. As such if the opportunity to use them arises they’re worthwhile but not mandatory in any case.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Her Ultimate as we’ve covered earlier is an ability you should absolutely consider using whenever the team has the Decibels available and her “Heat” isn’t capped out\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". It hits incredibly hard, deals a tremendous amount of Anomaly, and takes up very little field time for how effective it is - all thanks to the fact that halfway through casting it she triggers a Quick Assist for her teammates and can switch out while she continues casting it off-field. On top of all this, her Ultimate generates her 50 “Heat” allowing her to keep her Afterburn trigger continuously without being solely reliant on her energy if timed correctly. Her Chain attack is also worth using when available as long as no other team member requires their Chain Attack to function - it deals a decent chunk of damage, large amounts of Fire Anomaly build-up, and is relatively quick to use. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Finally let's talk about her Special and EX-Special attacks. As with most characters, Burnice’s standard Special Attack isn’t used. Although when it comes to her EX she has two of them - “Standard Shot” and “Double Shot” - both of them are channeled Flamethrower attacks that deal continuous damage, massive Fire Anomaly, consume energy over a short duration and deal an explosion at the end. The difference between the two is as follows:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\" “Standard Shot” consumes a relatively small amount of energy over its duration, makes use of only one of her Flamethrowers, and allows her to reposition mid-channel by strafing left or right. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"“Double Shot” on the other hand consumes significantly more energy (over 2x), uses both of her Flamethrowers, deals more Anomaly and damage, lacks repositioning, and has an activation requirement.  \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"In most cases, it’s advisable to use “Double Shot” as it has a similar channel time to “Single Shot” but does significantly more damage and Anomaly application while also converting her energy into “Heat” at a faster pace. In order to access “Double Shot” when using the EX-Special instead of the standard “Single Shot” simply tap the EX twice in quick succession (which will cause it to swap from “Single” to “Double” after a short delay) or make use of the EX immediately after any of the following abilities to skip out on having to double tap the ability (Executes with no delay);\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Mixed Flame Blend\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack: Fuel-Fed Flame\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Assist Follow-Up: Scorching Dew\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As a final bonus, her Additional Ability grants her 65% additional Fire Anomaly Buildup to the following abilities;\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Mixed Flame Blend\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Both EX Special Attacks “Single” and “Double”\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Afterburn\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"On top of this, it also extends all Burns inflicted by the squad by 3 seconds. It goes without saying this Additional Ability is worth activating and should always be a goal to consider when building a team for Burnice.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Now let’s bring it all together - when playing Burnice all you need to worry about is to keep your enemy consistently Scorched and maintain a healthy amount of “Heat” via timely Ultimate and EX-Special “Double Shot” use. Outside of this other abilities can be optionally used but focusing on granting your allies as much field time as possible while her Afterburn constantly triggers is generally her best play. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"As it should be clear by now that without “Heat”, she can’t make use of a very large part of her kit and to maintain it she either needs a steady supply of energy for EX’s or the use of her Ultimate. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"As such she is definitely one of the more energy-hungry characters - more so in long drawn-out fights. To remedy this somewhat ensure no “Heat” is wasted when using EX-Specials or Ultimates.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"In conclusion, \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Burnice serves as a top-tier Anomaly Sub-DPS option\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" especially when paired with characters who can make use of the field-time she frees up. If you’re looking to further invest into Anomaly, specifically Disorder, she's a great addition to any endgame roster. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
     },
     "pros": {
       "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As a Sub-DPS who doesn't need to steal the field time from other characters, she can be easily slotted into various teams.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Incredible Fire Anomaly Application - ideal for Burn or Disorder-focused teams.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Can deal a significant portion of her damage and Anomaly application while off-field doubling down on her low field-time playstyle.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has surprisingly high direct damage multipliers for an Anomaly character giving her the option to gain extra damage through stats such as Critical Rate and Critical Damage if you find it on gear.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Easy To Play.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
@@ -874,7 +954,7 @@
       "Burn"
     ],
     "ratings": {
-      "shiyu": 11
+      "shiyu": 10
     },
     "build": {
       "main_4": [
@@ -1361,7 +1441,7 @@
   },
   {
     "id": "76498920-c4e7-5b17-9306-9d3aa82dcc75",
-    "updatedAt": "November 6th, 2024",
+    "updatedAt": "December 18th, 2024",
     "createdAt": "2023-11-22T19:16:14.492+00:00",
     "unitId": 13,
     "name": "Ellen",
@@ -1428,10 +1508,10 @@
     "style": "Attack",
     "element": "Ice",
     "review": {
-      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Ellen is an S-Rank Ice Combat Agent specializing in delivering high amounts of pure Ice damage through her unique burst rotation and her ability to execute EX combos with the team’s Ultimate.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Additionally, she maintains a consistent damage output against less formidable foes using a powerful sustained combo.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ellen boasts high mobility, thanks to her signature sprinting state, which positions her as one of the fastest characters in the game. Her gameplay is centered around managing Flash Freeze charges, a resource exclusive to her, which powers her Enhanced Basic Attacks. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Mastering this allows Ellen to achieve one of the highest damage outputs in the game, cementing her status as a top-tier DPS in the endgame mode, Shiyu Defense.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Due to nuances of her kit, Ellen is considered one of the more complex characters ingame.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ellen’s Basic Attack is a 3-hit combo integral to both her standard and burst rotations. It features two variants: a standard form dealing Physical damage and an enhanced form consuming Flash Freeze charges to deal Ice damage instead (requiring 3 Flash Freeze for a full 3-hit combo). In both forms, the first and second strikes are swift and relatively weak, while the third strike is a lengthier attack that can be extended further with continuous tapping. The third hit deals the majority of the combo's damage and triggers Ellen's teleportation behind her current or a new target if the original is eliminated or moves.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ellen possesses standard Dodge, Dodge Counter, and Dash attacks common among characters.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" Unique to her is the ability to hold down her Dodge to enter a special sprinting state known as the Roaming State. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"This state allows her to remain indefinitely sprinting and transforms her standard Basic Attack into Arctic Ambush, a critical component of her kit. Activating Arctic Ambush exits the Roaming State, delivering a chopping attack with her scissors that generates 1 Flash Freeze charge on hit. Alternatively, holding the Basic Attack button charges Arctic Ambush, increasing its damage and generating 3 Flash Freeze charges (ideal for executing a full Enhanced Basic Attack combo). Charging Arctic Ambush costs Ellen considerable field time, but executing a Perfect Dodge grants her the \\\"Quick Charge\\\" buff, significantly speeding up her next Charged Arctic Ambush from roughly 2 seconds to about 1.5 seconds.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ellen’s Defensive Assist, Assist Follow-Up, and Quick Assist are standard attacks among melee characters, dealing Ice damage and/or inflicting Daze. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Notably, when she performs a Quick Assist, she also gains the \\\"Quick Charge\\\" effect mentioned before, in addition to the usual Perfect Dodge bonus.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ellen possesses 3 Special Attacks: 1 Standard Special and 2 EX Specials. She utilizes her Standard Special sparingly, focusing instead on her EX Specials during burst rotations and situational use within her standard combo. The first EX Special can be activated when having sufficient energy, dealing Ice damage ahead of her, generating 1 Flash Freeze charge, and allowing an immediate Follow-Up with the third Basic Attack  of her Basic Attack combo. This sequence allows Ellen to quickly deal damage, generate a Charge, and then immediately use it via her powerful Basic combo, making her entire rotation go in a concise sequence. Ellen’s second EX functions similarly but with increased damage and the ability to induce Daze, requiring immediate use after her first EX. This choice gives Ellen flexibility: she can opt for EX1 followed by a Basic 3 or EX1 + EX2 followed by a Basic 3.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ellen’s Chain Attack and Ultimate, smilar to her Assists, deliver substantial Ice damage and Daze. However, her Chain Attack requires more time to execute compared to other characters.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Ellen’s Core Passive is very strong, making it a nice incentive to approach 100% Critical Hit Rate without damaging her other stats.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" This passive grants up to 100% Crit damage to Arctic Assault, all her Flash Freeze-Enhanced attacks, including her Basics. Her Additional Ability is also formidable and should be activated as a priority. It grants a buff increasing her Ice damage by 3% each time she deals any Ice damage, stacking up to 10 times for 10 seconds. This ability is easily maintained, effectively providing a consistent 30% boost to Ice damage.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Ellen is unquestionably at the frontline of the meta upon her release as a DPS. Once mastered, she proves to be invaluable both in present and in future gameplay.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" For optimal strategies for combining all of Ellen’s abilities, refer to the Rotation & Teams section of this guide.  \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen is an S-Rank Ice Combat Agent specializing in delivering high amounts of pure Ice damage through her unique burst rotation and her ability to execute EX combos with the team’s Ultimate.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" Additionally, she maintains a consistent damage output against less formidable foes using a powerful sustained combo.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen boasts high mobility, thanks to her signature sprinting state, which positions her as one of the fastest characters in the game. Her gameplay is centered around managing Flash Freeze charges, a resource exclusive to her, which powers her Enhanced Basic Attacks. \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Mastering this allows Ellen to achieve one of the highest damage outputs in the game, cementing her status as a top-tier DPS in the endgame mode, Shiyu Defense.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Due to nuances of her kit, Ellen is considered one of the more complex characters ingame.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen’s Basic Attack is a 3-hit combo integral to both her standard and burst rotations. It features two variants: a standard form dealing Physical damage and an enhanced form consuming Flash Freeze charges to deal Ice damage instead (requiring 3 Flash Freeze for a full 3-hit combo). In both forms, the first and second strikes are swift and relatively weak, while the third strike is a lengthier attack that can be extended further with continuous tapping. The third hit deals the majority of the combo's damage and triggers Ellen's teleportation behind her current or a new target if the original is eliminated or moves.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen possesses standard Dodge, Dodge Counter, and Dash attacks common among characters.\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" Unique to her is the ability to hold down her Dodge to enter a special sprinting state known as the Roaming State. \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"This state allows her to remain indefinitely sprinting and transforms her standard Basic Attack into Arctic Ambush, a critical component of her kit. Activating Arctic Ambush exits the Roaming State, delivering a chopping attack with her scissors that generates 1 Flash Freeze charge on hit. Alternatively, holding the Basic Attack button charges Arctic Ambush, increasing its damage and generating 3 Flash Freeze charges (ideal for executing a full Enhanced Basic Attack combo). Charging Arctic Ambush costs Ellen considerable field time, but executing a Perfect Dodge grants her the \\\"Quick Charge\\\" buff, significantly speeding up her next Charged Arctic Ambush from roughly 2 seconds to about 1.5 seconds.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen’s Defensive Assist, Assist Follow-Up, and Quick Assist are standard attacks among melee characters, dealing Ice damage and/or inflicting Daze. \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Notably, when she performs a Quick Assist, she also gains the \\\"Quick Charge\\\" effect mentioned before, in addition to the usual Perfect Dodge bonus.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen possesses 3 Special Attacks: 1 Standard Special and 2 EX Specials. She utilizes her Standard Special sparingly, focusing instead on her EX Specials during burst rotations and situational use within her standard combo. The first EX Special can be activated when having sufficient energy, dealing Ice damage ahead of her, generating 1 Flash Freeze charge, and allowing an immediate Follow-Up with the third Basic Attack  of her Basic Attack combo. This sequence allows Ellen to quickly deal damage, generate a Charge, and then immediately use it via her powerful Basic combo, making her entire rotation go in a concise sequence. Ellen’s second EX functions similarly but with increased damage and the ability to induce Daze, requiring immediate use after her first EX. This choice gives Ellen flexibility: she can opt for EX1 followed by a Basic 3 or EX1 + EX2 followed by a Basic 3.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen’s Chain Attack and Ultimate, smilar to her Assists, deliver substantial Ice damage and Daze. However, her Chain Attack requires more time to execute compared to other characters.\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Ellen’s Core Passive is very strong, making it a nice incentive to approach 100% Critical Hit Rate without damaging her other stats.\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" This passive grants up to 100% Crit damage to Arctic Assault, all her Flash Freeze-Enhanced attacks, including her Basics. Her Additional Ability is also formidable and should be activated as a priority. It grants a buff increasing her Ice damage by 3% each time she deals any Ice damage, stacking up to 10 times for 10 seconds. This ability is easily maintained, effectively providing a consistent 30% boost to Ice damage.\",\"marks\":[],\"data\":{}}]}]}"
     },
     "pros": {
-      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has the highest damage output in the game at the time of her release,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Is part of the best team in the game at the time of her release (Mono-Ice),\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has incredible mobility while in the Roaming state, which allows for quick movement through levels and repositioning around bosses,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Many abilities have movement and dodging components built into them, making Ellen more challenging for enemies to hit.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has the strongest self-buffs built into her kit in the game at the time of her release,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Only Ice damage dealer at the time of her release.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has incredible mobility while in the Roaming state, which allows for quick movement through levels and repositioning around bosses,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Many abilities have movement and dodging components built into them, making Ellen more challenging for enemies to hit,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has a decent amount of self-buffs built into her kit.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
     },
     "cons": {
       "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Is a combo-based character with a variety of attack sequences that are all viable. This means Ellen has a slight learning curve compared to other characters,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has small moments of vulnerability unless played carefully when executing charged attacks or her fairly long Basic Attack part 3,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ellen's Chain Attack is notable for its extended cast time compared to other characters, which can potentially sacrifice valuable opportunities during the enemy's Stun window. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
@@ -1450,7 +1530,7 @@
       "Charge"
     ],
     "ratings": {
-      "shiyu": 10
+      "shiyu": 9
     },
     "build": {
       "main_4": [
@@ -1565,8 +1645,88 @@
     "upcoming": null
   },
   {
+    "id": "0beb0a6b-c119-5650-880e-74a707ea99f9",
+    "updatedAt": "December 17th, 2024",
+    "createdAt": "2024-12-16T08:51:21.095+00:00",
+    "unitId": 28,
+    "name": "Evelyn",
+    "skillKey": "Evelyn",
+    "fullName": "Evelyn Chevalier",
+    "slug": "evelyn",
+    "rarity": "S",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/bf318d32e64a1941a2f929b7a7777850/60b4d/28_sm.webp",
+                "srcSet": "/static/bf318d32e64a1941a2f929b7a7777850/e73fe/28_sm.webp 40w,\n/static/bf318d32e64a1941a2f929b7a7777850/61ca6/28_sm.webp 80w,\n/static/bf318d32e64a1941a2f929b7a7777850/60b4d/28_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/aa2e94f742a6e200918a4db3e350ffd5/b26e2/28_card.webp",
+                "srcSet": "/static/aa2e94f742a6e200918a4db3e350ffd5/84550/28_card.webp 94w,\n/static/aa2e94f742a6e200918a4db3e350ffd5/34f80/28_card.webp 187w,\n/static/aa2e94f742a6e200918a4db3e350ffd5/b26e2/28_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "faction": "Stars of Lyra",
+    "attackType": [
+      "Unknown"
+    ],
+    "style": "Attack",
+    "element": "Fire",
+    "review": null,
+    "pros": null,
+    "cons": null,
+    "videos": null,
+    "endgameStats": null,
+    "tierListCategory": "DPS",
+    "tierListTags": null,
+    "ratings": {
+      "shiyu": 1
+    },
+    "build": null,
+    "talents": null,
+    "introduction": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ms. Yao is currently enjoying her private time and will not be taking any interviews.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "voiceActors": {
+      "en": "",
+      "kr": "",
+      "jpn": "Yoko Hikasa (日笠 陽子)",
+      "cn": ""
+    },
+    "releaseDate": "February 12th, 2025",
+    "upcoming": true
+  },
+  {
     "id": "17c77baa-0c01-55fc-b442-6da15d67e7a6",
-    "updatedAt": "November 27th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2023-11-22T18:11:28.806+00:00",
     "unitId": 4,
     "name": "Grace",
@@ -1654,7 +1814,7 @@
       "Sub-DPS"
     ],
     "ratings": {
-      "shiyu": 8
+      "shiyu": 7
     },
     "build": {
       "main_4": [
@@ -1771,14 +1931,14 @@
   },
   {
     "id": "0aa864ff-adf4-562a-a8cb-4776eec45873",
-    "updatedAt": "November 7th, 2024",
+    "updatedAt": "December 18th, 2024",
     "createdAt": "2024-11-07T08:08:52.585+00:00",
     "unitId": 26,
     "name": "Harumasa",
     "skillKey": "Harumasa",
     "fullName": "Asaba Harumasa",
     "slug": "harumasa",
-    "rarity": "Unknown",
+    "rarity": "S",
     "smallImage": {
       "localFile": {
         "childImageSharp": {
@@ -1825,18 +1985,127 @@
     ],
     "style": "Attack",
     "element": "Electric",
-    "review": null,
-    "pros": null,
-    "cons": null,
-    "videos": null,
-    "endgameStats": null,
-    "tierListCategory": "DPS",
-    "tierListTags": null,
-    "ratings": {
-      "shiyu": 1
+    "review": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Harumasa is an S-Rank Melee/Ranged Hybrid Electric attack Agent sporting a Bow - and he isn’t afraid to get up and personal. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Harumusa blends the Ranged and Melee play styles seamlessly with options to shoot from afar or deal great close damage. Thanks to his lightning-fast Dashes or effective Disengage, he has no problem swapping back and forth between the two. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"With that said, his ideal rotations all involve him combining both at the same time.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" He has two other important components to his kit - the first being the ability to deploy Mobile Quivers which act as a sort of Landmine he can trigger with his attacks to deal a burst of damage and the second is his emphasis on dealing damage during the Stun window, something he gets many rewards for striving towards. To understand how that all plays out let’s dive into his kit.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Harumasa’s kit has a lot of text but his gameplay is actually incredibly simple and a lot of his abilities actually aren’t used in standard rotations.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" His game plan is very simple: deploy his Quivers, trigger them by firing an arrow to mark the target, Dash into Melee range to reap the benefits of said mark, rinse, repeat. Now that was probably a little too simple, so let's get into the actual specifics of how that works.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Harumasa’s unique resource is his Electro Quivers - this isn’t a resource that is tracked via a resource gauge but can be seen clearly on the field. There are four ways he can deploy Quivers:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"2 from Executing the 5th part of his Basic Attack combo Cloud Piercer.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"6 from Executing the 5th part of his Basic Attack combo Cloud Piercer \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"after the chain attack\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"6 from Executing a Chain Attack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"6 from Executing an EX Special.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"6 when any squad member applies an Attribute Anomaly & no Quivers are currently active (12 Second Cooldown).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Haramusa can only have 6 Quivers active on the field at once and generating more with 6 active will only waste them.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" It’s no exaggeration to state that his damage and rotation live and die by how well you manage this resource. So what do you do with Quivers?\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Harumasa’s Basic Attack is split into 3 parts. The first is the standard 5-part Basic Attack combo - Cloud Piercer, made up of a mix of Physical and Electric hits. This combo is useful to deploy extra Quivers following a chain attack and you’ll be using it but only the latter portion - attacks 4 and 5 which can be executed immediately following some of his combos. The second is his charged Basic Attack Falling Feather which sees Harumasa draw his Bow, lock on, and fire at a target - doing so also activates all the Electro Quivers on the field causing them to deal damage to targets hit. This damage is the third part of his Basic Attack and is referred to as Ha-Oto no Ya. Each time an enemy is hit by Ha-Oto no Ya they’re afflicted with a stack of Electro Prison for up to a maximum of 8 stacks. While an enemy has at least 2 stacks of Electro Prison they are also X-Marked.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"To understand X-Marked and Electro Prison we first need to cover Harumasa’s Dodge abilities. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Harumasa’s standard Dash Attack and Dodge Counter are useful but not a critical part of his main combos -what is important though is the enhanced version of his Dash Attack called Hiten no Tsuru - Slash. While there is an enemy that is X-Marked, Harumasa enters the Awakened state granting him access to Hiten no Tsuru - Slash against that target. Hiten no Tsuru - Slash can be activated by performing a Dash combined with a Basic Attack and causes him to perform a rapid Dashing Strike toward the mark at the cost of consuming 2 stacks of Electro Prison per strike. Hiten no Tsuru - Slash consists of a 3-part attack combo with each attack consuming 2 stacks of Electro Prison. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"With this, we can form the basis of Harumasa’s combos.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Deploy 6 Electro Quivers\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather (Activates all 6 Quivers Applying 6 Electro Prison & X-Marked)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"With just this, you already know most of how to play Harumasa - of course, there’s still more to cover but this combo is what you’ll be repeating over and over with just slight alterations. An important tip also is that immediately following Falling Feather you can simply spam Basic Attack to execute the Slashes without needing to worry about combining Dash and Basic at the same time.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Harumasa’s Core Passive and Additional Ability double down on what we’ve already outlined.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" His Core Passive increases the CRIT RATE of Hiten no Tsuru - Slash by 25% at all times whilst also granting the Slash the ability to grant him a stackable buff called Gleaming Edge. Gleaming Edge grants Hiten no Tsuru - Slash 12% CRIT DMG per stack and can be stacked up to 6 times, lasts 10 seconds and is gained each time Hiten no Tsuru - Slash does a Critical Hit for a maximum of 3 stacks gained per individual strike. With a high CRIT RATE, you can expect to max out the stacks of this Passive easily by the third slash of Hiten no Tsuru. Harumasa’s Additional ability increases his DMG by 40% against enemies afflicted with any Attribute Anomaly or who are Stunned. Also when using Falling Feather against enemies that are Stunned or afflicted by an Attribute Anomaly, Harumasa generates an additional 2 Electro Prison.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"With this we can update our combo, it’s also important to note that in the event you can use additional Hiten no Tsuru - Slashes after the third, he will loop back to Part 2 after Part 3. Here is an example of what a combo against a Stunned target might look like:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather (Activates all 6 Quivers Applying 8 Electro Prison & X-Marked)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As mentioned earlier we can make use of Harumasa’s Basic Attack 4 and 5 to gain even more Quiver’s. After executing Hiten no Tsuru the following basic attack will skip straight to Basic 4 allowing quick access to more quivers and yet more slashes.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather (Activates all 6 Quivers Applying 8 Electro Prison & X-Marked)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Cloud Piercer P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Cloud Piercer P5 (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Harumasa’s EX Special Attack and Chain Attack do Electric damage and serve as on-demand Quiver dispensers spawning 6 immediately - nice and simple, and that’s all we’ll be using them for. His Ultimate is just a huge Electric damage nuke, nothing fancy here. Also, his Quick Assist, Defensive Assist, and Assist Follow-Up are all stock standard and should be used as you would on any other agent.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Bringing it all together, let's talk combos and most importantly his damage window. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Harumasa gains huge benefits when attacking either Stunned or Anomaly afflicted enemies\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" - outside of this, his power is greatly diminished. Because of this, he wants to dump all his resources and attention into a window of time where one or the other is active. There are many preparatory strategies you can execute in order to try and seek out more damage but the premise is always the same, aim to land as many Hiten no Tsuru Slashes during a vulnerable period as possible. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Here is an example of how a rotation against a Stunned enemy can look:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack:  Nowhere to Run  (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ultimate: Zanshin\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"For those looking to optimize you can pre-mark an enemy with X-Marked prior to them being Stunned to get another round of Dash Attacks in:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Pre-mark with 6-8 Electro Prison\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack:  Nowhere to Run  (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ultimate: Zanshin\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"We can also combine this with the Basic 4 and 5 combo from earlier for the holy grail 16-slash Haramusa combo (very hard to achieve):\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Pre-mark with 6-8 Electro Prison\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Cloud Piercer P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Cloud Piercer P5 (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack:  Nowhere to Run  (Deploys 6 Quivers)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Falling Feather\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P1\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Dash Attack: Hiten no Tsuru - Slash P2\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ultimate: Zanshin\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"This is significantly harder to pull off and takes some serious preparation but can allow for much higher burst damage, leading to overall higher damage for highly skilled Harumasa players. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"It’s also important not to forget the additional Quivers that can be gained via squadmates applying Anomaly - don’t waste them and try to factor them into your combos as well!\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"To conclude, Harumasa is a burst damage specialist - deploy, activate, combo, repeat - preferably all being done during the enemy Stun window to gain massively increased damage and with preparation that can be made even more effective. Against enemies where the Stun window is shorter or more challenging to access, Harumasa will suffer. Furthermore, for players who aren’t willing to pursue preparation before his burst windows some of his potential will be lost.  \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"While he isn’t some new level of power, at the time of release he’s free and he gets the job done with a rather unique play style - if his kit appeals to you he’s a solid Electric damage pick.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
     },
-    "build": null,
-    "talents": null,
+    "pros": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Is a free character (but you have to grab him during the 1.4 patch),\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"His teams are the standard hypercarry compositions that are easy to learn and use,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has the potential to perform even better as you master his rotation,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has good Burst damage,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Excellent mobility via quick Dash Attack engages and the option for swift disengages.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "cons": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Does significantly more damage against stunned enemies with a noticeable decrease outside of that,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Requires more effort, planning, and skill to be played to maximum potential compared to other characters,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Enemies that have shorter stun durations or resistance to being stunned limit Harumasa's burst potential.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "videos": [
+      {
+        "video": "N7M2HyJXZeQ"
+      },
+      {
+        "video": "lUUuMeViKG8"
+      }
+    ],
+    "endgameStats": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2600 - 3400+\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10000+\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT RATE: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"75%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Not more)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"150-190%\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "tierListCategory": "DPS",
+    "tierListTags": [
+      "Combo",
+      "Charge"
+    ],
+    "ratings": {
+      "shiyu": 9
+    },
+    "build": {
+      "main_4": [
+        {
+          "stat": "CRIT DMG",
+          "sign": ">="
+        },
+        {
+          "stat": "CRIT Rate",
+          "sign": null
+        }
+      ],
+      "main_5": [
+        {
+          "stat": "Electric DMG",
+          "sign": ">="
+        },
+        {
+          "stat": "ATK%",
+          "sign": null
+        }
+      ],
+      "main_6": [
+        {
+          "stat": "ATK%",
+          "sign": null
+        }
+      ],
+      "sets": null,
+      "engines": [
+        {
+          "super": 1,
+          "weapon": "Zanshin Herb Case",
+          "percent": "100%",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 1,
+          "weapon": "The Brimstone",
+          "percent": "91.08%",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "Marcato Desire",
+          "percent": "84.25%",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "Starlight Engine",
+          "percent": "82.76%",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "Cannon Rotor",
+          "percent": "80.83%",
+          "percent_standard": null,
+          "notes": null
+        }
+      ],
+      "substats": "CRIT DMG = CRIT Rate = ATK% > PEN = ATK"
+    },
+    "talents": [
+      {
+        "name": "High Spirit",
+        "desc": "The maximum stack limit of Electro Prison from Basic Attack: Ha-Oto no Ya increases to <b>14</b> stacks. When an Electro Quiver is triggered, <b>2</b> consecutive Ha-Oto no Ya will be fired at the target."
+      },
+      {
+        "name": "Languish",
+        "desc": "When using an Chain Attack or Ultimate, Harumasa gains <b>7</b> stacks of Electro Blitz, up to a max of <b>7</b> stacks. While possessing Electro Blitz, the DMG of Dash Attack: Hiten no Tsuru - Slash increases by <b>50%</b>. Consume <b>1</b> stack of Electro Blitz once Dash Attack: Hiten no Tsuru - Slash ends."
+      },
+      {
+        "name": "White Lies",
+        "desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+      },
+      {
+        "name": "Occasionally Motivated",
+        "desc": "Electro Prison now lasts for <b>20s</b>. When Dash Attack: Hiten no Tsuru - Slash hits enemies, Harumasa gains <b>30</b> Decibels once per use of this skill. Upon activating Ultimate, apply maximum stacks of Electro Prison to all on-field enemies."
+      },
+      {
+        "name": "No One Knows",
+        "desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+      },
+      {
+        "name": "Tacit Understanding",
+        "desc": "After Ha-Oto no Ya hits Stunned enemies or enemies under Attribute Anomalies, Harumasa will ignore <b>15%</b> of the target's Electric RES for <b>12s</b>. Every <b>12</b> times an enemy is hit by Ha-Oto no Ya, trigger an extra electromagnetic explosion, dealing <b>1500%</b> of Harumasa's ATK to the target as Electric DMG."
+      }
+    ],
     "introduction": null,
     "voiceActors": {
       "en": "",
@@ -1844,12 +2113,12 @@
       "jpn": "",
       "cn": ""
     },
-    "releaseDate": null,
-    "upcoming": true
+    "releaseDate": "December 18th, 2024",
+    "upcoming": false
   },
   {
     "id": "a474f168-033b-5fe1-a40a-468e6cf3d720",
-    "updatedAt": "September 14th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2024-07-12T11:21:53.516+00:00",
     "unitId": 21,
     "name": "Jane Doe",
@@ -1922,10 +2191,11 @@
     },
     "tierListCategory": "Anomaly",
     "tierListTags": [
-      "Assault"
+      "Assault",
+      "Charge"
     ],
     "ratings": {
-      "shiyu": 11
+      "shiyu": 10
     },
     "build": {
       "main_4": [
@@ -2846,14 +3116,14 @@
   },
   {
     "id": "3955bdec-3801-5d21-9a62-9e585febd914",
-    "updatedAt": "November 12th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2023-11-22T19:08:58.336+00:00",
     "unitId": 10,
     "name": "Miyabi",
     "skillKey": "Miyabi",
     "fullName": "Hoshimi Miyabi",
     "slug": "miyabi",
-    "rarity": "Unknown",
+    "rarity": "S",
     "smallImage": {
       "localFile": {
         "childImageSharp": {
@@ -2911,30 +3181,144 @@
       "Slash"
     ],
     "style": "Anomaly",
-    "element": "Unknown",
-    "review": null,
-    "pros": null,
-    "cons": null,
-    "videos": null,
-    "endgameStats": null,
-    "tierListCategory": null,
-    "tierListTags": null,
-    "ratings": {
-      "shiyu": 1
+    "element": "Frost",
+    "review": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Miyabi is an S-Rank Melee Frost Anomaly Agent and is the first (and perhaps the last) Frost character ZZZ will see.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" In addition to bringing a new element to the game, she is also the first Anomaly unit that specifically only wants a CRIT-based build. Yeah. Miyabi really is the odd character that breaks all the rules. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Now, what does she bring to the table? \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"The answer is a simple one - an absurd amount of damage\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", more than any other character released so far to the point of setting a new bar for what to expect in the future. Similar to Yanagi and Jane, Miyabi continues the trend of Anomaly characters dealing huge burst damage up front, making her just as effective at immediate damage as any DPS character currently released. To understand how to get the most out of the powerhouse that is Miyabi let’s dive into her kit.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"While in combat, her game plan is simple: she wants to execute her most powerful attack - Basic Attack: Shimotsuki at the right time, being fully charged and as frequently as possible\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Shimotsuki is an enhanced version of her Basic Attack accessible by pressing and holding the button to charge. It can be charged up to 3 times based on her resources on hand and upon reaching max charges, it deals as much damage as most other characters' Ultimates. As such, the entirety of Miyabi’s kit and rotation will revolve around generating resources for fully charged Shimotsuki and timing them just right. So let's learn exactly how to do that.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Her unique resource is a special gauge consisting of 6 Orbs called “Fallen Frost”.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" “Fallen Frost” is how you access and charge her enhanced Basic Attack Shimotsuki, as such accumulating “Fallen Frost” is always of the utmost importance. Miyabi can generate “Fallen Frost” in the following ways:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"3 Orbs upon entering the battle for the first time (only happens once).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"3 Orbs upon releasing her Ultimate.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"2 Orbs upon using either of her EX Special attacks (4 when both are used together).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"2 Orbs when any squad member triggers Disorder.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"1 Orb upon triggering Frostburn - Break via Frost Anomaly (10-second cooldown).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As you can see, that’s a lot of ways to gain Orbs but Miyabi needs all 6 filled before she can unleash her most powerful attack - something you’ll want to be saving for each time.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Miyabi’s Basic Attacks are how we’ll be not only spending “Fallen Frost” but also filling some downtime. Her Basic Attacks are split into two different abilities. The first is a standard 5 part combo consisting of 2 Physical attacks initially and 3 Frost attacks at the end. The second is her charged Basic Attack: Shimotsuki which can only be accessed when you have at least 2 Orbs of “Fallen Frost”. Each charge of Shimotsuki requires 2 additional Orbs of “Fallen Frost” to access, with the most powerful version requiring 6 Orbs (3 Charges). Outside of Shimotsuki, her rotations also make use of her standard Basic Attack combo albeit with some skips accessed via ability sequencing. The most common of these skips is being able to bypass using the first 2 Physical attacks of the combo by using an EX Special Attack immediately followed by Basic Attacks allowing for the following combo:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack: Hisetsu\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P5\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"This skip is important as we want to use her Frost Basic Attacks specifically in order to fully build up Frost Anomaly to gain the Orb of “Fallen Frost” that comes along with it. To sum it up - use her charged Basic Attack when you have 6 Orbs and use ability skips to access parts 3, 4, and 5 of her standard Basic Attack combo to build any additional Anomaly you need.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Speaking of Anomaly, it's time to talk about Frost. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Frost works like every other Anomaly when it comes to buildup - that is, use abilities of the Frost type and you’ll gain Frost buildup. Frost has a lot of similarities with the Ice Anomaly. Fully filling the Frost gauge will apply Freeze, Frostbite, and upon Freeze ending a Shatter. Where it differs from Ice is that it has a higher Anomaly multiplier and most importantly of all \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"is not Ice\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" meaning its build-up and Anomaly are separate allowing you to trigger Disorders between Ice and Frost Anomalies (very handy when playing Miyabi with other Ice Agents).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"As an Anomaly unit Miyabi needs some way to boost her Anomaly damage and that's where her Core Passive comes in. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Whenever Miyabi hits an enemy with any Frost damage she applies Icefire to them increasing her Frost Anomaly buildup against them by 100% of her CRIT RATE up to a maximum of 80% (80% CRIT Rate = 80% Frost Anomaly Buildup Rate). Also when Miyabi triggers her Frost Anomaly she’ll consume all Icefire on the target to inflict a Frostburn - Break, dealing a large amount of damage which can be a Critical hit, generating an Orb of “Fallen Frost” and placing them in the Frostburn state. While in the Frostburn state, \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"the target suffers 20% more Anomaly buildup from all your squad members at the cost of Miyabi being unable to apply Icefire during this time\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Frostburn lasts as long as the enemy is afflicted with Frostbite, which can be removed by triggering a Disorder - something Miyabi just so happens to want to happen thanks to it granting 2 Orbs of Fallen Frost.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"So it basically boils down to: aim for 80% CRIT RATE to get the maximum bonus, trigger Frost Anomaly as fast as you can for the orb of “Fallen Frost” and bonus damage from Frostburn - Break, and use another character to leverage Frostburn to trigger disorder for even more “Fallen Frost” Orbs.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Miyabi has two EX Specials both of which are standard Frost attacks with the exception being that they generate 2 Orbs of “Fallen Frost” each. Both attacks consume 40 Energy with the second only being usable immediately following the first. If you need a full 4 Orbs of “Fallen Frost” up front using both the initial and follow-up EX is effective, but if you only need two or want to leverage the ability to skip Basic Attacks using only the first EX is also a valid choice.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Miyabi’s Ultimate delivers massive Frost damage, grants her a 30% Ice DMG boost for 12 seconds (Applies to Frost Attacks), and generates 3 Orbs of “Fallen Frost” - you should aim to use this during the Stun window. Her Chain attack is even simpler; it just deals huge AoE Frost damage but unfortunately, no “Fallen Frost” Orbs are generated here.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Similar to her Chain Attack, Miyabi’s Dash Attacks, Dodge Counter, and Assists are simple and as standard as they come with no special effects or bonuses - use them as needed like you would on other agents. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Rounding out her kit is Miyabi’s Additional ability and it’s a big one. While active her Basic Attack: Shimotsuki gains a 60% DMG increase, ignores 30% Ice RES (works for Frost as well) and whenever any squad mate triggers Disorder she gains 2 “Fallen Frost” Orbs.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Now it’s time to bring it all together and cover how to combine these abilities alongside some optimizations you can make to take Miyabi’s damage to the next level.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Fight Opener\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-6\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When opening a fight we know Miyabi starts with 3 Orbs of “Fallen Frost”, we can use this to our advantage. Executing a single EX Special alongside the follow-up combo of 3 Basic Attacks can be enough to trigger the Frost Anomaly on many enemies allowing for an immediate activation of a fully charged Shimotsuki to kick the fight off.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack: Hisetsu P1 (5 Orbs)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P5 (Triggers Frost Anomaly 6 Orbs)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Shimotsuki (Fully Charged)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Against enemies with higher Anomaly gauges this doesn’t work; you can add extra attacks to achieve a similar opening effect.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Standard Combo\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-6\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Without the assistance of her starting 3 Orbs, Miyabi instead has to rely on her energy and EX’s or her teammates and Disorder triggers in order to gain Fallen Frost. Here are a few examples of how that plays out.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Example 1:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ally Applies Anomaly to Enemy\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack: Hisetsu P1 (2 Orbs)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack: Hisetsu P2 (4 Orbs)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P5 (Triggers Frost Anomaly & Disorder 6 Orbs)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Shimotsuki (Fully Charged)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Example 2:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ally Applies Triggers Disorder & Applies Anomaly to Enemy (2 Orbs)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"EX Special Attack: Hisetsu P1 (4 Orbs)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P3\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P4\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Kazahana P5 (Triggers Frost Anomaly & Disorder 6 Orbs)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Shimotsuki (Fully Charged)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"In both examples Miyabi can easily access her fully charged Shimotsuki but bouncing back and forth between applying her Frost Anomaly and then consuming it with another team member to trigger Disorder allows for much greater energy efficiency.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Ultimate Combo\",\"nodeType\":\"text\"}],\"nodeType\":\"heading-6\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Miyabi’s Ultimate should ideally always be used when the enemy is Stunned but thanks to the 3 “Fallen Frost” charges it grants it mixes up the possibilities a little bit. Like with the combos above, including a Disorder trigger or at the very least an Anomaly application from an ally is ideal. Here is what to shoot for:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Ultimate (Triggers Frost Anomaly & Disorder 2 + 3 + 1 Orbs)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Basic Attack: Shimotsuki (Fully Charged)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Many more combos are possible than just these with Miyabi and the examples above are only just that - examples. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"One other thing to note when playing her is the possibility of Quick Swap.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" The animation time on Basic Attack: Shimotsuki is painfully slow and if you swap the character after fully charging it, Miyabi will in fact fully execute the attack even while you’re playing another character. Because of this performing a “Quick-Swap” after fully charging can save you a lot of time and boost her DPS massively (recommended for those looking to maximize performance).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"To conclude Miyabi absolutely takes the word damage to a new level in ZZZ\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" - she’s incredibly fun to play, has a heap of flavor with her charged attacks & Frost element, and has a lot of teams she’s viable in. If you’re after power she’s a good choice, if you’re a fan of her design you can rest easy as she’s a top performer at the time of her release.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
     },
-    "build": null,
-    "talents": null,
+    "pros": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Absurdly large damage multipliers giving \\\"hit like a truck\\\" a new meaning,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Huge AoE on many attacks, allowing her to quickly deal with big groups of monsters,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"A good amount of team options for both spenders and F2P,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"She sets a new bar for how strong a DPS can be in the game.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "cons": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As one of the first CRIT Anomaly characters her W-Engine options outside her signature are limited,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Relies on applying Frost Anomaly at specific points in her combo for maximum effectiveness - disruption to this can cause issues,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Really wants to achieve 80% CRIT RATE for the 80% Anomaly Buildup to assist with the point above, making her stat-hungry,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Rotations and playstyle can drastically change based on team composition leading to a steep path to mastery,\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Has many long animations which you'll want to Quick Swap to another squad member to alleviate. This introduces a new axis of skill for those looking for the best results.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "videos": [
+      {
+        "video": "AiWqgf3uT68"
+      },
+      {
+        "video": "iaesYKWAO-8"
+      },
+      {
+        "video": "uRaa9xLU9XU"
+      }
+    ],
+    "endgameStats": {
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"ATK:\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" 2500 - 3600+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"(Depending on Disc Drive main stat choice)\",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"HP:\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" 10000+\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"DEF: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"800+\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Anomaly Mastery:\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" 116+\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Anomaly Proficiency:\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" 240+\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"CRIT RATE: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"75-95%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"CRIT DMG:\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" 150-190%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"\",\"marks\":[],\"data\":{}}]}]}"
+    },
+    "tierListCategory": "Anomaly",
+    "tierListTags": [
+      "Quick Swap",
+      "Shatter",
+      "Disorder",
+      "Charge"
+    ],
+    "ratings": {
+      "shiyu": 11
+    },
+    "build": {
+      "main_4": [
+        {
+          "stat": "CRIT Rate",
+          "sign": ">="
+        },
+        {
+          "stat": "ATK%",
+          "sign": null
+        }
+      ],
+      "main_5": [
+        {
+          "stat": "Ice DMG",
+          "sign": "="
+        },
+        {
+          "stat": "ATK%",
+          "sign": null
+        }
+      ],
+      "main_6": [
+        {
+          "stat": "ATK%",
+          "sign": null
+        }
+      ],
+      "sets": null,
+      "engines": [
+        {
+          "super": 1,
+          "weapon": "Hailstorm Shrine",
+          "percent": "100%",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 1,
+          "weapon": "Fusion Compiler",
+          "percent": "78.75%",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "Electro-Lip Gloss",
+          "percent": "76.81%",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "Rainforest Gourmet",
+          "percent": "73.46%",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "Weeping Gemini",
+          "percent": "69.52%",
+          "percent_standard": null,
+          "notes": null
+        }
+      ],
+      "substats": "CRIT RATE (Until 80%) >= CRIT DMG = ATK% > Anomaly Proficiency = ATK = PEN"
+    },
+    "talents": [
+      {
+        "name": "Frost Atop the Snow",
+        "desc": "While in Shimotsuki Stance, every <b>1</b> point of Fallen Frost consumed will allow Basic Attack: Shimotsuki to ignore <b>6%</b> of DEF, stacking up to <b>6</b> times and lasting until Shimotsuki Stance ends. When the slash for charge level three of Basic Attack: Shimotsuki hits an enemy under Frostburn, it will immediately remove the Frostburn state and increase all squad members' Anomaly Buildup Rate by <b>20%</b> for <b>10s</b>."
+      },
+      {
+        "name": "Breath Technique",
+        "desc": "Basic Attack: Kazahana and Dodge Counter DMG increases by <b>30%</b>. Hoshimi Miyabi gains <b>1</b> point of Fallen Frost when the final move of the 5th hit of Basic Attack: Kazahana hits an enemy. Upon entering the battlefield, Hoshimi Miyabi immediately obtains <b>6</b> points of Fallen Frost and her CRIT Rate increases by <b>15%</b>."
+      },
+      {
+        "name": "Martial Discipline",
+        "desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+      },
+      {
+        "name": "Rupture",
+        "desc": "Frostburn - Break DMG increases by <b>30%</b>. Upon triggering Frostburn - Break, Hoshimi Miyabi generates <b>250</b> more Decibels."
+      },
+      {
+        "name": "Anniversary",
+        "desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+      },
+      {
+        "name": "Prodigious Talent",
+        "desc": "During Shimotsuki Stance, Hoshimi Miyabi obtains Polar, which increases Basic Attack: Shimotsuki DMG by <b>30%</b>. After obtaining Polar, Hoshimi Miyabi will automatically draw her blade and unleash powerful slashes based on the current charge level upon consuming Fallen Frost. Before Fallen Frost is completely depleted, the draw and slashes will not interrupt charging under Shimotsuki Stance. Each occurrence of Shimotsuki Stance can perform up to <b>3</b> draws and slashes."
+      }
+    ],
     "introduction": {
       "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The head of Hollow Special Operations Section 6, and the successor of a renowned martial art family in New Eridu. With her strong sense of responsibility towards guarding the principles and order within New Eridu, Miyabi aspires to build an unbreakable city management system... and to own a sizable collection of swords (her own words).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
     },
     "voiceActors": {
       "en": "",
       "kr": "",
-      "jpn": "Koshimizu Ami (小清水 亜美)",
+      "jpn": "Ami Koshimizu (小清水 亜美)",
       "cn": "Dù Míngyā (杜冥鸦)"
     },
-    "releaseDate": null,
-    "upcoming": true
+    "releaseDate": "December 18th, 2024",
+    "upcoming": false
   },
   {
     "id": "5c430295-ceb5-5c9a-b7a9-9c538433f507",
@@ -3330,7 +3714,7 @@
   },
   {
     "id": "bab0f053-10b6-5664-813c-e61d5528602a",
-    "updatedAt": "October 17th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2024-06-28T06:09:31.527+00:00",
     "unitId": 18,
     "name": "Piper",
@@ -3394,6 +3778,9 @@
     "videos": [
       {
         "video": "zm5Z9oqf4pc"
+      },
+      {
+        "video": "IEQgjmUZ2rI"
       }
     ],
     "endgameStats": {
@@ -3405,7 +3792,7 @@
       "Assault"
     ],
     "ratings": {
-      "shiyu": 9
+      "shiyu": 8
     },
     "build": {
       "main_4": [
@@ -3730,7 +4117,7 @@
   },
   {
     "id": "82ea9f2a-2ab8-5983-826a-4b61c4870e10",
-    "updatedAt": "November 27th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2023-11-22T18:37:44.679+00:00",
     "unitId": 7,
     "name": "Rina",
@@ -3819,7 +4206,7 @@
       "Buff"
     ],
     "ratings": {
-      "shiyu": 9
+      "shiyu": 10
     },
     "build": {
       "main_4": [
@@ -4125,7 +4512,7 @@
   },
   {
     "id": "e3fa1012-b97f-54af-90f0-3f0ff1e80975",
-    "updatedAt": "November 6th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2023-11-22T18:14:34.62+00:00",
     "unitId": 5,
     "name": "Soldier 11",
@@ -4211,7 +4598,7 @@
     "tierListCategory": "DPS",
     "tierListTags": null,
     "ratings": {
-      "shiyu": 8
+      "shiyu": 9
     },
     "build": {
       "main_4": [
@@ -4528,7 +4915,7 @@
   },
   {
     "id": "04b5ada8-3dd0-5664-9aa4-3abe4793a976",
-    "updatedAt": "November 6th, 2024",
+    "updatedAt": "December 17th, 2024",
     "createdAt": "2024-09-24T15:22:25.786+00:00",
     "unitId": 24,
     "name": "Yanagi",
@@ -4597,7 +4984,7 @@
       }
     ],
     "endgameStats": {
-      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"unordered-list\",\"data\":{},\"content\":[{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"ATK: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"2400-3400+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"(Depending on W-Engine choice) \",\"marks\":[],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"HP: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10000+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"DEF: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"800+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Anomaly Mastery: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"148 - 190+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]},{\"nodeType\":\"list-item\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Anomaly Proficiency: \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"350 - 450+ \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}}]}]}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"\",\"marks\":[],\"data\":{}}]}]}"
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2400-3400+ \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"(Depending on W-Engine choice) \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10000+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Mastery: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"148 - 190+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Proficiency: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"350 - 450+ \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
     },
     "tierListCategory": "Anomaly",
     "tierListTags": [
@@ -4606,7 +4993,7 @@
       "Disorder"
     ],
     "ratings": {
-      "shiyu": 11
+      "shiyu": 10
     },
     "build": {
       "main_4": [

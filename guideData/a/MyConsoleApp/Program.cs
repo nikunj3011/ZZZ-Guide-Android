@@ -29,7 +29,7 @@ namespace JsonMerger
                 }
             }
             string jsonString = JsonConvert.SerializeObject(bangboosnew, Formatting.Indented);
-            File.WriteAllText(@"C:\Users\nikunj.rathod\Documents\Learning\ZZZ-Guide-Android\guideData\bangboosNew.json", jsonString);
+            File.WriteAllText(@"C:\Users\nikun\OneDrive\Documents\Fork\ZZZ-Guide-Android\guideData\bangboosNew.json", jsonString);
             // Console.WriteLine(jsonString);
 
             //characters
@@ -50,7 +50,7 @@ namespace JsonMerger
                 }
             }
             string jsonString2 = JsonConvert.SerializeObject(charsnew, Formatting.Indented);
-            File.WriteAllText(@"C:\Users\nikunj.rathod\Documents\Learning\ZZZ-Guide-Android\guideData\charactersdetail\charactersDetails.json", jsonString2);
+            File.WriteAllText(@"C:\Users\nikun\OneDrive\Documents\Fork\ZZZ-Guide-Android\guideData\charactersdetail\charactersDetails.json", jsonString2);
 
 
             //wengines
@@ -68,7 +68,7 @@ namespace JsonMerger
                 }
             }
             string jsonString3 = JsonConvert.SerializeObject(wenginesDet, Formatting.Indented);
-            File.WriteAllText(@"C:\Users\nikunj.rathod\Documents\Learning\ZZZ-Guide-Android\guideData\wenginesNew.json", jsonString3);
+            File.WriteAllText(@"C:\Users\nikun\OneDrive\Documents\Fork\ZZZ-Guide-Android\guideData\wenginesNew.json", jsonString3);
         }
     }
 }

@@ -492,6 +492,44 @@
     }
   },
   {
+    "engineId": 62,
+    "name": "Hailstorm Shrine",
+    "rarity": 2,
+    "talentName": "Frost-Stained Star",
+    "element": "Ice",
+    "type": 0,
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/b681b095136d5075bb77266750de1721/d1e3d/zzz_Hailstorm_Shrine.webp",
+                "srcSet": "/static/b681b095136d5075bb77266750de1721/72e27/zzz_Hailstorm_Shrine.webp 39w,\n/static/b681b095136d5075bb77266750de1721/7a63e/zzz_Hailstorm_Shrine.webp 78w,\n/static/b681b095136d5075bb77266750de1721/d1e3d/zzz_Hailstorm_Shrine.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"CRIT DMG increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"50/57/65/72/80%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". When using an EX Special Attack or when any squad member applies an Attribute Anomaly to an enemy, the equipper's \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Ice DMG\",\"marks\":[{\"type\":\"underline\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"20/23/26/29/32%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", stacking up to \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"2 \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"times and lasting \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"15s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". The duration of each stack is calculated separately.\",\"marks\":[],\"data\":{}}]}]}"
+    },
+    "stats": {
+      "stat": "Crit Rate",
+      "base_atk": 50,
+      "max_atk": 743,
+      "base_special": "9.6%",
+      "max_special": "24%"
+    }
+  },
+  {
     "engineId": 23,
     "name": "Hellfire Gears",
     "rarity": 2,
@@ -525,7 +563,7 @@
       }
     },
     "description": {
-      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When off-field, the equipper's Energy Regen increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0.6/0.75/0.9/1.5/1.2\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" per second. When using an EX Special Attack, the equipper's Impact is increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/12.5/15/17.5/20%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. The duration of each stack is calculated separately.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"When off-field, the equipper's Energy Regen increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"0.6/0.75/0.9/1.05/1.2\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" per second. When using an EX Special Attack, the equipper's Impact is increased by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10/12.5/15/17.5/20%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", stacking up to \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"2 \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"times. The duration of each stack is calculated separately.\",\"marks\":[],\"data\":{}}]}]}"
     },
     "stats": {
       "stat": "Impact",
@@ -653,6 +691,44 @@
       "max_atk": 624,
       "base_special": "20%",
       "max_special": "50%"
+    }
+  },
+  {
+    "engineId": 63,
+    "name": "Marcato Desire",
+    "rarity": 0,
+    "talentName": "Get Everyone Fired Up",
+    "element": null,
+    "type": 1,
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/55b69c888349bd70444d873bab0bd06d/d1e3d/zzz_Marcato_Desire.webp",
+                "srcSet": "/static/55b69c888349bd70444d873bab0bd06d/72e27/zzz_Marcato_Desire.webp 39w,\n/static/55b69c888349bd70444d873bab0bd06d/7a63e/zzz_Marcato_Desire.webp 78w,\n/static/55b69c888349bd70444d873bab0bd06d/d1e3d/zzz_Marcato_Desire.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When an EX Special Attack or Chain Attack hits an enemy, the equipper's ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6/6.9/7.8/8.7/9.6%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"8s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". While the target is under an Attribute Anomaly, this effect is increased by an additional \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"6/6.9/7.8/8.7/9.6%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "stats": {
+      "stat": "Crit Rate",
+      "base_atk": 40,
+      "max_atk": 594,
+      "base_special": "8%",
+      "max_special": "20%"
     }
   },
   {
@@ -1569,6 +1645,44 @@
       "max_atk": 594,
       "base_special": "10%",
       "max_special": "25%"
+    }
+  },
+  {
+    "engineId": 61,
+    "name": "Zanshin Herb Case",
+    "rarity": 2,
+    "talentName": "Growth Through Adversity",
+    "element": "Electric",
+    "type": 1,
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/969d585be63b72eaf22b84fdaa3609da/d1e3d/zzz_Zanshin_Herb_Case.webp",
+                "srcSet": "/static/969d585be63b72eaf22b84fdaa3609da/72e27/zzz_Zanshin_Herb_Case.webp 39w,\n/static/969d585be63b72eaf22b84fdaa3609da/7a63e/zzz_Zanshin_Herb_Case.webp 78w,\n/static/969d585be63b72eaf22b84fdaa3609da/d1e3d/zzz_Zanshin_Herb_Case.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"CRIT Rate increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10/11.5/13/14.5/16%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". Dash Attack \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Electric DMG\",\"marks\":[{\"type\":\"underline\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"40/46/52/58/64%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". When any squad member applies an Attribute Anomaly or Stuns an enemy, the equipper's CRIT Rate increases by an additional \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10/11.5/13/14.5/16%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"15s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\".\",\"marks\":[],\"data\":{}}]}]}"
+    },
+    "stats": {
+      "stat": "Crit Damage",
+      "base_atk": 48,
+      "max_atk": 713,
+      "base_special": "19.2%",
+      "max_special": "48%"
     }
   },
   {
