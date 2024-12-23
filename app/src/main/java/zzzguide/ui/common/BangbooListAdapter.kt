@@ -15,13 +15,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import zzzguide.R
-import zzzguide.models.api.bangboo.BangBoosResponseItem
+import zzzguide.models.api.bangbooNew.BangbooNewResponseItem
 
 
 class BangbooListAdapter(
     private val contextEcho: Context,
-    private var fruitsList:List<BangBoosResponseItem>,
-    private val clickListener:(BangBoosResponseItem)->Unit
+    private var fruitsList:List<BangbooNewResponseItem>,
+    private val clickListener:(BangbooNewResponseItem)->Unit
 ) : RecyclerView.Adapter<MyViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -35,7 +35,7 @@ class BangbooListAdapter(
         holder.bind(contextEcho, fruit, clickListener)
     }
 
-    fun setFilteredList(mList: List<BangBoosResponseItem>){
+    fun setFilteredList(mList: List<BangbooNewResponseItem>){
         this.fruitsList = mList
         notifyDataSetChanged()
     }
@@ -47,50 +47,60 @@ class BangbooListAdapter(
 }
 
 class MyViewHolder(val view: View):RecyclerView.ViewHolder(view){
-    fun bind(contextEcho: Context, bangboo: BangBoosResponseItem, clickListener:(BangBoosResponseItem)->Unit) {
+    fun bind(contextEcho: Context, bangboo: BangbooNewResponseItem, clickListener:(BangbooNewResponseItem)->Unit) {
         val echoTextView = view.findViewById<TextView>(R.id.bangbooName)
-        echoTextView.text = bangboo?.nick_name
+        echoTextView.text = bangboo?.name
 
         val textBangbooDes = view.findViewById<TextView>(R.id.textBangbooDes)
-        textBangbooDes.text = bangboo?.bio
+        textBangbooDes.text = bangboo?.name
 
         val imageViewBangboo = view.findViewById<ImageView>(R.id.imageViewBangboo)
         Glide.with(view)
-            .load("https://cdn.jsdelivr.net/gh/boringcdn/zzz/bangboos/${bangboo.name}.webp")
+            .load("https://www.prydwen.gg${bangboo.cardImage.localFile.childImageSharp.gatsbyImageData.images.fallback.src}")
             .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
             .into(imageViewBangboo)
 
         var bangbooSkill1 = SpannableStringBuilder()
-        if(bangboo.skills.isNotEmpty()){
-            for (skill in bangboo.skills){
-                bangbooSkill1 = bangbooSkill1.append()
-                    .color(Color.WHITE, { append(skill?.name) })
-                    .append(" : ")
-                    .bold{ append(skill?.desc)
+        bangbooSkill1 = bangbooSkill1.append()
+            .color(Color.WHITE, { append(if (bangboo.skills?.skill_a?.name == null) " " else bangboo.skills?.skill_a?.name) })
+            .append(" : ")
+            .bold{ append(if (bangboo.skills?.skill_a?.description == null) " " else bangboo.skills?.skill_a?.description)
+                .append("\n")}
+        if (bangboo?.skills?.skill_b != null) {
+            bangbooSkill1 = bangbooSkill1.append()
+            .color(Color.WHITE, { append(if (bangboo.skills?.skill_b?.name == null) " " else bangboo.skills?.skill_b?.name) })
+            .append(" : ")
+            .bold{ append((if (bangboo.skills?.skill_b?.description?.first()?.desc == null) " " else bangboo.skills?.skill_b?.description?.first()?.desc))
+                .append("\n")}
+        }
+        if (bangboo?.skills?.skill_c != null) {
+            bangbooSkill1 = bangbooSkill1.append()
+                .color(Color.WHITE, { append(if (bangboo.skills?.skill_c?.name == null) " " else bangboo.skills?.skill_c?.name) })
+                .append(" : ")
+                .bold{ append(if (bangboo.skills?.skill_c?.description == null) " " else bangboo.skills?.skill_c?.description)
                     .append("\n")}
-            }
         }
         val textViewBangbooSkill1 = view.findViewById<TextView>(R.id.textViewBangbooSkill1)
         textViewBangbooSkill1.text = bangbooSkill1
 
-        var bangbooStats = "Stats- HP: ${bangboo.stats.HP}  ATK: ${bangboo.stats.ATK}  DEF: ${bangboo.stats.DEF}  Impact: ${bangboo.stats.Impact}"
+        var bangbooStats = "Stats- HP: ${bangboo.statsNew.hp}  ATK: ${bangboo.statsNew.atk}  DEF: ${bangboo.statsNew.def}  Impact: ${bangboo.statsNew.impact}  Anomaly: ${bangboo.statsNew.anomaly}"
         val textBangbooStats = view.findViewById<TextView>(R.id.textBangbooStats)
         textBangbooStats.text = bangbooStats
 
         val imageViewBangbooRank = view.findViewById<ImageView>(R.id.imageViewBangbooRank)
         val viewBangbooRank =
             view.findViewById<View>(R.id.viewBangbooRank)
-        if (bangboo?.categories?.elementAt(0) != null) {
+        if (bangboo?.rarity != null) {
 
-            when (bangboo.categories.elementAt(0).name) {
-                "a-rank" -> {
+            when (bangboo?.rarity) {
+                "A" -> {
                     Glide.with(view)
                         .load(R.drawable.arank)
                         .into(imageViewBangbooRank)
                     viewBangbooRank.setBackgroundColor(Color.parseColor("#AB3A4E"))
                 }
 
-                "s-rank" -> {
+                "S" -> {
                     Glide.with(view)
                         .load(R.drawable.srank)
                         .into(imageViewBangbooRank)

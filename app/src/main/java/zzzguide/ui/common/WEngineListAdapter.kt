@@ -14,12 +14,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import zzzguide.R
-import zzzguide.models.api.wengines.WEngineResponseItem
+import zzzguide.models.api.wenginesNew.WEngineNewResponseItem
 
 class WEngineListAdapter (
     private val contextWeapon: Context,
-    private var weaponsList:List<WEngineResponseItem>,
-    private val clickListener:(WEngineResponseItem)->Unit
+    private var weaponsList:List<WEngineNewResponseItem>,
+    private val clickListener:(WEngineNewResponseItem)->Unit
     ) : RecyclerView.Adapter<MyViewHolder2>(){
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder2 {
@@ -33,7 +33,7 @@ class WEngineListAdapter (
             holder.bind(contextWeapon, weapon, clickListener)
         }
 
-        fun setFilteredList(mList: List<WEngineResponseItem>){
+        fun setFilteredList(mList: List<WEngineNewResponseItem>){
             this.weaponsList = mList
             notifyDataSetChanged()
         }
@@ -46,13 +46,13 @@ class WEngineListAdapter (
 
     class MyViewHolder2(val view: View): RecyclerView.ViewHolder(view){
         @SuppressLint("ClickableViewAccessibility")
-        fun bind(contextWeapon: Context, wengine: WEngineResponseItem, clickListener:(WEngineResponseItem)->Unit) {
+        fun bind(contextWeapon: Context, wengine: WEngineNewResponseItem, clickListener:(WEngineNewResponseItem)->Unit) {
             val myTextView = view.findViewById<TextView>(R.id.wengineName)
-            myTextView.text = wengine.title
+            myTextView.text = wengine.name
             val echoImageView = view.findViewById<ImageView>(R.id.imageViewWEngine)
             if(wengine.name != null) {
                 Glide.with(view)
-                    .load(wengine.icon_url)
+                    .load("https://www.prydwen.gg${wengine.image.localFile.childImageSharp.gatsbyImageData.images.fallback.src}")
                     .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
                     .into(echoImageView)
             }
@@ -63,81 +63,76 @@ class WEngineListAdapter (
             val viewWengineRank2 =
                 view.findViewById<View>(R.id.viewWengineRank2)
 
-            if (wengine?.categories?.elementAt(0) != null) {
+            when (wengine.rarity) {
+                3 -> {
+                    Glide.with(view)
+                        .load(R.drawable.arank)
+                        .into(imageViewWengineRank)
+                    viewWengineRank1.setBackgroundColor(Color.parseColor("#AB3A4E"))
+                    viewWengineRank2.setBackgroundColor(Color.parseColor("#AB3A4E"))
+                }
 
-                when (wengine.categories.elementAt(0).name) {
-                    "a-rank" -> {
-                        Glide.with(view)
-                            .load(R.drawable.arank)
-                            .into(imageViewWengineRank)
-                        viewWengineRank1.setBackgroundColor(Color.parseColor("#AB3A4E"))
-                        viewWengineRank2.setBackgroundColor(Color.parseColor("#AB3A4E"))
-                    }
+                4 -> {
+                    Glide.with(view)
+                        .load(R.drawable.srank)
+                        .into(imageViewWengineRank)
+                    viewWengineRank1.setBackgroundColor(Color.parseColor("#F9A700"))
+                    viewWengineRank2.setBackgroundColor(Color.parseColor("#F9A700"))
+                }
 
-                    "s-rank" -> {
-                        Glide.with(view)
-                            .load(R.drawable.srank)
-                            .into(imageViewWengineRank)
-                        viewWengineRank1.setBackgroundColor(Color.parseColor("#F9A700"))
-                        viewWengineRank2.setBackgroundColor(Color.parseColor("#F9A700"))
-                    }
+                2 -> {
+                    Glide.with(view)
+                        .load(R.drawable.brank)
+                        .into(imageViewWengineRank)
+                    viewWengineRank1.setBackgroundColor(Color.parseColor("#0FB8E5"))
+                    viewWengineRank2.setBackgroundColor(Color.parseColor("#0FB8E5"))
+                }
 
-                    "b-rank" -> {
-                        Glide.with(view)
-                            .load(R.drawable.brank)
-                            .into(imageViewWengineRank)
-                        viewWengineRank1.setBackgroundColor(Color.parseColor("#0FB8E5"))
-                        viewWengineRank2.setBackgroundColor(Color.parseColor("#0FB8E5"))
-                    }
-
-                    else -> {
-                        Glide.with(view)
-                            .load(R.drawable.srank)
-                            .into(imageViewWengineRank)
-                        viewWengineRank1.setBackgroundColor(Color.parseColor("#F9A700"))
-                        viewWengineRank2.setBackgroundColor(Color.parseColor("#F9A700"))
-                    }
+                else -> {
+                    Glide.with(view)
+                        .load(R.drawable.srank)
+                        .into(imageViewWengineRank)
+                    viewWengineRank1.setBackgroundColor(Color.parseColor("#F9A700"))
+                    viewWengineRank2.setBackgroundColor(Color.parseColor("#F9A700"))
                 }
             }
 
             val imageViewWEngineSpeciality = view.findViewById<ImageView>(R.id.imageViewWEngineSpeciality)
-            if (wengine?.categories?.elementAt(1) != null) {
-                when (wengine.categories.elementAt(1).name.lowercase()) {
-                    "attack" -> {
-                        Glide.with(view)
-                            .load(R.drawable.attack)
-                            .into(imageViewWEngineSpeciality)
-                    }
+            when (wengine.stats.stat.lowercase()) {
+                "attack" -> {
+                    Glide.with(view)
+                        .load(R.drawable.attack)
+                        .into(imageViewWEngineSpeciality)
+                }
 
-                    "stun" -> {
-                        Glide.with(view)
-                            .load(R.drawable.stun)
-                            .into(imageViewWEngineSpeciality)
-                    }
+                "stun" -> {
+                    Glide.with(view)
+                        .load(R.drawable.stun)
+                        .into(imageViewWEngineSpeciality)
+                }
 
-                    "anomaly" -> {
-                        Glide.with(view)
-                            .load(R.drawable.anomaly)
-                            .into(imageViewWEngineSpeciality)
-                    }
+                "anomaly" -> {
+                    Glide.with(view)
+                        .load(R.drawable.anomaly)
+                        .into(imageViewWEngineSpeciality)
+                }
 
-                    "support" -> {
-                        Glide.with(view)
-                            .load(R.drawable.support)
-                            .into(imageViewWEngineSpeciality)
-                    }
+                "support" -> {
+                    Glide.with(view)
+                        .load(R.drawable.support)
+                        .into(imageViewWEngineSpeciality)
+                }
 
-                    "defense" -> {
-                        Glide.with(view)
-                            .load(R.drawable.defense)
-                            .into(imageViewWEngineSpeciality)
-                    }
+                "defense" -> {
+                    Glide.with(view)
+                        .load(R.drawable.defense)
+                        .into(imageViewWEngineSpeciality)
+                }
 
-                    else -> {
-                        Glide.with(view)
-                            .load(R.drawable.stun)
-                            .into(imageViewWEngineSpeciality)
-                    }
+                else -> {
+                    Glide.with(view)
+                        .load(R.drawable.stun)
+                        .into(imageViewWEngineSpeciality)
                 }
             }
 

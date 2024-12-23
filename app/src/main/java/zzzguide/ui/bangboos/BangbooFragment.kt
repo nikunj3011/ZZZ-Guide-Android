@@ -14,6 +14,7 @@ import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import zzzguide.databinding.FragmentBangbooBinding
 import zzzguide.models.api.bangboo.BangBoosResponseItem
+import zzzguide.models.api.bangbooNew.BangbooNewResponseItem
 import zzzguide.ui.characterinfo.InfoBottomSheetFragment
 import zzzguide.ui.common.BangbooListAdapter
 import zzzguide.util.autoCleared
@@ -79,7 +80,7 @@ class BangbooFragment : Fragment() {
         if (query != null) {
             viewModel.BangboosLiveData.observe(viewLifecycleOwner) { result ->
 
-                val filteredList = ArrayList<BangBoosResponseItem>()
+                val filteredList = ArrayList<BangbooNewResponseItem>()
                 for (i in result) {
                     if (i.name.lowercase(Locale.ROOT).contains(query)) {
                         filteredList.add(i)
@@ -100,7 +101,7 @@ class BangbooFragment : Fragment() {
             this.echosAdapter = BangbooListAdapter(
                 requireContext(),
                 result
-            ) { selectedItem: BangBoosResponseItem ->
+            ) { selectedItem: BangbooNewResponseItem ->
                 listItemClicked(selectedItem)
             }
             binding.echoRecyclerView.apply {
@@ -111,7 +112,7 @@ class BangbooFragment : Fragment() {
 
     }
 
-    private fun listItemClicked(fruit: BangBoosResponseItem){
+    private fun listItemClicked(fruit: BangbooNewResponseItem){
         Toast.makeText(
             requireActivity(),
             "Supplier is : ${fruit.name}",

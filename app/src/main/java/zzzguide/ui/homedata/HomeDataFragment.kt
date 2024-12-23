@@ -9,6 +9,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okio.IOException
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import zzzguide.databinding.FragmentHomeDataBinding
 import zzzguide.util.autoCleared
@@ -45,12 +52,32 @@ class HomeDataFragment : Fragment() {
         binding.webViewIntroVideoHome.settings.javaScriptEnabled = true
         binding.webViewIntroVideoHome.webViewClient = WebViewClient()
         binding.webViewIntroVideoHome.settings.javaScriptEnabled = true
+
+
+        var url = ""
+
+        // Fetch data and update TextView
+        CoroutineScope(Dispatchers.IO).launch {
+            val data = fetchDataFromUrl("https://raw.githubusercontent.com/nikunj3011/ZZZ-Guide-Android/refs/heads/main/guideData/mainvideo.json")
+            withContext(Dispatchers.Main) {
+                url = data.toString()
+
+                binding.webViewIntroVideoHome.loadData("<iframe width=\"380\" height=\"190\" src=\"https://www.youtube.com/embed/SJLCoNsFYfY&amp;start=2\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+                    "text/html", "utf-8")
+                binding.webViewIntroVideoHome.setBackgroundColor(Color.BLACK)
+
+            }
+        }
 //        binding.webViewIntroVideoHome.loadData("<iframe width=\"380\" height=\"190\" src=\"https://www.youtube.com/embed/SJLCoNsFYfY&amp;start=2\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
 //            "text/html", "utf-8")
+//        binding.webViewIntroVideoHome.setBackgroundColor(Color.BLACK)
+//
+//        binding.webViewIntroVideoHome.loadData("<iframe width=\"380\" height=\"190\" src=\"${url}\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+//            "text/html", "utf-8")
 
-        binding.webViewIntroVideoHome.loadData("<div style=\"position:relative;padding-bottom:56.25%;height:0;overflow:hidden;\"> <iframe style=\"width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden\" frameborder=\"0\" type=\"text/html\" src=\"https://www.dailymotion.com/embed/video/x92e8ou?autoplay=1\" width=\"100%\" height=\"100%\" allowfullscreen title=\"Dailymotion Video Player\" allow=\"autoplay; web-share\"> </iframe> </div>\n",
-            "text/html", "utf-8")
-        binding.webViewIntroVideoHome.setBackgroundColor(Color.BLACK)
+//        binding.webViewIntroVideoHome.loadData("<div style=\"position:relative;padding-bottom:56.25%;height:0;overflow:hidden;\"> <iframe style=\"width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden\" frameborder=\"0\" type=\"text/html\" src=\"https://www.dailymotion.com/embed/video/x92e8ou?autoplay=1\" width=\"100%\" height=\"100%\" allowfullscreen title=\"Dailymotion Video Player\" allow=\"autoplay; web-share\"> </iframe> </div>\n",
+//            "text/html", "utf-8")
+//        binding.webViewIntroVideoHome.setBackgroundColor(Color.BLACK)
 
 //        binding.webViewIntroVideoHome.performClick()
 //        binding.webViewIntroVideoHome.set = WebView(requireContext()).apply {
@@ -60,6 +87,17 @@ class HomeDataFragment : Fragment() {
 //            webViewClient = WebViewClient()
 //        }
     }
+
+    fun fetchDataFromUrl(url: String): String? {
+        val client = OkHttpClient()
+        val request = Request.Builder().url(url).build()
+
+        client.newCall(request).execute().use { response ->
+            if (!response.isSuccessful) throw IOException("Unexpected code $response")
+            return response.body?.string()
+        }
+    }
+
 
     var player = """
     <!DOCTYPE html>

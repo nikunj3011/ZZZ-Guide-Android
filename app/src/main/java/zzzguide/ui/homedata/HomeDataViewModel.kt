@@ -16,8 +16,8 @@ class HomeDataViewModel(
 ) : ViewModel() {
 
     private val _echoesLiveData = MutableLiveData<List<BangBoosResponseItem>>()
-    var _echoes = listOf<BangBoosResponseItem>()
-    val echoesLiveData: LiveData<List<BangBoosResponseItem>> get() = _echoesLiveData
+//    var _echoes = listOf<BangBoosResponseItem>()
+//    val echoesLiveData: LiveData<List<BangBoosResponseItem>> get() = _echoesLiveData
 
     init {
         fetchEchoes()
@@ -25,12 +25,12 @@ class HomeDataViewModel(
     private fun fetchEchoes() {
         viewModelScope.launch {
             try {
-                val newItem = withContext(Dispatchers.IO) {
-                    repository.fetchBangboos()
-                }
-                _echoesLiveData.postValue(newItem.body()?.toList())
-                _echoes = newItem.body()!!.toList()
-                Log.e("element", newItem.toString())
+//                val newItem = withContext(Dispatchers.IO) {
+//                    repository.fetchBangboos()
+//                }
+//                _echoesLiveData.postValue(newItem.body()?.toList())
+//                _echoes = newItem.body()!!.toList()
+//                Log.e("element", newItem.toString())
             } catch (e: Exception) {
                 // Handle exceptions, if any
                 Log.e("getDetail", "Error fetching details: ${e.message}")

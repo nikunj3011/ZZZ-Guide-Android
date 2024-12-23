@@ -15,7 +15,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import zzzguide.databinding.FragmentWengineBinding
-import zzzguide.models.api.wengines.WEngineResponseItem
+import zzzguide.models.api.wenginesNew.WEngineNewResponseItem
 import zzzguide.ui.characterdetail.CharacterDetailBottomSheetFragment
 import zzzguide.ui.characterdetail.WengineBottomSheetFragment
 import zzzguide.ui.characterinfo.InfoBottomSheetFragment
@@ -83,7 +83,7 @@ class WEngineFragment : Fragment() {
         if (query != null) {
             viewModel.weaponsLiveData.observe(viewLifecycleOwner) { result ->
 
-                val filteredList = ArrayList<WEngineResponseItem>()
+                val filteredList = ArrayList<WEngineNewResponseItem>()
                 for (i in result) {
                     if (i.name.lowercase(Locale.ROOT).contains(query)) {
                         filteredList.add(i)
@@ -104,7 +104,7 @@ class WEngineFragment : Fragment() {
             this.weaponsAdapter = WEngineListAdapter(
                 requireContext(),
                 result
-            ) { selectedItem: WEngineResponseItem ->
+            ) { selectedItem: WEngineNewResponseItem ->
                 listItemClicked(selectedItem)
             }
             binding.weaponRecyclerView.apply {
@@ -114,7 +114,7 @@ class WEngineFragment : Fragment() {
         }
     }
 
-    private fun listItemClicked(wengine: WEngineResponseItem){
+    private fun listItemClicked(wengine: WEngineNewResponseItem){
         val bottomSheetFragment  = WengineBottomSheetFragment()
 
         val bundle = Bundle()

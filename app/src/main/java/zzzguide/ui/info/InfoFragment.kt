@@ -52,7 +52,7 @@ class InfoFragment : Fragment() {
 
     private fun showAd() {
         if (mInterstitialAd != null) {
-            mInterstitialAd?.show(requireActivity())
+//            mInterstitialAd?.show(requireActivity())
         } else {
             Log.d("TAG", "The interstitial ad wasn't ready yet.")
         }
