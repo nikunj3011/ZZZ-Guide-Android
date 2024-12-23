@@ -64,7 +64,7 @@ class WEngineListAdapter (
                 view.findViewById<View>(R.id.viewWengineRank2)
 
             when (wengine.rarity) {
-                3 -> {
+                0 -> {
                     Glide.with(view)
                         .load(R.drawable.arank)
                         .into(imageViewWengineRank)
@@ -72,7 +72,7 @@ class WEngineListAdapter (
                     viewWengineRank2.setBackgroundColor(Color.parseColor("#AB3A4E"))
                 }
 
-                4 -> {
+                2 -> {
                     Glide.with(view)
                         .load(R.drawable.srank)
                         .into(imageViewWengineRank)
@@ -80,7 +80,7 @@ class WEngineListAdapter (
                     viewWengineRank2.setBackgroundColor(Color.parseColor("#F9A700"))
                 }
 
-                2 -> {
+                1 -> {
                     Glide.with(view)
                         .load(R.drawable.brank)
                         .into(imageViewWengineRank)
@@ -89,11 +89,11 @@ class WEngineListAdapter (
                 }
 
                 else -> {
-                    Glide.with(view)
-                        .load(R.drawable.srank)
-                        .into(imageViewWengineRank)
-                    viewWengineRank1.setBackgroundColor(Color.parseColor("#F9A700"))
-                    viewWengineRank2.setBackgroundColor(Color.parseColor("#F9A700"))
+//                    Glide.with(view)
+//                        .load(R.drawable.srank)
+//                        .into(imageViewWengineRank)
+//                    viewWengineRank1.setBackgroundColor(Color.parseColor("#F9A700"))
+//                    viewWengineRank2.setBackgroundColor(Color.parseColor("#F9A700"))
                 }
             }
 

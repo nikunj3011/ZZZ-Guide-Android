@@ -83,21 +83,21 @@ class WengineBottomSheetFragment :  BottomSheetDialogFragment() {
 
             val imageViewWengineRank = view.findViewById<ImageView>(R.id.imageViewWengineRank)
             when (wengineModel.rarity) {
-                3 -> {
+                0 -> {
                     Glide.with(view)
                         .load(R.drawable.arank)
                         .into(binding.imageViewWengineElementBottomSheet)
                     binding.imageViewStarGradientWEngine.setBackgroundColor(Color.parseColor("#77AB3A4E"))
                 }
 
-                4 -> {
+                2 -> {
                     Glide.with(view)
                         .load(R.drawable.srank)
                         .into(binding.imageViewWengineElementBottomSheet)
                     binding.imageViewStarGradientWEngine.setBackgroundColor(Color.parseColor("#77F9A700"))
                 }
 
-                2 -> {
+                1 -> {
                     Glide.with(view)
                         .load(R.drawable.brank)
                         .into(binding.imageViewWengineElementBottomSheet)
@@ -105,10 +105,10 @@ class WengineBottomSheetFragment :  BottomSheetDialogFragment() {
                 }
 
                 else -> {
-                    Glide.with(view)
-                        .load(R.drawable.brank)
-                        .into(binding.imageViewWengineElementBottomSheet)
-                    binding.imageViewStarGradientWEngine.setBackgroundColor(Color.parseColor("#770FB8E5"))
+//                    Glide.with(view)
+//                        .load(R.drawable.brank)
+//                        .into(binding.imageViewWengineElementBottomSheet)
+//                    binding.imageViewStarGradientWEngine.setBackgroundColor(Color.parseColor("#770FB8E5"))
                 }
             }
 

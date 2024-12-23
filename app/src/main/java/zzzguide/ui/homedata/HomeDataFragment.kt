@@ -58,11 +58,11 @@ class HomeDataFragment : Fragment() {
 
         // Fetch data and update TextView
         CoroutineScope(Dispatchers.IO).launch {
-            val data = fetchDataFromUrl("https://raw.githubusercontent.com/nikunj3011/ZZZ-Guide-Android/refs/heads/main/guideData/mainvideo.json")
+            val data = fetchDataFromUrl("https://raw.githubusercontent.com/nikunj3011/ZZZ-Guide-Android/refs/heads/main/guideData/mainvideo.txt")
             withContext(Dispatchers.Main) {
                 url = data.toString()
 
-                binding.webViewIntroVideoHome.loadData("<iframe width=\"380\" height=\"190\" src=\"https://www.youtube.com/embed/SJLCoNsFYfY&amp;start=2\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+                binding.webViewIntroVideoHome.loadData("<iframe width=\"380\" height=\"190\" src=\"${url}\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
                     "text/html", "utf-8")
                 binding.webViewIntroVideoHome.setBackgroundColor(Color.BLACK)
 
