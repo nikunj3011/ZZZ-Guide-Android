@@ -396,11 +396,11 @@
   },
   {
     "id": "89b44b85-efbd-5413-b2f4-26cf3f7c0e83",
-    "updatedAt": "December 17th, 2024",
+    "updatedAt": "January 22nd, 2025",
     "createdAt": "2024-12-15T08:20:20.139+00:00",
     "unitId": 27,
     "name": "Astra Yao",
-    "skillKey": "Astra",
+    "skillKey": "Astra_Yao",
     "fullName": "Astra Yao",
     "slug": "astra-yao",
     "rarity": "S",
@@ -450,18 +450,122 @@
     ],
     "style": "Support",
     "element": "Ether",
-    "review": null,
-    "pros": null,
-    "cons": null,
-    "videos": null,
-    "endgameStats": null,
-    "tierListCategory": "Support",
-    "tierListTags": null,
-    "ratings": {
-      "shiyu": 1
+    "review": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Astra Yao is a S-Rank Ranged Ether Support Agent wielding a microphone and the power of her voice to buff allies and deal a bit of damage herself. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"As the first Limited Support unit, it’s no surprise that Astra’s buffs take things to the next level and set a new bar for team-wide boosts. With that said she is more than just a buff machine as she brings her own unique playstyle to the game, thanks to her powerful but somewhat unusual kit. \",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Astra is all about her Special Attack, an ability that renders her immobile and mostly inactive by placing her in a special singing state called “Idyllic Cadenza”. In this state, she remains on the field even when swapped off  (is invulnerable for the duration), buffs allies, and allows them to expend her energy to trigger Quick Assists on demand taking the concept of “Quick-Swap” to an entirely new level. If all of that sounds a bit strange and maybe a bit too simple you’d be right so let's get into more detail.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Her kit is wordy and doesn’t read like a traditional character’s kit due to the nature of her “Idyllic Cadenza” state, but have no fear! \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"She is in fact the simplest character to play in the entire game (and it’s not close), with her gameplay boiling down to the following:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Use her Special Attack to enter the “Idyllic Cadenza” state.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Use her Chain Attack when available.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Use her Ultimate when it makes sense.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"And that’s it... There is no “traditional rotation” with her and whilst there are other actions you can perform such as Basic Attacks and Dodges, it’s usually not needed. With that said, while “How to Play” Astra is simple, understanding what she’s doing and her effects on teams is less so, and quite important to making full of her. And as such, it’s time to dive into the nitty gritty of her kit!\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Her unique resource gauge is “Chords” which unlike other character’s resources doesn’t require you to do anything special to accumulate. “Chords” are simply a representation of her current energy for the purpose of tracking her potential ability usage more easily. For every 25 energy she has,  it will show up as having 1 “Chord”, thus 100 energy = 4 “Chords”. Spending 25 of that on an ability will consume 1 “Chord” worth of energy.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"First and most important of Astra’s abilities is her Special Attack which notably has no EX-Special alternative and Astra will be using that energy for something else. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"Using the Special Attack causes the following effects to happen all at once:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Astra enters the “Idyllic Cadenza” state.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Astra performs an attack called Tremolo.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"She can optionally choose to press and hold to charge the Special Attack. Doing so draws enemies toward Astra and increases the Tremeloes triggered from the typically 1 up to a maximum of 4 instead (dependent on charge duration).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"She triggers a Quick Assist in the same way as all other Support’s Special Attacks (Can be converted to a “Precise Assist”).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Tremolo is a special damage source triggered by multiple of Astra’s abilities, it deals a small amount of Ether DMG, but most importantly is considered EX-Special DMG which is important for the purpose of many W-Engine effects.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"While in the “Idyllic Cadenza” state Astra gains access to a myriad of buffs, mechanics and ability changes. To get started and keep things simple here is a quick list of all of them:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Becomes immobile outside of Dashing.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Gains Anti-Interrupt Level and takes 40% reduced damage while on field.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Gains the ability to remain on the field in an Invulnerable state when switched out maintaining “Idyllic Cadenza” while not being the active Agent.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Grants all squad members 20% DMG and 25% CRIT DMG.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Enables Squad Members to trigger “Precise Assists” and gain access to Quick Assists at non-standard times.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Out of all of these, the last one is the one that needs explaining. While in “Idyllic Cadenza” state and having at least 1 “Chord”, whenever the on-field agent executes:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"A hit on an enemy (CD: 3s).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"A Heavy Attack on an enemy (CD: 1s).\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"She will grant that Agent a Quick Assist between them and your team's other Agent (not being Astra) immediately followed by a “Precise Assist” trigger and the “Chord” consumption related to it. Triggering Quick Assists in this way, follow the cooldowns listed above for their respective attack types.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"“Precise Assists” trigger whenever any squad mate performs a:\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Quick Assist\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Chain Attack\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Defensive Assist\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Evasive Assist\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"And Astra has access to a “Chord” (25 energy). Triggering a “Precise Assist\\\" consumes the “Chord” and causes Astra to launch 1 Tremolo (the same one as the initial cast of her Special Attack) followed immediately by 3 “Tone Clusters” which deal a small amount of Ether DMG each for even more damage.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"Astra can remain in the “Idyllic Cadenza” state indefinitely even if her energy reaches 0 - a fact that many players take advantage of by using her ability at the start of battle and only ever switching back to her to use her Ultimate or Chain Attack.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Astra’s Additional Ability and Core Passive directly build on her Special Attack and “Idyllic Cadenza” state enhancing it further. Her Core Passive: “Graceful Andante” allows her to grant 35% of her own ATK as additional Flat ATK to both herself and any character that switches in after triggering a “Precise Assist” up to a cap of 1200 Flat ATK (Requires roughly 3430 ATK to max out at M0). Assuming you’re playing Astra normally and constantly alternating between your other two agents via Quick Assists you’ll have no issues maintaining this buff on your entire team indefinitely.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Whereas, while Active, her Additional Ability: “Moonlit Frenzy” causes her Tremolo and 3 Tone Clusters to double trigger every time a “Chord” is consumed, doubling her damage output from “Precise Assist” triggers.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Astra’s Chain Attack is a stock standard Ether DMG attack but her Ultimate is something special. Upon use, her Ultimate heals all squad members up to 2950 HP and causes the next two Quick Assists Astra grants to be Chain Attacks instead. \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"With this Astra is ZZZ’s very first Healer and can also open up new potential combos with characters having particularly impactful Chain Attacks.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Because her role in battle is to remain in the “Idyllic Cadenza” state, off the field for almost all of the combat, it should be no surprise that her Basic Attacks, Dodge Attacks, and Assists aren’t of too much relevance or used that frequently. With that said her Dodge can be used to reposition if you end up with her as your active Agent and her Basic Attack can be pressed and held to perform an attack that causes her to exit the “Idyllic Cadenza” state. Some of her abilities in these categories also gain different versions while within “Idyllic Cadenza” state but aren’t impactful on her role as a Support and as a result aren’t frequently used.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"In conclusion, Astra is perhaps one of the simplest characters to play in the game but also is someone who has some of the highest impact on teams she's present in.\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Astra teams are effectively 2 Agent teams as Astra is almost exclusively off-field buffing and offering her Quick Assists. While this playstyle is competitive it certainly won't be for everyone. It also heavily relies on the fact that those 2 Agents are strong enough to carry the extra weight. Ultimately, Astra has some of the best buffs in the game, offers a new twist on combat and team building and is a top tier meta choice at the time of her release.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
     },
-    "build": null,
-    "talents": null,
+    "pros": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Universal support that can be played in almost any team composition.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Buffs affect the whole team, offering even greater power to double DPS teams than other supports.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Provides healing to teammates which is useful for content where sustain is relevant.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Allows incredibly frequent use of Quick Assissts and the use of Chain attack outside of stun windows.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Provides an incredible array of buffs, including one of the highest ATK buffs in the game.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Not reliant on her Signature W-Engine to perform well.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "cons": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Effectively locks you into a 2 active Agent playstyle, due to her low field time playstyle - while competitive, it won't be for everyone.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"As a part of the new \\\"Stars of Lyra\\\", no current DPS characters share her faction which can make building teams with older characters awkward.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "videos": [
+      {
+        "video": "5W6GmRDhUwA"
+      },
+      {
+        "video": "K3-_GO8wITs"
+      }
+    ],
+    "endgameStats": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"ATK: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3430+\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Astra requires at minimum ~3430 ATK to get the maximum effect out of her Core Skill team-wide buff.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Because of the potency of this buff, reaching this ATK breakpoint is the most important thing Astra can do with her Set Bonus, Main Stats, Sub Stats, and W-Engine choice. Use each of these methods to stack ATK until you have enough.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"HP: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10500+\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"DEF: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"800+\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Energy Regen: \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"0 - 130%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" (Dependant on Secondary Disc Set, Disc Main Stat and W-Engine)\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Gaining more ER is equivalent to gaining more free Quick Assists. Because of this getting as much Energy Regen as possible is very beneficial and picking it up whenever it doesn't interfere with you reaching 3430 ATK or more is a top priority.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"After achieving or exceeding all the stat goals above, you can aim to maximize Astra's damage potential by either stacking CRIT or Anomaly (\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"not both\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\") - any amount of either of the offensive stats is beneficial.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT RATE: Any Amount\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG: Any Amount\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"OR\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"},{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Anomaly Proficiency: Any Amount\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"list-item\"}],\"nodeType\":\"unordered-list\"},{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "tierListCategory": "Support",
+    "tierListTags": [
+      "Buff"
+    ],
+    "ratings": {
+      "shiyu": 11
+    },
+    "build": {
+      "main_4": [
+        {
+          "stat": "ATK%",
+          "sign": null
+        }
+      ],
+      "main_5": [
+        {
+          "stat": "ATK%",
+          "sign": null
+        }
+      ],
+      "main_6": [
+        {
+          "stat": "Energy Regen",
+          "sign": "="
+        },
+        {
+          "stat": "ATK%",
+          "sign": null
+        }
+      ],
+      "sets": [
+        {
+          "set_2": "",
+          "set_4": "Stat",
+          "value": "100%",
+          "notes": ""
+        }
+      ],
+      "engines": [
+        {
+          "super": 1,
+          "weapon": "Elegant Vanity",
+          "percent": "",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "Bashful Demon",
+          "percent": "",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "Kaboom the Cannon",
+          "percent": "",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "The Vault",
+          "percent": "",
+          "percent_standard": null,
+          "notes": null
+        }
+      ],
+      "substats": "CRIT [ATK% > Flat ATK (Top Priorities Until Ability Cap) > CRIT RATE = CRIT DMG  > PEN] or ANOMALY [ATK% > Flat ATK (Top Priorities Until Ability Cap) > Anomaly Proficiency  > PEN]"
+    },
+    "talents": [
+      {
+        "name": "12-Tone Equal Temperament",
+        "desc": "When Astra Yao's attack hits an enemy, the target's All-Attribute RES is reduced by <b>6%</b>, stacking up to <b>3</b> times and lasting <b>30s</b>. Repeated triggers refresh the duration. Upon entering the battlefield, Astra Yao immediately gains <b>1,000</b> Decibels. When activating her Ultimate, all squad members gain <b>1</b> stack of Song of Protection for <b>60s</b>. When attacked by an enemy, consume Song of Protection, granting Invulnerability for <b>1s</b>."
+      },
+      {
+        "name": "Art of Greed",
+        "desc": "The ATK buff from Core Passive: Graceful Andante is further increased by <b>19%</b>, with an increased maximum of <b>400</b>. While in the Idyllic Cadenza state, when other characters switch in through a Quick Assist, Chain Attack, Defensive Assist, or Evasive Assist, Astra Yao will additionally follow up with <b>1</b> Tremolo and <b>3</b> Tone Clusters to attack. This effect can trigger once every <b>3s</b>."
+      },
+      {
+        "name": "Interwoven Staff Notation",
+        "desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+      },
+      {
+        "name": "Hair Upon Your Nape",
+        "desc": "After activating a Chain Attack or Ultimate, within <b>15s</b>, Astra Yao can trigger a Quick Assist even if she does not have Chords. When the attack hits an enemy, the interval for triggering a Quick Assist is reduced to <b>1s</b>. While in the Idyllic Cadenza state, when other characters enter the field via a Quick Assist, they will receive different buffs based on their specialty, and this effect can be triggered once every <b>3s</b> for the entire squad: Attack: The next Quick Assist heavy attack on an enemy will deal extra DMG equal to <b>300%</b> of Astra Yao's ATK; Anomaly: The next Quick Assist will have <b>50%</b> increased Anomaly Buildup; Stun: The next Quick Assist will inflict <b>50%</b> increased Daze."
+      },
+      {
+        "name": "Proxy and Silk String",
+        "desc": "Basic Attack, Dodge, Special Attack, and Chain Attack Lv. <b>+2</b>"
+      },
+      {
+        "name": "We Are the World",
+        "desc": "While in the Idyllic Cadenza state, the DMG multiplier for Tremolo and Tone Clusters released or followed up with will increase to <b>200%</b> of the original, and CRIT Rate is increased by <b>80%</b>. When triggering a Precise Assist, Astra Yao will automatically follow up with the charged 3rd-hit of Basic Attack: Capriccio, with a <b>80%</b> increased CRIT Rate. This effect can trigger once every <b>10s</b>."
+      }
+    ],
     "introduction": {
       "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"It's too late! You're now officially invited to join me on my one-day escape plan. I'm gonna ditch work, run away, and make my way to Reverb Arena!\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
     },
@@ -472,7 +576,7 @@
       "cn": ""
     },
     "releaseDate": "January 22nd, 2025",
-    "upcoming": true
+    "upcoming": false
   },
   {
     "id": "3ee6a88a-19e4-57dc-8f95-4170594552fc",
@@ -1931,7 +2035,7 @@
   },
   {
     "id": "0aa864ff-adf4-562a-a8cb-4776eec45873",
-    "updatedAt": "December 18th, 2024",
+    "updatedAt": "January 21st, 2025",
     "createdAt": "2024-11-07T08:08:52.585+00:00",
     "unitId": 26,
     "name": "Harumasa",
@@ -2008,10 +2112,11 @@
     "tierListCategory": "DPS",
     "tierListTags": [
       "Combo",
-      "Charge"
+      "Charge",
+      "Expert"
     ],
     "ratings": {
-      "shiyu": 9
+      "shiyu": 8
     },
     "build": {
       "main_4": [
@@ -2725,7 +2830,7 @@
   },
   {
     "id": "c3c1ee19-f665-5108-8992-dd69a1a2daf5",
-    "updatedAt": "October 17th, 2024",
+    "updatedAt": "January 21st, 2025",
     "createdAt": "2024-06-27T06:30:47.021+00:00",
     "unitId": 17,
     "name": "Lucy",
@@ -2847,15 +2952,22 @@
           "notes": null
         },
         {
-          "super": 5,
-          "weapon": "[Reverb] Mark II",
+          "super": 1,
+          "weapon": "Weeping Cradle",
           "percent": "",
           "percent_standard": null,
           "notes": null
         },
         {
           "super": 5,
-          "weapon": "[Reverb] Mark III",
+          "weapon": "Slice of Time",
+          "percent": "",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
+          "super": 5,
+          "weapon": "[Reverb] Mark II",
           "percent": "",
           "percent_standard": null,
           "notes": null
@@ -3508,7 +3620,7 @@
   },
   {
     "id": "3215582b-f2d8-5b99-995a-d1715725a7fd",
-    "updatedAt": "October 17th, 2024",
+    "updatedAt": "January 21st, 2025",
     "createdAt": "2023-11-22T17:18:32.004+00:00",
     "unitId": 2,
     "name": "Nicole",
@@ -3630,15 +3742,15 @@
       "sets": null,
       "engines": [
         {
-          "super": 1,
-          "weapon": "Weeping Cradle",
+          "super": 5,
+          "weapon": "The Vault",
           "percent": "",
           "percent_standard": null,
           "notes": null
         },
         {
-          "super": 5,
-          "weapon": "The Vault",
+          "super": 1,
+          "weapon": "Weeping Cradle",
           "percent": "",
           "percent_standard": null,
           "notes": null
@@ -3652,14 +3764,14 @@
         },
         {
           "super": 5,
-          "weapon": "[Reverb] Mark II",
+          "weapon": "Slice of Time",
           "percent": "",
           "percent_standard": null,
           "notes": null
         },
         {
           "super": 5,
-          "weapon": "[Reverb] Mark III",
+          "weapon": "[Reverb] Mark II",
           "percent": "",
           "percent_standard": null,
           "notes": null
@@ -3714,7 +3826,7 @@
   },
   {
     "id": "bab0f053-10b6-5664-813c-e61d5528602a",
-    "updatedAt": "December 17th, 2024",
+    "updatedAt": "January 21st, 2025",
     "createdAt": "2024-06-28T06:09:31.527+00:00",
     "unitId": 18,
     "name": "Piper",
@@ -3792,7 +3904,7 @@
       "Assault"
     ],
     "ratings": {
-      "shiyu": 8
+      "shiyu": 9
     },
     "build": {
       "main_4": [
@@ -4117,7 +4229,7 @@
   },
   {
     "id": "82ea9f2a-2ab8-5983-826a-4b61c4870e10",
-    "updatedAt": "December 17th, 2024",
+    "updatedAt": "January 21st, 2025",
     "createdAt": "2023-11-22T18:37:44.679+00:00",
     "unitId": 7,
     "name": "Rina",
@@ -4268,13 +4380,6 @@
         {
           "super": 5,
           "weapon": "[Reverb] Mark II",
-          "percent": "",
-          "percent_standard": null,
-          "notes": null
-        },
-        {
-          "super": 5,
-          "weapon": "[Reverb] Mark III",
           "percent": "",
           "percent_standard": null,
           "notes": null
@@ -4512,7 +4617,7 @@
   },
   {
     "id": "e3fa1012-b97f-54af-90f0-3f0ff1e80975",
-    "updatedAt": "December 17th, 2024",
+    "updatedAt": "January 21st, 2025",
     "createdAt": "2023-11-22T18:14:34.62+00:00",
     "unitId": 5,
     "name": "Soldier 11",
@@ -4598,7 +4703,7 @@
     "tierListCategory": "DPS",
     "tierListTags": null,
     "ratings": {
-      "shiyu": 9
+      "shiyu": 8
     },
     "build": {
       "main_4": [
@@ -4707,7 +4812,7 @@
   },
   {
     "id": "6f67c842-3d1a-59b2-8e21-715ca62436e9",
-    "updatedAt": "November 6th, 2024",
+    "updatedAt": "January 21st, 2025",
     "createdAt": "2023-11-22T18:28:08.353+00:00",
     "unitId": 6,
     "name": "Soukaku",
@@ -4845,6 +4950,13 @@
           "notes": null
         },
         {
+          "super": 1,
+          "weapon": "Weeping Cradle",
+          "percent": "",
+          "percent_standard": null,
+          "notes": null
+        },
+        {
           "super": 5,
           "weapon": "Kaboom the Cannon",
           "percent": "",
@@ -4853,14 +4965,14 @@
         },
         {
           "super": 5,
-          "weapon": "[Reverb] Mark II",
+          "weapon": "Slice of Time",
           "percent": "",
           "percent_standard": null,
           "notes": null
         },
         {
           "super": 5,
-          "weapon": "[Reverb] Mark III",
+          "weapon": "[Reverb] Mark II",
           "percent": "",
           "percent_standard": null,
           "notes": null

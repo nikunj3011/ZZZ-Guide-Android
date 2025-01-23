@@ -832,6 +832,107 @@
     }
   },
   {
+    "id": "8ec56667-3028-5ff2-9f77-5c3b50e5e9d0",
+    "updatedAt": "2024-12-18T06:34:50.106+00:00",
+    "createdAt": "2024-12-18T06:34:50.106+00:00",
+    "unitId": 28,
+    "name": "Brawlerboo",
+    "slug": "brawlerboo",
+    "rarity": "A",
+    "smallImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/2bfdbb871c6f830c447d877ee8ba0c4b/60b4d/28_sm.webp",
+                "srcSet": "/static/2bfdbb871c6f830c447d877ee8ba0c4b/e73fe/28_sm.webp 40w,\n/static/2bfdbb871c6f830c447d877ee8ba0c4b/61ca6/28_sm.webp 80w,\n/static/2bfdbb871c6f830c447d877ee8ba0c4b/60b4d/28_sm.webp 160w",
+                "sizes": "(min-width: 160px) 160px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 160,
+            "height": 160
+          }
+        }
+      }
+    },
+    "cardImage": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": "constrained",
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/764d1cf4df5bbb9ef3b655a0ba70b56d/b26e2/28_card.webp",
+                "srcSet": "/static/764d1cf4df5bbb9ef3b655a0ba70b56d/84550/28_card.webp 94w,\n/static/764d1cf4df5bbb9ef3b655a0ba70b56d/34f80/28_card.webp 187w,\n/static/764d1cf4df5bbb9ef3b655a0ba70b56d/b26e2/28_card.webp 374w",
+                "sizes": "(min-width: 374px) 374px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 374,
+            "height": 512
+          }
+        }
+      }
+    },
+    "statsNew": {
+      "hp": 3827,
+      "atk": 6570,
+      "def": 781,
+      "impact": 94,
+      "anomaly": 100
+    },
+    "skills": {
+      "skill_a": {
+        "name": "Falling Bangboo Asteroid Strike!",
+        "description": "Charges up and rises into the air, entering the Airborne state. While in the Airborne state, Brawlerboo will dive attack enemies when they're hit by a heavy attack from an Agent, dealing Fire DMG.",
+        "base_multi": 560,
+        "rank_multi": 56.0,
+        "static_multi": null,
+        "daze": 328,
+        "daze_rank": 32.8,
+        "element": "Fire",
+        "cooldown": 28
+      },
+      "skill_b": {
+        "name": "Opening Jab",
+        "element": "",
+        "description": [
+          {
+            "desc": "When there is at least <b>1</b> Attack or Anomaly character in your squad: Brawlerboo enters the Airborne state ahead of time when the battle starts. The first dive attack's DMG is increased by <b>120%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Attack or Anomaly character in your squad: Brawlerboo enters the Airborne state ahead of time when the battle starts. The first dive attack's DMG is increased by <b>150%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Attack or Anomaly character in your squad: Brawlerboo enters the Airborne state ahead of time when the battle starts. The first dive attack's DMG is increased by <b>180%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Attack or Anomaly character in your squad: Brawlerboo enters the Airborne state ahead of time when the battle starts. The first dive attack's DMG is increased by <b>210%</b>."
+          },
+          {
+            "desc": "When there is at least <b>1</b> Attack or Anomaly character in your squad: Brawlerboo enters the Airborne state ahead of time when the battle starts. The first dive attack's DMG is increased by <b>240%</b>."
+          }
+        ]
+      },
+      "skill_c": {
+        "name": "Scorching Wind Strike",
+        "description": "Jump up and strike continuously at enemies in a large area ahead, dealing Fire DMG.",
+        "base_multi": 846,
+        "rank_multi": 84.6,
+        "static_multi": null,
+        "daze": 121,
+        "daze_rank": 12.1,
+        "element": null,
+        "cooldown": null
+      }
+    }
+  },
+  {
     "id": "59fc3785-4cea-5cc1-ac9c-1d0a7a3297f1",
     "updatedAt": "2024-08-03T16:29:17.36+00:00",
     "createdAt": "2023-11-28T09:40:22.244+00:00",
