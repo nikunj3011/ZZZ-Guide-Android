@@ -5,7 +5,6 @@
     "rarity": 0,
     "talentName": "Visage of Greed",
     "element": "Ice",
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -43,7 +42,6 @@
     "rarity": 0,
     "talentName": "Ten Ton Top",
     "element": null,
-    "type": 2,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -87,7 +85,6 @@
     "rarity": 2,
     "talentName": "Flowing Flame",
     "element": "Fire",
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -120,12 +117,48 @@
     }
   },
   {
+    "engineId": 67,
+    "name": "Box Cutter",
+    "rarity": 0,
+    "talentName": "Watch Your Fingers",
+    "element": "Physical",
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/5ad0332625727f6db392359c7d9a5af5/d1e3d/zzz_Box_Cutter.webp",
+                "srcSet": "/static/5ad0332625727f6db392359c7d9a5af5/72e27/zzz_Box_Cutter.webp 39w,\n/static/5ad0332625727f6db392359c7d9a5af5/7a63e/zzz_Box_Cutter.webp 78w,\n/static/5ad0332625727f6db392359c7d9a5af5/d1e3d/zzz_Box_Cutter.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Upon launching an Aftershock, the equipper's Physical DMG increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"15/17.3/19.5/21.8/24%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", and Daze inflicted increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10/11.5/13/14.5/16%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", lasting \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\".\",\"marks\":[],\"data\":{}}]}]}"
+    },
+    "stats": {
+      "stat": "Impact",
+      "base_atk": 42,
+      "max_atk": 624,
+      "base_special": "6%",
+      "max_special": "15%"
+    }
+  },
+  {
     "engineId": 38,
     "name": "Bunny Band",
     "rarity": 0,
     "talentName": "Pet the Bunny",
     "element": null,
-    "type": 2,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -163,7 +196,6 @@
     "rarity": 0,
     "talentName": "Oversized Barrel",
     "element": null,
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -207,7 +239,6 @@
     "rarity": 2,
     "talentName": "Lord of Seas",
     "element": "Ice",
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -251,7 +282,6 @@
     "rarity": 0,
     "talentName": "In a Flash of Light",
     "element": "Electric",
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -295,7 +325,6 @@
     "rarity": 0,
     "talentName": "Hell's Generator",
     "element": "Electric",
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -339,7 +368,6 @@
     "rarity": 0,
     "talentName": "Kiss of Death",
     "element": null,
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -383,7 +411,6 @@
     "rarity": 2,
     "talentName": "Untold Beauty",
     "element": null,
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -421,7 +448,6 @@
     "rarity": 2,
     "talentName": "Fuel on the Rocks",
     "element": null,
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -454,12 +480,48 @@
     }
   },
   {
+    "engineId": 69,
+    "name": "Flight of Fancy",
+    "rarity": 2,
+    "talentName": "Silver Spiked Feathers ",
+    "element": "Ether",
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/1e47c3eb7458c7c0f24254b494dcda21/d1e3d/zzz_Flight_of_Fancy.webp",
+                "srcSet": "/static/1e47c3eb7458c7c0f24254b494dcda21/72e27/zzz_Flight_of_Fancy.webp 39w,\n/static/1e47c3eb7458c7c0f24254b494dcda21/7a63e/zzz_Flight_of_Fancy.webp 78w,\n/static/1e47c3eb7458c7c0f24254b494dcda21/d1e3d/zzz_Flight_of_Fancy.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"Increases Anomaly Buildup Rate by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"40/46/52/58/64%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". When the equipper deals Ether DMG, their Anomaly Proficiency increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"20/23/26/29/32 \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"5s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", stacking up to \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"6 \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"times. This effect can trigger once every \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"0.5s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", and repeated triggers reset the duration.\",\"marks\":[],\"data\":{}}]}]}"
+    },
+    "stats": {
+      "stat": "Anomaly Proficiency",
+      "base_atk": 48,
+      "max_atk": 713,
+      "base_special": "36",
+      "max_special": "90"
+    }
+  },
+  {
     "engineId": 28,
     "name": "Fusion Compiler",
     "rarity": 2,
     "talentName": "Data Flood",
     "element": "Electric",
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -497,7 +559,6 @@
     "rarity": 0,
     "talentName": "Extraordinary Anti-Theft Measures",
     "element": null,
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -535,7 +596,6 @@
     "rarity": 2,
     "talentName": "Frost-Stained Star",
     "element": "Ice",
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -568,12 +628,48 @@
     }
   },
   {
+    "engineId": 65,
+    "name": "Heartstring Nocturne",
+    "rarity": 2,
+    "talentName": "String & Melody",
+    "element": "Fire",
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/7fd4c7065d83314fc045e6e1ef89212c/d1e3d/zzz_Heartstring_Nocturne.webp",
+                "srcSet": "/static/7fd4c7065d83314fc045e6e1ef89212c/72e27/zzz_Heartstring_Nocturne.webp 39w,\n/static/7fd4c7065d83314fc045e6e1ef89212c/7a63e/zzz_Heartstring_Nocturne.webp 78w,\n/static/7fd4c7065d83314fc045e6e1ef89212c/d1e3d/zzz_Heartstring_Nocturne.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"50/57.5/65/72.5/80%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When the equipper enters the battlefield, or activates a Chain Attack or Ultimate, they gain\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\" 1\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" stack of Heartstring. Each stack of Heartstring allows the equipper's Chain Attack and Ultimate to ignore \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12.5/14.5/16.5/18.5/20%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" of the target's Fire RES, stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" times and lasting \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"30s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Repeated triggers reset the duration.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "stats": {
+      "stat": "Crit Rate",
+      "base_atk": 48,
+      "max_atk": 713,
+      "base_special": "9.6%",
+      "max_special": "24%"
+    }
+  },
+  {
     "engineId": 23,
     "name": "Hellfire Gears",
     "rarity": 2,
     "talentName": "Passionate Construction",
     "element": "Fire",
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -617,7 +713,6 @@
     "rarity": 0,
     "talentName": "Safe Household Saw",
     "element": "Physical",
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -661,7 +756,6 @@
     "rarity": 2,
     "talentName": "Ringing Melody",
     "element": null,
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -699,7 +793,6 @@
     "rarity": 0,
     "talentName": "Visage of Greed",
     "element": null,
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -737,7 +830,6 @@
     "rarity": 0,
     "talentName": "Get Everyone Fired Up",
     "element": null,
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -770,12 +862,48 @@
     }
   },
   {
+    "engineId": 70,
+    "name": "Myriad Eclipse",
+    "rarity": 2,
+    "talentName": "False Personas",
+    "element": "Ice",
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/0b08c1e199879f480a2f3d2001e3cf31/d1e3d/zzz_Myriad.webp",
+                "srcSet": "/static/0b08c1e199879f480a2f3d2001e3cf31/72e27/zzz_Myriad.webp 39w,\n/static/0b08c1e199879f480a2f3d2001e3cf31/7a63e/zzz_Myriad.webp 78w,\n/static/0b08c1e199879f480a2f3d2001e3cf31/d1e3d/zzz_Myriad.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Increases CRIT DMG by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"45/51.75/58.5/65.25/72%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When using an EX Special Attack, Chain Attack, or Ultimate to deal Ice DMG, the equipper gains the Absolute Zero Death Sentence effect for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". While Absolute Zero Death Sentence is active, the character ignores \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/28.75/32.5/36.25/40%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" of the enemy's DEF when landing a hit.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "stats": {
+      "stat": "Crit Rate",
+      "base_atk": 48,
+      "max_atk": 713,
+      "base_special": "9.6%",
+      "max_special": "24%"
+    }
+  },
+  {
     "engineId": 36,
     "name": "Original Transmorpher",
     "rarity": 0,
     "talentName": "Starlight Knight Flying Kick",
     "element": null,
-    "type": 2,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -813,7 +941,6 @@
     "rarity": 0,
     "talentName": "Standard Blocking Technique",
     "element": null,
-    "type": 2,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -851,7 +978,6 @@
     "rarity": 0,
     "talentName": "Behemoth Hunter",
     "element": null,
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -890,12 +1016,122 @@
     }
   },
   {
+    "engineId": 73,
+    "name": "Puzzle Sphere",
+    "rarity": 0,
+    "talentName": "Ingenious Craft",
+    "element": null,
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/e588f933ca9e40f257984012d9ffb79b/d1e3d/Weapon_A_Common_12.webp",
+                "srcSet": "/static/e588f933ca9e40f257984012d9ffb79b/72e27/Weapon_A_Common_12.webp 39w,\n/static/e588f933ca9e40f257984012d9ffb79b/7a63e/Weapon_A_Common_12.webp 78w,\n/static/e588f933ca9e40f257984012d9ffb79b/d1e3d/Weapon_A_Common_12.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Upon launching an EX Special Attack, the equipper's CRIT DMG increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"16/18.4/20.8/23.2/25.6%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"12s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Additionally, if the target's current HP is below \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"50%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" of their Max HP, EX Special Attack DMG increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20/23/26/29/32%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "stats": {
+      "stat": "Attack",
+      "base_atk": 40,
+      "max_atk": 594,
+      "base_special": "10%",
+      "max_special": "25%"
+    }
+  },
+  {
+    "engineId": 72,
+    "name": "Qingming Birdcage",
+    "rarity": 2,
+    "talentName": "Cloud Flow",
+    "element": "Ether",
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/846eb37546703d972e53794d1724421b/d1e3d/Weapon_S_1371.webp",
+                "srcSet": "/static/846eb37546703d972e53794d1724421b/72e27/Weapon_S_1371.webp 39w,\n/static/846eb37546703d972e53794d1724421b/7a63e/Weapon_S_1371.webp 78w,\n/static/846eb37546703d972e53794d1724421b/d1e3d/Weapon_S_1371.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"CRIT Rate increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"20/23/26/29/32%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". When the equipper launches an EX Special Attack, the character gains the Qingming Companion effect, stacking up to \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"2 \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"times and lasting \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"15s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". On entering combat, immediately gain\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" 2\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" stacks. Repeated triggers reset the duration. Each stack of the Qingming Companion effect increases the equipper's \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"Ether DMG\",\"marks\":[{\"type\":\"underline\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8/9.2/10.4/11.6/12.8%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", and increases Ultimate and EX Special Attack Ether Sheer DMG by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"10/11.5/13/14.5/16%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\".\",\"marks\":[],\"data\":{}}]}]}"
+    },
+    "stats": {
+      "stat": "HP",
+      "base_atk": 50,
+      "max_atk": 743,
+      "base_special": "12%",
+      "max_special": "30%"
+    }
+  },
+  {
+    "engineId": 74,
+    "name": "Radiowave Journey",
+    "rarity": 0,
+    "talentName": "Easy Strides",
+    "element": null,
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/55668ea2e17d184a0de78f60b54abd52/d1e3d/Weapon_A_Common_14.webp",
+                "srcSet": "/static/55668ea2e17d184a0de78f60b54abd52/72e27/Weapon_A_Common_14.webp 39w,\n/static/55668ea2e17d184a0de78f60b54abd52/7a63e/Weapon_A_Common_14.webp 78w,\n/static/55668ea2e17d184a0de78f60b54abd52/d1e3d/Weapon_A_Common_14.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"When launching a Chain Attack or Ultimate, the equipper gains \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"1\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" stack of a buff effect. Each stack increases the equipper's Sheer Force by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"80/92/104/116/128\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", stacking up to \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"3\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" times, and lasting \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"12s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". The duration of each stack is calculated separately.\",\"marks\":[],\"data\":{}}]}]}"
+    },
+    "stats": {
+      "stat": "HP",
+      "base_atk": 40,
+      "max_atk": 594,
+      "base_special": "10%",
+      "max_special": "25%"
+    }
+  },
+  {
     "engineId": 35,
     "name": "Rainforest Gourmet",
     "rarity": 0,
     "talentName": "Dinner's Ready!",
     "element": null,
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -928,12 +1164,48 @@
     }
   },
   {
+    "engineId": 77,
+    "name": "Reel Projector",
+    "rarity": 0,
+    "talentName": "Flash Engraving",
+    "element": null,
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/364a9ed413b229baf8c250780439cedb/d1e3d/weapon_reel.webp",
+                "srcSet": "/static/364a9ed413b229baf8c250780439cedb/72e27/weapon_reel.webp 39w,\n/static/364a9ed413b229baf8c250780439cedb/7a63e/weapon_reel.webp 78w,\n/static/364a9ed413b229baf8c250780439cedb/d1e3d/weapon_reel.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"When a squad member's HP is greater than or equal to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"50%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", they take \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.5/8.6/9.7/10.8/12%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" less DMG, and \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" less Miasma Contamination. Only one instance of this effect can exist in the same squad.\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "stats": {
+      "stat": "Impact",
+      "base_atk": 40,
+      "max_atk": 594,
+      "base_special": "6%",
+      "max_special": "15%"
+    }
+  },
+  {
     "engineId": 26,
     "name": "Riot Suppressor Mark VI",
     "rarity": 2,
     "talentName": "Security Patrol",
     "element": "Ether",
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -966,12 +1238,48 @@
     }
   },
   {
+    "engineId": 76,
+    "name": "Roaring Fur-nace",
+    "rarity": 2,
+    "talentName": "Dim Flame",
+    "element": "Fire",
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/0498aaf80d9e33c34ca16a7fb0f19f7a/d1e3d/Weapon_Roaring_Fur-nace.webp",
+                "srcSet": "/static/0498aaf80d9e33c34ca16a7fb0f19f7a/72e27/Weapon_Roaring_Fur-nace.webp 39w,\n/static/0498aaf80d9e33c34ca16a7fb0f19f7a/7a63e/Weapon_Roaring_Fur-nace.webp 78w,\n/static/0498aaf80d9e33c34ca16a7fb0f19f7a/d1e3d/Weapon_Roaring_Fur-nace.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"The Daze dealt by the equipper's EX Special Attack, Chain Attack, and Ultimate increases by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"28/32.2/36.4/40.6/44.8%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\".\",\"marks\":[],\"data\":{}}]},{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"When using a Chain Attack or Ultimate to deal Fire DMG, the DMG dealt by all squad members increases by\",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" 10/11.5/13/14.5/16%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", stacking up to \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"2\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" times and lasting \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"30s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". The duration of each stack is calculated separately. Triggers once per use of a skill. Only one instance of this effect can exist in the same squad. \",\"marks\":[],\"data\":{}}]}]}"
+    },
+    "stats": {
+      "stat": "Attack",
+      "base_atk": 48,
+      "max_atk": 713,
+      "base_special": "12%",
+      "max_special": "30%"
+    }
+  },
+  {
     "engineId": 51,
     "name": "Roaring Ride",
     "rarity": 0,
     "talentName": "Collision Potential",
     "element": null,
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1004,12 +1312,48 @@
     }
   },
   {
+    "engineId": 66,
+    "name": "Severed Innocence",
+    "rarity": 2,
+    "talentName": "Tranquil Blossom",
+    "element": "Electric",
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/bf402cc3188e39977d50af9bc4bf2763/d1e3d/zzz_Severed_Innocence.webp",
+                "srcSet": "/static/bf402cc3188e39977d50af9bc4bf2763/72e27/zzz_Severed_Innocence.webp 39w,\n/static/bf402cc3188e39977d50af9bc4bf2763/7a63e/zzz_Severed_Innocence.webp 78w,\n/static/bf402cc3188e39977d50af9bc4bf2763/d1e3d/zzz_Severed_Innocence.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"CRIT DMG is increased by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"30/34.5/39/43.5/48%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". When the equipper lands a hit with a Basic Attack, Special Attack, or Aftershock, they gain \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"1 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"stack of a buff. Each stack increases the equipper's CRIT DMG by an additional \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10/11.5/13/14.5/16%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", stacking up to \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"times. The effect lasts for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"30s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\", with each stack's duration calculated separately, and can only be triggered once per use of a skill. With all \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"3 \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\"stacks, the equipper's Electric DMG increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20/23/26/29/32%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "stats": {
+      "stat": "Crit DMG",
+      "base_atk": 48,
+      "max_atk": 713,
+      "base_special": "19.2%",
+      "max_special": "48%"
+    }
+  },
+  {
     "engineId": 55,
     "name": "Sharpened Stinger",
     "rarity": 2,
     "talentName": "Extraordinary Anti-Theft Measures",
     "element": "Physical",
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1047,7 +1391,6 @@
     "rarity": 0,
     "talentName": "Fire!",
     "element": null,
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1085,7 +1428,6 @@
     "rarity": 0,
     "talentName": "Say Cheese",
     "element": null,
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1118,12 +1460,48 @@
     }
   },
   {
+    "engineId": 68,
+    "name": "Spectral Gaze",
+    "rarity": 2,
+    "talentName": "Wind Seeker",
+    "element": "Electric",
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#f8f8f8",
+            "images": {
+              "fallback": {
+                "src": "/static/5c04a267d045a38726b33a3fd39b21a3/d1e3d/ZZZ_Spectral_Gaze.webp",
+                "srcSet": "/static/5c04a267d045a38726b33a3fd39b21a3/72e27/ZZZ_Spectral_Gaze.webp 39w,\n/static/5c04a267d045a38726b33a3fd39b21a3/7a63e/ZZZ_Spectral_Gaze.webp 78w,\n/static/5c04a267d045a38726b33a3fd39b21a3/d1e3d/ZZZ_Spectral_Gaze.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"nodeType\":\"document\",\"data\":{},\"content\":[{\"nodeType\":\"paragraph\",\"data\":{},\"content\":[{\"nodeType\":\"text\",\"value\":\"When the equipper hits an enemy with an Aftershock, causing Electric DMG, the target's DEF is reduced by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"25/28.75/32.5/36.25/40%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\" for \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"5s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". Passive effects of the same name do not stack. When this effect is triggered, if the equipper is not the active character, they gain \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"1 \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"stack of Spirit Lock, up to a maximum of \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"3 \",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"stacks. This can trigger only once per use of a skill. Each stack of Spirit Lock increases the equipper's Impact by \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"4/4.6/5.2/5.8/6.4%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\", lasting \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"12s\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\". The duration of each stack is calculated separately. At full stacks of Spirit Lock, the equipper's Impact increases by an additional \",\"marks\":[],\"data\":{}},{\"nodeType\":\"text\",\"value\":\"8/9.2/10.4/11.6/12.8%\",\"marks\":[{\"type\":\"bold\"}],\"data\":{}},{\"nodeType\":\"text\",\"value\":\".\",\"marks\":[],\"data\":{}}]}]}"
+    },
+    "stats": {
+      "stat": "Crit Rate",
+      "base_atk": 48,
+      "max_atk": 713,
+      "base_special": "9.6%",
+      "max_special": "24%"
+    }
+  },
+  {
     "engineId": 39,
     "name": "Spring Embrace",
     "rarity": 0,
     "talentName": "Hot Spring Soup",
     "element": null,
-    "type": 2,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1161,7 +1539,6 @@
     "rarity": 0,
     "talentName": "Knight Plummel",
     "element": null,
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1205,7 +1582,6 @@
     "rarity": 0,
     "talentName": "Knight Beam: Change",
     "element": "Physical",
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1249,7 +1625,6 @@
     "rarity": 0,
     "talentName": "Thick Broth",
     "element": null,
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1293,7 +1668,6 @@
     "rarity": 2,
     "talentName": "Metal Cat Claws",
     "element": "Physical",
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1337,7 +1711,6 @@
     "rarity": 0,
     "talentName": "Flaming Bars",
     "element": null,
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1375,7 +1748,6 @@
     "rarity": 2,
     "talentName": "Scorching Breath",
     "element": "Fire",
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1413,7 +1785,6 @@
     "rarity": 2,
     "talentName": "Binding Chains",
     "element": null,
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1457,7 +1828,6 @@
     "rarity": 0,
     "talentName": "Money-Lover",
     "element": "Ether",
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1501,7 +1871,6 @@
     "rarity": 2,
     "talentName": "Time-Devouring Stratagem",
     "element": "Electric",
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1528,9 +1897,46 @@
     "stats": {
       "stat": "Attack",
       "base_atk": 48,
-      "max_atk": 714,
+      "max_atk": 713,
       "base_special": "12%",
       "max_special": "30%"
+    }
+  },
+  {
+    "engineId": 71,
+    "name": "Tremor Trigram Vessel",
+    "rarity": 0,
+    "talentName": "Meridian Mapping",
+    "element": null,
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/24c7eddeda36fa821087f6fbb09d2923/d1e3d/Weapon_A_1421.webp",
+                "srcSet": "/static/24c7eddeda36fa821087f6fbb09d2923/72e27/Weapon_A_1421.webp 39w,\n/static/24c7eddeda36fa821087f6fbb09d2923/7a63e/Weapon_A_1421.webp 78w,\n/static/24c7eddeda36fa821087f6fbb09d2923/d1e3d/Weapon_A_1421.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"The equipper's EX Special Attack and Ultimate DMG increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"25/28.7/32.5/36.2/40%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". Whenever any squad member takes DMG or heals, the equipper gains \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"2/2.3/2.6/2.9/3.2\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" Energy. This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"5s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "stats": {
+      "stat": "Attack",
+      "base_atk": 42,
+      "max_atk": 624,
+      "base_special": "10%",
+      "max_special": "25%"
     }
   },
   {
@@ -1539,7 +1945,6 @@
     "rarity": 2,
     "talentName": "Invincible Rider",
     "element": null,
-    "type": 2,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1577,7 +1982,6 @@
     "rarity": 0,
     "talentName": "Game Start!",
     "element": null,
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1615,7 +2019,6 @@
     "rarity": 2,
     "talentName": "Punishment",
     "element": "Electric",
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1653,7 +2056,6 @@
     "rarity": 0,
     "talentName": "Lingering Cries",
     "element": null,
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1691,7 +2093,6 @@
     "rarity": 2,
     "talentName": "Growth Through Adversity",
     "element": "Electric",
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1724,12 +2125,48 @@
     }
   },
   {
+    "engineId": 75,
+    "name": "[Cinder] Cobalt",
+    "rarity": 0,
+    "talentName": "Dim Flame",
+    "element": null,
+    "image": {
+      "localFile": {
+        "childImageSharp": {
+          "gatsbyImageData": {
+            "layout": 0,
+            "backgroundColor": "#080808",
+            "images": {
+              "fallback": {
+                "src": "/static/8f3e59ed2b14830912048137ffd85495/d1e3d/Weapon_B_Common_15.webp",
+                "srcSet": "/static/8f3e59ed2b14830912048137ffd85495/72e27/Weapon_B_Common_15.webp 39w,\n/static/8f3e59ed2b14830912048137ffd85495/7a63e/Weapon_B_Common_15.webp 78w,\n/static/8f3e59ed2b14830912048137ffd85495/d1e3d/Weapon_B_Common_15.webp 156w",
+                "sizes": "(min-width: 156px) 156px, 100vw"
+              },
+              "sources": []
+            },
+            "width": 156,
+            "height": 156
+          }
+        }
+      }
+    },
+    "description": {
+      "raw": "{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Upon entering combat or switching in, the equipper's ATK increases by \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"7.2/8.2/9.3/10.4/11.5%\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\" for \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"10s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\". This effect can trigger once every \",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[{\"type\":\"bold\"}],\"value\":\"20s\",\"nodeType\":\"text\"},{\"data\":{},\"marks\":[],\"value\":\".\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}"
+    },
+    "stats": {
+      "stat": "HP",
+      "base_atk": 32,
+      "max_atk": 475,
+      "base_special": "8%",
+      "max_special": "20%"
+    }
+  },
+  {
     "engineId": 43,
     "name": "[Identity] Base",
     "rarity": 1,
     "talentName": "Sinking Strike",
     "element": null,
-    "type": 2,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1767,7 +2204,6 @@
     "rarity": 1,
     "talentName": "Dazzle",
     "element": null,
-    "type": 2,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1805,7 +2241,6 @@
     "rarity": 1,
     "talentName": "Waning Moon",
     "element": null,
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1843,7 +2278,6 @@
     "rarity": 1,
     "talentName": "New Moon",
     "element": null,
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1887,7 +2321,6 @@
     "rarity": 1,
     "talentName": "Full Moon",
     "element": null,
-    "type": 1,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1925,7 +2358,6 @@
     "rarity": 1,
     "talentName": "Disordered Current",
     "element": null,
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -1969,7 +2401,6 @@
     "rarity": 1,
     "talentName": "High-Voltage Surge",
     "element": null,
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -2013,7 +2444,6 @@
     "rarity": 1,
     "talentName": "Charge Overload",
     "element": null,
-    "type": 0,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -2057,7 +2487,6 @@
     "rarity": 1,
     "talentName": "Changing Tides",
     "element": null,
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -2101,7 +2530,6 @@
     "rarity": 1,
     "talentName": "Roaring Waves",
     "element": null,
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -2145,7 +2573,6 @@
     "rarity": 1,
     "talentName": "Booming Sound",
     "element": null,
-    "type": 4,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -2189,7 +2616,6 @@
     "rarity": 1,
     "talentName": "Tsunami",
     "element": null,
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -2233,7 +2659,6 @@
     "rarity": 1,
     "talentName": "Riptide",
     "element": null,
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
@@ -2277,7 +2702,6 @@
     "rarity": 1,
     "talentName": "Undercurrent",
     "element": null,
-    "type": 3,
     "image": {
       "localFile": {
         "childImageSharp": {
